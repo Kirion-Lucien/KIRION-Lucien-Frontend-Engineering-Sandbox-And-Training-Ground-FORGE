@@ -10,11 +10,13 @@ The repository began at:
 
 `main@90411ea873cb380ed6b688a4dfdc0f09f67067da`
 
-At that source, live Git contained only this repository's initial README. No frontend framework, package manifest, application source, tests, CI, or accepted architecture existed.
+At that source, live Git contained only the initial README. No frontend framework, package manifest, application source, tests, CI, or accepted architecture existed.
 
 The repository is therefore classified as:
 
 > **BOOTSTRAP / UNINITIALIZED FRONTEND TRAINING GROUND**
+
+The Forge governance kernel was reviewed and accepted through GitHub issue **#1**.
 
 ## Forge rule
 
@@ -24,7 +26,7 @@ The sequence is:
 
 `authority → discovery → evidence → classification → Maintainer acceptance → worker enforcement`
 
-No worker may select a stack, create application architecture, or treat assumptions as repository truth before the active gate in `.forge/SSOT_CURRENT.md` permits it.
+No worker may select a stack, create application architecture, or treat assumptions as repository truth unless the active gate in `.forge/SSOT_CURRENT.md` permits it.
 
 ## Mandatory read order
 
@@ -37,4 +39,4 @@ No worker may select a stack, create application architecture, or treat assumpti
 7. `.forge/VALIDATION.md`
 8. `.forge/WORK_LEDGER.md`
 
-Current bootstrap acceptance is tracked in GitHub issue **#1**.
+The governance kernel is active. **No frontend implementation lane exists yet.**

@@ -10,54 +10,64 @@
 
 ## Status
 
-`REVIEW / HOLD`
+`ACCEPTED / GOVERNANCE ACTIVE`
 
-Worker implementation is blocked pending Maintainer disposition of GitHub issue #1.
+Maintainer acceptance is recorded in GitHub issue #1 and `.forge/ACCEPTANCE.md`.
 
 ## Verified bootstrap source
 
 `main@90411ea873cb380ed6b688a4dfdc0f09f67067da`
 
+## Accepted bootstrap candidate
+
+`KIRION-LUCIEN-FORGE-AUTHORITY-BOOTSTRAP@7ac1f5683360166552414ed15ee5641cbc4d5389`
+
 ## Current classification
 
 `BOOTSTRAP / UNINITIALIZED FRONTEND TRAINING GROUND`
 
-## What is accepted already
+## Active authority
 
-Only the live-source facts recorded in `.forge/EVIDENCE.md`.
+The Forge governance kernel is accepted.
 
-The authority kernel itself is still a candidate until Maintainer acceptance.
+Root `AGENTS.md` is now the standing worker enforcement contract.
 
-## What is not authorized
+## What remains undecided
 
-- frontend framework selection
-- package installation
-- application source
+- frontend framework
+- package ecosystem
+- application source architecture
 - design system
 - routing
-- state-management choice
+- state management
 - API architecture
 - testing framework
-- CI architecture beyond bootstrap governance
-- training curriculum implementation
-- worker feature lanes
+- CI/runtime architecture
+- deployment target
+- accessibility/browser matrix
+- training curriculum order
 
-## Next gate
+## Current work gate
 
-Maintainer reviews the W00 candidate against:
+`W01 — FRONTEND TRAINING BASELINE DISCOVERY / PROPOSAL`
 
-- exact source ancestry
-- live reality snapshot
-- authority precedence
-- unknown preservation
-- worker blocking behavior
+State:
 
-Disposition must be either:
+`INPUT REQUIRED / REVIEW`
 
-`ACCEPT`
+W01 is **not an implementation lane**.
 
-or
+It may gather training objectives, discover constraints, compare viable baselines, attach evidence, and return a proposal to Maintainer.
 
-`REWORK`
+## Implementation authority
 
-No worker lane opens before that disposition is recorded.
+`BLOCKED`
+
+No Code Writer implementation lane exists.
+
+A future implementation lane requires:
+
+1. explicit human objective or requirement;
+2. evidence/proposal;
+3. Maintainer acceptance of the relevant architecture decision;
+4. exact source branch/SHA handoff.
