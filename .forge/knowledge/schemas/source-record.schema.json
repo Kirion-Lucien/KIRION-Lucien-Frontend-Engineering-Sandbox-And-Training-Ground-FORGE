@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kirion.local/forge/knowledge/source-record.schema.json",
+  "title": "Lucien Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "provider",
+    "source_type",
+    "authority_weight",
+    "authority_reason",
+    "canonical_url",
+    "retrieved_at",
+    "license_status",
+    "content_storage_policy",
+    "status",
+    "recency_status",
+    "tags",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "OFFICIAL_STANDARD",
+        "OFFICIAL_PLATFORM_DOCUMENTATION",
+        "OFFICIAL_FRAMEWORK_DOCUMENTATION",
+        "OFFICIAL_LIBRARY_DOCUMENTATION",
+        "DESIGN_SYSTEM",
+        "COMPONENT_LIBRARY",
+        "REFERENCE_IMPLEMENTATION",
+        "OPEN_SOURCE_APPLICATION",
+        "UI_KIT",
+        "PATTERN_LIBRARY",
+        "FIGMA_RESOURCE",
+        "TEMPLATE_OR_THEME",
+        "ICON_OR_ASSET_SYSTEM",
+        "ENGINEERING_ARTICLE",
+        "CASE_STUDY",
+        "POSTMORTEM",
+        "REVIEW_DISCUSSION",
+        "ACCESSIBILITY_REFERENCE",
+        "PERFORMANCE_REFERENCE",
+        "SECURITY_REFERENCE",
+        "DESIGN_INSPIRATION",
+        "COMMUNITY_DISCUSSION",
+        "COMMUNITY_OPINION"
+      ]
+    },
+    "authority_weight": {
+      "type": "string",
+      "enum": [
+        "PRIMARY_NORMATIVE",
+        "PRIMARY_IMPLEMENTATION",
+        "OFFICIAL_REFERENCE",
+        "HIGH_QUALITY_SECONDARY",
+        "SUPPORTING_REFERENCE",
+        "INSPIRATION_ONLY",
+        "ANECDOTAL",
+        "UNKNOWN_QUALITY"
+      ]
+    },
+    "authority_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "repository": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "commit_sha": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-fA-F]{7,64}$"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license_status": {
+      "type": "string",
+      "enum": [
+        "KNOWN_PERMISSIVE",
+        "KNOWN_RESTRICTED",
+        "PUBLIC_REFERENCE_ONLY",
+        "UNKNOWN"
+      ]
+    },
+    "content_storage_policy": {
+      "type": "string",
+      "enum": [
+        "METADATA_ONLY",
+        "REFERENCE_WITH_BOUNDED_EXCERPTS",
+        "SUMMARIES_AND_OBSERVATIONS",
+        "VENDORING_REQUIRES_SEPARATE_AUTHORITY"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ACTIVE",
+        "DATED",
+        "SUPERSEDED",
+        "UNVERIFIED",
+        "REJECTED"
+      ]
+    },
+    "recency_status": {
+      "type": "string",
+      "enum": [
+        "CURRENT",
+        "VERSION_BOUND",
+        "HISTORICAL",
+        "SUPERSEDED",
+        "UNKNOWN"
+      ]
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

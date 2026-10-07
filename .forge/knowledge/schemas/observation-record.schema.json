@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kirion.local/forge/knowledge/observation-record.schema.json",
+  "title": "Lucien Observation Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source_id",
+    "target",
+    "observed_behavior",
+    "context",
+    "evidence_location",
+    "evidence_kind",
+    "confidence",
+    "limitations",
+    "observed_at",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "INFORMATION_ARCHITECTURE",
+        "NAVIGATION",
+        "LAYOUT",
+        "RESPONSIVE_DESIGN",
+        "TYPOGRAPHY",
+        "SPACING",
+        "COLOR",
+        "VISUAL_HIERARCHY",
+        "CONTENT_DESIGN",
+        "COMPONENT_ARCHITECTURE",
+        "DESIGN_SYSTEMS",
+        "FORM_DESIGN",
+        "DATA_DISPLAY",
+        "TABLES",
+        "SEARCH",
+        "FILTERING",
+        "EMPTY_STATES",
+        "LOADING_STATES",
+        "ERROR_STATES",
+        "FEEDBACK",
+        "MODALS",
+        "OVERLAYS",
+        "MOTION",
+        "INTERACTION",
+        "SEMANTIC_HTML",
+        "KEYBOARD_ACCESS",
+        "FOCUS_MANAGEMENT",
+        "SCREEN_READER_BEHAVIOR",
+        "COLOR_CONTRAST",
+        "ACCESSIBILITY",
+        "RENDERING",
+        "STATE_MANAGEMENT",
+        "SERVER_STATE",
+        "FORM_STATE",
+        "VALIDATION",
+        "DATA_FETCHING",
+        "API_BOUNDARIES",
+        "ERROR_HANDLING",
+        "CACHING",
+        "PERFORMANCE",
+        "BUNDLE_STRATEGY",
+        "IMAGE_STRATEGY",
+        "FONT_STRATEGY",
+        "CORE_WEB_VITALS",
+        "TESTING",
+        "OBSERVABILITY",
+        "SECURITY",
+        "MAINTAINABILITY",
+        "CODE_ORGANIZATION",
+        null
+      ]
+    },
+    "observed_behavior": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_location": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_kind": {
+      "type": "string",
+      "enum": [
+        "NORMATIVE_TEXT",
+        "DOCUMENTATION_STATEMENT",
+        "SOURCE_CODE",
+        "RUNTIME_BEHAVIOR",
+        "VISUAL_ARTIFACT",
+        "MEASUREMENT",
+        "TEST_RESULT",
+        "REVIEW_DISCUSSION",
+        "OTHER"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "UNKNOWN"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_version_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "OBSERVED",
+        "DERIVED",
+        "CONTRADICTED",
+        "SUPERSEDED",
+        "UNRESOLVED"
+      ]
+    },
+    "contradicted_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
