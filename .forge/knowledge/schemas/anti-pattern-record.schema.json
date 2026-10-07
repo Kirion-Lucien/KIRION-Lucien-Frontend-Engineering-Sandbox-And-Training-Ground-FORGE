@@ -1,0 +1,376 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kirion.local/forge/knowledge/anti-pattern-record.schema.json",
+  "title": "Lucien Anti-Pattern Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "domain",
+    "summary",
+    "recurring_structure",
+    "harm_mechanism",
+    "context",
+    "applicability",
+    "legitimate_contexts",
+    "consequences",
+    "source_ids",
+    "observation_ids",
+    "counterexamples",
+    "confidence",
+    "recency_status",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "INFORMATION_ARCHITECTURE",
+        "NAVIGATION",
+        "LAYOUT",
+        "RESPONSIVE_DESIGN",
+        "TYPOGRAPHY",
+        "SPACING",
+        "COLOR",
+        "VISUAL_HIERARCHY",
+        "CONTENT_DESIGN",
+        "COMPONENT_ARCHITECTURE",
+        "DESIGN_SYSTEMS",
+        "FORM_DESIGN",
+        "DATA_DISPLAY",
+        "TABLES",
+        "SEARCH",
+        "FILTERING",
+        "EMPTY_STATES",
+        "LOADING_STATES",
+        "ERROR_STATES",
+        "FEEDBACK",
+        "MODALS",
+        "OVERLAYS",
+        "MOTION",
+        "INTERACTION",
+        "SEMANTIC_HTML",
+        "KEYBOARD_ACCESS",
+        "FOCUS_MANAGEMENT",
+        "SCREEN_READER_BEHAVIOR",
+        "COLOR_CONTRAST",
+        "ACCESSIBILITY",
+        "RENDERING",
+        "STATE_MANAGEMENT",
+        "SERVER_STATE",
+        "FORM_STATE",
+        "VALIDATION",
+        "DATA_FETCHING",
+        "API_BOUNDARIES",
+        "ERROR_HANDLING",
+        "CACHING",
+        "PERFORMANCE",
+        "BUNDLE_STRATEGY",
+        "IMAGE_STRATEGY",
+        "FONT_STRATEGY",
+        "CORE_WEB_VITALS",
+        "TESTING",
+        "OBSERVABILITY",
+        "SECURITY",
+        "MAINTAINABILITY",
+        "CODE_ORGANIZATION"
+      ]
+    },
+    "additional_domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "INFORMATION_ARCHITECTURE",
+          "NAVIGATION",
+          "LAYOUT",
+          "RESPONSIVE_DESIGN",
+          "TYPOGRAPHY",
+          "SPACING",
+          "COLOR",
+          "VISUAL_HIERARCHY",
+          "CONTENT_DESIGN",
+          "COMPONENT_ARCHITECTURE",
+          "DESIGN_SYSTEMS",
+          "FORM_DESIGN",
+          "DATA_DISPLAY",
+          "TABLES",
+          "SEARCH",
+          "FILTERING",
+          "EMPTY_STATES",
+          "LOADING_STATES",
+          "ERROR_STATES",
+          "FEEDBACK",
+          "MODALS",
+          "OVERLAYS",
+          "MOTION",
+          "INTERACTION",
+          "SEMANTIC_HTML",
+          "KEYBOARD_ACCESS",
+          "FOCUS_MANAGEMENT",
+          "SCREEN_READER_BEHAVIOR",
+          "COLOR_CONTRAST",
+          "ACCESSIBILITY",
+          "RENDERING",
+          "STATE_MANAGEMENT",
+          "SERVER_STATE",
+          "FORM_STATE",
+          "VALIDATION",
+          "DATA_FETCHING",
+          "API_BOUNDARIES",
+          "ERROR_HANDLING",
+          "CACHING",
+          "PERFORMANCE",
+          "BUNDLE_STRATEGY",
+          "IMAGE_STRATEGY",
+          "FONT_STRATEGY",
+          "CORE_WEB_VITALS",
+          "TESTING",
+          "OBSERVABILITY",
+          "SECURITY",
+          "MAINTAINABILITY",
+          "CODE_ORGANIZATION"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recurring_structure": {
+      "type": "string",
+      "minLength": 1
+    },
+    "harm_mechanism": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "applicability": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "legitimate_contexts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "consequences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "usability",
+        "accessibility",
+        "performance",
+        "maintainability"
+      ],
+      "properties": {
+        "usability": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "accessibility": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "performance": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "maintainability": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "observation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "counterexamples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "summary",
+          "context"
+        ],
+        "properties": {
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "observation_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "UNKNOWN"
+      ]
+    },
+    "recency_status": {
+      "type": "string",
+      "enum": [
+        "CURRENT",
+        "VERSION_BOUND",
+        "HISTORICAL",
+        "SUPERSEDED",
+        "UNKNOWN"
+      ]
+    },
+    "version_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "OBSERVED",
+        "CANDIDATE",
+        "ACCEPTED",
+        "DEPRECATED",
+        "REJECTED"
+      ]
+    },
+    "accepted_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "accepted_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "deprecated_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "deprecation_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "ACCEPTED"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "accepted_by",
+          "accepted_at"
+        ],
+        "properties": {
+          "accepted_by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "accepted_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "DEPRECATED"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "deprecated_by",
+          "deprecation_reason"
+        ],
+        "properties": {
+          "deprecated_by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "deprecation_reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
+}

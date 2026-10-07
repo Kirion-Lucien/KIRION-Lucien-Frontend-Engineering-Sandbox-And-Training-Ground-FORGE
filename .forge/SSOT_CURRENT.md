@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — DISCOVERY / KNOWLEDGE-CONTROL IMPLEMENTATION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 Forge governance remains accepted and active.
 
@@ -48,6 +48,12 @@ The handoff authorizes a bounded:
 
 lane plus documentation/schema implementation for the knowledge-acquisition control plane.
 
+## W01 candidate state
+
+The bounded knowledge-control surface required by the active handoff is present on the W01 branch as a candidate for independent Maintainer review.
+
+This statement is completion evidence only. It is not W01 acceptance and does not authorize W02.
+
 ## W01 may create
 
 Only the knowledge-control documentation, schemas, registry skeleton, protocols, and templates explicitly owned by the active handoff.
@@ -81,10 +87,8 @@ A future application implementation lane requires:
 
 ## Next gate
 
-W01 worker returns:
+Independent Maintainer review of the exact W01 candidate.
 
-`READY_FOR_MAINTAINER_REVIEW`
-
-or a bounded rework/block condition.
+Worker disposition recommendation: `READY_FOR_MAINTAINER_REVIEW`.
 
 No W02 is authorized before W01 Maintainer disposition.

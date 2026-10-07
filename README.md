@@ -40,3 +40,15 @@ No worker may select a stack, create application architecture, or treat assumpti
 8. `.forge/WORK_LEDGER.md`
 
 The governance kernel is active. **No frontend implementation lane exists yet.**
+
+## Frontend Engineering Intelligence Forge
+
+W01 defines a candidate knowledge-control plane under `.forge/knowledge`, `.forge/protocols`, and `.forge/templates`.
+
+Its job is to make future learning provenance-bearing and reviewable:
+
+`SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
+
+The W01 source registry is intentionally empty. No framework, language stack, dependency set, design system, testing library, or production application has been selected.
+
+W01 remains unaccepted until independent Maintainer disposition.

@@ -25,7 +25,7 @@
 
 ## W01 — Frontend knowledge acquisition model
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:** `main@e944dcbd490651498faead104315edd4c649b4ae`
 
@@ -69,9 +69,22 @@ Only the files and minimal governance pointers listed in the active W01 handoff.
 - external target-repository mutation;
 - architecture-stack selection.
 
+**Candidate result:**
+
+- source taxonomy defined;
+- source authority model defined;
+- provenance/licensing policy defined;
+- source, observation, pattern, and anti-pattern schemas defined;
+- knowledge domains defined;
+- acquisition K0-K7 defined;
+- source evaluation and promotion protocols defined;
+- design-reference boundaries defined;
+- worker consultation contract defined;
+- source registry remains intentionally empty.
+
 **Completion gate:**
 
-Return exact candidate for independent Maintainer review.
+Independent Maintainer review of the exact candidate. No worker self-acceptance.
 
 ## W02 — Controlled pilot acquisition
 
