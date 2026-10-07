@@ -25,76 +25,60 @@
 
 ## W01 — Frontend knowledge acquisition model
 
-**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
+**State:** ACCEPTED
 
 **Source:** `main@e944dcbd490651498faead104315edd4c649b4ae`
 
-**Branch:** `forge/w01-frontend-knowledge-acquisition-model`
+**Reviewed candidate:**
 
-**Active handoff:**
+`forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
 
-`.forge/handoffs/active/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
+**Acceptance:** GitHub issue #3
 
-**Human objective:**
+**Historical handoff:**
 
-Establish Lucien as an evidence-backed Frontend Engineering Intelligence Forge that can learn from qualified online, Git, design-system, UI-kit, pattern-library, accessibility, performance, and implementation sources without inventing architecture or treating visual inspiration as engineering proof.
+`.forge/handoffs/historical/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
 
-**W01 purpose:**
-
-- define source taxonomy;
-- define authority/evidence weighting;
-- define provenance and licensing requirements;
-- define observation records;
-- define frontend knowledge domains;
-- define pattern and anti-pattern schemas;
-- define design-reference handling;
-- define acquisition K0-K7;
-- define promotion/rejection/deprecation lifecycle;
-- define contradiction/counterexample handling;
-- define future worker consultation contract;
-- initialize an empty honest source registry.
-
-**Authorized mutations:**
-
-Only the files and minimal governance pointers listed in the active W01 handoff.
-
-**Not authorized:**
-
-- package installation;
-- framework bootstrap;
-- application code;
-- feature work;
-- vector database construction;
-- mass ingestion;
-- external target-repository mutation;
-- architecture-stack selection.
-
-**Candidate result:**
+**Accepted result:**
 
 - source taxonomy defined;
 - source authority model defined;
 - provenance/licensing policy defined;
 - source, observation, pattern, and anti-pattern schemas defined;
-- knowledge domains defined;
+- stack-neutral knowledge domains defined;
 - acquisition K0-K7 defined;
 - source evaluation and promotion protocols defined;
 - design-reference boundaries defined;
+- contradiction/counterexample preservation defined;
 - worker consultation contract defined;
-- source registry remains intentionally empty.
-
-**Completion gate:**
-
-Independent Maintainer review of the exact candidate. No worker self-acceptance.
+- source registry remains intentionally empty;
+- no application stack or specific pattern was accepted by W01.
 
 ## W02 — Controlled pilot acquisition
 
-**State:** BLOCKED
+**State:** INPUT REQUIRED / REVIEW
 
-W02 may be proposed only after W01 is accepted.
+**Purpose:**
 
-Expected future purpose:
+Exercise the accepted W01 acquisition model against a small, deliberately chosen source set.
 
-Exercise the accepted acquisition model against a small, deliberately chosen source set and return evidence-bearing pattern candidates without self-promoting them.
+Expected outputs:
+
+- qualified source records;
+- bounded observations;
+- cross-source comparisons;
+- pattern/anti-pattern candidates where evidence supports them;
+- unresolved questions;
+- Maintainer review packet.
+
+**Not yet authorized:**
+
+- acquisition execution;
+- bulk crawling;
+- mass repository ingestion;
+- vector database;
+- self-promotion of candidates;
+- application implementation.
 
 ## Application implementation lanes
 
