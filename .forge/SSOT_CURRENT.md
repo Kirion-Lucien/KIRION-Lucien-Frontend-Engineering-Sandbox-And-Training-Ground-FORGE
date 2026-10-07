@@ -10,67 +10,65 @@
 
 ## Status
 
-`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
+`ACCEPTED / KNOWLEDGE CONTROL PLANE ACTIVE`
 
 W00 Forge governance remains accepted and active.
 
-Maintainer acceptance of W00 is recorded in GitHub issue #1 and `.forge/ACCEPTANCE.md`.
+W01 Maintainer acceptance is recorded in GitHub issue #3 and `.forge/ACCEPTANCE.md`.
 
-## Canonical accepted source
+## Canonical source before W01
 
 `main@e944dcbd490651498faead104315edd4c649b4ae`
 
-## Current W01 branch
+## Accepted W01 candidate
 
-`forge/w01-frontend-knowledge-acquisition-model`
+`forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
 
 ## Current classification
 
-`BOOTSTRAP / UNINITIALIZED FRONTEND TRAINING GROUND`
+`BOOTSTRAP / FRONTEND ENGINEERING INTELLIGENCE FORGE`
 
 The repository still contains no accepted frontend application stack.
 
-## Human objective now resolved
+## Accepted Lucien role
 
 Lucien is a **Frontend Engineering Intelligence Forge**.
 
-Its job is to acquire, classify, compare, and promote evidence-backed frontend engineering knowledge from qualified external and repository sources.
+Its accepted knowledge lifecycle is:
 
-Lucien must learn terminology, patterns, tradeoffs, anti-patterns, accessibility/performance implications, implementation references, and design-system knowledge without converting internet fashion or model memory into architecture authority.
+`SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
 
-## Active handoff
+Accepted knowledge-control authority now includes:
 
-`.forge/handoffs/active/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
+- source taxonomy;
+- claim-sensitive evidence weighting;
+- provenance/licensing handling;
+- observation records;
+- stack-neutral knowledge domains;
+- pattern and anti-pattern candidate lifecycles;
+- design-reference boundaries;
+- K0-K7 acquisition protocol;
+- contradiction/counterexample handling;
+- Maintainer-gated promotion;
+- worker consultation contract.
 
-The handoff authorizes a bounded:
+## Current knowledge state
 
-`DISCOVERER / KNOWLEDGE ARCHITECT`
+The source registry remains intentionally empty.
 
-lane plus documentation/schema implementation for the knowledge-acquisition control plane.
+No specific frontend pattern, anti-pattern, framework, design system, or implementation stack is accepted yet.
 
-## W01 candidate state
+## Current work gate
 
-The bounded knowledge-control surface required by the active handoff is present on the W01 branch as a candidate for independent Maintainer review.
+`W02 — CONTROLLED PILOT ACQUISITION`
 
-This statement is completion evidence only. It is not W01 acceptance and does not authorize W02.
+State:
 
-## W01 may create
+`INPUT REQUIRED / REVIEW`
 
-Only the knowledge-control documentation, schemas, registry skeleton, protocols, and templates explicitly owned by the active handoff.
+W02 may propose a small, deliberately selected source corpus to exercise the accepted W01 acquisition pipeline.
 
-## W01 may not create
-
-- frontend application source;
-- package.json or dependency stack;
-- framework/runtime selection;
-- design-system selection;
-- state-management selection;
-- test-stack selection;
-- CI/runtime architecture;
-- vector database;
-- bulk internet ingestion;
-- fake Golden Patterns;
-- accepted anti-patterns without evidence.
+W02 is not yet authorized to execute.
 
 ## Application implementation authority
 
@@ -78,17 +76,21 @@ Only the knowledge-control documentation, schemas, registry skeleton, protocols,
 
 No frontend Code Writer application lane exists.
 
-A future application implementation lane requires:
+A future application implementation lane still requires:
 
 1. explicit human objective;
 2. relevant Lucien evidence/proposal;
 3. Maintainer acceptance of controlling decisions;
 4. exact source branch/SHA handoff.
 
+## Active handoff
+
+NONE.
+
+The completed W01 handoff is historical evidence and is not executable authority.
+
 ## Next gate
 
-Independent Maintainer review of the exact W01 candidate.
+Human / Maintainer defines the bounded W02 pilot-acquisition objective and source-selection strategy.
 
-Worker disposition recommendation: `READY_FOR_MAINTAINER_REVIEW`.
-
-No W02 is authorized before W01 Maintainer disposition.
+No W02 acquisition run begins until an exact handoff is issued.
