@@ -6,68 +6,85 @@
 
 ## Program
 
-`W00 — FORGE AUTHORITY BOOTSTRAP`
+`W01 — FRONTEND KNOWLEDGE ACQUISITION MODEL`
 
 ## Status
 
-`ACCEPTED / GOVERNANCE ACTIVE`
+`AUTHORIZED — DISCOVERY / KNOWLEDGE-CONTROL IMPLEMENTATION`
 
-Maintainer acceptance is recorded in GitHub issue #1 and `.forge/ACCEPTANCE.md`.
+W00 Forge governance remains accepted and active.
 
-## Verified bootstrap source
+Maintainer acceptance of W00 is recorded in GitHub issue #1 and `.forge/ACCEPTANCE.md`.
 
-`main@90411ea873cb380ed6b688a4dfdc0f09f67067da`
+## Canonical accepted source
 
-## Accepted bootstrap candidate
+`main@e944dcbd490651498faead104315edd4c649b4ae`
 
-`KIRION-LUCIEN-FORGE-AUTHORITY-BOOTSTRAP@7ac1f5683360166552414ed15ee5641cbc4d5389`
+## Current W01 branch
+
+`forge/w01-frontend-knowledge-acquisition-model`
 
 ## Current classification
 
 `BOOTSTRAP / UNINITIALIZED FRONTEND TRAINING GROUND`
 
-## Active authority
+The repository still contains no accepted frontend application stack.
 
-The Forge governance kernel is accepted.
+## Human objective now resolved
 
-Root `AGENTS.md` is now the standing worker enforcement contract.
+Lucien is a **Frontend Engineering Intelligence Forge**.
 
-## What remains undecided
+Its job is to acquire, classify, compare, and promote evidence-backed frontend engineering knowledge from qualified external and repository sources.
 
-- frontend framework
-- package ecosystem
-- application source architecture
-- design system
-- routing
-- state management
-- API architecture
-- testing framework
-- CI/runtime architecture
-- deployment target
-- accessibility/browser matrix
-- training curriculum order
+Lucien must learn terminology, patterns, tradeoffs, anti-patterns, accessibility/performance implications, implementation references, and design-system knowledge without converting internet fashion or model memory into architecture authority.
 
-## Current work gate
+## Active handoff
 
-`W01 — FRONTEND TRAINING BASELINE DISCOVERY / PROPOSAL`
+`.forge/handoffs/active/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
 
-State:
+The handoff authorizes a bounded:
 
-`INPUT REQUIRED / REVIEW`
+`DISCOVERER / KNOWLEDGE ARCHITECT`
 
-W01 is **not an implementation lane**.
+lane plus documentation/schema implementation for the knowledge-acquisition control plane.
 
-It may gather training objectives, discover constraints, compare viable baselines, attach evidence, and return a proposal to Maintainer.
+## W01 may create
 
-## Implementation authority
+Only the knowledge-control documentation, schemas, registry skeleton, protocols, and templates explicitly owned by the active handoff.
+
+## W01 may not create
+
+- frontend application source;
+- package.json or dependency stack;
+- framework/runtime selection;
+- design-system selection;
+- state-management selection;
+- test-stack selection;
+- CI/runtime architecture;
+- vector database;
+- bulk internet ingestion;
+- fake Golden Patterns;
+- accepted anti-patterns without evidence.
+
+## Application implementation authority
 
 `BLOCKED`
 
-No Code Writer implementation lane exists.
+No frontend Code Writer application lane exists.
 
-A future implementation lane requires:
+A future application implementation lane requires:
 
-1. explicit human objective or requirement;
-2. evidence/proposal;
-3. Maintainer acceptance of the relevant architecture decision;
+1. explicit human objective;
+2. relevant Lucien evidence/proposal;
+3. Maintainer acceptance of controlling decisions;
 4. exact source branch/SHA handoff.
+
+## Next gate
+
+W01 worker returns:
+
+`READY_FOR_MAINTAINER_REVIEW`
+
+or a bounded rework/block condition.
+
+No W02 is authorized before W01 Maintainer disposition.
