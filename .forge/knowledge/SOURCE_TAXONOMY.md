@@ -56,5 +56,5 @@ A visually attractive reference does not become engineering authority merely bec
 1. Choose the class that best describes the source’s actual role in the acquisition run.
 2. If a source spans multiple roles, select one primary type and record secondary tags rather than inventing an unsupported hybrid type.
 3. Unknown classification remains unknown until resolved; do not force a record into a false category.
-4. Classification never grants acceptance. Every source still requires qualification under SOURCE_AUTHORITY.md and SOURCE_EVALUATION.md.
+4. Classification never grants acceptance. Every source still requires qualification under SOURCE_AUTHORITY.md and ../protocols/SOURCE_EVALUATION.md.
 5. Source taxonomy may be extended only by a later reviewed change when existing classes cannot truthfully represent new evidence.

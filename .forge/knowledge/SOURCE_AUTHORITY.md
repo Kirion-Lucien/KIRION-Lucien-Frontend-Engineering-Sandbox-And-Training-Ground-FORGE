@@ -46,4 +46,4 @@ When high-quality sources disagree, preserve disagreement and compare context, s
 
 ## Acceptance boundary
 
-Authority weight is evidence metadata. It does not itself make a pattern ACCEPTED. Pattern acceptance remains a Maintainer disposition under KNOWLEDGE_PROMOTION.md.
+Authority weight is evidence metadata. It does not itself make a pattern ACCEPTED. Pattern acceptance remains a Maintainer disposition under ../protocols/KNOWLEDGE_PROMOTION.md.
