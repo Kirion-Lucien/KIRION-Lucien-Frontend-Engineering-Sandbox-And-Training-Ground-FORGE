@@ -189,29 +189,29 @@ ACCEPTED / HIGH
 
 ## W07 — Dialogs, overlays & focus-management intelligence
 
-**Canonical baseline:** `main@61987e3de3ff85426e293dd15e596200ad272103`
+**Canonical accepted main:** `main@61987e3de3ff85426e293dd15e596200ad272103`.
 
-**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
+**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`.
 
-**Stage A:** ACCEPTED / RELEASED, checkpoint `0e4340649fb71aef1ef00e46caa8433342bf697a` (issue #17).
+**Stage A K0–K2:** ACCEPTED / RELEASED, checkpoint `0e4340649fb71aef1ef00e46caa8433342bf697a` (issue #17).
 
-**Stage B1:** ACCEPTED / RELEASED, checkpoint `53084dd7c8f812732fc556873c3d7753c3aa1c3b` (issue #18).
+**Stage B1 WCAG K3:** ACCEPTED / RELEASED, checkpoint `53084dd7c8f812732fc556873c3d7753c3aa1c3b` (issue #18). Six raw observations `W07-O01..O06` from `W02-S1`.
 
-**Stage A findings:** six logical source families qualified; reuse `W02-S1`, append `W07-S2`–`W07-S6`; preserve APG nonmodal 404, tooltip WIP, WHATWG mutable standard and product-doc license/version unknowns.
+**Stage B2 WHATWG K3:** ACCEPTED / RELEASED, checkpoint `791910cb0f623de36edfb301afbe6e7586ced214` (issue #19). Six raw observations `W07-O07..O12` from `W07-S3` with living-version limits. No patterns promoted.
 
-**Stage B1 results:** six raw `OBSERVED` normative WCAG 2.2 records `W07-O01`–`W07-O06` from `W02-S1`, exact dated W3C Recommendation anchors and AA/AAA boundaries; no K4–K7 promotion.
+**Stage A qualifications:** six logical approved source families, `W02-S1` reuse and five scoped `W07-S2..S6` additions; APG non-modal standalone URL 404, APG tooltip WIP/no consensus, WHATWG mutable; product docs unpinned and rights uncertain.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
 
-**Stage B2:** AUTHORIZED — bounded K3 WHATWG HTML platform semantics only, `W07-O07`–`W07-O12` if evidence supports, source ID `W07-S3`, metadata-only source and original paraphrased observations.
+**Stage B3 APG K3:** AUTHORIZED — 0–6 explanatory `DOCUMENTATION_STATEMENT` observations `W07-O13..O18` only; source `W07-S2`. Preserve explicit WIP/non-consensus tooltip flag, focus guidance context and absent standalone nonmodal APG page.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
 
-**Stage B3 onward:** BLOCKED until B2 independent Maintainer review/release.
+**Stage B4 onward:** BLOCKED pending independent B3 review/release.
 
-**Stage C K4–K6:** BLOCKED; K7 Maintainer-only.
+**Stage C K4–K6:** BLOCKED pending Stage B closure/release. K7 Maintainer-only; no accepted W07 patterns.
 
-**Prior accepted knowledge:** unchanged; deferred W02-P02 and W03-A01 remain deferred.
+**Prior W02–W06 knowledge, registry, B1/B2:** immutable. **Frontend application:** BLOCKED.
 
 ## Application implementation authority
 
