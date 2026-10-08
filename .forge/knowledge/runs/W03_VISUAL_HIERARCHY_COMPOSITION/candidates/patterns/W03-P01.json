@@ -65,5 +65,7 @@
   "confidence": "MEDIUM",
   "recency_status": "VERSION_BOUND",
   "version_context": "WCAG 2.2 Recommendation (2024); WAI/Primer live unpinned docs; primer/react fixed commit 7f5303d803986887187d86dcebaeda22a4dc6823",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T14:27:00+08:00"
 }
