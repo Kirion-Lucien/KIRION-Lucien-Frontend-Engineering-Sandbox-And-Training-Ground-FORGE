@@ -10,29 +10,23 @@
 
 ## Status
 
-`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
+`ACCEPTED / FORMS & ERROR-RECOVERY KNOWLEDGE ACTIVE`
 
 W00 through W05 remain accepted and active as governing prior authority.
 
-## Canonical accepted source before W06
+W06 Maintainer acceptance is recorded in GitHub issue #13 and `.forge/ACCEPTANCE.md`.
+
+## Canonical source before W06
 
 `main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
 
-## Current W06 branch
+## Exact reviewed W06 worker candidate
 
-`forge/w06-forms-validation-error-recovery-intelligence`
+`forge/w06-forms-validation-error-recovery-intelligence@6b3fcde1bc12ecd6904dc4bbb1f2f91ff29ed54d`
 
-## Human objective
+## Accepted W06 corpus
 
-Teach Lucien how strong frontend systems communicate field purpose, instructions, constraints, validation, errors, and recovery so users can complete tasks without ambiguous labels, inaccessible error states, unnecessary re-entry, or lost progress.
-
-## W06 research question
-
-How should frontend forms communicate field purpose, instructions, constraints, validation, errors, and recovery so users can successfully complete tasks without ambiguous labels, inaccessible error states, unnecessary re-entry, or lost progress?
-
-## Authorized source families
-
-Exactly six logical source families:
+Six logical source families:
 
 1. W3C WCAG 2.2
 2. W3C WAI Forms tutorials
@@ -41,67 +35,79 @@ Exactly six logical source families:
 5. GitHub Primer Forms guidance
 6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` forms implementation
 
-## Prior knowledge preservation
+WCAG reused `W02-S1`. W06 added `W06-S2` through `W06-S6`.
 
-All accepted/deferred W02–W05 knowledge remains immutable during worker execution.
+## Accepted bounded patterns
 
-Deferred records remain:
+### W06-P01 — Persistent field identity with semantic instruction relationships
+
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Fields remain intelligibly identified with appropriate persistent identification and relevant programmatic relationships.
+
+### W06-P02 — Actionable, source-linked error communication
+
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Detected errors identify the affected item in text and provide known safe correction guidance with appropriate linkage where useful.
+
+### W06-P03 — Recoverable validation failure with preserved answers
+
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Recoverable failures preserve safely retainable answers and provide a route to correct and continue, subject to security/privacy/task exceptions.
+
+## Accepted bounded anti-patterns
+
+### W06-A01 — Placeholder-only field identification
+
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Placeholder text must not be the sole field-identification mechanism without a reliable persistent/programmatic equivalent.
+
+### W06-A02 — Detected field error signaled only by color
+
+`ACCEPTED / HIGH CONFIDENCE`
+
+Automatically detected input errors must not be represented only through color/styling without textual error identification within applicable WCAG 3.3.1 scope.
+
+## Form knowledge boundaries
+
+No universal:
+
+- validation timing;
+- error-summary requirement;
+- post-error focus destination;
+- disabled-submit prohibition;
+- backend validation architecture;
+- form/schema library;
+- data-retention policy.
+
+## Prior deferred knowledge preserved
 
 ```text
 W02-P02 — CANDIDATE / DEFERRED
 W03-A01 — CANDIDATE / DEFERRED
 ```
 
-## Active handoff
-
-`.forge/handoffs/active/W06_FORMS_VALIDATION_ERROR_RECOVERY_INTELLIGENCE.md`
-
-## W06 may
-
-- qualify/reuse only the six authorized source families;
-- build forms/validation/error-recovery vocabulary;
-- create 30–42 observations, hard maximum 50;
-- analyze labels/instructions, required/optional state, grouping, validation timing, error communication, error summaries, focus/announcements, error prevention, redundant entry, disabled/readonly semantics, and responsive form integrity;
-- create at most 3 pattern candidates;
-- create at most 2 anti-pattern candidates;
-- return a Maintainer review packet.
-
-## W06 may not
-
-- create frontend application code;
-- select a form/schema library;
-- define backend validation architecture;
-- create universal validation-timing law;
-- create universal error-summary requirement;
-- create universal disabled-button prohibition;
-- add a seventh source family;
-- mutate external repositories;
-- fabricate runtime/browser/AT/usability evidence;
-- promote candidates;
-- alter prior knowledge;
-- begin W07.
-
 ## Application implementation authority
 
 `BLOCKED`
 
-## Promotion authority
+No frontend application Code Writer lane exists.
 
-`MAINTAINER ONLY`
+## Current work gate
 
-## W06 submitted worker candidate
+`W07 — NEXT KNOWLEDGE LANE`
 
-K0–K6 run in `.forge/knowledge/runs/W06_FORMS_VALIDATION_ERROR_RECOVERY/`: 6 qualified source families (1 existing identity, 5 W06-specific additions); 46 working vocabulary definitions; 42 OBSERVED records; 14 challenged failure hypotheses; 3 pattern and 2 anti-pattern CANDIDATES; K6 review packet. USWDS Validation deprecation/known issues preserved.
+State:
 
-**W06 is NOT ACCEPTED.** W02–W05 knowledge remains unchanged. K7 is Maintainer-only. Application implementation and W07 remain BLOCKED.
+`INPUT REQUIRED / REVIEW`
 
-## Next gate
+W07 is not yet defined or authorized.
 
-Worker returns an exact W06 candidate with one of:
+## Active handoff
 
-`READY_FOR_MAINTAINER_REVIEW`
-`REWORK_REQUIRED`
-`BLOCKED`
-`SOURCE_DRIFT`
+NONE.
 
-No W07 or frontend implementation begins before Maintainer disposition.
+The completed W06 handoff is historical evidence and is not executable authority.
