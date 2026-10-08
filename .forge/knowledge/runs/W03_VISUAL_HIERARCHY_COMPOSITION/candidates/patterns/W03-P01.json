@@ -1,0 +1,69 @@
+{
+  "id": "W03-P01",
+  "name": "Semantic and visual region alignment",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "additional_domains": [
+    "SEMANTIC_HTML",
+    "VISUAL_HIERARCHY",
+    "ACCESSIBILITY"
+  ],
+  "summary": "Expose the visible hierarchy of main, supporting, navigational and section content through coherent programmatic regions and descriptive headings.",
+  "problem": "A composition can visually suggest regions while its programmatic structure fails to expose corresponding relationships.",
+  "context": "Document-like or app pages whose main content, navigation and supporting areas can be meaningfully distinguished.",
+  "observed_solution": "Use meaningful hierarchy through heading labels/levels, appropriate programmatic landmarks and visually consistent region presentation, without assuming one wrapper per subsection.",
+  "rationale": "WCAG requires programmatically determinable presentation relationships (O01) and descriptive headings (O05); WAI explains navigable headings/landmarks (O06–O09); Primer docs and pinned PageLayout show region APIs and landmark naming intent (O24–O26,O29).",
+  "tradeoffs": [
+    "Too many landmarks or headings for trivial fragments can reduce their navigational usefulness.",
+    "Visual headings can span flexible sections, so heading levels require contextual information architecture."
+  ],
+  "applicability": [
+    "Multi-region pages with meaningful main/navigation/complementary content."
+  ],
+  "non_applicability": [
+    "Pure decoration, transient microgrouping or layout wrappers without separate content purpose."
+  ],
+  "accessibility_implications": [
+    "Semantic relationships and headings must be programmatic where WCAG applies; component source is not a conformance test."
+  ],
+  "performance_implications": [
+    "No performance impact measured."
+  ],
+  "responsive_implications": [
+    "Region reading order and meaning should be checked independently as layout is rearranged."
+  ],
+  "implementation_notes": [
+    "Use existing semantic HTML where applicable; exact framework/component not prescribed.",
+    "Not every visual card is an ARIA region."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W03-S2",
+    "W03-S5",
+    "W03-S6"
+  ],
+  "observation_ids": [
+    "W03-O01",
+    "W03-O05",
+    "W03-O06",
+    "W03-O07",
+    "W03-O08",
+    "W03-O24",
+    "W03-O29"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A decorative visual divider or small formatting group need not become a separate named page landmark.",
+      "context": "Single narrative within an already named main region.",
+      "source_id": "W03-S2",
+      "observation_id": "W03-O08"
+    }
+  ],
+  "related_patterns": [],
+  "related_anti_patterns": [
+    "W03-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 Recommendation (2024); WAI/Primer live unpinned docs; primer/react fixed commit 7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}

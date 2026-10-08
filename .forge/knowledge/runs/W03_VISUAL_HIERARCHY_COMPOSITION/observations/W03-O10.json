@@ -1,0 +1,19 @@
+{
+  "id": "W03-O10",
+  "source_id": "W03-S2",
+  "target": "Viewport adaptation guidance",
+  "observed_behavior": "WAI Designing tips advises adapting header/navigation presentation at different viewport sizes and adjusting text and line width for readability.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/WAI/tips/designing/#create-designs-for-different-viewport-sizes",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Official explanatory advice, not proof of a universal pixel breakpoint or screen-specific result."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "RESPONSIVE_DESIGN",
+  "source_version_context": "WAI Designing tips (unversioned)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

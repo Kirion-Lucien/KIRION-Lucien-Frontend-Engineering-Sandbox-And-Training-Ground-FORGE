@@ -1,0 +1,19 @@
+{
+  "id": "W03-O03",
+  "source_id": "W02-S1",
+  "target": "Reflow",
+  "observed_behavior": "WCAG SC 1.4.10 constrains loss of information or functionality and two-dimensional scrolling at specified narrow viewports/zoom, with an exception for content requiring two-dimensional layout.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#reflow",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Some tables, maps or other inherently two-dimensional content may qualify for exceptions; not a blanket one-column mandate."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "RESPONSIVE_DESIGN",
+  "source_version_context": "WCAG 2.2 SC 1.4.10 (AA)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

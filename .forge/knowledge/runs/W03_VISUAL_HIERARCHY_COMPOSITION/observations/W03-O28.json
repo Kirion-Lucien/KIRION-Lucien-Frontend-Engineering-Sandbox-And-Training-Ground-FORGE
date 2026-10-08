@@ -1,0 +1,19 @@
+{
+  "id": "W03-O28",
+  "source_id": "W03-S6",
+  "target": "Pinned resize mechanics and constraints",
+  "observed_behavior": "usePaneWidth.ts describes preset/custom minimum/default/maximum pane widths, viewport constraint calculations and optional saved widths; DragHandle.tsx contains keyboard and pointer resize handling.",
+  "context": "W03 controlled visual composition corpus, limited to inspected source evidence class",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/PageLayout/usePaneWidth.ts ; https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/PageLayout/DragHandle.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Reading code alone does not prove keyboard/assistive-technology performance or that users can operate every control."
+  ],
+  "observed_at": "2026-10-08T06:13:15.410Z",
+  "status": "OBSERVED",
+  "domain": "LAYOUT",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "contradicted_by": [],
+  "notes": "Source/document inspection only; never application runtime proof"
+}

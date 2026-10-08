@@ -83,7 +83,7 @@ No frontend application Code Writer lane exists yet.
 
 ## W03 — Visual hierarchy & composition intelligence
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:**
 
@@ -133,6 +133,19 @@ Develop Lucien's evidence-backed vocabulary for visual hierarchy, information gr
 - no candidate promotion;
 - no "AI-looking = bad" authority;
 - no silent W02-P02 promotion.
+
+**Worker candidate evidence:**
+
+- 7 logical source families; reused W02-S1 and W02-S5, appended W03-S2 to W03-S6;
+- 27 working vocabulary terms with observation references;
+- 30 source-linked OBSERVED records;
+- hierarchy/grouping/density/responsive comparison;
+- 10 anti-slop hypotheses challenged;
+- 3 pattern CANDIDATES; 1 anti-pattern CANDIDATE;
+- K6 Maintainer review packet;
+- Carbon full page and Landbook examples unavailable, limitations preserved;
+- W02-P01 and W02-A01 remain ACCEPTED, W02-P02 CANDIDATE/DEFERRED;
+- zero W03 promotions.
 
 **Completion gate:**
 

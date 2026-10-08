@@ -1,0 +1,19 @@
+{
+  "id": "W03-O09",
+  "source_id": "W03-S2",
+  "target": "Labeled navigation and meaningful aside",
+  "observed_behavior": "WAI says pages can have several navigation regions distinguished by labels and describes aside as complementary content supporting the main region.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/page-structure/regions/#navigation",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not every visually separated section needs aside or landmark semantics."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "source_version_context": "WAI Regions tutorial (unversioned)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

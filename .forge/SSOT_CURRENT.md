@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 Forge governance remains accepted and active.
 
@@ -97,6 +97,12 @@ W03 may not silently change these dispositions.
 ## Promotion authority
 
 `MAINTAINER ONLY`
+
+## W03 worker candidate
+
+Source qualification, 27-term vocabulary, 30 OBSERVED records, cross-source analysis, anti-slop hypothesis analysis, 3 pattern CANDIDATES, 1 anti-pattern CANDIDATE and K6 Maintainer review packet are now on the W03 branch.
+
+This is a candidate completion statement only. W03 is NOT ACCEPTED; no K7 promotion, W02 disposition change, W04 release or application implementation authority occurs.
 
 ## Next gate
 

@@ -1,0 +1,19 @@
+{
+  "id": "W03-O02",
+  "source_id": "W02-S1",
+  "target": "Text contrast",
+  "observed_behavior": "WCAG SC 1.4.3 specifies 4.5:1 minimum contrast for normal text, with 3:1 for large-scale text and listed exceptions.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not an aesthetic preference, density rule, or universal contrast minimum for all decorative boundaries."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "ACCESSIBILITY",
+  "source_version_context": "WCAG 2.2 SC 1.4.3 (AA)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

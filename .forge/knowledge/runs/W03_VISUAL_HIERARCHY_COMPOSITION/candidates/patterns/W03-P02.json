@@ -1,0 +1,66 @@
+{
+  "id": "W03-P02",
+  "name": "Purpose-bounded reading width",
+  "domain": "LAYOUT",
+  "additional_domains": [
+    "TYPOGRAPHY",
+    "CONTENT_DESIGN",
+    "VISUAL_HIERARCHY"
+  ],
+  "summary": "Bound line length/readable content width when the principal task is reading while permitting wider compositions for data-heavy or multi-region work.",
+  "problem": "Unbounded measure in long text can hinder line tracking, but overly narrow widths can impede dense task workflows.",
+  "context": "Editorial, explanatory, documentation and service-form content rather than full-width analytic workbenches.",
+  "observed_solution": "Use context-appropriate constrained reading areas, with deliberate supporting columns where useful, not an arbitrary universal fixed width.",
+  "rationale": "GOV.UK recommends service reading width around 75 characters (O12,O13); Primer gives around 80-character guideline (O23); Carbon identifies editorial, product/docs and high-density layout models (O18,O20).",
+  "tradeoffs": [
+    "Dense tables, canvases and dashboards may benefit from full available width.",
+    "Different languages, fonts and zoom settings change measured line length."
+  ],
+  "applicability": [
+    "Long-form readable main content, service instructions or documentation."
+  ],
+  "non_applicability": [
+    "Large data tables, GIS maps, high-density multi-panel professional tools requiring horizontal information."
+  ],
+  "accessibility_implications": [
+    "WCAG Reflow constrains narrow/zoomed layouts, but does not specify 75- or 80-character limits."
+  ],
+  "performance_implications": [
+    "No direct performance measurement."
+  ],
+  "responsive_implications": [
+    "Width should adapt without unnecessary two-dimensional scrolling under applicable WCAG exceptions."
+  ],
+  "implementation_notes": [
+    "Treat GOV.UK 1020px and Primer PageLayout CSS widths as distinct system implementations.",
+    "Preserve source-dependent dimensions, not universal numbers."
+  ],
+  "source_ids": [
+    "W03-S3",
+    "W03-S4",
+    "W03-S5",
+    "W02-S1"
+  ],
+  "observation_ids": [
+    "W03-O03",
+    "W03-O12",
+    "W03-O13",
+    "W03-O18",
+    "W03-O20",
+    "W03-O23"
+  ],
+  "counterexamples": [
+    {
+      "summary": "IBM Carbon explicitly describes full-width high-density interface models as fit for some task-heavy products.",
+      "context": "Catalogs, dashboards, data visualization and dense workbenches.",
+      "source_id": "W03-S4",
+      "observation_id": "W03-O20"
+    }
+  ],
+  "related_patterns": [],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "GOV.UK/Primer unpinned docs; Carbon indexed official pages updated Sep 25 2026; WCAG 2.2 (2024)",
+  "status": "CANDIDATE"
+}

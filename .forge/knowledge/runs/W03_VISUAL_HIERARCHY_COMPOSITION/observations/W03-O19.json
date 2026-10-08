@@ -1,0 +1,19 @@
+{
+  "id": "W03-O19",
+  "source_id": "W03-S4",
+  "target": "IBM content hierarchy and proximity",
+  "observed_behavior": "Carbon Guidelines identify size and proximity of content pieces, type styles and patterns as hierarchy controls to help users follow complex information.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/guidelines#content-hierarchy",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "System-specific recommendation; no quantitative measurement independently executed."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "VISUAL_HIERARCHY",
+  "source_version_context": "Carbon indexed official guidelines, Sep 25 2026",
+  "contradicted_by": [],
+  "notes": "Official search-indexed source excerpt; direct web.open unavailable"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W03-O06",
+  "source_id": "W03-S2",
+  "target": "Headings as navigation structure",
+  "observed_behavior": "WAI Headings tutorial says headings express content organization and can support in-page navigation through browser/assistive technologies.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/page-structure/headings/#overview",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Explanatory guidance, not itself a WCAG success criterion."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "SEMANTIC_HTML",
+  "source_version_context": "WAI tutorial (unversioned)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

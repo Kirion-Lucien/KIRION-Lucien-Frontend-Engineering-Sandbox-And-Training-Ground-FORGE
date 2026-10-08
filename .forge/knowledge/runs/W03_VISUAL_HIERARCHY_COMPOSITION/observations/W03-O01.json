@@ -1,0 +1,19 @@
+{
+  "id": "W03-O01",
+  "source_id": "W02-S1",
+  "target": "Info and Relationships",
+  "observed_behavior": "Perceivable information, structure and relationships communicated in presentation must be programmatically determinable or available in text.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not prescribe any particular card, grid, heading font size or screen layout."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "SEMANTIC_HTML",
+  "source_version_context": "WCAG 2.2 SC 1.3.1 (A)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

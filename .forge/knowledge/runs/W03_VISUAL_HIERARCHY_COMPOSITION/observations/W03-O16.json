@@ -1,0 +1,19 @@
+{
+  "id": "W03-O16",
+  "source_id": "W03-S4",
+  "target": "IBM 2x mini unit",
+  "observed_behavior": "IBM Carbon 2x Grid overview identifies an 8px mini unit applied to columns, rows, boxes, margins and padding to organize consistent geometry.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview#mini-unit",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Indexed official-page content; direct page opening returned error. 8px scale not a universal rule."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "SPACING",
+  "source_version_context": "Carbon official indexed page, last updated Sep 25 2026",
+  "contradicted_by": [],
+  "notes": "Official search-indexed source excerpt; direct web.open unavailable"
+}
