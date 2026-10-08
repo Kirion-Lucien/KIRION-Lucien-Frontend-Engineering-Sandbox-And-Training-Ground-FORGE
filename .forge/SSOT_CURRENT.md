@@ -10,94 +10,104 @@
 
 ## Status
 
-`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
+`ACCEPTED / FIRST KNOWLEDGE PROMOTION COMPLETE`
 
 W00 Forge governance remains accepted and active.
 
 W01 knowledge-control authority remains accepted and active.
 
-## Canonical accepted source before W02
+W02 Maintainer acceptance is recorded in GitHub issue #5 and `.forge/ACCEPTANCE.md`.
+
+## Canonical source before W02
 
 `main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
 
-## Current W02 branch
+## Exact reviewed W02 worker candidate
 
-`forge/w02-controlled-pilot-action-controls`
+`forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
 
 ## Current classification
 
-`FRONTEND ENGINEERING INTELLIGENCE FORGE / CONTROLLED ACQUISITION PILOT`
+`FRONTEND ENGINEERING INTELLIGENCE FORGE / EVIDENCE ACQUISITION ACTIVE`
 
-## W02 research question
+## Accepted W02 corpus
 
-How should action controls communicate purpose, hierarchy, destructive risk, focus/keyboard accessibility, and interactive state without confusing users?
+Qualified source records:
 
-## Authorized pilot corpus
+```text
+W02-S1 — W3C WCAG 2.2
+W02-S2 — GOV.UK Design System Button
+W02-S3 — Primer Product Button
+W02-S4 — primer/react@7f5303d803986887187d86dcebaeda22a4dc6823
+W02-S5 — Landbook landing-page gallery
+```
 
-Exactly five source families:
+Registry inclusion remains source qualification, not universal authority.
 
-1. W3C WCAG 2.2
-2. GOV.UK Design System Button guidance
-3. Primer Product Button documentation
-4. primer/react exact implementation snapshot
-5. Landbook landing-page gallery as inspiration-only evidence
+## Accepted bounded knowledge
 
-## Pinned Git implementation source
+### W02-P01 — Contextual dominant primary action
 
-`primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-The worker may inspect this exact source snapshot but may not mutate it.
+For one bounded decision group with one clearly preferred progression, a visually dominant primary action with subordinate alternatives is accepted guidance.
 
-## Active handoff
+This is not a universal page-level numeric rule.
 
-`.forge/handoffs/active/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
+### W02-A01 — Competing dominant primary controls
 
-## W02 authority
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-The worker may:
+Inside one connected decision group, multiple equally dominant main controls may reduce next-step clarity when one intended progression exists.
 
-- qualify only the bounded source corpus;
-- add qualified source records to the W01 registry;
-- extract bounded observations;
-- compare cross-source evidence;
-- create at most two pattern candidates;
-- create at most one anti-pattern candidate;
-- produce a Maintainer review packet.
+Independent task groups and equally valid alternatives remain counter-contexts.
 
-The worker may NOT:
+## Deferred knowledge
 
-- add a sixth independent source;
-- bulk crawl;
-- build a vector database;
-- select a frontend stack;
-- create application code;
-- mutate external repositories;
-- promote any candidate to ACCEPTED;
-- treat visual inspiration as engineering proof.
+### W02-P02 — Focus-preserving asynchronous button feedback
+
+`CANDIDATE / DEFERRED`
+
+Primer documentation and pinned source support the implementation strategy, but browser/focus/live-region/assistive-technology behavior was not executed.
+
+It is not reusable accepted Forge guidance yet.
+
+## Evidence-class law preserved
+
+```text
+normative requirement
+!=
+design-system recommendation
+!=
+implementation evidence
+!=
+visual inspiration
+```
 
 ## Application implementation authority
 
 `BLOCKED`
 
-## Promotion authority
+No frontend application Code Writer lane exists.
 
-`MAINTAINER ONLY`
+## Current work gate
 
-K7 promotion is prohibited in the worker turn.
+`W03 — NEXT KNOWLEDGE LANE`
 
-## W02 submitted candidate
+State:
 
-Five qualified sources, 20 OBSERVED records, two pattern candidates, one anti-pattern candidate, and a K6 packet exist under `.forge/knowledge/runs/W02_ACTION_CONTROLS_PILOT/`.
+`INPUT REQUIRED / REVIEW`
 
-No W02 candidate is ACCEPTED. No K7 promotion has occurred.
+W03 is not yet defined or authorized.
+
+## Active handoff
+
+NONE.
+
+The completed W02 handoff is historical evidence and is not executable authority.
 
 ## Next gate
 
-W02 worker returns an exact candidate with one disposition recommendation:
+Human / Maintainer selects the next bounded knowledge objective.
 
-`READY_FOR_MAINTAINER_REVIEW`
-`REWORK_REQUIRED`
-`BLOCKED`
-`SOURCE_DRIFT`
-
-No W03 is authorized before W02 Maintainer disposition.
+No W03 acquisition or frontend implementation begins until an exact handoff is issued.
