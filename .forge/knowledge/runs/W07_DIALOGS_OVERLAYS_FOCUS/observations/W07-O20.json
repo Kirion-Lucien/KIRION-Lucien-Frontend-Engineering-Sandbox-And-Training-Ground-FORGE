@@ -1,0 +1,23 @@
+{
+  "id": "W07-O20",
+  "source_id": "W07-S4",
+  "target": "USWDS confirmation, acknowledgement and forced-action dismissal conditions",
+  "observed_behavior": "USWDS distinguishes ordinary confirmation dialogs (usually invoked by the user with choices to continue or not) from acknowledgement gates requiring an explicit selection before navigation can proceed. For those forced-action cases, it advises preventing dismissal without choosing, disabling the conventional close affordance, and presenting a clear path to accept or reject; its component documents data-force-action on .usa-modal for that behavior. An example concerns impending session timeout. Elsewhere the same page documents conventional close buttons and data-close-modal, so the forced-action behavior is a deliberately bounded variant, not normal dismissal for all modals.",
+  "context": "W07 B4 K3 bounded first-party USWDS Modal reference; source sections: Guidance — When to use the modal component; Using the modal component; Modal variants. Explanatory DESIGN_SYSTEM / OFFICIAL_REFERENCE only; not cross-source or runtime evidence.",
+  "evidence_location": "https://designsystem.digital.gov/components/modal/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "domain": "INTERACTION",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "An acknowledgement gate is a specific USWDS scenario; forced-action dismissal must not be prescribed universally.",
+    "The page's description of disabling closing does not prove the behavior actually occurs in any implementation or demonstrate WCAG compliance.",
+    "A time-out notice is an example, not proof that other involuntary interruptions or consent mechanisms are appropriate.",
+    "The page documents regular closers and forced action as separate cases; do not flatten their dismissal implications.",
+    "No keyboard exit, close/cancel, popup layer, inactivity timer, or user-choice outcome was tested in this Forge lane."
+  ],
+  "observed_at": "2026-10-08T18:01:52Z",
+  "source_version_context": "USWDS official Modal component and accessibility-test documentation read 2026-10-09 02:01:52 Asia/Manila; site header advertises USWDS v3.13.0, component guidance latest listed update 2025-02-14, publisher checklist last-test edition v3.8.2; live HTML documents not pinned to immutable revision; first-party DESIGN_SYSTEM / OFFICIAL_REFERENCE, not normative requirement or independent test.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Direct official USWDS page and named section only; original bounded paraphrase. Source registry W07-S4 remains unchanged; no tests executed by Forge."
+}

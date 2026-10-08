@@ -1,0 +1,23 @@
+{
+  "id": "W07-O22",
+  "source_id": "W07-S4",
+  "target": "USWDS modal focus containment, closing control placement and opener/closer attributes",
+  "observed_behavior": "The USWDS Modal accessibility guidance asks implementers to test that keyboard focus stays within the modal instead of entering the obscured page. It recommends placing the visible X-close button last in the source markup while CSS positions it at the top right, to avoid some screen readers encountering that button before main modal content. The component reference specifies unique modal ids, openers with data-open-modal and matching aria-controls, and button closers marked data-close-modal. Its update log dates addition of focus-trap guidance to 2024-11-06 (USWDS 3.9.0 guidance entry).",
+  "context": "W07 B4 K3 bounded first-party USWDS Modal reference; source sections: Accessibility guidance; Using the modal component; Latest updates — focus guidance. Explanatory DESIGN_SYSTEM / OFFICIAL_REFERENCE only; not cross-source or runtime evidence.",
+  "evidence_location": "https://designsystem.digital.gov/components/modal/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "domain": "FOCUS_MANAGEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The guidance asks authors to verify focus containment; reading the page is not a conducted keyboard focus or screen-reader test.",
+    "The close-control ordering/positioning advice concerns USWDS modal markup and CSS, not an unconditional rule for every dialog architecture.",
+    "Forced-action variants explicitly differ from standard visible close-button availability; do not erase that contextual exception.",
+    "Openers and closers named data-open-modal/data-close-modal belong to USWDS implementation conventions and are not native HTML attributes.",
+    "No component JavaScript, DOM, layout, or screen reader was executed or observed."
+  ],
+  "observed_at": "2026-10-08T18:01:52Z",
+  "source_version_context": "USWDS official Modal component and accessibility-test documentation read 2026-10-09 02:01:52 Asia/Manila; site header advertises USWDS v3.13.0, component guidance latest listed update 2025-02-14, publisher checklist last-test edition v3.8.2; live HTML documents not pinned to immutable revision; first-party DESIGN_SYSTEM / OFFICIAL_REFERENCE, not normative requirement or independent test.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Direct official USWDS page and named section only; original bounded paraphrase. Source registry W07-S4 remains unchanged; no tests executed by Forge."
+}

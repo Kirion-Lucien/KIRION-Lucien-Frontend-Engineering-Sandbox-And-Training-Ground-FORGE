@@ -93,3 +93,30 @@
 ## Batch control
 
 All prior `W07-O01`–`W07-O12` index contents above preserved as historical source-bounded B1/B2 evidence; issue #18 released B1 and issue #19 released B2. No K4 comparison, K5 candidates, K6 packet, K7 promotion, B4, frontend app, browser/keyboard/AT test or automatic release. Next safe activity: independent Maintainer review of exact B3 commit SHA.
+
+
+---
+
+# W07 — STAGE B4 USWDS MODAL K3 OBSERVATIONS (APPENDED)
+
+**B4 worker checkpoint: `READY_FOR_REVIEW`, NOT `RELEASED`.** This is one strictly isolated K3 design-system source `W07-S4` (USWDS Modal; `DESIGN_SYSTEM / OFFICIAL_REFERENCE`), containing exactly six `DOCUMENTATION_STATEMENT` / `OBSERVED` records. Prior B1–B3 index text is preserved above byte-for-byte as historical snapshots; earlier release decisions are in issues #17–#20.
+
+**Source retrieval:** 2026-10-08T18:01:52Z (2026-10-09 02:01:52 Asia/Manila). Live first-party https://designsystem.digital.gov/components/modal/ and https://designsystem.digital.gov/components/modal/accessibility-tests/, exact site revision unpinned; site offers v3.13.0 while individual accessibility checks list last test v3.8.2. Component update table lists latest guidance entry 2025-02-14 and focus-trap guidance dated 2024-11-06. Rights `UNKNOWN` with `METADATA_ONLY`: only original paraphrases/source links, no text corpus, markup, binaries or images copied.
+
+| Observation | Target | Domain | Exact official evidence page and section | Confidence |
+|---|---|---|---|---|
+| `W07-O19` | USWDS modal interruption use cases and less-disruptive page alternatives | `MODALS` | [Modal](https://designsystem.digital.gov/components/modal/) — About the modal component; Guidance — When to use the modal component; When to consider something else | `MEDIUM` |
+| `W07-O20` | USWDS confirmation, acknowledgement and forced-action dismissal conditions | `INTERACTION` | [Modal](https://designsystem.digital.gov/components/modal/) — Guidance — When to use the modal component; Using the modal component; Modal variants | `MEDIUM` |
+| `W07-O21` | USWDS modal accessible heading and optional concise description association | `ACCESSIBILITY` | [Modal](https://designsystem.digital.gov/components/modal/) — About the modal component; Usability guidance; Accessibility guidance | `MEDIUM` |
+| `W07-O22` | USWDS modal focus containment, closing control placement and opener/closer attributes | `FOCUS_MANAGEMENT` | [Modal](https://designsystem.digital.gov/components/modal/) — Accessibility guidance; Using the modal component; Latest updates — focus guidance | `MEDIUM` |
+| `W07-O23` | USWDS modal mobile, scrolling, content length and clear action-label warnings | `RESPONSIVE_DESIGN` | [Modal](https://designsystem.digital.gov/components/modal/) — About the modal component; Usability guidance; When to consider something else | `MEDIUM` |
+| `W07-O24` | USWDS publisher modal accessibility checklist and version-bound test-status limits | `ACCESSIBILITY` | [Modal accessibility tests](https://designsystem.digital.gov/components/modal/accessibility-tests/) — Modal accessibility status; Test the modal in your project; Modal accessibility checklist — General/Zoom/Keyboard/Screen reader | `MEDIUM` |
+
+## Limits, countercontexts, and stage separation
+- USWDS favors modals for bounded confirmation, acknowledgement or contextual explanation but advises less disruptive pages and inline feedback for multi-step and field-level cases.
+- Usual modal close controls and `data-close-modal` differ from USWDS's explicitly documented acknowledgement/forced-action scenario using `data-force-action`; do not assume one universal dismissal behavior.
+- `aria-labelledby` associates the heading, and a brief `aria-describedby` is **optional**; content clarity is application-specific.
+- Focus-containment and close-button source-order statements are USWDS *guidance*, not executed keyboard or screen-reader results.
+- Default/large modal sizes, scrolling, responsive/nested-interaction and external-link roadblock warnings have context, not measured universal layout thresholds.
+- USWDS itself reports `14` WCAG **2.1** AA component checks: `13 Passed / 0 Passed with exceptions / 1 Conditional / 0 Failed` (v3.8.2 items shown); this is publisher testimony, not Forge-run tests, WCAG 2.2 evidence, or future Kirion app compliance.
+- **No K4 cross-source comparison, K5 patterns/anti-patterns, K6 review packet, K7 promotion, Stage B5, frontend implementation or main merge.** Independent Maintainer review/release is mandatory before any continuation.

@@ -203,3 +203,48 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - Live page revision unspecified and thus version drift possible; B3 use remains retrieval-dated.
 - No empirical confirmation of how modal focus wrapping, disclosure activation, tooltips or closing behaves in applications.
 - **Next safe task: Maintainer independently verifies the exact Git B3 checkpoint for accept/rework and separately issues any later batch authorization.** Worker must STOP after reporting. No B4, no K4–K6/K7, no frontend code, no main merge.
+
+
+---
+
+# W07 STAGE B4 — USWDS MODAL K3 OBSERVATION CHECKPOINT (APPENDED)
+
+## Identity / authority
+- Run: `W07_DIALOGS_OVERLAYS_FOCUS`; Stage B4; K3 ONLY; Frontend Knowledge Observation Worker.
+- **Worker disposition: `READY_FOR_REVIEW`, not `RELEASED`.** No worker self-acceptance.
+- Canonical accepted main: `main@61987e3de3ff85426e293dd15e596200ad272103`.
+- Existing working branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+- Exact verified B4 mutating input: `d55ba2667869764f99e44e57bfadff80ef42a352`.
+- Exact B4 output SHA/commit: to be resolved from live Git and reported *after commit*; no self-reference inside commit.
+- Upstream releases: Stage A `0e4340649fb71aef1ef00e46caa8433342bf697a` issue #17; B1 `53084dd7c8f812732fc556873c3d7753c3aa1c3b` #18; B2 `791910cb0f623de36edfb301afbe6e7586ced214` #19; B3 `e1ee045c6ff16a89771272abefd4223ad2a2d4b6` #20, Maintainer comment `6065798465`.
+- B4 governance release: issue #20 comment `6065848500` and B4 issue #21 OPEN; current active handoff `.forge/handoffs/active/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
+- Binding: accepted `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+- B4 independent Maintainer acceptance: **NONE**. B5 onward, Stage C (K4–K6) **BLOCKED**, K7 Maintainer-only.
+
+## Bounded source / actual outputs
+- Only qualified `W07-S4`: USWDS Modal, `DESIGN_SYSTEM / OFFICIAL_REFERENCE`, `UNKNOWN` documentation reuse rights, `METADATA_ONLY`. B4 evidence classification `DOCUMENTATION_STATEMENT`, `OBSERVED`.
+- URLs: https://designsystem.digital.gov/components/modal/ and https://designsystem.digital.gov/components/modal/accessibility-tests/ (official first-party).
+- Retrieval `2026-10-08T18:01:52Z`; site download banner `v3.13.0` does not pin pages; latest component guidance update displayed `2025-02-14`, focus guidance entry `2024-11-06`; publisher test cases show `Last test: v3.8.2` and 14 WCAG 2.1 AA checks, 13 passed, 1 conditional, none failed.
+- Created exactly six new files: `observations/W07-O19.json` ... `observations/W07-O24.json`.
+- Modified only `OBSERVATION_INDEX.md` by exact previous-prefix append, and this `checkpoints/CHECKPOINT_LEDGER.md` by exact previous-prefix append. Total eight authorized changed paths.
+- Stage A qualification files and B1–B3 observed records remain untouched; registry, SSOT, work ledger, schema and governance files untouched.
+
+## Validation executed at writing / post-commit recheck needed
+| Check | Evidence status | Evidence / scope |
+|---|---|---|
+| Main and governance exact SHA / ancestry | **PASS** | Before writes, main identical accepted SHA; branch exactly B4 governance SHA; accepted B3 is ancestor five commits behind input; issue #21 and issue #20 release agree |
+| S4 source identity / license / limitations | **PASS** | Registry existing W07-S4: DESIGN_SYSTEM OFFICIAL_REFERENCE, UNKNOWN reuse rights, METADATA_ONLY, not normative |
+| Direct first-party source reading | **SOURCE INSPECTED** | Only two USWDS Modal and Modal accessibility-test pages, actual guidance and publisher's 14-test result checked |
+| Record subset structural checks at staging | **PASS** | Required/allowed fields, types, enums and limits on six generated record objects |
+| Exact output JSON parse, accepted schema subset | **UNKNOWN** | Must read committed exact SHA and recheck; no preemptive output PASS |
+| Exact committed file scope and protected-record blob integrity | **UNKNOWN** | Must compare final commit/tree against B4 governance input |
+| Historical index and checkpoint prefixes | **UNKNOWN** | Verify original content prefix after Git commit |
+| Dedicated full Draft 2020-12 JSON Schema engine | **NOT RUN** | Custom structural checks only; not full external validator |
+| Browser/keyboard/AT/zoom/visual/phone/user tests and application build/typecheck/tests | **NOT RUN** | Publisher descriptions ≠ executed Kirion tests |
+
+## Safe handoff / unresolved
+- Forced-action/acknowledgement case is USWDS-specific conditional guidance; do not universalize closure restrictions or resolve cross-source design tensions in B4.
+- Heading/label quality has USWDS-published conditional result, so no claim of 14 unconditional passes.
+- Publisher component test statuses are from v3.8.2, site's banner v3.13.0; no pinned site commit or independently replayed test matrix.
+- No compiled browser, keyboard, screen-reader, mobile or usability evidence was generated.
+- **Next safe step:** independent Maintainer checkpoint inspection, then explicit release/rework decision for exact committed B4 SHA; do not start B5, Stage C or K7.

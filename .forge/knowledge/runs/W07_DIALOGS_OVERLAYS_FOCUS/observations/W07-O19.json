@@ -1,0 +1,22 @@
+{
+  "id": "W07-O19",
+  "source_id": "W07-S4",
+  "target": "USWDS modal interruption use cases and less-disruptive page alternatives",
+  "observed_behavior": "The USWDS Modal guidance describes a modal as a deliberate interruption that disables interaction with the surrounding page while a focused task or message is addressed. It lists confirmation of consequential decisions, required acknowledgement before proceeding, and supplementary explanation within a current workflow as use cases. It urges considering a less disruptive component first; multistep or complicated flows are better placed on a dedicated page, field-level errors near affected fields, and page-level status messages as page content or alerts. Modals are framed as a last-resort choice, not the default container for content.",
+  "context": "W07 B4 K3 bounded first-party USWDS Modal reference; source sections: About the modal component; Guidance — When to use the modal component; When to consider something else. Explanatory DESIGN_SYSTEM / OFFICIAL_REFERENCE only; not cross-source or runtime evidence.",
+  "evidence_location": "https://designsystem.digital.gov/components/modal/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "domain": "MODALS",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "This is first-party USWDS usage guidance for its design-system modal, not a WCAG requirement, universal product rule or observed usability study.",
+    "Acknowledgement, confirmation and supplementary explanation are distinct stated contexts; not every dialog must force a decision.",
+    "Inline field feedback and dedicated pages are specifically documented countercontexts rather than grounds to prohibit all modals.",
+    "No user outcome, prototype interaction, browser or application behavior was measured."
+  ],
+  "observed_at": "2026-10-08T18:01:52Z",
+  "source_version_context": "USWDS official Modal component and accessibility-test documentation read 2026-10-09 02:01:52 Asia/Manila; site header advertises USWDS v3.13.0, component guidance latest listed update 2025-02-14, publisher checklist last-test edition v3.8.2; live HTML documents not pinned to immutable revision; first-party DESIGN_SYSTEM / OFFICIAL_REFERENCE, not normative requirement or independent test.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Direct official USWDS page and named section only; original bounded paraphrase. Source registry W07-S4 remains unchanged; no tests executed by Forge."
+}
