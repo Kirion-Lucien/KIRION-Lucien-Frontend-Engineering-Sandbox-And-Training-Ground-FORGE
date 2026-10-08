@@ -66,5 +66,7 @@
   "confidence": "MEDIUM",
   "recency_status": "VERSION_BOUND",
   "version_context": "WCAG 2.2 (2024), unpinned design docs, pinned PageLayout@7f5303d803986887187d86dcebaeda22a4dc6823",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T14:27:00+08:00"
 }
