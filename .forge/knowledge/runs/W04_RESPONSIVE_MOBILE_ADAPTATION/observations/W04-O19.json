@@ -1,0 +1,19 @@
+{
+  "id": "W04-O19",
+  "source_id": "W03-S4",
+  "target": "Breakpoint-bound geometry",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "Carbon overview describes a grid mini unit based on 8px, fixed margins within a breakpoint, and columns whose sizes adapt with available space.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview#mini-unit",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Carbon-specific grid geometry; exact runtime grid CSS and full page not inspected."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Carbon official indexed excerpts (updated 2026-09-25)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Indexed official Carbon excerpts; direct retrieval unavailable"
+}

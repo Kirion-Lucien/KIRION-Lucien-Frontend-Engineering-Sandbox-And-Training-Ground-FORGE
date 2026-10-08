@@ -1,0 +1,19 @@
+{
+  "id": "W04-O26",
+  "source_id": "W03-S5",
+  "target": "Primer focused-page priority",
+  "domain": "VISUAL_HIERARCHY",
+  "observed_behavior": "Primer Layout guidance emphasizes focused content and use of reading order to minimize friction, distinguishing desktop information richness from narrow-screen adaptation.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://primer.style/product/getting-started/foundations/layout/#strive-for-a-focused-experience",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not evidence that secondary content may always be hidden without retrieval mechanism."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Primer live Layout docs, unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

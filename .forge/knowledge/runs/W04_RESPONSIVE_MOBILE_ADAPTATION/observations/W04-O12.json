@@ -1,0 +1,19 @@
+{
+  "id": "W04-O12",
+  "source_id": "W03-S2",
+  "target": "Grouping and legible feedback",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "WAI Designing tips uses headings, whitespace and proximity to group related content; feedback requiring action should be identifiable and prominent.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Guidance does not establish exact section gap or quantify effects on task completion."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "WAI Designing tips, unversioned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W04-O30",
+  "source_id": "W03-S6",
+  "target": "PageLayout CSS narrow stacking and width logic",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "PageLayout.module.css contains viewport-dependent pane widths, region-order custom properties, media-dependent styles and narrow stacking rules.",
+  "context": "Exact immutable primer/react PageLayout and directly referenced responsive utilities, source inspection only",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/PageLayout/PageLayout.module.css",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "CSS rules were read, not rendered at actual viewport sizes; region order is visual rather than automatically source/focus order."
+  ],
+  "observed_at": "2026-10-08T06:47:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Tests and stories inspected but not run; repository not modified"
+}

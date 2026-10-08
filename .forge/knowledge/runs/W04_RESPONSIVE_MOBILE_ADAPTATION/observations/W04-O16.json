@@ -1,0 +1,19 @@
+{
+  "id": "W04-O16",
+  "source_id": "W03-S3",
+  "target": "Grid column examples",
+  "domain": "LAYOUT",
+  "observed_behavior": "GOV.UK documents width containers, grid rows and differently sized columns including a two-thirds main region and optional one-third content region.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#common-layouts",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Examples are not measured proof of particular device results or task performance."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "GOV.UK Layout current page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

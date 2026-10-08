@@ -1,0 +1,72 @@
+{
+  "id": "W04-P03",
+  "name": "Task-justified horizontal overflow",
+  "domain": "RESPONSIVE_DESIGN",
+  "additional_domains": [
+    "LAYOUT",
+    "INFORMATION_ARCHITECTURE",
+    "ACCESSIBILITY"
+  ],
+  "summary": "Retain controlled horizontal navigation only for specific content whose use/meaning genuinely requires spatial relationships; reflow ordinary content without loss.",
+  "problem": "Treating every horizontal scroll as a defect can damage dense tasks, while preserving desktop scroll for ordinary reading can impose unnecessary two-dimensional navigation.",
+  "context": "Narrow display of data comparison, structured tables or fixed grids contrasted with reading/service content.",
+  "observed_solution": "Determine whether content has intrinsic two-dimensional requirements; preserve justified spatial arrangement while applying lossless reflow to content that does not require it.",
+  "rationale": "WCAG SC 1.4.10 explicitly exempts content parts requiring 2D layout for usage/meaning (O05); Carbon documents fixed tiles with optional overflow (O20) and high-density models (O21); GOV.UK offers readable constrained columns and exceptions for wider content (O15).",
+  "tradeoffs": [
+    "Horizontal scrolling may separate labels/context and hinder comparison if poorly structured.",
+    "Two-dimensional necessity must be established per task, not inferred from a wide existing design."
+  ],
+  "applicability": [
+    "Genuinely 2D comparison or canvas-like regions that cannot be meaningfully reflowed without losing relationships."
+  ],
+  "non_applicability": [
+    "Standard explanatory text and single-step forms whose width merely reflects an unchanged desktop container."
+  ],
+  "accessibility_implications": [
+    "WCAG 1.4.10 exceptions are specific; keyboard and focus access still require evaluation."
+  ],
+  "performance_implications": [
+    "No size/render/scroll performance measurements in this run."
+  ],
+  "responsive_implications": [
+    "Select scrolling versus stacking by content/task constraints, not device identity."
+  ],
+  "implementation_notes": [
+    "No blanket approval of all overflow-x patterns.",
+    "Carbon tile design notes do not themselves prove WCAG exception eligibility."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W03-S3",
+    "W03-S4",
+    "W03-S5"
+  ],
+  "observation_ids": [
+    "W04-O05",
+    "W04-O15",
+    "W04-O20",
+    "W04-O21",
+    "W04-O22"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Ordinary service prose can be shown in a narrow one-column layout without preserving wide desktop scrolling.",
+      "context": "GOV.UK reading-focused service flow.",
+      "source_id": "W03-S3",
+      "observation_id": "W04-O13"
+    }
+  ],
+  "related_patterns": [
+    "W03-P02",
+    "W03-P03"
+  ],
+  "related_anti_patterns": [
+    "W04-A02"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WCAG 2.2 2024, GOV.UK/Carbon/Primer docs unpinned; Carbon excerpts only",
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T15:31:00+08:00"
+}

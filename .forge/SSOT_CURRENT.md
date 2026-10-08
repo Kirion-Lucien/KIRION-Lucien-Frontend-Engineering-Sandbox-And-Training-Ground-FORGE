@@ -6,97 +6,94 @@
 
 ## Program
 
-`W03 — VISUAL HIERARCHY & COMPOSITION INTELLIGENCE`
+`W04 — RESPONSIVE LAYOUT & MOBILE ADAPTATION INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / COMPOSITION KNOWLEDGE ACTIVE`
+`ACCEPTED / RESPONSIVE KNOWLEDGE ACTIVE`
 
-W00 Forge governance remains accepted and active.
+W00 through W03 remain accepted and active as governing prior authority.
 
-W01 knowledge-control authority remains accepted and active.
+W04 Maintainer acceptance is recorded in GitHub issue #9 and `.forge/ACCEPTANCE.md`.
 
-W02 controlled pilot and its selective K7 promotions remain accepted.
+## Canonical source before W04
 
-W03 Maintainer acceptance is recorded in GitHub issue #7 and `.forge/ACCEPTANCE.md`.
+`main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
 
-## Canonical source before W03
+## Exact reviewed W04 worker candidate
 
-`main@20a2bb44461a1066b44aa242c6bad18fac673025`
+`forge/w04-responsive-mobile-adaptation-intelligence@9aef7979d2c247f555e6b89d481270a4de19d4a1`
 
-## Exact reviewed W03 worker candidate
+## Accepted W04 corpus
 
-`forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
-
-## Accepted W03 corpus
-
-Seven logical source families:
+Six logical source families:
 
 1. W3C WCAG 2.2
-2. W3C WAI design/page-structure guidance
-3. GOV.UK Layout + Type Scale
-4. IBM Carbon 2x Grid
-5. GitHub Primer Layout / Typography / PageLayout guidance
-6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` PageLayout implementation
-7. Landbook landing-page gallery as inspiration-only evidence
+2. W3C WAI Mobile Accessibility / responsive guidance
+3. GOV.UK Layout / Type Scale
+4. IBM Carbon 2x Grid / responsive guidance
+5. GitHub Primer responsive foundations / PageLayout guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` responsive/PageLayout implementation
 
-Registry qualification remains distinct from claim acceptance.
+The source registry was reused without mutation.
 
-## Accepted W03 vocabulary
+## Accepted W04 vocabulary
 
-W03 establishes evidence-linked working terminology for visual hierarchy, information hierarchy, grouping, proximity, spacing rhythm, vertical rhythm, content width, line length, layout regions, content roles, surfaces/containers/cards/tiles/panes/sidebars, responsive composition, density, visual weight, scannability, semantic heading hierarchy, and whitespace.
+W04 establishes evidence-linked working terminology for responsive/adaptive/fluid layout, viewport/range/breakpoint distinctions, reflow, stacking, wrapping, collapse, disclosure, overflow, horizontal scrolling, intrinsically two-dimensional content, source/visual/focus order, content priority, responsive density, target size, orientation, pane relocation, and progressive reduction.
 
-These are working analytical definitions, not universal numeric/style standards.
+These are analytical terms, not universal breakpoint or device-class laws.
 
 ## Accepted bounded patterns
 
-### W03-P01 — Semantic and visual region alignment
+### W04-P01 — Recoverable responsive reduction
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Meaningful visible content roles should coherently align with meaningful headings/regions and programmatic relationships where applicable.
+Task-required content/actions remain reachable when constrained layouts reduce concurrent regions.
 
-Not every visible box or card is a landmark.
-
-### W03-P02 — Purpose-bounded reading width
+### W04-P02 — Meaningful source and focus order through responsive relocation
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Reading-focused content may use bounded line/content width, while data-heavy, comparison-oriented, and spatial workbenches may legitimately use wider/full-width composition.
+Meaning-bearing source/reading and keyboard-focus sequences must remain meaningful and operable where applicable when visual layout changes.
 
-No global 75-character, 80-character, 1020px, or similar numeric law is accepted.
-
-### W03-P03 — Content-first responsive composition
+### W04-P03 — Task-justified horizontal overflow
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Responsive composition should adapt regions, columns, and pane placement according to task/content priority and available space rather than preserving desktop geometry unchanged.
+Horizontal navigation may be appropriate for genuinely two-dimensional task content; ordinary linear content should reflow where possible.
 
-Legitimate two-dimensional and high-density interfaces remain counter-contexts.
+## Accepted bounded anti-patterns
 
-## Deferred W03 anti-pattern
+### W04-A01 — Unrecoverable task-critical control disappearance
 
-### W03-A01 — Undifferentiated content priority
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-`CANDIDATE / DEFERRED / LOW CONFIDENCE`
+Removing the only required action/navigation path for a task without equivalent access is an accepted responsive anti-pattern.
 
-The hypothesis is coherent and source-linked, but the claimed scannability harm remains inferential and was not independently measured.
+### W04-A02 — Unjustified horizontal overflow for ordinary content
 
-It is not accepted anti-pattern law.
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-## Prior W02 knowledge preserved
+Preserving desktop-width geometry for ordinary reflowable content, causing unnecessary two-dimensional navigation under applicable conditions, is an accepted anti-pattern.
+
+## Prior deferred knowledge preserved
 
 ```text
-W02-P01 — ACCEPTED / MEDIUM
-W02-A01 — ACCEPTED / MEDIUM
 W02-P02 — CANDIDATE / DEFERRED
+W03-A01 — CANDIDATE / DEFERRED
 ```
 
-## Anti-slop law
+## Responsive law
 
-`"AI-looking = bad"` is not an evidence model.
+No universal:
 
-No card-count, whitespace-volume, density, nested-container, hero-style, icon-volume, or dashboard-style threshold is accepted merely from aesthetic preference.
+- phone/tablet/desktop breakpoint table;
+- one-column mobile mandate;
+- ban on hiding/collapse/reordering;
+- ban on horizontal scrolling;
+- ban on high-density professional interfaces;
+- claim of WCAG conformance from source inspection.
 
 ## Application implementation authority
 
@@ -106,22 +103,22 @@ No frontend application Code Writer lane exists.
 
 ## Current work gate
 
-`W04 — NEXT KNOWLEDGE LANE`
+`W05 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-W04 is not defined or authorized.
+W05 is not yet defined or authorized.
 
 ## Active handoff
 
 NONE.
 
-The completed W03 handoff is historical evidence and is not executable authority.
+The completed W04 handoff is historical evidence and is not executable authority.
 
 ## Next gate
 
 Human / Maintainer selects the next bounded knowledge objective.
 
-No W04 acquisition or frontend implementation begins until an exact handoff is issued.
+No W05 acquisition or frontend implementation begins until an exact handoff is issued.

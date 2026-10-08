@@ -1,0 +1,19 @@
+{
+  "id": "W04-O15",
+  "source_id": "W03-S3",
+  "target": "Bounded reading measure with exceptions",
+  "domain": "LAYOUT",
+  "observed_behavior": "GOV.UK states default max page width of 1020px, permits wider content when needed and associates service reading columns with approximately 75 characters per line.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#screen-size",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "System-specific reading guidance; wider professional surfaces are legitimate countercontexts."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "GOV.UK Layout current page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

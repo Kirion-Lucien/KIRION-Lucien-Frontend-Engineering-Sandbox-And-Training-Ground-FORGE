@@ -1,0 +1,19 @@
+{
+  "id": "W04-O21",
+  "source_id": "W03-S4",
+  "target": "Task-fit high-density model",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "Carbon guidelines distinguish editorial, docs/product and full-width high-density models; large-screen dense interfaces may reveal more information using extra columns.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/guidelines#style-models",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "High density is a documented option, not evidence that a particular mobile reduction succeeded."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Carbon official indexed excerpts (updated 2026-09-25)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Indexed official Carbon excerpts; direct retrieval unavailable"
+}

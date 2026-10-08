@@ -1,0 +1,19 @@
+{
+  "id": "W04-O27",
+  "source_id": "W03-S6",
+  "target": "Responsive range constants",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "useResponsiveValue.ts defines named narrow/regular/wide viewport ranges with explicit CSS media queries; these are Primer implementation constants, not device names.",
+  "context": "Exact immutable primer/react PageLayout and directly referenced responsive utilities, source inspection only",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/hooks/useResponsiveValue.ts",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "This code snapshot may differ from live docs; no assertion of general breakpoint validity."
+  ],
+  "observed_at": "2026-10-08T06:47:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Tests and stories inspected but not run; repository not modified"
+}

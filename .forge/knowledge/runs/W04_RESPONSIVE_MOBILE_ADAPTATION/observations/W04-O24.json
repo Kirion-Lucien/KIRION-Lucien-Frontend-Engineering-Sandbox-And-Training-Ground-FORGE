@@ -1,0 +1,19 @@
+{
+  "id": "W04-O24",
+  "source_id": "W03-S5",
+  "target": "PageLayout named regions",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "Primer PageLayout documentation defines header, main, pane and footer regions to structure varied page experiences.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://primer.style/product/components/page-layout/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Documentation expectations are not evidence that every caller's semantic order matches appearance."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Primer PageLayout docs, unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

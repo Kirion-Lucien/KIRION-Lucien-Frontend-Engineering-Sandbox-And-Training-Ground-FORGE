@@ -1,0 +1,19 @@
+{
+  "id": "W04-O03",
+  "source_id": "W02-S1",
+  "target": "Orientation",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "SC 1.3.4 prohibits restricting view and operation to only portrait or landscape unless the orientation is essential.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#orientation",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Essential-orientation exception preserved; no mandated orientation-specific layout pattern."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "SC 1.3.4 Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

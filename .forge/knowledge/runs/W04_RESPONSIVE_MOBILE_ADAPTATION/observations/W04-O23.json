@@ -1,0 +1,19 @@
+{
+  "id": "W04-O23",
+  "source_id": "W03-S5",
+  "target": "Primer viewport ranges versus breakpoints",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "Primer distinguishes viewport ranges for major composition changes and breakpoints as fine-tuning units rather than device labels.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://primer.style/product/getting-started/foundations/layout/#breakpoints",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Numerical breakpoints are product-defined and may evolve; not universal phone/tablet/desktop laws."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Primer live Layout docs, unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

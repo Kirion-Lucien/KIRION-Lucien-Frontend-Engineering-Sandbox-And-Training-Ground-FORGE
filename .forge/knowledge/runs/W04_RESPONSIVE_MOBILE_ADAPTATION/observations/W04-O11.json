@@ -1,0 +1,19 @@
+{
+  "id": "W04-O11",
+  "source_id": "W03-S2",
+  "target": "Adapting header and navigation",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "WAI Designing tips says header/navigation placement can change by viewport size and zoom while text size/line width support readability.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/WAI/tips/designing/#create-designs-for-different-viewport-sizes",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Advisory examples only; not an extra normative WCAG criterion or a specific hidden-menu instruction."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "WAI Designing tips, unversioned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

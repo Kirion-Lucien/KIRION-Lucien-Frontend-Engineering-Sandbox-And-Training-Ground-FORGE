@@ -1,0 +1,19 @@
+{
+  "id": "W04-O17",
+  "source_id": "W03-S3",
+  "target": "Small-screen type scale revision",
+  "domain": "TYPOGRAPHY",
+  "observed_behavior": "GOV.UK Type Scale says Frontend v6.0.0 and later increased type sizes for small screens and documents size/line-height styles across contexts.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://design-system.service.gov.uk/styles/type-scale/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Typography values are system-defined and version-sensitive, not generic WCAG type requirements."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "GOV.UK Frontend v6.0.0+ described by page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

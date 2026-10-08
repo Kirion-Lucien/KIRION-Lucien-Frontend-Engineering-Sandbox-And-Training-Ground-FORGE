@@ -1,0 +1,19 @@
+{
+  "id": "W04-O18",
+  "source_id": "W03-S4",
+  "target": "Fixed/fluid/hybrid grid models",
+  "domain": "LAYOUT",
+  "observed_behavior": "Carbon 2x Grid overview describes fluid column layouts, fixed tiles that wrap, and hybrid boxes with fixed and fluid dimensions.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview#columns-and-rows",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Direct page opening failed; evidence limited to official indexed content, not fully examined page."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Carbon official indexed excerpts (updated 2026-09-25)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Indexed official Carbon excerpts; direct retrieval unavailable"
+}
