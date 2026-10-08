@@ -293,3 +293,79 @@ Reason: the candidate is coherent and source-linked, but its claimed scannabilit
 ### Governing result
 
 > **W03 gives Lucien an evidence-backed composition vocabulary and three accepted bounded composition patterns while keeping the first low-confidence anti-slop hypothesis unpromoted. Visual dislike is still not authority.**
+
+
+---
+
+## W04 — Responsive layout & mobile adaptation intelligence
+
+**Maintainer disposition:** `ACCEPT`
+
+**Recorded:** 2026-10-08
+
+**Acceptance issue:** GitHub #9
+
+**Exact reviewed source:** `main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
+
+**Exact reviewed worker candidate:** `forge/w04-responsive-mobile-adaptation-intelligence@9aef7979d2c247f555e6b89d481270a4de19d4a1`
+
+### Accepted run findings
+
+- branch ancestry: PASS
+- worker delta from governance head: 1 commit
+- worker changed-file scope: PASS
+- six-source-family limit: PASS
+- observations: 32 / all OBSERVED
+- source/observation/candidate linkage: PASS
+- pinned Primer implementation identity: PASS
+- prior W02/W03 knowledge: byte-identical before Maintainer K7
+- source registry: byte-identical
+- universal breakpoint law: NONE
+- framework/application implementation: NONE
+- worker K7 self-promotion: NONE
+
+### K7 promotion disposition
+
+**W04-P01 — Recoverable responsive reduction:** `ACCEPT / MEDIUM CONFIDENCE`
+
+When narrow composition cannot display every region concurrently, task-required content/actions should remain reachable through relocation, stacking, another view, or usable disclosure. Optional or inapplicable content may still be hidden.
+
+**W04-P02 — Meaningful source and focus order through responsive relocation:** `ACCEPT / MEDIUM CONFIDENCE`
+
+When responsive relocation changes a meaning-bearing or sequentially interactive flow, source/reading order and keyboard focus order must be evaluated separately and remain meaningful/operable where applicable. Visual order need not always equal DOM order.
+
+**W04-P03 — Task-justified horizontal overflow:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Controlled horizontal navigation may be appropriate for genuinely two-dimensional task content; ordinary linear/reflowable content should not preserve desktop-width overflow without task justification.
+
+**W04-A01 — Unrecoverable task-critical control disappearance:** `ACCEPT / MEDIUM CONFIDENCE`
+
+For a task that must remain available across the responsive state, removing the only required action/navigation route without equivalent access is an accepted anti-pattern. Inapplicable actions or equivalent accessible paths remain counter-contexts.
+
+**W04-A02 — Unjustified horizontal overflow for ordinary content:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Ordinary linear content that can reflow without losing required meaning should not preserve fixed desktop geometry that imposes unnecessary two-dimensional navigation under applicable reflow conditions. Intrinsically 2D content remains a counter-context.
+
+### Validation evidence
+
+- source inspection: SOURCE INSPECTED
+- branch ancestry: PASS
+- scope integrity: PASS
+- source-family limit: PASS
+- observation count/status: PASS
+- pinned implementation source: PASS
+- prior knowledge integrity: PASS
+- source registry integrity: PASS
+- application build: NOT RUN / NOT APPLICABLE
+- application typecheck: NOT RUN / NOT APPLICABLE
+- application tests: NOT RUN / NOT APPLICABLE
+- frontend runtime: NOT RUN / NOT APPLICABLE
+- browser responsive testing: NOT RUN
+- physical device testing: NOT RUN
+- screen-reader / assistive-technology testing: NOT RUN
+- user-task usability testing: NOT RUN
+- dedicated external JSON-Schema validator: NOT RUN
+
+### Governing result
+
+> **W04 gives Lucien bounded responsive/mobile adaptation knowledge without turning device labels, narrow viewports, horizontal scrolling, hiding, or density into context-free laws.**
