@@ -189,41 +189,35 @@ ACCEPTED / HIGH
 
 ## W07 — Dialogs, overlays & focus-management intelligence
 
-**State:** STAGE A CANDIDATE READY_FOR_REVIEW — Maintainer release required
+**Stage A K0–K2:** ACCEPTED / CHECKPOINT RELEASED for downstream B1 input.
 
-**Canonical source:** `main@61987e3de3ff85426e293dd15e596200ad272103`
+**Accepted Stage A checkpoint:** `0e4340649fb71aef1ef00e46caa8433342bf697a`
 
-**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
+**Stage A governance input:** `64a292f24938e94ecc48f0379ad92ac72a037389`
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_A_SOURCE_QUALIFICATION.md`
+**Canonical main:** `61987e3de3ff85426e293dd15e596200ad272103`
 
-**Authority:** `FORGE-0006` and human-approved W07 Stage A execution.
+**Work branch:** `forge/w07-dialogs-overlays-focus-intelligence`
 
-**Stage A source corpus — exactly six logical families:**
+**Maintainer decision:** GitHub issue #17. Source qualification accepted only, no K7 pattern promotion.
 
-1. W3C WCAG 2.2 (reuse `W02-S1` if unchanged)
-2. W3C WAI ARIA Authoring Practices Guide patterns (modal/non-modal dialog, tooltip/disclosure)
-3. WHATWG HTML Living Standard (dialog/popover/inert platform mechanisms)
-4. USWDS Modal guidance
-5. Primer product Dialog/Tooltip/Popover/Overlay guidance
-6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` pinned implementation
+**Stage A handoff:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`.
 
-**Authorized deliverables:** K0 request, K1 discovery, K2 qualification, source ID/reuse/append map, license/retrieval limits, unresolved questions and Stage A Git checkpoint.
+**Accepted source set:** six qualified logical source families; reused `W02-S1`, five additions `W07-S2`–`W07-S6`. Existing 20 source records preserved. APG nonmodal URL 404, APG tooltip WIP/non-consensus, unpinned living/docs sources and documentation license uncertainty retained.
 
-**Blocked until separate Maintainer release:** K3 observation batches, K4 comparison, K5 candidates, K6 final acquisition review, K7 acceptance/promotion.
+**Stage B1 K3:** AUTHORIZED — up to six directly sourced WCAG 2.2 observations `W07-O01`–`W07-O06`, `source_id=W02-S1`.
 
-**Expected Stage A exit:** `READY_FOR_STAGE_REVIEW`, `REWORK_REQUIRED`, `BLOCKED` or `SOURCE_DRIFT`; exact final SHA and changed-file scope returned. No automatic Stage B.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
 
-**Stage A K0–K2 submitted artifacts:**
+**B1 checkpoint:** expected `READY_FOR_REVIEW`, then independent Maintainer review before B2.
 
-- `.forge/knowledge/runs/W07_DIALOGS_OVERLAYS_FOCUS/` with 6 K0–K2/source/rights/unresolved Markdown files and `checkpoints/CHECKPOINT_LEDGER.md`;
-- six logical families, `W02-S1` reused and five scoped `W07-S2`–`W07-S6` qualified entries appended;
-- APG standalone `/patterns/dialog/` HTTP 404 and tooltip WIP/non-consensus status preserved;
-- exact Primer React pinned five-file source identities and MIT LICENSE verified; no tests executed;
-- zero W07 observations, zero comparisons, zero candidates, no K6/K7;
-- checkpoint disposition **READY_FOR_REVIEW**, not worker-released;
-- next stage B and all application implementation remain **BLOCKED** pending independent Maintainer release.
+**Stage B2 onward:** BLOCKED pending individual checkpoint release.
 
+**Stage C K4–K6:** BLOCKED pending final Stage B release.
+
+**K7:** MAINTAINER ONLY; no pattern accepted.
+
+**Application implementation:** BLOCKED.
 
 ## Application implementation authority
 
