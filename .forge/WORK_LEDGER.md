@@ -189,35 +189,29 @@ ACCEPTED / HIGH
 
 ## W07 — Dialogs, overlays & focus-management intelligence
 
-**Stage A K0–K2:** ACCEPTED / CHECKPOINT RELEASED for downstream B1 input.
+**Canonical baseline:** `main@61987e3de3ff85426e293dd15e596200ad272103`
 
-**Accepted Stage A checkpoint:** `0e4340649fb71aef1ef00e46caa8433342bf697a`
+**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
 
-**Stage A governance input:** `64a292f24938e94ecc48f0379ad92ac72a037389`
+**Stage A:** ACCEPTED / RELEASED, checkpoint `0e4340649fb71aef1ef00e46caa8433342bf697a` (issue #17).
 
-**Canonical main:** `61987e3de3ff85426e293dd15e596200ad272103`
+**Stage B1:** ACCEPTED / RELEASED, checkpoint `53084dd7c8f812732fc556873c3d7753c3aa1c3b` (issue #18).
 
-**Work branch:** `forge/w07-dialogs-overlays-focus-intelligence`
+**Stage A findings:** six logical source families qualified; reuse `W02-S1`, append `W07-S2`–`W07-S6`; preserve APG nonmodal 404, tooltip WIP, WHATWG mutable standard and product-doc license/version unknowns.
 
-**Maintainer decision:** GitHub issue #17. Source qualification accepted only, no K7 pattern promotion.
+**Stage B1 results:** six raw `OBSERVED` normative WCAG 2.2 records `W07-O01`–`W07-O06` from `W02-S1`, exact dated W3C Recommendation anchors and AA/AAA boundaries; no K4–K7 promotion.
 
-**Stage A handoff:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
 
-**Accepted source set:** six qualified logical source families; reused `W02-S1`, five additions `W07-S2`–`W07-S6`. Existing 20 source records preserved. APG nonmodal URL 404, APG tooltip WIP/non-consensus, unpinned living/docs sources and documentation license uncertainty retained.
+**Stage B2:** AUTHORIZED — bounded K3 WHATWG HTML platform semantics only, `W07-O07`–`W07-O12` if evidence supports, source ID `W07-S3`, metadata-only source and original paraphrased observations.
 
-**Stage B1 K3:** AUTHORIZED — up to six directly sourced WCAG 2.2 observations `W07-O01`–`W07-O06`, `source_id=W02-S1`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
+**Stage B3 onward:** BLOCKED until B2 independent Maintainer review/release.
 
-**B1 checkpoint:** expected `READY_FOR_REVIEW`, then independent Maintainer review before B2.
+**Stage C K4–K6:** BLOCKED; K7 Maintainer-only.
 
-**Stage B2 onward:** BLOCKED pending individual checkpoint release.
-
-**Stage C K4–K6:** BLOCKED pending final Stage B release.
-
-**K7:** MAINTAINER ONLY; no pattern accepted.
-
-**Application implementation:** BLOCKED.
+**Prior accepted knowledge:** unchanged; deferred W02-P02 and W03-A01 remain deferred.
 
 ## Application implementation authority
 
