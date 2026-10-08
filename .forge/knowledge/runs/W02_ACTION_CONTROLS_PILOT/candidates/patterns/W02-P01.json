@@ -57,5 +57,7 @@
   "confidence": "MEDIUM",
   "recency_status": "UNKNOWN",
   "version_context": "GOV.UK and Primer live design-system guidance retrieved 2026-10-08, unpinned versions",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T13:21:00+08:00"
 }
