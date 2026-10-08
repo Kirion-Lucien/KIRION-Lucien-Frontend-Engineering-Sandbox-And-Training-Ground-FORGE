@@ -1,0 +1,75 @@
+{
+  "id": "W06-P03",
+  "name": "Recoverable validation failure with preserved answers",
+  "domain": "FORM_DESIGN",
+  "additional_domains": [
+    "ERROR_HANDLING",
+    "VALIDATION"
+  ],
+  "summary": "When a submission fails, maintain appropriately safe entered answers and provide a path to amend identified errors without unnecessary reentry or dead-end progress.",
+  "problem": "Lost entered values or uncommunicated validation failure can force rework and block completion.",
+  "context": "Multi-field forms or services where users retry after input validation fails.",
+  "observed_solution": "Redisplay safely retainable previously entered data after failure, show errors that identify corrective steps, and allow continued task flow. Treat same-process repeated entry and consequential review as separate scoped concerns.",
+  "rationale": "GOV.UK validation recovery preserves answers and adds errors (O21/O22); WAI feedback techniques (O17); WCAG 3.3.7 same-process prefill/selection with exceptions (O10), 3.3.4 scoped prevention (O09), and 3.3.1 identification (O06). Do not conflate previously submitted retry values with all prior-process values. No backend persistence or privacy behavior tested.",
+  "tradeoffs": [
+    "Security/privacy may justify clearing sensitive secrets.",
+    "Stale data or irreversible scope may require reconfirmation.",
+    "Automatic restoration can conflict with user intent if previous data is invalid."
+  ],
+  "applicability": [
+    "Recoverable invalid input with non-sensitive answers still usable for correction.",
+    "Same-process repeated values where WCAG 3.3.7 applies and no exception is met."
+  ],
+  "non_applicability": [
+    "Essential security reentry, no-longer-valid information and deliberately ephemeral secrets.",
+    "Cases requiring user-confirmed destructive data action under 3.3.4 are not covered solely by draft preservation."
+  ],
+  "accessibility_implications": [
+    "Preserve label/error relationships and meaningful focus/announcement when retrying; not verified in live UI."
+  ],
+  "performance_implications": [
+    "No data-retention/bandwidth measurement."
+  ],
+  "responsive_implications": [
+    "Allow correction and Continue action on narrow screens without lost task-critical navigation."
+  ],
+  "implementation_notes": [
+    "No server architecture, storage duration or client validation framework selected.",
+    "Do not claim persistence or server-side verification executed.",
+    "Classify security exception before restoring sensitive values."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W06-S2",
+    "W06-S3",
+    "W06-S4"
+  ],
+  "observation_ids": [
+    "W06-O06",
+    "W06-O09",
+    "W06-O10",
+    "W06-O15",
+    "W06-O16",
+    "W06-O17",
+    "W06-O21",
+    "W06-O22",
+    "W06-O28"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Reentry can legitimately be essential for security or the previous value may no longer be valid.",
+      "context": "Same-process sensitive authentication or stale data.",
+      "source_id": "W02-S1",
+      "observation_id": "W06-O10"
+    }
+  ],
+  "related_patterns": [
+    "W02-P01",
+    "W04-P01"
+  ],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WCAG 2.2 2024; GOV/WAI/USWDS live guidance unpinned; no form persistence observed",
+  "status": "CANDIDATE"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W06-O12",
+  "source_id": "W06-S2",
+  "target": "Label association and accessible naming",
+  "observed_behavior": "WAI explains explicit matching label-for/input-id associations and visually hidden text/ARIA alternative naming in specific circumstances.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/forms/labels/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Tutorial examples are explanatory; accessible name is not always equivalent to visible label."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

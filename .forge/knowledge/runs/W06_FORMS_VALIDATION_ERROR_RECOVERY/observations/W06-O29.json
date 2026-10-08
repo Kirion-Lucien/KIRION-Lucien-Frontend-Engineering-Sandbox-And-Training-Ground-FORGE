@@ -1,0 +1,19 @@
+{
+  "id": "W06-O29",
+  "source_id": "W06-S4",
+  "target": "Validation deprecated and known issues",
+  "observed_behavior": "USWDS Validation change log states a deprecation note was added after v3.12.0; the page also reports issues with status-change noticeability for screen-reader/magnifier users.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://designsystem.digital.gov/components/validation/",
+  "domain": "ACCESSIBILITY",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Deprecation and known issues prevent treating component as current preferred model or tested accessible for user apps."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "USWDS docs v3.13.0 site banner; validation component deprecated after v3.12.0; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

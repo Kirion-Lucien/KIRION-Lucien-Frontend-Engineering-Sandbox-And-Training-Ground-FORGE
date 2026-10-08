@@ -1,0 +1,19 @@
+{
+  "id": "W06-O36",
+  "source_id": "W06-S5",
+  "target": "FormControl accessibility wiring expectation",
+  "observed_behavior": "Primer FormControl documentation explains it helps consistently wire label, caption and validation accessibility attributes.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://primer.style/product/components/form-control/",
+  "domain": "ACCESSIBILITY",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Docs expectations are not equivalent to executed AT validation."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

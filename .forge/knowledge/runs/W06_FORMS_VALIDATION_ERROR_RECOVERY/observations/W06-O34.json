@@ -1,0 +1,19 @@
+{
+  "id": "W06-O34",
+  "source_id": "W06-S5",
+  "target": "Checkbox independent choice behavior",
+  "observed_behavior": "Primer Checkbox docs cover independent boolean/choice selection, visual and programmatic states and group contexts.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://primer.style/product/components/checkbox/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not guarantee correct user-defined group label/fieldset."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

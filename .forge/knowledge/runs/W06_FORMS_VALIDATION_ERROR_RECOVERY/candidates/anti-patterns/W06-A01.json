@@ -1,0 +1,59 @@
+{
+  "id": "W06-A01",
+  "name": "Placeholder-only field identification",
+  "domain": "FORM_DESIGN",
+  "additional_domains": [
+    "ACCESSIBILITY",
+    "CONTENT_DESIGN"
+  ],
+  "summary": "The only explanation of a field's purpose is transient placeholder text rather than a persistent or otherwise reliably accessible field identification.",
+  "recurring_structure": "Unlabelled text field relies on disappearing placeholder for its control name/meaning across user entry and review.",
+  "harm_mechanism": "Once a value is entered, the cue can vanish; the control may lack an appropriately associated accessible name and fail to communicate purpose under applicable criteria.",
+  "context": "Form fields where no equivalent persistent visual label, programmatic name or clear contextual association exists.",
+  "applicability": [
+    "A text input's only identification is ephemeral placeholder text with no reliable equivalent."
+  ],
+  "legitimate_contexts": [
+    "A nonvisual but correctly programmatically named input with unambiguous surrounding visual context.",
+    "A placeholder solely supplementing an otherwise labeled field."
+  ],
+  "consequences": {
+    "usability": [
+      "Users may forget requested value meaning while editing; no user experiment in W06."
+    ],
+    "accessibility": [
+      "Missing label/instruction or programmatic naming may be a normative issue in scope; actual conformance not tested."
+    ],
+    "performance": [
+      "No performance harm measured."
+    ],
+    "maintainability": [
+      "Dependence on placeholder can obscure explicit field identification in code review, but maintainability impact not tested."
+    ]
+  },
+  "source_ids": [
+    "W02-S1",
+    "W06-S2",
+    "W06-S4"
+  ],
+  "observation_ids": [
+    "W06-O04",
+    "W06-O07",
+    "W06-O11",
+    "W06-O12",
+    "W06-O13",
+    "W06-O26"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A labelled field may additionally use placeholder for a brief illustrative example; the placeholder is not the only identity.",
+      "context": "Text input with separate persistent visible/accessible label.",
+      "source_id": "W06-S2",
+      "observation_id": "W06-O12"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WCAG 2.2 2024; WAI and USWDS current first-party documentation unpinned",
+  "status": "CANDIDATE"
+}

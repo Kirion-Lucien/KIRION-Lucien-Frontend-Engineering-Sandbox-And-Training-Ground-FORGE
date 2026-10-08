@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 through W05 remain accepted and active as governing prior authority.
 
@@ -88,6 +88,12 @@ W03-A01 — CANDIDATE / DEFERRED
 ## Promotion authority
 
 `MAINTAINER ONLY`
+
+## W06 submitted worker candidate
+
+K0–K6 run in `.forge/knowledge/runs/W06_FORMS_VALIDATION_ERROR_RECOVERY/`: 6 qualified source families (1 existing identity, 5 W06-specific additions); 46 working vocabulary definitions; 42 OBSERVED records; 14 challenged failure hypotheses; 3 pattern and 2 anti-pattern CANDIDATES; K6 review packet. USWDS Validation deprecation/known issues preserved.
+
+**W06 is NOT ACCEPTED.** W02–W05 knowledge remains unchanged. K7 is Maintainer-only. Application implementation and W07 remain BLOCKED.
 
 ## Next gate
 

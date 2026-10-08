@@ -1,0 +1,19 @@
+{
+  "id": "W06-O01",
+  "source_id": "W02-S1",
+  "target": "1.3.1 Info and Relationships (A)",
+  "observed_behavior": "The information, structure, and relationships conveyed through presentation must be programmatically determinable or available in text.",
+  "context": "WCAG 2.2 W3C Recommendation Dec 12 2024; exact criterion level and exceptions",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+  "domain": "SEMANTIC_HTML",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not mandate one form-grid layout or one field grouping component."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

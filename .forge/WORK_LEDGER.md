@@ -144,7 +144,7 @@ No frontend application Code Writer lane exists yet.
 
 ## W06 — Forms, validation & error-recovery intelligence
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:**
 
@@ -198,6 +198,18 @@ Develop Lucien's evidence-backed forms intelligence: labels, hints/instructions,
 - no candidate promotion;
 - no prior knowledge mutation;
 - no W07.
+
+**Worker K0–K6 candidate artifacts:**
+
+- Six logical source families, WCAG reused and five W06-specific qualified sources appended;
+- 46 evidence-linked working definitions;
+- 42 OBSERVED JSON records;
+- form-model, cross-source, error/recovery and 14-hypothesis failure analysis;
+- 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES;
+- USWDS validation component known problems and deprecation caveat preserved;
+- K6 Maintainer review packet;
+- prior W02–W05 accepted/deferred records unchanged;
+- no app/stack/validation library, no real browser/AT/user/server tests.
 
 **Completion gate:**
 

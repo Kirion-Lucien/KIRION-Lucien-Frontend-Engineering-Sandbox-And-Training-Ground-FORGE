@@ -1,0 +1,19 @@
+{
+  "id": "W06-O13",
+  "source_id": "W06-S2",
+  "target": "Input instructions and placeholder boundary",
+  "observed_behavior": "WAI describes visible instructions, required/optional/format hints and aria-describedby associations; placeholder content is not a dependable replacement for persistent identification.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/forms/instructions/",
+  "domain": "CONTENT_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Hints may be provided inside or outside label; no mandatory single visual pattern."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W06-O26",
+  "source_id": "W06-S4",
+  "target": "Text input identification",
+  "observed_behavior": "USWDS Text Input uses explicit labels and counsels against placeholders as lasting instructions; recommends input size match likely data length.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://designsystem.digital.gov/components/text-input/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No user-specific study here; USWDS examples tested by its authors are not tests of Lucien work."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "USWDS docs v3.13.0 site banner; validation component deprecated after v3.12.0; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

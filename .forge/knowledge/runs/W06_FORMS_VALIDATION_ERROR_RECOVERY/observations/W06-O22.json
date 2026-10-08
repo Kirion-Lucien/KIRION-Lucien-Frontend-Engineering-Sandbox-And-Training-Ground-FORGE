@@ -1,0 +1,19 @@
+{
+  "id": "W06-O22",
+  "source_id": "W06-S3",
+  "target": "Preserve answered values on failed submission",
+  "observed_behavior": "GOV.UK validation pattern says redisplay answers as entered and show field errors and an error summary when validation fails.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/patterns/validation/",
+  "domain": "ERROR_HANDLING",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No actual server persistence guarantees observed."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

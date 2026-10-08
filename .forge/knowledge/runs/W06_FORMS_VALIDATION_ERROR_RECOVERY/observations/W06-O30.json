@@ -1,0 +1,19 @@
+{
+  "id": "W06-O30",
+  "source_id": "W06-S4",
+  "target": "Radio group expectations",
+  "observed_behavior": "USWDS Radio Buttons documentation provides separate labels/fieldsets for exclusive choice questions, including disabled states.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://designsystem.digital.gov/components/radio-buttons/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "System guidance only; no live choice usability testing."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "USWDS docs v3.13.0 site banner; validation component deprecated after v3.12.0; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

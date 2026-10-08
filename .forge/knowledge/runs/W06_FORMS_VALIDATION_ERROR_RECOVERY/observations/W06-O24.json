@@ -1,0 +1,19 @@
+{
+  "id": "W06-O24",
+  "source_id": "W06-S3",
+  "target": "Radio and checkbox semantics",
+  "observed_behavior": "GOV.UK Radio/Checkbox components present labeled options and hint/conditional-content configurations for grouped answers.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/components/radios/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Contextual service choice design; no runtime interaction tested."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

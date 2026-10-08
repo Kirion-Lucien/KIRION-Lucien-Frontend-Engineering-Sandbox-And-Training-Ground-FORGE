@@ -1,0 +1,19 @@
+{
+  "id": "W06-O18",
+  "source_id": "W06-S3",
+  "target": "Visible input labels and hints",
+  "observed_behavior": "GOV.UK Text Input documents labels, optional/format hint examples and appropriate field width in government-service forms.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/components/text-input/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Public-service component guidance, not an all-product layout law."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

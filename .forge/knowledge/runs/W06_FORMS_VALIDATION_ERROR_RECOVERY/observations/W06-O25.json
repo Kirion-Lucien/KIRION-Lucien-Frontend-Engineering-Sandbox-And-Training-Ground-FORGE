@@ -1,0 +1,19 @@
+{
+  "id": "W06-O25",
+  "source_id": "W06-S4",
+  "target": "Form order, labels and groups",
+  "observed_behavior": "USWDS Form guidance says to align visual and markup order, place validation near inputs and use fieldset/legend for related questions.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://designsystem.digital.gov/components/form/",
+  "domain": "SEMANTIC_HTML",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "USWDS-specific guidance against CSS reorder; WCAG focus order is context-conditional and not a blanket exact-pixel DOM law."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "USWDS docs v3.13.0 site banner; validation component deprecated after v3.12.0; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

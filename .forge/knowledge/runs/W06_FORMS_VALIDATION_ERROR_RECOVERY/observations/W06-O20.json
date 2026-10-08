@@ -1,0 +1,19 @@
+{
+  "id": "W06-O20",
+  "source_id": "W06-S3",
+  "target": "Summary linked to inputs and focus",
+  "observed_behavior": "GOV.UK Error Summary requires a summary even with one error, consistent inline wording, links to affected answers, and focus moved to summary in its own service pattern.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/components/error-summary/",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "These are explicit GOV.UK system conventions, NOT normative WCAG or a universal error summary requirement."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

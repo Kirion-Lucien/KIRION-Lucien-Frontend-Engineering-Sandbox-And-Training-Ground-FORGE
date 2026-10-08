@@ -1,0 +1,80 @@
+{
+  "id": "W06-P02",
+  "name": "Actionable, source-linked error communication",
+  "domain": "ERROR_HANDLING",
+  "additional_domains": [
+    "VALIDATION",
+    "ACCESSIBILITY",
+    "FOCUS_MANAGEMENT"
+  ],
+  "summary": "When an error is detected, identify the affected field in text, explain the failure and known safe correction, and connect any summary and detail to the affected answer.",
+  "problem": "A visual invalid state or unlinked generic message can leave users unable to identify the failed field or correction route.",
+  "context": "Forms where inputs are automatically validated, especially longer forms with multiple possible errors.",
+  "observed_solution": "Render specific textual error near affected control/group, programmatically associate it where appropriate, and provide a navigable error overview when the workflow merits it; determine focus behavior from actual task context.",
+  "rationale": "WCAG 3.3.1 and 3.3.3 (O06/O08), WAI overall/inline notifications (O17), GOV.UK error wording and summary linking/focus convention (O19/O20), Primer label/validation IDs and aria-invalid source (O37/O39/O40). Summary-per-error and focus-to-summary belong to GOV service practice, not all WCAG-conformant forms. Direct behavior of AT untested.",
+  "tradeoffs": [
+    "An error summary may be redundant for a one-field form.",
+    "Automatically moving focus can disrupt some workflows.",
+    "Suggestions must not reveal information that undermines security/purpose."
+  ],
+  "applicability": [
+    "Detectable input errors with known safe correction guidance.",
+    "Multi-field workflows where users benefit from an error overview."
+  ],
+  "non_applicability": [
+    "Backend outage, eligibility denial or unrelated processing failure that is not a field error.",
+    "No automatic error detected; no universal requirement to manufacture an error state."
+  ],
+  "accessibility_implications": [
+    "WCAG text error identification and suggestion limits apply; verify actual programmatic associations and focus behavior with AT tests later."
+  ],
+  "performance_implications": [
+    "No measured impact."
+  ],
+  "responsive_implications": [
+    "Keep nearby error and summary-linked target discoverable when regions reflow; preserve routes per W04 accepted knowledge."
+  ],
+  "implementation_notes": [
+    "No global error-summary mandate and no one-size-fits-all focus destination.",
+    "Do not infer test PASS from pinned aria-invalid code.",
+    "GOV.UK's summary link wording consistency is a first-party component convention."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W06-S2",
+    "W06-S3",
+    "W06-S5",
+    "W06-S6"
+  ],
+  "observation_ids": [
+    "W06-O03",
+    "W06-O06",
+    "W06-O08",
+    "W06-O17",
+    "W06-O19",
+    "W06-O20",
+    "W06-O31",
+    "W06-O37",
+    "W06-O39",
+    "W06-O40"
+  ],
+  "counterexamples": [
+    {
+      "summary": "An isolated field with a clearly associated corrective message may not need a second whole-page error overview outside GOV.UK service-specific guidance.",
+      "context": "Single-field filter or small scoped form.",
+      "source_id": "W06-S2",
+      "observation_id": "W06-O17"
+    }
+  ],
+  "related_patterns": [
+    "W04-P01",
+    "W05-P01"
+  ],
+  "related_anti_patterns": [
+    "W06-A02"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 Recommendation 2024; live docs unpinned; pinned Primer source 7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}
