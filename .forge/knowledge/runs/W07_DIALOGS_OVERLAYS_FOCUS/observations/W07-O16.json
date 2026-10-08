@@ -1,0 +1,22 @@
+{
+  "id": "W07-O16",
+  "source_id": "W07-S2",
+  "target": "APG focus return exceptions and visible close-button recommendation",
+  "observed_behavior": "The APG modal pattern describes returning focus to the invoking element when a dialog closes, but specifies exceptions. If the opener no longer exists, focus goes to another logical workflow element. If the completed task leads naturally to a subsequent step and immediate re-invocation is unlikely, another destination can be more logical; its example moves focus into a newly added grid row after an add-rows dialog. Separately, APG strongly recommends including a visible button for closing a dialog in the tab sequence, such as a close icon or Cancel action.",
+  "context": "W07 B3 K3 read-only APG Keyboard Interaction — Notes 2 and 3; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Focus return is not absolute, and the documented task-continuation exception must not be erased.",
+    "Visible close-button guidance is strong APG recommendation, not itself proof of WCAG conformance or universal visual control placement.",
+    "The source describes modal dialog pattern interactions, not browser-native restoration algorithms or runtime test results.",
+    "No actual opener destruction, grid workflow, close event or focus restoration was tested."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: Keyboard Interaction — Notes 2 and 3. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}

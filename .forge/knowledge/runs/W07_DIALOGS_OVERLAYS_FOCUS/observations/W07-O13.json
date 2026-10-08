@@ -1,0 +1,23 @@
+{
+  "id": "W07-O13",
+  "source_id": "W07-S2",
+  "target": "APG modal dialog semantics, accessible naming and aria-modal truthfulness",
+  "observed_behavior": "The APG modal-dialog pattern documents a dialog container with role dialog, aria-modal=true, all controls required to operate the dialog inside that container, and an accessible name using aria-labelledby referring to a visible title or aria-label. It describes aria-describedby as optional and suited to simple description text; it advises omitting it for substantial semantically structured dialog content. The pattern cautions to mark a dialog modal only when application behavior prevents outside interaction for all users and visual styling obscures the content outside it, since an incorrect aria-modal claim can hide outside content from some assistive-technology users.",
+  "context": "W07 B3 K3 read-only APG WAI-ARIA Roles, States, and Properties; About This Pattern; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+  "domain": "MODALS",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "This is APG explanatory implementation guidance, not a normative WCAG success criterion, WHATWG platform rule, or proof of browser/AT support.",
+    "aria-modal=true alone is not evidence of functional modality; both effective outside-interaction prevention and visual obscuring are stated prerequisites in this guidance.",
+    "aria-describedby is optional, not a universal mandate; complex semantic content is a documented non-applicability case.",
+    "The unavailable standalone APG /patterns/dialog/ page must not be used to invent independent non-modal guidance.",
+    "Only the public APG page was inspected; no application source or runtime was tested."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: WAI-ARIA Roles, States, and Properties; About This Pattern. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}

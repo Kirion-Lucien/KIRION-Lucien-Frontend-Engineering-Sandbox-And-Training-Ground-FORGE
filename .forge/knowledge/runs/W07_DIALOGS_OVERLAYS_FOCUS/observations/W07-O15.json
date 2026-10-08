@@ -1,0 +1,22 @@
+{
+  "id": "W07-O15",
+  "source_id": "W07-S2",
+  "target": "APG initial focus changes with dialog content, scrolling and consequence",
+  "observed_behavior": "The APG modal pattern describes first-focusable placement as common rather than absolute. When a dialog begins with meaningful lists, tables or multiple paragraphs, it advises focusing an initially non-tabbable static element with tabindex=-1 so users can navigate the structures, and omitting a combined aria-describedby announcement in that situation. When the first interactive element would scroll the start of lengthy content out of view, it advises initially focusing a static top element. For a hard-to-reverse final step such as deleting data or completing a financial transaction, it advises considering the least destructive action. For simple informational/continue dialogs, it advises considering the most frequently used action.",
+  "context": "W07 B3 K3 read-only APG Keyboard Interaction — Note 1; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Alternative focus locations are explicitly conditional on semantic content, scrolling, reversibility and likely task usage; no universal first-input, first-button or destructive-action focus rule follows.",
+    "The discussion is explanatory recommendation for APG's modal pattern, not normative browser focus algorithm evidence.",
+    "Static initial focus with tabindex=-1 is not equivalent to declaring that every dialog control has a nonnegative tabindex.",
+    "No assistive-technology reading, scroll behavior or destructive workflow was executed."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: Keyboard Interaction — Note 1. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}

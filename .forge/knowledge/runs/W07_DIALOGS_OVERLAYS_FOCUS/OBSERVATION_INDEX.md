@@ -61,3 +61,35 @@
 - [modal dialogs and inert subtrees](https://html.spec.whatwg.org/multipage/interaction.html#modal-dialogs-and-inert-subtrees)
 
 **Scope limits:** Native platform normative algorithms do not require every product to use dialog/popover, specify a universal app dismissal policy, or demonstrate actual browser/keyboard/AT behavior. B1 WCAG is a separate earlier K3 source, and no cross-family K4 comparison is performed. B3 onward awaits independent Maintainer approval of this exact checkpoint SHA.
+
+
+---
+
+# W07 — STAGE B3 WAI APG OBSERVATIONS (APPENDED, PREVIOUS INDEX PRESERVED)
+
+**B3 checkpoint status:** `READY_FOR_REVIEW`, not Maintainer `RELEASED`. This is one K3 source family only: `W07-S2` W3C WAI-ARIA Authoring Practices Guide, `ACCESSIBILITY_REFERENCE / OFFICIAL_REFERENCE`. Six records `W07-O13`–`W07-O18`, all `DOCUMENTATION_STATEMENT` and `OBSERVED`, NOT normative WCAG/WHATWG, code, runtime or accepted Forge patterns.
+
+**Source retrieval:** 2026-10-08T17:42:56Z UTC (2026-10-09 01:42:56 Asia/Manila); official APG live web pages, no immutable version SHA or publication date established. Registry status `PUBLIC_REFERENCE_ONLY`, `METADATA_ONLY`: source URLs and bounded original paraphrases only, no full APG page contents or screenshots.
+
+| Observation | B3 scope | Domain | APG source and precise page section | Confidence |
+|---|---|---|---|---|
+| `W07-O13` | APG modal dialog semantics, accessible naming and aria-modal truthfulness | `MODALS` | [Modal Dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) — WAI-ARIA Roles, States, and Properties; About This Pattern | `MEDIUM` |
+| `W07-O14` | APG modal dialog keyboard focus containment and Escape | `FOCUS_MANAGEMENT` | [Modal Dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) — Keyboard Interaction | `MEDIUM` |
+| `W07-O15` | APG initial focus changes with dialog content, scrolling and consequence | `FOCUS_MANAGEMENT` | [Modal Dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) — Keyboard Interaction — Note 1 | `MEDIUM` |
+| `W07-O16` | APG focus return exceptions and visible close-button recommendation | `FOCUS_MANAGEMENT` | [Modal Dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) — Keyboard Interaction — Notes 2 and 3 | `MEDIUM` |
+| `W07-O17` | APG tooltip work-in-progress behavior and limited authority | `OVERLAYS` | [Tooltip WIP](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/) — About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties | `LOW` |
+| `W07-O18` | APG disclosure button state and keyboard interactions | `INTERACTION` | [Disclosure](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) — About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties | `MEDIUM` |
+
+## Non-normative and maturity boundaries
+
+- Modal page: `role=dialog`, accessible name, `aria-modal=true` only when *actual* outside interaction is prevented and background visibly obscured; `aria-describedby` conditional/optional for simple descriptions, not long structured content.
+- Modal keyboard pattern: focus enters dialog; `Tab`/`Shift+Tab` wrap; `Escape` closes in the **APG pattern**, not an asserted universal specification requirement for all overlays.
+- Initial focus: sometimes a static `tabindex=-1` element to preserve semantic reading/scroll context; least destructive action for irreversible steps; typical action for simple continue dialogs.
+- Focus return: invoke element normally, except destroyed opener or logical workflow continuation. Visible close `button` strongly recommended.
+- **Tooltip is explicitly WIP/no task-force consensus**. `W07-O17` has `LOW` confidence; no completed APG tooltip example; trigger retains focus, related description via `aria-describedby`, non-interactive tooltip scope.
+- Disclosure: button toggles with Enter/Space; `aria-expanded` state reflects visibility; `aria-controls` is **optional**.
+- The standalone `https://www.w3.org/WAI/ARIA/apg/patterns/dialog/` returned HTTP 404 at this recheck and is not a separate evidence source.
+
+## Batch control
+
+All prior `W07-O01`–`W07-O12` index contents above preserved as historical source-bounded B1/B2 evidence; issue #18 released B1 and issue #19 released B2. No K4 comparison, K5 candidates, K6 packet, K7 promotion, B4, frontend app, browser/keyboard/AT test or automatic release. Next safe activity: independent Maintainer review of exact B3 commit SHA.

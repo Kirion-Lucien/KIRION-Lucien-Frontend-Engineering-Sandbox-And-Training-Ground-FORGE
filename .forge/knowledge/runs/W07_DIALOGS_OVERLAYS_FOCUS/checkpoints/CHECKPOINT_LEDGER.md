@@ -154,3 +154,52 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - Native `dialog`/popover/inert platform rules must not be misread as universal application design law or WCAG compliance.
 - Dialog `closedby` auto/none/any, `requestClose` cancelability, light-dismiss pointer conditions, focus restoration conditions, auto/manual/hint popover rules, and modal inertness exceptions remain context-sensitive within their source algorithms.
 - Next safe action: **independent Maintainer review** of B2 exact output SHA and its six source-grounded observations. Do not start B3 or C; no self-release.
+
+
+---
+
+# W07 STAGE B3 — WAI APG K3 OBSERVATION CHECKPOINT (APPENDED)
+
+## Identity / authority
+- Run: `W07_DIALOGS_OVERLAYS_FOCUS`; Stage B; batch **B3**; **K3 ONLY**.
+- Role: `KIRION FORGE: FRONTEND KNOWLEDGE OBSERVATION WORKER — STAGE B3`.
+- Disposition: **`READY_FOR_REVIEW`**, NOT RELEASED; independent Maintainer release is outstanding.
+- Canonical main: `main@61987e3de3ff85426e293dd15e596200ad272103` (verified exact before mutation).
+- Authorized branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+- Governance mutating input SHA: `3bc8159da9b83d0d560322256fc6faa8c8c92d82` (exact live branch verified).
+- Released Stage A: `0e4340649fb71aef1ef00e46caa8433342bf697a`, issue #17.
+- Released Stage B1: `53084dd7c8f812732fc556873c3d7753c3aa1c3b`, issue #18.
+- Released Stage B2: `791910cb0f623de36edfb301afbe6e7586ced214`, issue #19 Maintainer ACCEPT comment `6064513399`.
+- Exact B3 governance release: issue #19 Maintainer comment `6064560026`; tracking issue #20 OPEN.
+- Binding authority: `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`, `.forge/handoffs/active/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
+- **B3 final output SHA:** RESOLVE LIVE GIT AND REPORT AFTER COMMIT; cannot honestly be self-referential inside this checkpoint commit.
+- **B3 independent Maintainer release reference:** NONE. **B4 onward and Stage C BLOCKED**; K7 Maintainer-only.
+
+## B3 source / actual work
+- One source only: `W07-S2` W3C WAI-ARIA APG official qualified `ACCESSIBILITY_REFERENCE / OFFICIAL_REFERENCE`, `PUBLIC_REFERENCE_ONLY / METADATA_ONLY`.
+- Official pages directly inspected: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/ (modal semantics, keyboard, initial focus, focus return); https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/ (**WIP, no task-force consensus**); https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/ (button/state/keyboard).
+- Standalone https://www.w3.org/WAI/ARIA/apg/patterns/dialog/ **HTTP 404**, neither qualified nor used as evidence.
+- Retrieval `2026-10-08T17:42:56Z`; APG live content no immutable revision/version established; work contains original short bounded paraphrases with direct links, no bulk copied web text.
+- Created exactly six files: `observations/W07-O13.json` through `observations/W07-O18.json`, each `source_id=W07-S2`, `evidence_kind=DOCUMENTATION_STATEMENT`, `status=OBSERVED`.
+- Modified exactly two files: `OBSERVATION_INDEX.md` (append B3 after intact B1+B2 prefix) and `checkpoints/CHECKPOINT_LEDGER.md` (append B3 after intact A+B1+B2 prefix).
+- Anticipated worker diff: **eight authorized paths**. Zero patterns, anti-patterns, later stage observation records, source registry or governance changes.
+
+## Validation declaration at authorship
+| Check | Status | Evidence / stage limitation |
+|---|---|---|
+| Live main, exact branch HEAD, B2 ancestry and issued B3 gate | **PASS** | Live Git compares before writing: main identical, branch identical B3 input; B3 governance input is 5 commits ahead / 0 behind accepted B2; issues #19 and #20 agree |
+| Qualified source identity | **PASS** | Source registry contains W07-S2, APG qualified with partial gaps, non-normative OFFICIAL_REFERENCE, tooltip WIP recorded |
+| APG direct source content and missing non-modal page | **SOURCE INSPECTED** | Three W3C APG URLs reachable, standalone /patterns/dialog/ HTTP 404; modal notes and tooltip non-consensus explicitly checked |
+| New records custom structural subset at staging | **PASS** | Six generated JSON objects satisfy required/allowed fields, type/enum/date and limitations-array checks; full engine not executed |
+| Final output JSON parse and complete structural checks | **UNKNOWN** | Must re-read committed exact SHA and validate after branch update; no precommit PASS as postcommit evidence |
+| B3 diff scope and prior blob identity | **UNKNOWN** | Must reverify exact committed tree versus governance input; no precommit assertion as postcommit result |
+| Index/checkpoint history prefix | **UNKNOWN** | Compare committed content to governance input after commit |
+| Dedicated Draft 2020-12 JSON Schema engine | **NOT RUN** | Structural subset is not a full independent schema validation engine |
+| Browser, physical keyboard, AT, responsive, usability, app build/tests | **NOT RUN** | APG pages describe guidance, not executed test outcomes |
+
+## Open issues / safe continuation
+- Tooltip source admits WIP/no consensus; low-confidence record retained as provisional documentation, not reusable Forge law.
+- Standalone non-modal dialog URL inaccessible; does not authorize substitute source, invented non-modal claims, or APG consensus upgrade.
+- Live page revision unspecified and thus version drift possible; B3 use remains retrieval-dated.
+- No empirical confirmation of how modal focus wrapping, disclosure activation, tooltips or closing behaves in applications.
+- **Next safe task: Maintainer independently verifies the exact Git B3 checkpoint for accept/rework and separately issues any later batch authorization.** Worker must STOP after reporting. No B4, no K4–K6/K7, no frontend code, no main merge.

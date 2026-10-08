@@ -1,0 +1,22 @@
+{
+  "id": "W07-O18",
+  "source_id": "W07-S2",
+  "target": "APG disclosure button state and keyboard interactions",
+  "observed_behavior": "The APG Disclosure (Show/Hide) pattern describes a button controlling a content section whose visibility toggles between collapsed and expanded. With focus on the disclosure button, Enter and Space activate it and toggle controlled content. It specifies button semantics and aria-expanded=true when the content is visible and false when hidden. It describes aria-controls referencing the controlled content as optional, not required; a directional arrow/triangle may be used as a visual indication.",
+  "context": "W07 B3 K3 read-only APG About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+  "domain": "INTERACTION",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "This is APG guidance for disclosure interactions, not a claim that every show/hide design requires aria-controls or a particular arrow icon.",
+    "aria-controls is explicitly optional in this pattern; aria-expanded must match the disclosure state in the documented interaction model.",
+    "No modal dialog, focus trap or automatically moving focus into revealed content is prescribed by this disclosure page.",
+    "No code, browser keyboard operation, screen reader announcement or usability measurement was executed."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}

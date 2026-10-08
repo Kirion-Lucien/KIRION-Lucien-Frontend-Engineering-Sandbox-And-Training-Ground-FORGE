@@ -1,0 +1,23 @@
+{
+  "id": "W07-O17",
+  "source_id": "W07-S2",
+  "target": "APG tooltip work-in-progress behavior and limited authority",
+  "observed_behavior": "The official APG tooltip page expressly labels its pattern work in progress without task-force consensus and indicates its example is still being developed. Its provisional guidance describes a related-information popup triggered by keyboard focus or pointer hover, with focus remaining on the trigger rather than entering the tooltip. It describes Escape dismissal, remaining visible while the cursor is over either the trigger or tooltip, a role=tooltip container, and trigger aria-describedby referencing it. The page states that a hover containing focusable elements can instead use a non-modal dialog.",
+  "context": "W07 B3 K3 read-only APG About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/",
+  "domain": "OVERLAYS",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "LOW",
+  "limitations": [
+    "EXPLICIT WIP / NO TASK-FORCE CONSENSUS: these are not final APG consensus practices and may change.",
+    "LOW confidence refers to the maturity/general applicability of the proposed tooltip pattern, not uncertainty that the current official page contains these statements.",
+    "The unavailable /patterns/dialog/ standalone URL supplies no separately qualified instructions for constructing the suggested non-modal dialog.",
+    "A tooltip is not documented here as containing independently focusable controls; no universal Escape or aria-describedby law for all popovers can be inferred.",
+    "The page includes no completed example to independently inspect, and no keyboard, pointer, browser, AT or usability tests were run."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: About This Pattern; Keyboard Interaction; WAI-ARIA Roles, States, and Properties. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "W07-O14",
+  "source_id": "W07-S2",
+  "target": "APG modal dialog keyboard focus containment and Escape",
+  "observed_behavior": "For its modal-dialog pattern, APG states that focus moves inside when the dialog opens. Tab advances between tabbable elements in the dialog and wraps from the last to the first; Shift+Tab goes backward and wraps from first to last. Escape closes the dialog in this documented interaction pattern. The page notes that tabindex values above zero are strongly discouraged and that modal dialogs, unlike most non-modal dialogs, do not provide keyboard navigation outside without closing the dialog.",
+  "context": "W07 B3 K3 read-only APG Keyboard Interaction; first-party non-normative explanatory guidance, bounded to qualified APG pattern and exceptions.",
+  "evidence_location": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "These are APG modal-pattern keyboard interaction prescriptions, not a browser test or proof that a particular app implements them.",
+    "Escape closure is guidance for this modal dialog pattern, not a universal requirement derived from all WCAG criteria or all HTML overlays.",
+    "Tabbable elements are described by APG as elements with tabindex 0 or greater; focus placement on a static tabindex=-1 node is a separate initial-focus consideration.",
+    "Standalone /patterns/dialog/ remains 404; non-modal comparison is limited to statements appearing on the qualified modal page."
+  ],
+  "observed_at": "2026-10-08T17:42:56Z",
+  "source_version_context": "W3C WAI-ARIA Authoring Practices Guide (APG), live official pages retrieved 2026-10-09 01:42:56 Asia/Manila; no immutable page revision, publication date, tag or commit established. Explanatory OFFICIAL_REFERENCE only; tooltip page explicitly WIP/no task force consensus.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Exact APG page section: Keyboard Interaction. Source attribution only; no cross-source synthesis, pattern promotion, or runtime evidence."
+}
