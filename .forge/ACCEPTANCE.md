@@ -538,3 +538,50 @@ Where an input error is automatically detected, color/styling alone without text
 ### Governing result
 
 > **W06 gives Lucien accepted bounded form-design and error-recovery knowledge while keeping validation timing, error-summary usage, focus behavior, disabled-state policy, backend validation, and data-retention architecture contextual rather than universal.**
+
+
+---
+
+## G01 — Knowledge workload isolation governance
+
+**Maintainer disposition:** `ACCEPT`
+
+**Recorded:** 2026-10-08
+
+**Acceptance issue:** GitHub #15
+
+**Exact reviewed source:** `main@68330d52b88c0e4a0d14efa48fe9db26d64f82c1`
+
+**Exact reviewed governance candidate:** `forge/g01-knowledge-workload-isolation@87fe00419cdc8fac4cc9eaffdfbea2e53e5cceb6`
+
+**Accepted decision:** `FORGE-0006`
+
+### Scope and findings
+
+- Eight sequential bounded governance commits at the independently reviewed candidate.
+- Seven in-scope governance files; no source registry or historical knowledge records changed.
+- K0–K7 retained, with dedicated A (K0–K2), B (K3 batches), C (K4–K6) stage control.
+- Stage A→B and B→C require recorded Maintainer release; K7 remains Maintainer-only.
+- Default observation batch 5–8 is a heuristic and not a quota.
+- Exact Git checkpoints, evidence-status discipline, schema-vs-parse distinction, source/version/licensing provenance, fresh-session recovery and explicit stop conditions accepted.
+- Smaller lanes may share one session only when explicitly justified by handoff; all stage gates still apply.
+- Obsolete W06 ledger gates reconciled to the actual accepted W06 result.
+
+### Validation
+
+- source inspection: SOURCE INSPECTED
+- branch ancestry: PASS
+- changed-file scope: PASS
+- governance cross-reference/invariants: PASS (structural inspection)
+- W07 status `INPUT REQUIRED / REVIEW`: PRESERVED
+- frontend implementation `BLOCKED`: PRESERVED
+- application build: NOT RUN / NOT APPLICABLE
+- typecheck: NOT RUN / NOT APPLICABLE
+- runtime/browser/AT: NOT RUN / NOT APPLICABLE
+- full test suite: NOT RUN / NOT APPLICABLE
+
+### Acceptance boundary
+
+No W07 run is created by this governance acceptance. No application stack, package, implementation, vector database, CI, framework, pattern promotion, or self-release authority was selected or authorized.
+
+**Governing result:** Lucien's future substantial knowledge-acquisition lanes use checkpointed bounded work, not conversational memory, as their continuation substrate.
