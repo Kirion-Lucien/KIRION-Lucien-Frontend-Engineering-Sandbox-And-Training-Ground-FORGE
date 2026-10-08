@@ -369,3 +369,86 @@ Ordinary linear content that can reflow without losing required meaning should n
 ### Governing result
 
 > **W04 gives Lucien bounded responsive/mobile adaptation knowledge without turning device labels, narrow viewports, horizontal scrolling, hiding, or density into context-free laws.**
+
+
+---
+
+## W05 — Navigation & information architecture intelligence
+
+**Maintainer disposition:** `ACCEPT`
+
+**Recorded:** 2026-10-08
+
+**Acceptance issue:** GitHub #11
+
+**Exact reviewed source:** `main@5746b9412aa10333e7bc86ea54897f8be6b63267`
+
+**Exact reviewed worker candidate:** `forge/w05-navigation-information-architecture-intelligence@cebe0abd78e8806deef8af7f3f94ed0a17c44416`
+
+### Accepted run findings
+
+- branch ancestry: PASS
+- worker delta from governance head: 1 commit
+- worker scope: PASS
+- six-source-family limit: PASS
+- observations: 40 / all OBSERVED
+- source/observation/candidate linkage: PASS
+- pinned Primer implementation identity: PASS
+- all 12 prior W02–W04 knowledge records: byte-identical before K7
+- all 10 pre-existing registry entries: unchanged
+- registry append: exactly W05-S2 through W05-S6
+- universal sitemap/depth law: NONE
+- router/framework selection: NONE
+- application implementation: NONE
+- worker K7 self-promotion: NONE
+
+### K7 promotion disposition
+
+**W05-P01 — Current-location multi-cue orientation:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Where repeated/nested navigation makes current location meaningful, coherent context cues should be provided as appropriate: descriptive page title/heading, current navigation indication, and programmatic current state where applicable. This is not a breadcrumb mandate and WCAG 2.4.8 remains AAA.
+
+**W05-P02 — Relationship-matched navigation mechanisms:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Choose navigation mechanisms according to the relationship being represented — global scope, local section, hierarchy/ancestry, related peer destination, or sequential task flow — rather than visual preference alone. No universal sitemap or depth limit is accepted.
+
+**W05-P03 — URL-backed related-view navigation with semantic separation:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Independently addressable non-sequential peer views may use link/navigation semantics with current-state indication; in-place tab panels and sequential workflow stages remain distinct interaction models. No router, library, or universal URL mandate is accepted.
+
+**W05-A01 — Breadcrumb relationship confusion:** `ACCEPT / MEDIUM CONFIDENCE`
+
+A control presented as hierarchical breadcrumbs should not encode visit history or sequential task stages as though they were ancestors. Explicit history lists and clearly identified progress/stepper components remain valid counter-contexts.
+
+**W05-A02 — Ordinary site navigation miscast as application menubar:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Ordinary destination navigation should not receive desktop-application `menubar/menu/menuitem` semantics solely for visual resemblance without the corresponding keyboard/interaction model. Genuine application command menus remain a valid counter-context.
+
+### Validation evidence
+
+- source inspection: SOURCE INSPECTED
+- branch ancestry: PASS
+- worker delta: PASS — 1 commit
+- scope integrity: PASS
+- source-family limit: PASS
+- registry append integrity: PASS
+- observation count/status: PASS
+- candidate linkage: PASS
+- pinned implementation source: PASS
+- prior knowledge integrity: PASS
+- existing registry-entry integrity: PASS
+- external source spot-check: PASS
+- application build: NOT RUN / NOT APPLICABLE
+- application typecheck: NOT RUN / NOT APPLICABLE
+- application tests: NOT RUN / NOT APPLICABLE
+- frontend runtime: NOT RUN / NOT APPLICABLE
+- browser navigation testing: NOT RUN
+- keyboard navigation testing: NOT RUN
+- screen-reader / assistive-technology testing: NOT RUN
+- user IA / tree testing: NOT RUN
+- usability testing: NOT RUN
+- dedicated external JSON-Schema validator: NOT RUN
+
+### Governing result
+
+> **W05 gives Lucien accepted navigation/IA reasoning that distinguishes location, hierarchy, peer views, sequential flow, ordinary navigation, and application command menus without turning any one component family into universal navigation law.**
