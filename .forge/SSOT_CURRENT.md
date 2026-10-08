@@ -98,29 +98,34 @@ No frontend application Code Writer lane exists.
 
 ## Current work gate
 
-`W07 — NEXT KNOWLEDGE LANE`
+`W07 — DIALOGS, OVERLAYS & FOCUS-MANAGEMENT INTELLIGENCE`
 
-State:
+**Exact accepted baseline:** `main@61987e3de3ff85426e293dd15e596200ad272103`
 
-`INPUT REQUIRED / REVIEW`
+**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
 
-W07 is not yet defined or authorized.
+**Stage A (K0–K2):** `AUTHORIZED — SOURCE DISCOVERY & QUALIFICATION ONLY`
 
-## Active handoff
+**Stage B (K3 observation batches):** `BLOCKED — MAINTAINER STAGE A CHECKPOINT RELEASE REQUIRED`
 
-NONE.
+**Stage C (K4–K6 comparison/synthesis):** `BLOCKED — MAINTAINER STAGE B RELEASE REQUIRED`
 
-The completed W06 handoff is historical evidence and is not executable authority.
+**K7 knowledge acceptance/promotion:** `MAINTAINER ONLY`
 
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_A_SOURCE_QUALIFICATION.md`
 
-## Knowledge acquisition execution policy
+**Binding workload protocol:** `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md` (`FORGE-0006`).
 
-`FORGE-0006 — KNOWLEDGE WORKLOAD ISOLATION`
+The Stage A worker may qualify only the six pre-approved source families and write the explicitly bounded Stage A artifacts/checkpoint. The full W07 run, its observation batches, candidate synthesis, and further stage releases are not authorized by this gate.
 
-Beginning with W07, substantive acquisition defaults to separate, bounded qualification, extraction, and synthesis stages with Git-backed checkpoints and Maintainer stage release.
+A worker must verify the exact governance head from the W07 issue and live Git before mutation. Completion does not self-release Stage B.
 
-Binding protocol: `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+## Prior accepted knowledge
 
-Worker stages remain K0–K6 only; K7 acceptance/promotion remains Maintainer-only. The protocol does not change already accepted knowledge, choose a frontend stack, or authorize W07.
+W00–W06 remain accepted; W02-P02 and W03-A01 remain CANDIDATE / DEFERRED. No prior knowledge record may be changed by W07 Stage A.
 
-The current W07 gate remains `INPUT REQUIRED / REVIEW`; no active handoff exists. Frontend implementation remains `BLOCKED`.
+## Application implementation authority
+
+`BLOCKED`
+
+No frontend application Code Writer lane exists; no framework, router, component library, dependencies, frontend runtime, or application tests are authorized.
