@@ -171,15 +171,6 @@ W06-A02 — Detected field error signaled only by color
 ACCEPTED / HIGH
 ```
 
-## W07 — Next knowledge lane
-
-**State:** INPUT REQUIRED / REVIEW
-
-W07 is undefined.
-
-No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
-
-
 ## G01 — Knowledge workload isolation governance
 
 **State:** ACCEPTED POLICY / effective upon promotion to canonical `main`.
