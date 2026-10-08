@@ -117,3 +117,70 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
+
+
+## W05 — Navigation & information architecture intelligence
+
+**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+
+**Source:**
+
+`main@5746b9412aa10333e7bc86ea54897f8be6b63267`
+
+**Branch:**
+
+`forge/w05-navigation-information-architecture-intelligence`
+
+**Active handoff:**
+
+`.forge/handoffs/active/W05_NAVIGATION_INFORMATION_ARCHITECTURE_INTELLIGENCE.md`
+
+**Human objective:**
+
+Develop Lucien's evidence-backed navigation and information-architecture intelligence: global/local/contextual navigation, location/orientation, hierarchy, breadcrumbs, side navigation, URL-backed tabs, site-vs-application menu semantics, labeling, multiple ways, and responsive route preservation.
+
+**Source families:**
+
+1. W3C WCAG 2.2
+2. W3C WAI menus/page-structure guidance
+3. GOV.UK navigation/service-navigation family
+4. U.S. Web Design System navigation family
+5. Primer navigation guidance
+6. pinned Primer React navigation implementation
+
+**Expected outputs:**
+
+- navigation/IA vocabulary;
+- 28–40 bounded observations, hard max 48;
+- global/local/contextual navigation comparison;
+- location/orientation analysis;
+- hierarchy/breadcrumb/tab/menu/label/responsive analysis;
+- `NAVIGATION_MODEL_ANALYSIS.md`;
+- `IA_HIERARCHY_ANALYSIS.md`;
+- `FAILURE_MODE_ANALYSIS.md`;
+- 0–3 pattern candidates;
+- 0–2 anti-pattern candidates;
+- Maintainer review packet.
+
+**Explicit blocks:**
+
+- no application source;
+- no router/framework selection;
+- no universal sitemap;
+- no universal hierarchy depth;
+- no seventh source family;
+- no external repo mutation;
+- no fabricated runtime/AT/usability evidence;
+- no candidate promotion;
+- no prior knowledge mutation;
+- no W06.
+
+**Completion gate:**
+
+Independent Maintainer review of exact W05 candidate.
+
+## W06 — Next knowledge lane
+
+**State:** BLOCKED
+
+W06 is undefined and may not begin before W05 disposition.
