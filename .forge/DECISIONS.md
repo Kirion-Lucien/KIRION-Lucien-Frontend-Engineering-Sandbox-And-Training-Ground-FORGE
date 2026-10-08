@@ -39,3 +39,18 @@ The following decisions were accepted by Maintainer through GitHub issue #1.
 These decisions establish governance only.
 
 They do not select a frontend framework, product architecture, package ecosystem, test stack, or curriculum.
+
+
+## FORGE-0006 — Knowledge workload isolation and Git-checkpointed stage execution
+
+**Decision:** Beginning with W07, substantive Lucien knowledge runs default to bounded K0–K2 qualification, K3 extraction batches, and K4–K6 comparison/synthesis stages. Persist artifacts and exact Git checkpoints; require Maintainer release between major stages and independent final review before K7. A small run may use fewer conversations if its handoff explicitly permits, but must retain all gates.
+
+**Human authority:** Explicit approval on 2026-10-08 to replace monolithic session reliance with dedicated sessions and bounded batching.
+
+**Reason:** Prevent context-related source attribution drift, skipped checks, schema inconsistency, and overclaiming while avoiding gratuitous session fragmentation.
+
+**Binding protocol:** `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+
+**Consequence:** Fresh sessions must rehydrate from live Git and the exact last released checkpoint, not chat memory. Batch target 5–8 observations is a heuristic, not mandatory quotas. Workers may not self-release stages or self-promote K7 knowledge. Prior accepted patterns and record schemas are unchanged.
+
+**Non-goals:** No W07 scope or execution release; no frontend framework, packages, runtime, application code, vector DB, CI architecture, or new autonomous promotion authority.

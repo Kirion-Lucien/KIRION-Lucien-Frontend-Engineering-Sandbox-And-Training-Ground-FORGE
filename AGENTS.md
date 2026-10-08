@@ -98,3 +98,8 @@ Every mutation lane must return:
 Until W00 is accepted, **no frontend implementation is authorized**.
 
 After W00 is accepted, this file becomes the standing enforcement contract for future agents.
+
+
+## 9. Knowledge workload isolation (FORGE-0006)
+
+For substantive knowledge-acquisition runs from W07 onward, follow the accepted K0–K7 lifecycle with bounded A (K0–K2), B (K3 batches), and C (K4–K6) stages. Use Git-backed checkpoints, exact released checkpoint SHAs, stage-release gates, and independent Maintainer K7 review. A worker cannot infer release from its own successful commits. Read `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md` and use the checkpoint/stage templates. The rule does **not** authorize W07 or any frontend application implementation.
