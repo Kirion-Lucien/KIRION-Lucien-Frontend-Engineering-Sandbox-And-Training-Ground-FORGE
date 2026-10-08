@@ -57,5 +57,7 @@
   "confidence": "MEDIUM",
   "recency_status": "UNKNOWN",
   "version_context": "WCAG 2.2 2024; GOV.UK/Carbon/Primer docs unpinned and Carbon indexed only",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T15:31:00+08:00"
 }
