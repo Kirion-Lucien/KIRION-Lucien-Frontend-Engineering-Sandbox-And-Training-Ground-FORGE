@@ -187,12 +187,35 @@ ACCEPTED / HIGH
 
 **Out of scope:** W07 acquisition/implementation, new framework/stack, altered accepted source and pattern records, new dependencies, automated CI.
 
-## W07 — Dialogs / overlays / focus-management knowledge proposal
+## W07 — Dialogs, overlays & focus-management intelligence
 
-**State:** INPUT REQUIRED / REVIEW.
+**State:** STAGE A (K0–K2) AUTHORIZED — controlled qualification only
 
-The topic is a proposal from previous planning, not an activated run. W07 requires its own accepted source scope, branch/SHA and stage handoffs under FORGE-0006.
+**Canonical source:** `main@61987e3de3ff85426e293dd15e596200ad272103`
+
+**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
+
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_A_SOURCE_QUALIFICATION.md`
+
+**Authority:** `FORGE-0006` and human-approved W07 Stage A execution.
+
+**Stage A source corpus — exactly six logical families:**
+
+1. W3C WCAG 2.2 (reuse `W02-S1` if unchanged)
+2. W3C WAI ARIA Authoring Practices Guide patterns (modal/non-modal dialog, tooltip/disclosure)
+3. WHATWG HTML Living Standard (dialog/popover/inert platform mechanisms)
+4. USWDS Modal guidance
+5. Primer product Dialog/Tooltip/Popover/Overlay guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` pinned implementation
+
+**Authorized deliverables:** K0 request, K1 discovery, K2 qualification, source ID/reuse/append map, license/retrieval limits, unresolved questions and Stage A Git checkpoint.
+
+**Blocked until separate Maintainer release:** K3 observation batches, K4 comparison, K5 candidates, K6 final acquisition review, K7 acceptance/promotion.
+
+**Expected Stage A exit:** `READY_FOR_STAGE_REVIEW`, `REWORK_REQUIRED`, `BLOCKED` or `SOURCE_DRIFT`; exact final SHA and changed-file scope returned. No automatic Stage B.
 
 ## Application implementation authority
 
-**State:** BLOCKED.
+**State:** BLOCKED
+
+No frontend application Code Writer lane exists yet.
