@@ -1,0 +1,19 @@
+{
+  "id": "W02-O04",
+  "source_id": "W02-S1",
+  "target": "Pointer target size",
+  "observed_behavior": "SC 2.5.8 sets a minimum 24 by 24 CSS-pixel pointer target with defined spacing, equivalent, inline, user-agent, and essential exceptions.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "ACCESSIBILITY",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#target-size-minimum",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a universal 24-by-24 physical-button visual-size rule; exceptions are integral."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "WCAG 2.2 SC 2.5.8; Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W02-O12",
+  "source_id": "W02-S3",
+  "target": "Primer button priority variants",
+  "observed_behavior": "Primer documentation defines primary as highest-priority and rare, default as general action, invisible as low-chrome/compound UI, and danger as destructive and sparingly used.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "VISUAL_HIERARCHY",
+  "evidence_location": "https://primer.style/product/components/button/ — Style variants",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Primer-specific conventions; no guarantee identical behavior in pinned code or every GitHub product."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "Primer product Button page (unversioned)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}

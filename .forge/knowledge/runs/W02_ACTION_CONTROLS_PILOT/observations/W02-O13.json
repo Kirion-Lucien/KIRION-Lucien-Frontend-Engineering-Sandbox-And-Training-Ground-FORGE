@@ -1,0 +1,19 @@
+{
+  "id": "W02-O13",
+  "source_id": "W02-S3",
+  "target": "Primer loading guidance",
+  "observed_behavior": "Primer Button documentation describes loading as showing a spinner while progress occurs, setting aria-disabled and preserving focus; with visual slots, a spinner replaces the visual while text stays visible.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "INTERACTION",
+  "evidence_location": "https://primer.style/product/components/button/ — Loading; Loading with visuals",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Documentation describes intended behavior; browser/assistive technology interactions were not executed."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "Primer product Button page (unversioned)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}

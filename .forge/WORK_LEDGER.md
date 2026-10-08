@@ -12,16 +12,7 @@
 
 **Acceptance:** GitHub issue #1
 
-**Result:**
-
-- authority precedence established
-- evidence register established
-- repository classification established
-- SSOT gate established
-- decision log established
-- validation vocabulary established
-- agent contract established
-- handoff discipline established
+**Result:** Forge authority kernel established.
 
 ## W01 — Frontend knowledge acquisition model
 
@@ -29,56 +20,59 @@
 
 **Source:** `main@e944dcbd490651498faead104315edd4c649b4ae`
 
-**Reviewed candidate:**
-
-`forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
+**Reviewed candidate:** `forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
 
 **Acceptance:** GitHub issue #3
 
-**Historical handoff:**
+**Historical handoff:** `.forge/handoffs/historical/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
 
-`.forge/handoffs/historical/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
+**Result:** provenance-bearing source, observation, pattern, anti-pattern, acquisition, and promotion control plane established.
 
-**Accepted result:**
+## W02 — Controlled pilot acquisition: action controls
 
-- source taxonomy defined;
-- source authority model defined;
-- provenance/licensing policy defined;
-- source, observation, pattern, and anti-pattern schemas defined;
-- stack-neutral knowledge domains defined;
-- acquisition K0-K7 defined;
-- source evaluation and promotion protocols defined;
-- design-reference boundaries defined;
-- contradiction/counterexample preservation defined;
-- worker consultation contract defined;
-- source registry remains intentionally empty;
-- no application stack or specific pattern was accepted by W01.
+**State:** ACCEPTED
 
-## W02 — Controlled pilot acquisition
+**Source:** `main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
+
+**Reviewed worker candidate:** `forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
+
+**Acceptance:** GitHub issue #5
+
+**Historical handoff:** `.forge/handoffs/historical/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
+
+**Accepted run result:**
+
+- 5 qualified source records;
+- 20 bounded OBSERVED records;
+- normative/reference/implementation/inspiration evidence classes preserved;
+- exact Primer implementation source remained pinned;
+- no external repository mutation;
+- no application stack selection;
+- no application implementation;
+- no fabricated runtime or conformance evidence.
+
+**K7 promotion result:**
+
+```text
+W02-P01 — Contextual dominant primary action
+ACCEPTED / MEDIUM CONFIDENCE
+
+W02-A01 — Competing dominant primary controls
+ACCEPTED / MEDIUM CONFIDENCE
+
+W02-P02 — Focus-preserving asynchronous button feedback
+CANDIDATE / DEFERRED
+```
+
+P02 remains unpromoted pending browser/focus/live-region/assistive-technology validation.
+
+## W03 — Next knowledge lane
 
 **State:** INPUT REQUIRED / REVIEW
 
-**Purpose:**
+W03 is undefined.
 
-Exercise the accepted W01 acquisition model against a small, deliberately chosen source set.
-
-Expected outputs:
-
-- qualified source records;
-- bounded observations;
-- cross-source comparisons;
-- pattern/anti-pattern candidates where evidence supports them;
-- unresolved questions;
-- Maintainer review packet.
-
-**Not yet authorized:**
-
-- acquisition execution;
-- bulk crawling;
-- mass repository ingestion;
-- vector database;
-- self-promotion of candidates;
-- application implementation.
+No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
 
 ## Application implementation lanes
 

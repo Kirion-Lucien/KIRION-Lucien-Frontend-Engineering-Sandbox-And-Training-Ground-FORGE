@@ -6,91 +6,108 @@
 
 ## Program
 
-`W01 — FRONTEND KNOWLEDGE ACQUISITION MODEL`
+`W02 — CONTROLLED PILOT ACQUISITION`
 
 ## Status
 
-`ACCEPTED / KNOWLEDGE CONTROL PLANE ACTIVE`
+`ACCEPTED / FIRST KNOWLEDGE PROMOTION COMPLETE`
 
 W00 Forge governance remains accepted and active.
 
-W01 Maintainer acceptance is recorded in GitHub issue #3 and `.forge/ACCEPTANCE.md`.
+W01 knowledge-control authority remains accepted and active.
 
-## Canonical source before W01
+W02 Maintainer acceptance is recorded in GitHub issue #5 and `.forge/ACCEPTANCE.md`.
 
-`main@e944dcbd490651498faead104315edd4c649b4ae`
+## Canonical source before W02
 
-## Accepted W01 candidate
+`main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
 
-`forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
+## Exact reviewed W02 worker candidate
+
+`forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
 
 ## Current classification
 
-`BOOTSTRAP / FRONTEND ENGINEERING INTELLIGENCE FORGE`
+`FRONTEND ENGINEERING INTELLIGENCE FORGE / EVIDENCE ACQUISITION ACTIVE`
 
-The repository still contains no accepted frontend application stack.
+## Accepted W02 corpus
 
-## Accepted Lucien role
+Qualified source records:
 
-Lucien is a **Frontend Engineering Intelligence Forge**.
+```text
+W02-S1 — W3C WCAG 2.2
+W02-S2 — GOV.UK Design System Button
+W02-S3 — Primer Product Button
+W02-S4 — primer/react@7f5303d803986887187d86dcebaeda22a4dc6823
+W02-S5 — Landbook landing-page gallery
+```
 
-Its accepted knowledge lifecycle is:
+Registry inclusion remains source qualification, not universal authority.
 
-`SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
+## Accepted bounded knowledge
 
-Accepted knowledge-control authority now includes:
+### W02-P01 — Contextual dominant primary action
 
-- source taxonomy;
-- claim-sensitive evidence weighting;
-- provenance/licensing handling;
-- observation records;
-- stack-neutral knowledge domains;
-- pattern and anti-pattern candidate lifecycles;
-- design-reference boundaries;
-- K0-K7 acquisition protocol;
-- contradiction/counterexample handling;
-- Maintainer-gated promotion;
-- worker consultation contract.
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-## Current knowledge state
+For one bounded decision group with one clearly preferred progression, a visually dominant primary action with subordinate alternatives is accepted guidance.
 
-The source registry remains intentionally empty.
+This is not a universal page-level numeric rule.
 
-No specific frontend pattern, anti-pattern, framework, design system, or implementation stack is accepted yet.
+### W02-A01 — Competing dominant primary controls
 
-## Current work gate
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-`W02 — CONTROLLED PILOT ACQUISITION`
+Inside one connected decision group, multiple equally dominant main controls may reduce next-step clarity when one intended progression exists.
 
-State:
+Independent task groups and equally valid alternatives remain counter-contexts.
 
-`INPUT REQUIRED / REVIEW`
+## Deferred knowledge
 
-W02 may propose a small, deliberately selected source corpus to exercise the accepted W01 acquisition pipeline.
+### W02-P02 — Focus-preserving asynchronous button feedback
 
-W02 is not yet authorized to execute.
+`CANDIDATE / DEFERRED`
+
+Primer documentation and pinned source support the implementation strategy, but browser/focus/live-region/assistive-technology behavior was not executed.
+
+It is not reusable accepted Forge guidance yet.
+
+## Evidence-class law preserved
+
+```text
+normative requirement
+!=
+design-system recommendation
+!=
+implementation evidence
+!=
+visual inspiration
+```
 
 ## Application implementation authority
 
 `BLOCKED`
 
-No frontend Code Writer application lane exists.
+No frontend application Code Writer lane exists.
 
-A future application implementation lane still requires:
+## Current work gate
 
-1. explicit human objective;
-2. relevant Lucien evidence/proposal;
-3. Maintainer acceptance of controlling decisions;
-4. exact source branch/SHA handoff.
+`W03 — NEXT KNOWLEDGE LANE`
+
+State:
+
+`INPUT REQUIRED / REVIEW`
+
+W03 is not yet defined or authorized.
 
 ## Active handoff
 
 NONE.
 
-The completed W01 handoff is historical evidence and is not executable authority.
+The completed W02 handoff is historical evidence and is not executable authority.
 
 ## Next gate
 
-Human / Maintainer defines the bounded W02 pilot-acquisition objective and source-selection strategy.
+Human / Maintainer selects the next bounded knowledge objective.
 
-No W02 acquisition run begins until an exact handoff is issued.
+No W03 acquisition or frontend implementation begins until an exact handoff is issued.

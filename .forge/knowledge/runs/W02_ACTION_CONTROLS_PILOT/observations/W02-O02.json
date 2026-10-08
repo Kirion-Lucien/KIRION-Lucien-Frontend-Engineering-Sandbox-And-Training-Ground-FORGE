@@ -1,0 +1,19 @@
+{
+  "id": "W02-O02",
+  "source_id": "W02-S1",
+  "target": "Visible focus",
+  "observed_behavior": "SC 2.4.7 requires a mode in which the keyboard focus indicator is visible for a keyboard-operable interface.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#focus-visible",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "This does not prescribe a single outline style for all systems."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "WCAG 2.2 SC 2.4.7; Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "W02-P02",
+  "name": "Focus-preserving asynchronous button feedback",
+  "domain": "INTERACTION",
+  "additional_domains": [
+    "FOCUS_MANAGEMENT",
+    "ACCESSIBILITY"
+  ],
+  "summary": "One documented implementation represents in-progress action state with a spinner, aria-disabled, accessible status text and retained label/focus structure.",
+  "problem": "Async actions can leave users unsure whether an operation is still in progress, while remounts or unconditional native disabling may disrupt focus.",
+  "context": "A control starts an asynchronous operation and should not trigger the same action twice while progress is pending.",
+  "observed_solution": "Primer documents loading with a spinner and focus retention; pinned ButtonBase code retains a wrapper, sets aria-disabled, suppresses its click handler, and emits an AriaStatus announcement.",
+  "rationale": "Documentation (W02-O13) and pinned source inspection (W02-O17) support the presence of that implementation strategy; WCAG name/role/state and status-message criteria bound the accessibility goal without proving actual conformance.",
+  "tradeoffs": [
+    "ARIA disabled alone does not enforce every possible activation path; consumer integration matters.",
+    "Live announcements may be repeated or missed depending on caller/browser/assistive technology and must be tested.",
+    "A forced loading state with no recovery may cause a different usability failure."
+  ],
+  "applicability": [
+    "Button-triggered asynchronous actions where repeat activation should pause and focus continuity matters."
+  ],
+  "non_applicability": [
+    "Navigation links for which progress is represented at the destination.",
+    "Actions that complete instantly or require a different interaction feedback model."
+  ],
+  "accessibility_implications": [
+    "Inspect name/role/state and status announcement in context; code inspection is not WCAG conformance evidence."
+  ],
+  "performance_implications": [
+    "No performance measurements; spinner/rendering implementation costs unknown."
+  ],
+  "responsive_implications": [
+    "Not evaluated at mobile or reduced-motion settings."
+  ],
+  "implementation_notes": [
+    "Exact source only: primer/react@7f5303d803986887187d86dcebaeda22a4dc6823, ButtonBase.tsx.",
+    "Do not universalize one React implementation or claim tests were executed."
+  ],
+  "source_ids": [
+    "W02-S3",
+    "W02-S4",
+    "W02-S1"
+  ],
+  "observation_ids": [
+    "W02-O13",
+    "W02-O17",
+    "W02-O05",
+    "W02-O06"
+  ],
+  "counterexamples": [
+    {
+      "summary": "GOV.UK discusses disabled submission buttons without claiming this loading structure.",
+      "context": "Static state where action cannot be taken and no async operation is underway.",
+      "source_id": "W02-S2",
+      "observation_id": "W02-O11"
+    }
+  ],
+  "related_patterns": [],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "Primer docs unversioned; code pinned to 7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W02-O07",
+  "source_id": "W02-S2",
+  "target": "Button action labels",
+  "observed_behavior": "The GOV.UK Button page specifies sentence-case action descriptions and presents differentiated labels including Save and continue, Save and come back later, and Delete account.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "CONTENT_DESIGN",
+  "evidence_location": "https://design-system.service.gov.uk/components/button/ — How it works",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Examples are specific to service workflows; label comprehension was not independently user-tested in this run."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "GOV.UK component documentation, undated inspected page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}

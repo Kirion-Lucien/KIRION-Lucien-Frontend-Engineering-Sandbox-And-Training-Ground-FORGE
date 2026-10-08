@@ -2,35 +2,69 @@
 
 This repository is a **governed Frontend Engineering Intelligence Forge and training ground**.
 
-It is intentionally not pretending to be a frontend application.
+It is intentionally not a frontend application.
 
 ## Forge governance
 
-The Forge governance kernel was accepted through GitHub issue **#1**.
+- W00 Forge authority kernel: accepted through GitHub issue **#1**
+- W01 knowledge acquisition model: accepted through GitHub issue **#3**
+- W02 controlled action-controls pilot: accepted through GitHub issue **#5**
 
-W01 — the frontend knowledge acquisition model — was accepted through GitHub issue **#3**.
-
-Lucien now has an accepted evidence lifecycle:
+Lucien's evidence lifecycle is:
 
 `SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
 
-That lifecycle exists so frontend knowledge can be learned from qualified standards, documentation, Git repositories, design systems, component libraries, design references, accessibility/performance sources, articles, case studies, and related material without turning popularity, aesthetics, model memory, or copied third-party content into authority.
+## Current knowledge state
 
-## Current state
+The source registry contains the five qualified W02 pilot sources.
 
-The repository remains application-stack neutral.
+W02 produced Lucien's first promoted bounded frontend knowledge:
 
-No frontend framework, programming language, package ecosystem, component library, styling system, state library, test stack, build tool, deployment platform, specific frontend pattern, specific anti-pattern, or Golden Pattern is accepted merely because W01 exists.
+```text
+W02-P01 — Contextual dominant primary action
+ACCEPTED / MEDIUM CONFIDENCE
 
-The source registry is intentionally empty until a bounded acquisition run qualifies real sources.
+W02-A01 — Competing dominant primary controls
+ACCEPTED / MEDIUM CONFIDENCE
+```
 
-## Forge rule
+One additional result remains deliberately unpromoted:
 
-Architecture and knowledge are not installed by assertion.
+```text
+W02-P02 — Focus-preserving asynchronous button feedback
+CANDIDATE / DEFERRED
+```
 
-The sequence is:
+because browser, focus, live-region, and assistive-technology behavior has not been executed.
 
-`authority → discovery → evidence → classification → Maintainer acceptance → worker enforcement`
+## Authority law
+
+Lucien preserves:
+
+`normative requirement != design-system recommendation != implementation evidence != visual inspiration`
+
+Source qualification is not automatic knowledge acceptance.
+
+Visual popularity is not engineering proof.
+
+Model memory is not evidence.
+
+## Application-stack state
+
+Still unresolved:
+
+- frontend framework/runtime
+- programming language
+- package manager
+- styling system
+- component library
+- state-management library
+- form library
+- testing library
+- build tool
+- deployment platform
+
+No frontend application implementation lane exists.
 
 ## Mandatory read order
 
@@ -51,24 +85,12 @@ Start at:
 
 `.forge/knowledge/README.md`
 
-Important rules include:
-
-- source type is not authority weight;
-- observation is not recommendation;
-- visual inspiration is not engineering proof;
-- public availability is not reuse permission;
-- candidate knowledge is not accepted knowledge;
-- model memory is not evidence;
-- contradictions and counterexamples must be preserved.
-
 ## Current gate
 
-`W02 — CONTROLLED PILOT ACQUISITION`
+`W03 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-No W02 acquisition is executable until a bounded Maintainer handoff is issued.
-
-No frontend application implementation lane exists yet.
+No W03 execution is authorized until a bounded exact-source Maintainer handoff is issued.

@@ -1,0 +1,19 @@
+{
+  "id": "W02-O10",
+  "source_id": "W02-S2",
+  "target": "Warning and secondary roles",
+  "observed_behavior": "GOV.UK documents secondary buttons for secondary calls to action and warning buttons intended to prompt care, noting that warnings work only when used sparingly.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "VISUAL_HIERARCHY",
+  "evidence_location": "https://design-system.service.gov.uk/components/button/ — Secondary buttons; Warning buttons",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No universal color, placement or confirmation requirement inferred."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "GOV.UK live component page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}

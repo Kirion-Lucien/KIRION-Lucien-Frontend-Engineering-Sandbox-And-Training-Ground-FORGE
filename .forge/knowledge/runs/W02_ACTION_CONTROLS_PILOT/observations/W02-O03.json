@@ -1,0 +1,19 @@
+{
+  "id": "W02-O03",
+  "source_id": "W02-S1",
+  "target": "Unobscured focus",
+  "observed_behavior": "SC 2.4.11 says a focused component must not be entirely hidden by author-created content.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Minimum criterion does not require complete visibility of every pixel."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "WCAG 2.2 SC 2.4.11; Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "W02-P01",
+  "name": "Contextual dominant primary action",
+  "domain": "VISUAL_HIERARCHY",
+  "additional_domains": [
+    "INTERACTION",
+    "CONTENT_DESIGN"
+  ],
+  "summary": "For a single closely related decision group, system-specific guidance favors one visually dominant main action with subordinate alternatives.",
+  "problem": "Multiple equally dominant controls may make the next step unclear in a bounded decision context.",
+  "context": "Single-step service pages or one related group of actions with a discernible main task.",
+  "observed_solution": "Use the system's prominent primary/default style for its main action and less-prominent variants for secondary actions.",
+  "rationale": "Both GOV.UK and Primer independently describe a limited high-priority main control and secondary/default alternatives (W02-O08, W02-O12).",
+  "tradeoffs": [
+    "May obscure equally important alternatives if tasks genuinely have equal priority.",
+    "Splitting independent action groups can be more appropriate than flattening a whole page to one primary control."
+  ],
+  "applicability": [
+    "One workflow decision group with one clearly preferred progression."
+  ],
+  "non_applicability": [
+    "Multiple distinct sections with independent primary actions.",
+    "Scenarios with equally valid, explicit alternatives requiring balanced presentation."
+  ],
+  "accessibility_implications": [
+    "Visual hierarchy does not replace accessible name, role, keyboard or focus requirements (W02-O01–O05)."
+  ],
+  "performance_implications": [
+    "No performance benefit measured."
+  ],
+  "responsive_implications": [
+    "No measured responsive-layout result; grouping needs separate viewport evaluation."
+  ],
+  "implementation_notes": [
+    "Map native action/navigation semantics separately from visual variant.",
+    "Do not prescribe exact button color or a universal page-level numerical cap."
+  ],
+  "source_ids": [
+    "W02-S2",
+    "W02-S3"
+  ],
+  "observation_ids": [
+    "W02-O08",
+    "W02-O10",
+    "W02-O12"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Independent regions may each have a primary action without being mutually competing.",
+      "context": "Different panels with distinct task scopes."
+    }
+  ],
+  "related_patterns": [],
+  "related_anti_patterns": [
+    "W02-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "GOV.UK and Primer live design-system guidance retrieved 2026-10-08, unpinned versions",
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T13:21:00+08:00"
+}

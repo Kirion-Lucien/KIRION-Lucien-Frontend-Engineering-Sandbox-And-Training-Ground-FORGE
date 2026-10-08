@@ -1,0 +1,20 @@
+{
+  "id": "W02-O20",
+  "source_id": "W02-S5",
+  "target": "Gallery listing language and filtering",
+  "observed_behavior": "The publicly accessible Landbook landing-page gallery listing supplies names of showcased offerings, creator identities, filter categories, and gallery actions such as Buy, Save, Copy or Use for free.",
+  "context": "Only the Landbook gallery listing at acquisition time; source classified INSPIRATION_ONLY",
+  "domain": "CONTENT_DESIGN",
+  "evidence_location": "https://land-book.com/design/website/landing-page — public listing (not individual preview)",
+  "evidence_kind": "OTHER",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Only listing text/metadata was inspected; no individual showcased page or screenshot examined.",
+    "Cannot support a claim about showcased primary-CTA hierarchy, accessibility, DOM semantics, responsiveness, performance, source code or production readiness."
+  ],
+  "observed_at": "2026-10-08T05:35:30.612Z",
+  "source_version_context": "Landbook listing 2026-10-08; unversioned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Gallery metadata only; no design asset downloaded or copied; never used as engineering evidence."
+}

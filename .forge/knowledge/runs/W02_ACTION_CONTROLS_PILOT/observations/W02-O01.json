@@ -1,0 +1,19 @@
+{
+  "id": "W02-O01",
+  "source_id": "W02-S1",
+  "target": "Keyboard operability",
+  "observed_behavior": "WCAG 2.2 Success Criterion 2.1.1 states that functionality must be operable through a keyboard interface, with its stated path-dependent exception.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "KEYBOARD_ACCESS",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#keyboard",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "This is an accessibility criterion, not a rule about primary/secondary visual emphasis."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "WCAG 2.2 SC 2.1.1; Level A",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}
