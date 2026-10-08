@@ -85,3 +85,64 @@ Expected outputs:
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
+
+
+## W02 — Controlled pilot acquisition: action controls
+
+**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+
+**Source:**
+
+`main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
+
+**Branch:**
+
+`forge/w02-controlled-pilot-action-controls`
+
+**Active handoff:**
+
+`.forge/handoffs/active/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
+
+**Pilot question:**
+
+How should action controls communicate purpose, hierarchy, destructive risk, focus/keyboard accessibility, and interactive state without confusing users?
+
+**Bounded source families:**
+
+1. W3C WCAG 2.2
+2. GOV.UK Design System Button
+3. Primer Product Button documentation
+4. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`
+5. Landbook landing-page gallery as inspiration-only evidence
+
+**Expected outputs:**
+
+- qualified source records;
+- 12–24 bounded observations, hard maximum 30;
+- cross-source comparison;
+- 0–2 pattern candidates;
+- 0–1 anti-pattern candidate;
+- unresolved questions;
+- Maintainer review packet.
+
+**Explicit blocks:**
+
+- no frontend application;
+- no package/dependencies;
+- no framework selection;
+- no vector database;
+- no bulk crawl;
+- no sixth source family;
+- no external repository mutation;
+- no candidate promotion;
+- no worker self-acceptance.
+
+**Completion gate:**
+
+Independent Maintainer review of the exact W02 candidate.
+
+## W03 — Next knowledge lane
+
+**State:** BLOCKED
+
+W03 is undefined and may not begin before W02 acceptance/rework disposition.
