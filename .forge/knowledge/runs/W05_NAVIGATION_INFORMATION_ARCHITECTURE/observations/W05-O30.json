@@ -1,0 +1,19 @@
+{
+  "id": "W05-O30",
+  "source_id": "W05-S5",
+  "target": "Navigation location, destination and scope",
+  "domain": "NAVIGATION",
+  "observed_behavior": "Primer Navigation guidance frames navigation as wayfinding for current location and available destinations, encouraging clear orientation and restrained choices.",
+  "context": "Primer product navigation docs, live and unpinned",
+  "evidence_location": "https://primer.style/product/ui-patterns/navigation/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "A GitHub design-system preference, not normative IA law."
+  ],
+  "observed_at": "2026-10-08T07:59:00Z",
+  "source_version_context": "Primer product docs current page snapshot; no exact release SHA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Documentation not identical by assumption to pinned primer/react"
+}

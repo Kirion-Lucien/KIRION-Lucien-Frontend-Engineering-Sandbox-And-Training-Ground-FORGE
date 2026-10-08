@@ -1,0 +1,77 @@
+{
+  "id": "W05-P01",
+  "name": "Current-location multi-cue orientation",
+  "domain": "NAVIGATION",
+  "additional_domains": [
+    "INFORMATION_ARCHITECTURE",
+    "ACCESSIBILITY"
+  ],
+  "summary": "Provide coherent current destination context through page title, heading, navigational selection and programmatic state where needed.",
+  "problem": "A user enters a nested view without knowing which page/section is current.",
+  "context": "Multi-page websites/apps with repeated navigation and meaningful current destination.",
+  "observed_solution": "Align descriptive page title/heading with correctly scoped current navigation item; use programmatic current state and distinguish named navigation landmarks as appropriate.",
+  "rationale": "WCAG 2.4.2/2.4.6 mandate appropriate titles/headings (O02/O06); 2.4.8 adds a separate AAA location criterion (O07). WAI aria-current and nav labels O12/O14; GOV current-vs-active O18; USWDS current link O27; Primer O30/O31/O35/O37.",
+  "tradeoffs": [
+    "Several signals can become redundant if all repeat the same information.",
+    "Breadcrumbs may be unnecessary on flat sites."
+  ],
+  "applicability": [
+    "Nested page/section architecture with a current destination and repeated navigation."
+  ],
+  "non_applicability": [
+    "Single self-explanatory document without repeated location choices.",
+    "Pure action toolbar with no navigational destination state."
+  ],
+  "accessibility_implications": [
+    "Programmatic current state/landmark names aid orientation when used correctly; actual AT output untested."
+  ],
+  "performance_implications": [
+    "No measured rendering impact."
+  ],
+  "responsive_implications": [
+    "W04 recoverable routes and meaningful order apply when current nav is collapsed."
+  ],
+  "implementation_notes": [
+    "Use context-correct current state, not just color.",
+    "SC 2.4.8 is AAA; do not mandate breadcrumbs or upgrade it to AA.",
+    "No router/library chosen."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W05-S2",
+    "W05-S3",
+    "W05-S4",
+    "W05-S5",
+    "W05-S6"
+  ],
+  "observation_ids": [
+    "W05-O02",
+    "W05-O06",
+    "W05-O07",
+    "W05-O12",
+    "W05-O14",
+    "W05-O18",
+    "W05-O27",
+    "W05-O30",
+    "W05-O31",
+    "W05-O35",
+    "W05-O37"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A flat landing page with a clear title may not benefit from a redundant breadcrumb.",
+      "context": "Single-level page with obvious orientation.",
+      "source_id": "W05-S4",
+      "observation_id": "W05-O28"
+    }
+  ],
+  "related_patterns": [
+    "W03-P01",
+    "W04-P02"
+  ],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 2024; unpinned WAI/GOV/USWDS/Primer docs; primer/react pinned 7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}

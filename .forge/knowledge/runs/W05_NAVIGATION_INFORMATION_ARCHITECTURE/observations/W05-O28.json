@@ -1,0 +1,19 @@
+{
+  "id": "W05-O28",
+  "source_id": "W05-S4",
+  "target": "Breadcrumb direct-entry context",
+  "domain": "NAVIGATION",
+  "observed_behavior": "USWDS describes breadcrumbs as hierarchy clues especially for users landing on interior pages; it notes redundancy with some side navigation.",
+  "context": "USWDS official navigation documentation; first-party design reference",
+  "evidence_location": "https://designsystem.digital.gov/components/breadcrumb/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not imply breadcrumbs on every page."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS v3.13.0 advertised; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No W05 runtime or user research"
+}

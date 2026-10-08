@@ -1,0 +1,19 @@
+{
+  "id": "W05-O32",
+  "source_id": "W05-S5",
+  "target": "Breadcrumb hierarchy rather than history",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "Primer Breadcrumb guidelines describe link ancestry and current-page context to navigate levels within the site hierarchy.",
+  "context": "Primer product navigation docs, live and unpinned",
+  "evidence_location": "https://primer.style/product/components/breadcrumbs/guidelines/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a browser history or sequential wizard representation."
+  ],
+  "observed_at": "2026-10-08T07:59:00Z",
+  "source_version_context": "Primer product docs current page snapshot; no exact release SHA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Documentation not identical by assumption to pinned primer/react"
+}

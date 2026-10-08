@@ -121,7 +121,7 @@ No frontend application Code Writer lane exists yet.
 
 ## W05 — Navigation & information architecture intelligence
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:**
 
@@ -174,6 +174,18 @@ Develop Lucien's evidence-backed navigation and information-architecture intelli
 - no candidate promotion;
 - no prior knowledge mutation;
 - no W06.
+
+**Worker K0–K6 candidate artifacts:**
+
+- Six logical source families, one reused WCAG and five new navigation-specific source records;
+- 40 source-linked working vocabulary definitions;
+- 40 source-linked OBSERVED JSON records;
+- global/local/contextual, breadcrumb/tabs/menus, navigation and IA hierarchy analyses;
+- 12 bounded failure-mode hypotheses;
+- 3 pattern and 2 anti-pattern CANDIDATES, none accepted;
+- K6 Maintainer review packet;
+- prior W02/W03/W04 knowledge records unchanged;
+- no frontend application, router or framework; no browser/keyboard/AT/user tests executed.
 
 **Completion gate:**
 

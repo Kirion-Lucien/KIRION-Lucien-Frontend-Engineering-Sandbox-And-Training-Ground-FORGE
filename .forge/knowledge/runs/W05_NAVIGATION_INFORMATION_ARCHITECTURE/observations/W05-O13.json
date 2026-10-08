@@ -1,0 +1,19 @@
+{
+  "id": "W05-O13",
+  "source_id": "W05-S2",
+  "target": "Application menu semantics and keyboard behavior",
+  "domain": "INTERACTION",
+  "observed_behavior": "WAI Application Menus uses menubar, menu and menuitem roles with desktop-style arrow-key behavior, distinguishing it from ordinary site navigation links.",
+  "context": "First-party W3C WAI explanatory navigation/page-structure tutorial, non-normative",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/menus/application-menus/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "ARIA roles alone do not implement keyboard interaction; this is an example of application menu design."
+  ],
+  "observed_at": "2026-10-08T07:56:00Z",
+  "source_version_context": "Live WAI tutorial; exact site build not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No keyboard/browser/screen-reader execution"
+}

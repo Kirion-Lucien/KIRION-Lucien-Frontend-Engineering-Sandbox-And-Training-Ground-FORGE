@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 through W04 remain accepted and active as governing prior authority.
 
@@ -101,6 +101,12 @@ W05 may not silently change these dispositions.
 ## Promotion authority
 
 `MAINTAINER ONLY`
+
+## W05 submitted worker candidate
+
+K0–K6 run at `.forge/knowledge/runs/W05_NAVIGATION_INFORMATION_ARCHITECTURE/`: 6 qualified source families (1 prior reuse, 5 new scoped records), 40 linked working vocabulary definitions, 40 OBSERVED records, cross-source and navigation/hierarchy/failure analyses, 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES, and a K6 review packet.
+
+**W05 is NOT ACCEPTED.** All prior W02/W03/W04 knowledge remains unchanged. K7 promotion is Maintainer-only; W06 and frontend implementation remain BLOCKED.
 
 ## Next gate
 

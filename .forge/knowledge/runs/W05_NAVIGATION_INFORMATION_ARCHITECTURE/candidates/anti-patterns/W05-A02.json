@@ -1,0 +1,60 @@
+{
+  "id": "W05-A02",
+  "name": "Ordinary site navigation miscast as application menubar",
+  "domain": "SEMANTIC_HTML",
+  "additional_domains": [
+    "NAVIGATION",
+    "INTERACTION",
+    "ACCESSIBILITY"
+  ],
+  "summary": "Ordinary destination links are assigned desktop-command-menu roles without matching menu keyboard and interaction behavior.",
+  "recurring_structure": "A website navigation list/dropdown adopts menubar/menu/menuitem roles solely because its design resembles a dropdown, without implementing the appropriate keyboard model.",
+  "harm_mechanism": "Menu roles signal different assistive-technology interaction expectations, while ordinary links may not provide arrow-key or focus movement required for application-menu behavior.",
+  "context": "Public or product website navigation intended to link to sections, not execute editor-like commands.",
+  "applicability": [
+    "Navigation commands misidentified with application roles when no genuine application menu behavior exists."
+  ],
+  "legitimate_contexts": [
+    "Real application command menus with scripted arrow-navigation and correct roles.",
+    "A hybrid command palette designed and tested for application-like interaction."
+  ],
+  "consequences": {
+    "usability": [
+      "Keyboard expectation mismatch; actual resulting user harm not observed."
+    ],
+    "accessibility": [
+      "Potential incorrect semantic role/keyboard behavior, but no WCAG failure or AT output independently demonstrated."
+    ],
+    "performance": [
+      "No measured performance impact."
+    ],
+    "maintainability": [
+      "Extra scripted application-menu state may be unnecessary for ordinary links; inferred, not measured."
+    ]
+  },
+  "source_ids": [
+    "W05-S2",
+    "W05-S5",
+    "W05-S6"
+  ],
+  "observation_ids": [
+    "W05-O11",
+    "W05-O13",
+    "W05-O14",
+    "W05-O33",
+    "W05-O35",
+    "W05-O37"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A genuine app editor menubar containing Undo/Cut/Copy commands appropriately uses menu roles with arrow-key interaction.",
+      "context": "Desktop-like editor command surface.",
+      "source_id": "W05-S2",
+      "observation_id": "W05-O13"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WAI official unpinned menu tutorial, Primer docs/live and pinned nav implementation; no runtime test",
+  "status": "CANDIDATE"
+}

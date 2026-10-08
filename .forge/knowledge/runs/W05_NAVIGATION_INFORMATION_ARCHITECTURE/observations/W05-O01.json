@@ -1,0 +1,19 @@
+{
+  "id": "W05-O01",
+  "source_id": "W02-S1",
+  "target": "Bypass Blocks",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 2.4.1 Level A requires a mechanism to bypass blocks of content repeated on multiple web pages.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The criterion does not prescribe one implementation such as a particular skip-link component."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

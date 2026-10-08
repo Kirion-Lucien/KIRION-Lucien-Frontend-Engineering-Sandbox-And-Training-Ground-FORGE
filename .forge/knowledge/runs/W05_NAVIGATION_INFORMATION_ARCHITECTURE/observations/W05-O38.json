@@ -1,0 +1,19 @@
+{
+  "id": "W05-O38",
+  "source_id": "W05-S6",
+  "target": "UnderlineNav item focus in overflow",
+  "domain": "FOCUS_MANAGEMENT",
+  "observed_behavior": "Pinned UnderlineNavItem.tsx makes overflowing list items aria-hidden and tabIndex=-1 while registering them to appear in accessible overflow links.",
+  "context": "Exact primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 NavList/UnderlineNav/Breadcrumbs code inspection",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/UnderlineNav/UnderlineNavItem.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Focus movement and screen reader output not tested here."
+  ],
+  "observed_at": "2026-10-08T08:00:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No tests, browser, keyboard navigation, AT or user study executed"
+}

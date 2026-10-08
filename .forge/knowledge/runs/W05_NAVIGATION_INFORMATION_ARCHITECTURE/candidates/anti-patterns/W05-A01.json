@@ -1,0 +1,59 @@
+{
+  "id": "W05-A01",
+  "name": "Breadcrumb relationship confusion",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "additional_domains": [
+    "NAVIGATION"
+  ],
+  "summary": "Presenting visit history or required transaction stages as hierarchical ancestors misrepresents the information relationship.",
+  "recurring_structure": "Breadcrumb-looking trail is populated with prior visited URLs or wizard steps even when they are not actual parent/ancestor pages.",
+  "harm_mechanism": "The labels/separators imply false ancestry and can lead users to an unrelated conceptual parent or mistake progress for site structure.",
+  "context": "Multilevel site or sequential service with a breadcrumb-like link trail.",
+  "applicability": [
+    "Breadcrumb is presented as site ancestry but items encode history or chronological process."
+  ],
+  "legitimate_contexts": [
+    "A separately labelled recent-pages history list.",
+    "A clearly labelled transaction progress indicator or stepper.",
+    "A dynamic hierarchy whose actual parent changes by content context."
+  ],
+  "consequences": {
+    "usability": [
+      "Users might infer wrong parent location; not measured with users."
+    ],
+    "accessibility": [
+      "Page-location explanation may be misleading; no individual implementation accessibility audit."
+    ],
+    "performance": [
+      "No measured performance consequence."
+    ],
+    "maintainability": [
+      "IA and UI wording can diverge when history is mistaken for taxonomy; no empirical maintenance result."
+    ]
+  },
+  "source_ids": [
+    "W05-S3",
+    "W05-S4",
+    "W05-S5"
+  ],
+  "observation_ids": [
+    "W05-O17",
+    "W05-O19",
+    "W05-O20",
+    "W05-O28",
+    "W05-O29",
+    "W05-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "An explicit progress component truthfully represents ordered steps without claiming site hierarchy.",
+      "context": "GOV.UK end-to-end task journey.",
+      "source_id": "W05-S3",
+      "observation_id": "W05-O17"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "GOV.UK, USWDS, Primer first-party docs unpinned; no task research",
+  "status": "CANDIDATE"
+}

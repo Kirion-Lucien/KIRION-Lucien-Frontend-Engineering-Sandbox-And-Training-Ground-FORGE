@@ -1,0 +1,19 @@
+{
+  "id": "W05-O14",
+  "source_id": "W05-S2",
+  "target": "Named navigation regions",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "The WAI Page Regions tutorial uses nav landmarks for navigation and recommends labels to distinguish multiple nav regions.",
+  "context": "First-party W3C WAI explanatory navigation/page-structure tutorial, non-normative",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/page-structure/regions/#navigation",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not every visual group qualifies as a navigation landmark; explanation not WCAG normative SC."
+  ],
+  "observed_at": "2026-10-08T07:56:00Z",
+  "source_version_context": "Live WAI tutorial; exact site build not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No keyboard/browser/screen-reader execution"
+}

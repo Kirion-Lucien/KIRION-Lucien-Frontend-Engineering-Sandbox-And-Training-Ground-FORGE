@@ -1,0 +1,19 @@
+{
+  "id": "W05-O37",
+  "source_id": "W05-S6",
+  "target": "UnderlineNav current link, labelled landmark and overflow",
+  "domain": "NAVIGATION",
+  "observed_behavior": "Pinned UnderlineNav.tsx requires an accessible label and checks that no more than one current item is supplied; its overflow dropdown transfers clipped links and reflects current state.",
+  "context": "Exact primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 NavList/UnderlineNav/Breadcrumbs code inspection",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/UnderlineNav/UnderlineNav.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "An invariant and code mechanism do not prove UI runtime correctness."
+  ],
+  "observed_at": "2026-10-08T08:00:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No tests, browser, keyboard navigation, AT or user study executed"
+}

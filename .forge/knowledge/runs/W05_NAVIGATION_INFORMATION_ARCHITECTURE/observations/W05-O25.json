@@ -1,0 +1,19 @@
+{
+  "id": "W05-O25",
+  "source_id": "W05-S4",
+  "target": "Header orientation",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "USWDS says headers help users recognize website context and reach main navigation sections.",
+  "context": "USWDS official documentation; no local implementation measured",
+  "evidence_location": "https://designsystem.digital.gov/components/header/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Header alone does not solve deep page wayfinding."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS pages advertised v3.13.0; pages not SHA-pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official reference, not normative standard"
+}

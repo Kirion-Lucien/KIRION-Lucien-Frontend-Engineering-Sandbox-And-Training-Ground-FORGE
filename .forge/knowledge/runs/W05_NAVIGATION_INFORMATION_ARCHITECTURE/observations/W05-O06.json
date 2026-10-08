@@ -1,0 +1,19 @@
+{
+  "id": "W05-O06",
+  "source_id": "W02-S1",
+  "target": "Headings and Labels",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 2.4.6 Level AA requires headings and labels to describe topic or purpose.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a universal requirement for a heading at each arbitrary visual section."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

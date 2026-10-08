@@ -1,0 +1,19 @@
+{
+  "id": "W05-O26",
+  "source_id": "W05-S4",
+  "target": "Sidebar hierarchy",
+  "domain": "NAVIGATION",
+  "observed_behavior": "USWDS Side Navigation documents local section navigation and a suggested 1–3-level hierarchy.",
+  "context": "USWDS official documentation; no local implementation measured",
+  "evidence_location": "https://designsystem.digital.gov/components/side-navigation/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "1–3 levels is a USWDS convention not a universal limit."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS pages advertised v3.13.0; pages not SHA-pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official reference, not normative standard"
+}

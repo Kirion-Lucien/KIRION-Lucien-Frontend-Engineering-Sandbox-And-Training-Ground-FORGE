@@ -1,0 +1,19 @@
+{
+  "id": "W05-O05",
+  "source_id": "W02-S1",
+  "target": "Multiple Ways",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 2.4.5 Level AA requires more than one way to locate a web page within a set of web pages, except where it results from or is a step in a process.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#multiple-ways",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No requirement for three simultaneous menus, mandatory search, or multiple ways on process steps."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

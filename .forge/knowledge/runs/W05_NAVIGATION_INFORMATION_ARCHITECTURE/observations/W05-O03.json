@@ -1,0 +1,19 @@
+{
+  "id": "W05-O03",
+  "source_id": "W02-S1",
+  "target": "Focus Order",
+  "domain": "FOCUS_MANAGEMENT",
+  "observed_behavior": "SC 2.4.3 Level A requires focus order preserving meaning and operability when sequential navigation order affects meaning or operation.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#focus-order",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No guarantee that source-order matching alone validates an entire live navigation flow."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

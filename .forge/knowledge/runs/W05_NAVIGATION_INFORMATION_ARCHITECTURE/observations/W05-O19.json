@@ -1,0 +1,19 @@
+{
+  "id": "W05-O19",
+  "source_id": "W05-S3",
+  "target": "Breadcrumbs for multi-level website structure",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "GOV.UK Breadcrumbs says use them for multiple hierarchy levels; not for flat sites or showing linear journey/progress; GOV.UK example starts Home and ends at the current page parent.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/breadcrumbs/#when-to-use-this-component",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "GOV.UK convention may differ from Primer/USWDS inclusion of current page in breadcrumb list."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

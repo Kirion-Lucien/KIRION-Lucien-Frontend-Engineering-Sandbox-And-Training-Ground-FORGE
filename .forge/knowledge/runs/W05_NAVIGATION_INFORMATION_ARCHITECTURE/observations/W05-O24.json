@@ -1,0 +1,19 @@
+{
+  "id": "W05-O24",
+  "source_id": "W05-S4",
+  "target": "Header selection",
+  "domain": "NAVIGATION",
+  "observed_behavior": "USWDS distinguishes basic header for modest nav breadth from extended header for multiple main sections and additional utilities.",
+  "context": "USWDS official documentation; no local implementation measured",
+  "evidence_location": "https://designsystem.digital.gov/components/header/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "USWDS thresholds and layouts are system-specific guidance."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS pages advertised v3.13.0; pages not SHA-pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official reference, not normative standard"
+}

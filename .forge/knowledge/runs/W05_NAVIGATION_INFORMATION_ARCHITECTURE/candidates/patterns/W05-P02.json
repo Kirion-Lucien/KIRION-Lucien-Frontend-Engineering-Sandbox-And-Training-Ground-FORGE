@@ -1,0 +1,78 @@
+{
+  "id": "W05-P02",
+  "name": "Relationship-matched navigation mechanisms",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "additional_domains": [
+    "NAVIGATION",
+    "CONTENT_DESIGN"
+  ],
+  "summary": "Choose navigation representation according to site scope, local section, hierarchical ancestry, related peer destination, or linear task-flow relation.",
+  "problem": "Breadcrumbs, sidebars, menus, back links and tabs are treated as interchangeable by visual preference rather than information relationship.",
+  "context": "Multi-region products combining site/service navigation, detail hierarchy, related views and sequential tasks.",
+  "observed_solution": "Map global navigation to major site areas, local nav to section children, breadcrumbs to ancestors, task lists/back links to linear journeys, and links to related destinations; name separate nav regions.",
+  "rationale": "GOV site/service/journey distinctions O16/O17/O19/O20; USWDS header/local rail/breadcrumb scopes O24/O26/O28; WAI nav labels O14; Primer NavList/breadcrumb/UnderlineNav O31/O32/O33.",
+  "tradeoffs": [
+    "Different mechanisms increase choice and can duplicate links.",
+    "Task language and hierarchy require product-specific user research."
+  ],
+  "applicability": [
+    "Products with multiple distinct navigation relationships and enough complexity to merit more than one mechanism."
+  ],
+  "non_applicability": [
+    "Flat websites with one simple header.",
+    "Interfaces whose visible controls are application commands, not destinations."
+  ],
+  "accessibility_implications": [
+    "Label multiple nav landmarks; preserve link purpose and clear current context."
+  ],
+  "performance_implications": [
+    "No evidence of performance outcomes from adding/removing nav mechanisms."
+  ],
+  "responsive_implications": [
+    "Preserve important destinations under W04-P01/A01; avoid over-reducing hierarchy."
+  ],
+  "implementation_notes": [
+    "USWDS 1–3 side levels are only local system convention.",
+    "Avoid organization-chart-as-IA claims absent user testing.",
+    "No universal sitemap or depth maximum."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W05-S2",
+    "W05-S3",
+    "W05-S4",
+    "W05-S5"
+  ],
+  "observation_ids": [
+    "W05-O04",
+    "W05-O14",
+    "W05-O16",
+    "W05-O17",
+    "W05-O19",
+    "W05-O20",
+    "W05-O24",
+    "W05-O26",
+    "W05-O28",
+    "W05-O31",
+    "W05-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A simple public-service transaction can avoid broad service navigation in favor of a linear task structure.",
+      "context": "GOV.UK clear end-to-end journey.",
+      "source_id": "W05-S3",
+      "observation_id": "W05-O17"
+    }
+  ],
+  "related_patterns": [
+    "W03-P01",
+    "W04-P01"
+  ],
+  "related_anti_patterns": [
+    "W05-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WCAG 2.2, live GOV.UK/USWDS/Primer/WAI documentation; no project IA testing",
+  "status": "CANDIDATE"
+}

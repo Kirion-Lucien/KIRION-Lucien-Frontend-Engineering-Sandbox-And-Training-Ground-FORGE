@@ -1,0 +1,19 @@
+{
+  "id": "W05-O11",
+  "source_id": "W05-S2",
+  "target": "List structure of site navigation",
+  "domain": "SEMANTIC_HTML",
+  "observed_behavior": "The WAI Menu Structure tutorial uses unordered lists for typical website navigation to convey grouping and item count.",
+  "context": "First-party W3C WAI explanatory navigation/page-structure tutorial, non-normative",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/menus/structure/#menu-representation",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Site navigation pattern, not a mandatory universal visual menu/list layout."
+  ],
+  "observed_at": "2026-10-08T07:56:00Z",
+  "source_version_context": "Live WAI tutorial; exact site build not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No keyboard/browser/screen-reader execution"
+}
