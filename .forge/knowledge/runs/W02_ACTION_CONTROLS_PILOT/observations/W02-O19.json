@@ -1,0 +1,19 @@
+{
+  "id": "W02-O19",
+  "source_id": "W02-S4",
+  "target": "ButtonGroup toolbar-specific focus logic",
+  "observed_behavior": "Pinned ButtonGroup.tsx applies horizontal-arrow wrapping focus-zone behavior only when its role prop equals toolbar; otherwise that focus-zone enhancement is disabled.",
+  "context": "W02 action-controls pilot; bounded to inspected source and evidence type",
+  "domain": "KEYBOARD_ACCESS",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/ButtonGroup/ButtonGroup.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Focused code inspection only; keyboard interactions and behavior across all child types not executed."
+  ],
+  "observed_at": "2026-10-08T05:34:23.955Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Inspection only. Observation is not a recommendation."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "W02-A01",
+  "name": "Competing dominant primary controls",
+  "domain": "VISUAL_HIERARCHY",
+  "additional_domains": [
+    "INTERACTION",
+    "CONTENT_DESIGN"
+  ],
+  "summary": "Several identically emphasized 'main' actions within the same immediate choice set may compete for attention and make next-step selection less clear.",
+  "recurring_structure": "Multiple equally prominent primary/default-emphasis controls placed in one connected decision group without a clear task distinction.",
+  "harm_mechanism": "Competing strongest emphasis can obscure the intended principal action; GOV.UK identifies next-step confusion while Primer restricts primary emphasis in groups.",
+  "context": "Single-page/single-group decisions that have one main progression and optional subsidiary alternatives.",
+  "applicability": [
+    "Same group with competing primary treatments not explained by distinct user goals."
+  ],
+  "legitimate_contexts": [
+    "Independent task zones on the same page with separate local priorities.",
+    "Balanced equally significant alternatives; not every multi-button group is a failure."
+  ],
+  "consequences": {
+    "usability": [
+      "Potentially harder identification of the next step as described by GOV.UK; not independently measured in this run."
+    ],
+    "accessibility": [
+      "Visual emphasis is not equivalent to keyboard/focus/name-role accessibility; no WCAG failure inferred."
+    ],
+    "performance": [
+      "No measured performance consequence."
+    ],
+    "maintainability": [
+      "No measured maintenance consequence."
+    ]
+  },
+  "source_ids": [
+    "W02-S2",
+    "W02-S3"
+  ],
+  "observation_ids": [
+    "W02-O08",
+    "W02-O12"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Separate unrelated action groups can legitimately each highlight their own main operation.",
+      "context": "Page composed of independent tasks; confirmation requires user-context research."
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "GOV.UK and Primer live unversioned documentation retrieved 2026-10-08",
+  "status": "CANDIDATE"
+}

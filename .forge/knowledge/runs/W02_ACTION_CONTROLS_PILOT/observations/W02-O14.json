@@ -1,0 +1,19 @@
+{
+  "id": "W02-O14",
+  "source_id": "W02-S3",
+  "target": "Primer inactive vs disabled",
+  "observed_behavior": "Primer documentation describes inactive as visually unavailable yet still interactive for contextual explanation, whereas disabled buttons may not be clicked or keyboard navigated; inactive can support an explanatory dialog.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "ACCESSIBILITY",
+  "evidence_location": "https://primer.style/product/components/button/ — Inactive; Props",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "This distinction is system-specific and should not be conflated with aria-disabled or native disabled semantics."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "Primer product Button page (unversioned)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}

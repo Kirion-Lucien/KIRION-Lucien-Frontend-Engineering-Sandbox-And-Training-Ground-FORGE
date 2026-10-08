@@ -1,0 +1,19 @@
+{
+  "id": "W02-O05",
+  "source_id": "W02-S1",
+  "target": "Name role value",
+  "observed_behavior": "SC 4.1.2 requires programmatically determinable names and roles for UI components, and relevant state/value update exposure for user-settable properties.",
+  "context": "W02 action-controls pilot; source-specific observation, not general recommendation",
+  "domain": "SEMANTIC_HTML",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#name-role-value",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not itself prescribe the visual style or exact text of the control."
+  ],
+  "observed_at": "2026-10-08T05:33:26.476Z",
+  "source_version_context": "WCAG 2.2 SC 4.1.2; Level A",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "K3 source inspection; not runtime testing"
+}

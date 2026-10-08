@@ -1,0 +1,19 @@
+{
+  "id": "W02-O15",
+  "source_id": "W02-S3",
+  "target": "Icon and text relationship",
+  "observed_behavior": "Primer Button documentation describes leading visuals as context for labels and trailing visuals as supplemental action/task information.",
+  "context": "W02 action-controls pilot; bounded to inspected source and evidence type",
+  "domain": "CONTENT_DESIGN",
+  "evidence_location": "https://primer.style/product/components/button/ — With a leading visual; With a trailing visual",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No visual-only control is shown to be automatically accessibly named by virtue of including an icon."
+  ],
+  "observed_at": "2026-10-08T05:34:23.955Z",
+  "source_version_context": "Primer Product documentation (unversioned)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Inspection only. Observation is not a recommendation."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W02-O18",
+  "source_id": "W02-S4",
+  "target": "Inactive and disabled props",
+  "observed_behavior": "Pinned types.ts exposes disabled, loading, loadingAnnouncement, and inactive props; ButtonBase.tsx maps inactive to data-inactive while disabled is forwarded among native element props.",
+  "context": "W02 action-controls pilot; bounded to inspected source and evidence type",
+  "domain": "ACCESSIBILITY",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Button/types.ts ; https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Button/ButtonBase.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Do not infer style contrast or keyboard operation from inspected source alone."
+  ],
+  "observed_at": "2026-10-08T05:34:23.955Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Inspection only. Observation is not a recommendation."
+}

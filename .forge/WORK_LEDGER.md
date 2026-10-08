@@ -89,7 +89,7 @@ No frontend application Code Writer lane exists yet.
 
 ## W02 — Controlled pilot acquisition: action controls
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:**
 
@@ -136,6 +136,15 @@ How should action controls communicate purpose, hierarchy, destructive risk, foc
 - no external repository mutation;
 - no candidate promotion;
 - no worker self-acceptance.
+
+**Candidate evidence:**
+
+- 5 qualified logical source records (S1–S5);
+- 20 source-linked observations (O01–O20);
+- 2 pattern CANDIDATE records;
+- 1 anti-pattern CANDIDATE record;
+- bounded cross-source comparison and K6 review packet;
+- no K7 promotion.
 
 **Completion gate:**
 

@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — ACTION CONTROLS PILOT EXECUTION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 Forge governance remains accepted and active.
 
@@ -84,6 +84,12 @@ The worker may NOT:
 `MAINTAINER ONLY`
 
 K7 promotion is prohibited in the worker turn.
+
+## W02 submitted candidate
+
+Five qualified sources, 20 OBSERVED records, two pattern candidates, one anti-pattern candidate, and a K6 packet exist under `.forge/knowledge/runs/W02_ACTION_CONTROLS_PILOT/`.
+
+No W02 candidate is ACCEPTED. No K7 promotion has occurred.
 
 ## Next gate
 

@@ -1,0 +1,19 @@
+{
+  "id": "W02-O11",
+  "source_id": "W02-S2",
+  "target": "Disabled button caution",
+  "observed_behavior": "GOV.UK says disabled buttons can have poor contrast and confuse some users, recommending their use only where research indicates better comprehension.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "ACCESSIBILITY",
+  "evidence_location": "https://design-system.service.gov.uk/components/button/ — Disabled buttons",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "System-specific explanatory recommendation, not a blanket WCAG prohibition of disabled buttons."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "GOV.UK live component page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}

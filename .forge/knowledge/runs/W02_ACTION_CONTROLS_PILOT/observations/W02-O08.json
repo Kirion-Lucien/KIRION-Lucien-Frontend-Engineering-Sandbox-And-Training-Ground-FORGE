@@ -1,0 +1,19 @@
+{
+  "id": "W02-O08",
+  "source_id": "W02-S2",
+  "target": "Competing default buttons",
+  "observed_behavior": "GOV.UK design guidance assigns default buttons to the main call to action and cautions against multiple defaults on a page because more than one main call to action can obscure the next step.",
+  "context": "W02 action-controls pilot; documented design-system behavior, not universal recommendation",
+  "domain": "VISUAL_HIERARCHY",
+  "evidence_location": "https://design-system.service.gov.uk/components/button/ — Default buttons",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Recommendation within GOV.UK service conventions, not WCAG or measured performance in this run."
+  ],
+  "observed_at": "2026-10-08T05:33:56.836Z",
+  "source_version_context": "GOV.UK live component page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Source documentation inspected; no independent end-user usability testing"
+}
