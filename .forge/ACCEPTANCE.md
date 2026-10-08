@@ -452,3 +452,89 @@ Ordinary destination navigation should not receive desktop-application `menubar/
 ### Governing result
 
 > **W05 gives Lucien accepted navigation/IA reasoning that distinguishes location, hierarchy, peer views, sequential flow, ordinary navigation, and application command menus without turning any one component family into universal navigation law.**
+
+
+---
+
+## W06 — Forms, validation & error-recovery intelligence
+
+**Maintainer disposition:** `ACCEPT`
+
+**Recorded:** 2026-10-08
+
+**Acceptance issue:** GitHub #13
+
+**Exact reviewed source:** `main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
+
+**Exact reviewed worker candidate:** `forge/w06-forms-validation-error-recovery-intelligence@6b3fcde1bc12ecd6904dc4bbb1f2f91ff29ed54d`
+
+### Accepted run findings
+
+- branch ancestry: PASS
+- worker delta from governance head: 1 commit
+- worker scope: PASS
+- six-source-family limit: PASS
+- observations: 42 / all OBSERVED
+- source/observation/candidate linkage: PASS
+- pinned Primer implementation identity: PASS
+- all 17 prior W02–W05 knowledge records: byte-identical before K7
+- all 15 pre-existing registry entries: unchanged
+- registry append: exactly W06-S2 through W06-S6
+- universal validation timing law: NONE
+- universal error-summary mandate: NONE
+- universal disabled-submit prohibition: NONE
+- form/schema library selection: NONE
+- backend validation architecture: NONE
+- application implementation: NONE
+- worker K7 self-promotion: NONE
+
+### K7 promotion disposition
+
+**W06-P01 — Persistent field identity with semantic instruction relationships:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Controls should remain intelligibly identified through appropriate persistent identification and programmatic relationships to relevant instructions/context, including meaningful group labeling where applicable. No universal visual label placement, asterisk convention, or fieldset-for-every-input rule is accepted.
+
+**W06-P02 — Actionable, source-linked error communication:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Detected input errors should identify the affected item in text and provide known safe correction guidance, with programmatic/overview linkage where appropriate. No universal error-summary or focus-target mandate is accepted.
+
+**W06-P03 — Recoverable validation failure with preserved answers:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Recoverable validation failure should preserve safely retainable user input and provide a route to correct and continue, subject to security, privacy, stale-data, and task-specific exceptions. No backend persistence architecture is implied.
+
+**W06-A01 — Placeholder-only field identification:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Transient placeholder text used as the sole field-identification mechanism, without reliable persistent/programmatic equivalent, is an accepted anti-pattern. Placeholder guidance remains valid as supplemental content.
+
+**W06-A02 — Detected field error signaled only by color:** `ACCEPT / HIGH CONFIDENCE`
+
+Where an input error is automatically detected, color/styling alone without textual error identification is an accepted anti-pattern within applicable WCAG 3.3.1 scope. Color may remain a supplemental cue.
+
+### Validation evidence
+
+- source inspection: SOURCE INSPECTED
+- branch ancestry: PASS
+- worker delta: PASS — 1 commit
+- scope integrity: PASS
+- source-family limit: PASS
+- registry append integrity: PASS
+- observation count/status: PASS
+- candidate linkage: PASS
+- pinned implementation source: PASS
+- prior knowledge integrity: PASS
+- existing registry-entry integrity: PASS
+- external source spot-check: PASS
+- application build: NOT RUN / NOT APPLICABLE
+- application typecheck: NOT RUN / NOT APPLICABLE
+- application tests: NOT RUN / NOT APPLICABLE
+- frontend runtime: NOT RUN / NOT APPLICABLE
+- browser form testing: NOT RUN
+- keyboard form testing: NOT RUN
+- screen-reader / assistive-technology testing: NOT RUN
+- user form usability testing: NOT RUN
+- server validation integration testing: NOT RUN
+- dedicated external JSON-Schema validator: NOT RUN
+
+### Governing result
+
+> **W06 gives Lucien accepted bounded form-design and error-recovery knowledge while keeping validation timing, error-summary usage, focus behavior, disabled-state policy, backend validation, and data-retention architecture contextual rather than universal.**
