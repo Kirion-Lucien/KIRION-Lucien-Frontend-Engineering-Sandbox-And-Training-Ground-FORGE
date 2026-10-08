@@ -106,3 +106,51 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - WCAG 2.1.1 path-based exception concerns the underlying function. WCAG 2.1.2 requires keyboard escape and nonstandard-exit instructions. WCAG 2.4.3 is conditional on meaningful/operable sequential order. WCAG 2.4.7 is visible indicator in a mode, not AAA numeric appearance. WCAG 2.4.11 is AA wholly-not-obscured with the two notes, not AAA no-part-obscured. WCAG 1.4.13 has dismissible, hoverable, persistent conditions with stated exceptions.
 - Material K3 blockers at authoring: NONE; Stage B1 remains candidate pending independent review, despite successful source inspection.
 - **Next safe task:** Maintainer reviews the exact final B1 committed checkpoint/JSON and either REWORKS or explicitly releases the exact SHA for a separately bounded B2 batch. Worker stops now; no B2, K4–K7, frontend implementation, registry mutation or main merge.
+
+
+---
+
+# W07 STAGE B2 — WHATWG HTML K3 OBSERVATION CHECKPOINT (APPENDED)
+
+## Identity / authority
+- Run: `W07_DIALOGS_OVERLAYS_FOCUS`; Stage B; batch **B2**; K3 ONLY.
+- Worker: `KIRION FORGE: FRONTEND KNOWLEDGE OBSERVATION WORKER — STAGE B2`.
+- Disposition: **`READY_FOR_REVIEW`**, NOT RELEASED; downstream B3/Stage C/K7 still blocked.
+- Canonical main: `main@61987e3de3ff85426e293dd15e596200ad272103`.
+- Working branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+- Exact B2 governance input: `6b4031d8b584df367a4fd30f5df0ac6e7ec14c52`.
+- Accepted upstream Stage A: `0e4340649fb71aef1ef00e46caa8433342bf697a` (issue #17).
+- Accepted upstream B1: `53084dd7c8f812732fc556873c3d7753c3aa1c3b` (issue #18, independent Maintainer ACCEPT; comment `6064173484`).
+- Exact B2 governance release: issue #18 comment `6064223369`; tracking issue #19 OPEN and active handoff `.forge/handoffs/active/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
+- Policy: `FORGE-0006`; `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+- **Exact B2 output SHA: resolve after commit and report outside checkpoint; do not write self-referential SHA.**
+- Maintainer B2 release reference / accepted downstream checkpoint: **NONE; BLOCKED**.
+
+## Bounded work
+- Only WHATWG HTML Living Standard, source ID `W07-S3`, source class `OFFICIAL_STANDARD / PRIMARY_NORMATIVE` for HTML platform algorithms.
+- Source pages displayed **Living Standard — Last Updated 20 July 2026**; retrieved `2026-10-08T16:25:54Z` (`2026-10-09 00:25:54 Asia/Manila`), but no immutable source revision is pinned.
+- Official sections inspected: `interactive-elements.html#the-dialog-element`, `#dialog-light-dismiss`; `popover.html#the-popover-attribute`, `#popover-light-dismiss`; `interaction.html#inert-subtrees`, `#modal-dialogs-and-inert-subtrees`. Adjacent WHATWG algorithm steps were inspected for conditions.
+- Source rights: registry `KNOWN_PERMISSIVE / CC BY 4.0` with `METADATA_ONLY` policy. Store only original paraphrased evidence and anchored provenance. No copied spec corpus/third-party code.
+- B2 new JSON: `observations/W07-O07.json`–`observations/W07-O12.json` (six, `OBSERVED`, `NORMATIVE_TEXT`, `source_id=W07-S3`).
+- B2 edited `OBSERVATION_INDEX.md` (append only after B1 historic content) and this `checkpoints/CHECKPOINT_LEDGER.md` (append only after Stage A and B1). Total authorized B2 delta: **8 paths**, no others.
+- No candidate synthesis, K4 comparison, K6 review packet, K7 promotion, B3 extraction, app code, runtime, package, registry or governance changes.
+
+## Executed / unexecuted validation at staging
+| Check | Status | Evidence and limits |
+|---|---|---|
+| Main/branch/governance SHA | **PASS** | Live Git compares: branch exactly B2 input; main exactly accepted SHA before mutation |
+| Stage B1 checkpoint ancestry | **PASS** | Live compare B1 `53084dd...` → B2 `6b4031...`: 5 ahead/0 behind; final verification after commit required |
+| Upstream acceptance/release | **PASS** | Independent issue #18 ACCEPT comment and exact governance release, issue #19 active B2 scope |
+| WHATWG source extraction | **SOURCE INSPECTED** | Six relevant algorithm/element areas on direct official Living Standard; normative HTML only |
+| Observation candidates structural subset before staging | **PASS** | Accepted observation-record properties required/type/enum/min length/array checks on six in-memory records |
+| Exact final JSON parse/schema after commit | **UNKNOWN** | Re-read exact final Git file records after SHA update; do not preclaim final PASS |
+| Full dedicated Draft 2020-12 JSON Schema engine | **NOT RUN** | Structural subset is not complete schema-engine verification |
+| Exact final diff scope / prior blob integrity | **UNKNOWN** | Verify output against input recursive Git blobs after commit |
+| Index and checkpoint exact historical prefix | **UNKNOWN** | Re-fetch and compare output content to B2 input after commit |
+| Browser/keyboard/focus/AT/response/device/usability or application tests | **NOT RUN** | HTML spec text only, never runtime proof |
+
+## Unresolved / handoff
+- HTML is mutable: displayed last-update is not a frozen revision or test of any engine.
+- Native `dialog`/popover/inert platform rules must not be misread as universal application design law or WCAG compliance.
+- Dialog `closedby` auto/none/any, `requestClose` cancelability, light-dismiss pointer conditions, focus restoration conditions, auto/manual/hint popover rules, and modal inertness exceptions remain context-sensitive within their source algorithms.
+- Next safe action: **independent Maintainer review** of B2 exact output SHA and its six source-grounded observations. Do not start B3 or C; no self-release.

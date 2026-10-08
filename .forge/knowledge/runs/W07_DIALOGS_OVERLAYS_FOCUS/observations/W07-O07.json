@@ -1,0 +1,22 @@
+{
+  "id": "W07-O07",
+  "source_id": "W07-S3",
+  "target": "dialog open state and modal versus nonmodal presentation",
+  "observed_behavior": "The HTML Standard defines dialog as a transitory task/information window; its boolean open attribute indicates an active dialog. The HTMLDialogElement.show() algorithm displays a nonmodal dialog, whereas showModal() calls the modal-show algorithm, marking the dialog modal and arranging top-layer presentation. A dialog already open in the other mode can trigger InvalidStateError under the documented method guards. Changing open alone is not equivalent to all method-defined lifecycle steps.",
+  "context": "W07 B2 K3 read-only observation; WHATWG HTML Living Standard authoritative for the described native HTML mechanisms and guarded algorithms only; source shows Last Updated 20 July 2026.",
+  "evidence_location": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+  "domain": "MODALS",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The modal/nonmodal distinction concerns the native dialog algorithms, not any element styled visually as a dialog.",
+    "show() and showModal() include specific state checks; presence of open by itself does not establish is-modal/top-layer state.",
+    "The source advises against manual open-attribute removal because modal document blocking and close-event semantics may be left inconsistent.",
+    "HTML algorithms are normative platform definitions, not observations of a browser or endorsement of one application design."
+  ],
+  "observed_at": "2026-10-08T16:25:54Z",
+  "source_version_context": "WHATWG HTML Living Standard, pages displayed 'Last Updated 20 July 2026'; retrieved 2026-10-09 00:25:54 Asia/Manila (2026-10-08T16:25:54Z); not immutable / not a pinned revision",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Bounded original paraphrase. Source scope only; not application guidance or validation. Related anchors are documented in B2 appended index."
+}

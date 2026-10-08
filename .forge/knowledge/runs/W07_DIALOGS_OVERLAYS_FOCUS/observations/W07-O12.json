@@ -1,0 +1,22 @@
+{
+  "id": "W07-O12",
+  "source_id": "W07-S3",
+  "target": "inert subtree focus and interaction semantics",
+  "observed_behavior": "The HTML Standard's inert-subtree model specifies hit-testing equivalent to pointer-events:none, text selection equivalent to user-select:none, non-editability for editable inert nodes, generally unavailable focus, and non-exposure to accessibility APIs; the user agent should omit inert nodes from find-in-page but may permit user overrides for finding or selection. A present boolean inert attribute makes an element and flat-tree descendants inert unless they escape this through the defined modal-dialog mechanism.",
+  "context": "W07 B2 K3 read-only observation; WHATWG HTML Living Standard authoritative for the described native HTML mechanisms and guarded algorithms only; source shows Last Updated 20 July 2026.",
+  "evidence_location": "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+  "domain": "SEMANTIC_HTML",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The default is non-inert; not all offscreen, visually hidden or inactive-looking elements are thereby inert.",
+    "The explicit exception for top-layer modal dialog escape of ancestor inertness must be retained; the dialog can be inert through its own inert attribute.",
+    "The WHATWG text cautions against marking vital unobscured content inert, and notes that individual form controls usually have more appropriate disabled semantics.",
+    "Specification effects and user-agent allowances do not establish observed browser accessibility output, keyboard test PASS, or suitable app design."
+  ],
+  "observed_at": "2026-10-08T16:25:54Z",
+  "source_version_context": "WHATWG HTML Living Standard, pages displayed 'Last Updated 20 July 2026'; retrieved 2026-10-09 00:25:54 Asia/Manila (2026-10-08T16:25:54Z); not immutable / not a pinned revision",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Bounded original paraphrase. Source scope only; not application guidance or validation. Related anchors are documented in B2 appended index."
+}

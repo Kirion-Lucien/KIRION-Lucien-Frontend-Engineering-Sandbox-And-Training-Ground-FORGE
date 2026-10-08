@@ -1,0 +1,23 @@
+{
+  "id": "W07-O11",
+  "source_id": "W07-S3",
+  "target": "popover modes, presentation state and light-dismiss boundaries",
+  "observed_behavior": "The HTML Standard specifies popover auto, manual and hint attribute states. Auto popovers may close other unrelated auto popovers when shown and respond to close requests and light dismiss; manual popovers do not implicitly close others or respond to light dismiss/close requests; hint popovers can displace other hints without automatically displacing auto popovers. Its showPopover()/hidePopover()/togglePopover() algorithms govern top-layer presentation and visibility states, and outside pointer interactions light-dismiss only eligible auto/hint popovers under the defined algorithm.",
+  "context": "W07 B2 K3 read-only observation; WHATWG HTML Living Standard authoritative for the described native HTML mechanisms and guarded algorithms only; source shows Last Updated 20 July 2026.",
+  "evidence_location": "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+  "domain": "OVERLAYS",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Popover is an HTML presentation/visibility mechanism; it is not by itself a dialog, tooltip, accessible role or modal-background inertness guarantee.",
+    "Attribute state depends on enumerated parsing rules: empty value maps to auto, invalid value to manual, and missing attribute to no-popover.",
+    "Auto/hint dismissal is algorithmic and conditional; manual popovers are intentionally excluded from automatic light-dismiss behavior.",
+    "Nested/related popover stack handling follows topmost-popover-ancestor algorithms, not a simplistic close-all guarantee.",
+    "No browser support, rendering, focus/AT behavior or user-task effectiveness was measured."
+  ],
+  "observed_at": "2026-10-08T16:25:54Z",
+  "source_version_context": "WHATWG HTML Living Standard, pages displayed 'Last Updated 20 July 2026'; retrieved 2026-10-09 00:25:54 Asia/Manila (2026-10-08T16:25:54Z); not immutable / not a pinned revision",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Bounded original paraphrase. Source scope only; not application guidance or validation. Related anchors are documented in B2 appended index."
+}

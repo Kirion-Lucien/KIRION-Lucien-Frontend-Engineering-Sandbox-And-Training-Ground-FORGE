@@ -1,0 +1,23 @@
+{
+  "id": "W07-O10",
+  "source_id": "W07-S3",
+  "target": "dialog close request, cancel events and light dismiss",
+  "observed_behavior": "The HTML dialog API distinguishes close() from requestClose(): the latter requests close, dispatches a cancel event that can be prevented, and then performs closing if not canceled; it operates even when closedby is none. The closedby enumeration has any, closerequest and none, with an automatic state behaving like closerequest for modal dialogs and none otherwise. Light dismiss applies to a topmost open dialog whose computed closed-by state is any, with trusted pointerdown/pointerup targeting checks before requesting closure.",
+  "context": "W07 B2 K3 read-only observation; WHATWG HTML Living Standard authoritative for the described native HTML mechanisms and guarded algorithms only; source shows Last Updated 20 July 2026.",
+  "evidence_location": "https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-light-dismiss",
+  "domain": "INTERACTION",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Manual close(), a requestClose() dispatch path, close requests and click-outside light dismiss are not interchangeable.",
+    "closedby=any is a condition for the documented outside-click light dismiss; default auto does not universally permit outside dismissal.",
+    "The pointerdown/pointerup target must match and the affected dialog must be the topmost eligible open dialog.",
+    "The specification does not require all dialogs to light-dismiss or prove a particular device's Escape handling or application data-loss safety.",
+    "Related close API requirements appear under #the-dialog-element and #dialog-light-dismiss within the same authorized WHATWG page."
+  ],
+  "observed_at": "2026-10-08T16:25:54Z",
+  "source_version_context": "WHATWG HTML Living Standard, pages displayed 'Last Updated 20 July 2026'; retrieved 2026-10-09 00:25:54 Asia/Manila (2026-10-08T16:25:54Z); not immutable / not a pinned revision",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Bounded original paraphrase. Source scope only; not application guidance or validation. Related anchors are documented in B2 appended index."
+}

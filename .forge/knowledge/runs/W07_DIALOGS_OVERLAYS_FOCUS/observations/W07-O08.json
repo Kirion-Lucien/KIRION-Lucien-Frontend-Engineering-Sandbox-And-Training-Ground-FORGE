@@ -1,0 +1,22 @@
+{
+  "id": "W07-O08",
+  "source_id": "W07-S3",
+  "target": "modal top layer and document inertness",
+  "observed_behavior": "The HTML Standard defines a document as blocked by the topmost dialog in that document's top layer. While blocked, connected nodes outside that subject dialog and its flat-tree descendants become inert; showModal() causes the relevant top-layer mechanism. The dialog itself escapes inertness inherited from ancestors, but can become inert if its own inert attribute is specified, and descendants may be independently inert.",
+  "context": "W07 B2 K3 read-only observation; WHATWG HTML Living Standard authoritative for the described native HTML mechanisms and guarded algorithms only; source shows Last Updated 20 July 2026.",
+  "evidence_location": "https://html.spec.whatwg.org/multipage/interaction.html#modal-dialogs-and-inert-subtrees",
+  "domain": "MODALS",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Document blocking is tied to the topmost modal dialog in the top layer, not to any CSS backdrop or visually prominent overlay.",
+    "The subject and its flat-tree descendants are excluded from automatic surrounding-document inertness, subject to separately specified inertness.",
+    "Multiple modal dialogs, other top-layer members, and the user's context cannot be reduced to a universal z-index or library stacking rule.",
+    "No live pointer, keyboard, modal layering or accessibility technology was tested."
+  ],
+  "observed_at": "2026-10-08T16:25:54Z",
+  "source_version_context": "WHATWG HTML Living Standard, pages displayed 'Last Updated 20 July 2026'; retrieved 2026-10-09 00:25:54 Asia/Manila (2026-10-08T16:25:54Z); not immutable / not a pinned revision",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Bounded original paraphrase. Source scope only; not application guidance or validation. Related anchors are documented in B2 appended index."
+}
