@@ -62,5 +62,7 @@
   "confidence": "MEDIUM",
   "recency_status": "UNKNOWN",
   "version_context": "GOV.UK/Primer unpinned docs; Carbon indexed official pages updated Sep 25 2026; WCAG 2.2 (2024)",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T14:27:00+08:00"
 }
