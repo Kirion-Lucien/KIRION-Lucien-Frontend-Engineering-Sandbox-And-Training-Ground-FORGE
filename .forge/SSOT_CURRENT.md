@@ -100,36 +100,36 @@ No frontend application Code Writer lane exists.
 
 `W07 — DIALOGS, OVERLAYS & FOCUS-MANAGEMENT INTELLIGENCE`
 
-Canonical accepted baseline: `main@61987e3de3ff85426e293dd15e596200ad272103`.
+**Canonical baseline:** `main@61987e3de3ff85426e293dd15e596200ad272103`.
 
-Working branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+**Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`.
 
-**Stage A K0–K2:** ACCEPTED / released for downstream input by independent Maintainer review on GitHub issue #17.
+**Stage A K0–K2:** `ACCEPTED / RELEASED` — exact checkpoint `0e4340649fb71aef1ef00e46caa8433342bf697a`; issue #17.
 
-**Exact accepted Stage A checkpoint:** `0e4340649fb71aef1ef00e46caa8433342bf697a`.
+**Stage B1 WCAG K3:** `ACCEPTED / RELEASED` — exact checkpoint `53084dd7c8f812732fc556873c3d7753c3aa1c3b`; issue #18.
 
-**Stage B1 K3:** AUTHORIZED — **one WCAG 2.2 observation batch only**, max six records W07-O01..O06 from source W02-S1.
+**Stage B2 WHATWG K3:** `AUTHORIZED — ONE BOUNDED HTML LIVING STANDARD BATCH ONLY`, at most W07-O07..O12 with source `W07-S3`.
 
-**Stage B2 onward:** BLOCKED — Maintainer B1 checkpoint review and release required.
+**Stage B3 onward:** `BLOCKED — MAINTAINER B2 CHECKPOINT REVIEW/RELEASE REQUIRED`.
 
-**Stage C K4–K6:** BLOCKED — separate complete Stage B review/release required.
+**Stage C K4–K6:** `BLOCKED — COMPLETED STAGE B REVIEW/RELEASE REQUIRED`.
 
-**K7 promotion:** MAINTAINER ONLY.
+**K7:** `MAINTAINER ONLY`.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
 
-**Historical Stage A handoff:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md` and `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`.
 
-**Protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+**Binding protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-The B1 worker must verify live Git against the **exact B1 governance head published on issue #17** and the accepted Stage A checkpoint as ancestor. B1 outputs are only evidence-bearing K3 observations/index/checkpoint; no candidates, comparisons or self-release.
+Before mutation the worker must resolve the precise new B2 governance HEAD posted to issues #18/#19 after Maintainer stage setup, confirm live canonical main unchanged and accepted B1 checkpoint as ancestor. Stage B2 is source-isolated to WHATWG normative HTML spec, not WCAG/APG/USWDS/Primer or a cross-source synthesis. No automatic further-batch release.
 
 ## Prior accepted knowledge
 
-W00–W06 remain accepted. W02-P02 and W03-A01 remain CANDIDATE / DEFERRED. No prior accepted/deferred record may be modified.
+W00–W06 remain accepted; W02-P02 and W03-A01 remain CANDIDATE / DEFERRED. None may be changed during W07 B2.
 
 ## Application implementation authority
 
 `BLOCKED`
 
-No frontend application Code Writer lane, framework, component-library selection, package installation, runtime or application tests are authorized.
+No frontend application Code Writer lane, framework, dependencies, component-library adoption, runtime or tests authorized.
