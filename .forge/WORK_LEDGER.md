@@ -201,15 +201,17 @@ ACCEPTED / HIGH
 
 **Stage A qualifications:** six logical approved source families, `W02-S1` reuse and five scoped `W07-S2..S6` additions; APG non-modal standalone URL 404, APG tooltip WIP/no consensus, WHATWG mutable; product docs unpinned and rights uncertain.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
 
 **Stage B3 APG K3:** ACCEPTED / RELEASED at exact worker checkpoint `e1ee045c6ff16a89771272abefd4223ad2a2d4b6`, issue #20 Maintainer comment 6065798465. Six `DOCUMENTATION_STATEMENT` observations `W07-O13..O18` from `W07-S2`; tooltip WIP/no consensus retained; no promoted pattern.
 
-**Stage B4 USWDS Modal K3:** AUTHORIZED, 0–6 `OBSERVED` records `W07-O19..O24` from qualified `W07-S4`; exact governance start SHA issued in tracking issue #21 after commit. USWDS documentation/test-status claims remain source-specific, not our test execution or general WCAG conformance.
+**Stage B4 USWDS Modal K3:** ACCEPTED / RELEASED at worker checkpoint `cf6d6ccc1a197efd3f24250821f3a0b7e55b00df`, issue #21 independent Maintainer acceptance comment `6066480383`. Six `W07-O19..O24` observations from `W07-S4`; USWDS publication/test-status claims are not Kirion-executed tests.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
 
-**Stage B5 onward:** BLOCKED pending independent B4 review/release.
+**Stage B5 Primer Product K3:** AUTHORIZED one source-bounded batch from qualified `W07-S5`, candidate IDs `W07-O25..O30`, exact governance input to be published in issue #22. Live docs unpinned and reference-only.
+
+**Stage B6 onward:** BLOCKED pending independent B5 review/release.
 
 **Stage C K4–K6:** BLOCKED pending Stage B closure/release. K7 Maintainer-only; no accepted W07 patterns.
 
