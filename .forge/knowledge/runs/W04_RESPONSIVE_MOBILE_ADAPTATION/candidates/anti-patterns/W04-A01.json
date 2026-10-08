@@ -1,0 +1,60 @@
+{
+  "id": "W04-A01",
+  "name": "Unrecoverable task-critical control disappearance",
+  "domain": "RESPONSIVE_DESIGN",
+  "additional_domains": [
+    "ACCESSIBILITY",
+    "NAVIGATION",
+    "INTERACTION"
+  ],
+  "summary": "A required action or route becomes hidden in narrow composition with no equivalent access, preventing the intended workflow.",
+  "recurring_structure": "Responsive hiding/removal of the only control or navigation path needed to finish the same task; no disclosure or alternative route available.",
+  "harm_mechanism": "Users cannot reach required functionality when width changes; in the conditions covered by WCAG SC 1.4.10 this could represent loss of functionality. Primer instructs preservation of full function across smaller screens.",
+  "context": "Same task must remain operable in constrained and wide viewports.",
+  "applicability": [
+    "The removed control is demonstrably required for the user's active workflow and no equivalent path remains."
+  ],
+  "legitimate_contexts": [
+    "Action not applicable on a mobile-specific workflow.",
+    "Redundant copy removed while an equivalent accessible action remains.",
+    "Decorative or optional content removed with no functional consequence."
+  ],
+  "consequences": {
+    "usability": [
+      "Missing required task route/action can block completion; no independent task experiment executed."
+    ],
+    "accessibility": [
+      "Potential SC 1.4.10 loss-of-functionality issue under relevant test context; no actual WCAG audit performed."
+    ],
+    "performance": [
+      "No negative or positive performance effect measured."
+    ],
+    "maintainability": [
+      "Unspecified; no direct technical debt observation."
+    ]
+  },
+  "source_ids": [
+    "W02-S1",
+    "W03-S5",
+    "W03-S6"
+  ],
+  "observation_ids": [
+    "W04-O05",
+    "W04-O22",
+    "W04-O25",
+    "W04-O29",
+    "W04-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A sidebar may disappear visually if a discoverable equivalent view preserves every required operation.",
+      "context": "Mobile task navigation via an accessible alternate view.",
+      "source_id": "W03-S5",
+      "observation_id": "W04-O22"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 2024; Primer docs unpinned; pinned PageLayout implementation 7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}

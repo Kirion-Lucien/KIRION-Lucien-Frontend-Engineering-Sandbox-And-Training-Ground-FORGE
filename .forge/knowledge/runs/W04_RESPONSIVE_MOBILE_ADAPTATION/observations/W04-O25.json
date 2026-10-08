@@ -1,0 +1,19 @@
+{
+  "id": "W04-O25",
+  "source_id": "W03-S5",
+  "target": "Primer accessibility reflow guidance",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "Primer PageLayout accessibility guidance calls for readable, usable 320px layout, reflow/stacking of panes, semantic landmarks and accommodation of text resize/spacing.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://primer.style/product/components/page-layout/accessibility/#adaptability",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Reference guidance does not replace WCAG normative text or independently certify rendered implementation."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Primer PageLayout accessibility docs, unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

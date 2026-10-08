@@ -1,0 +1,19 @@
+{
+  "id": "W04-O28",
+  "source_id": "W03-S6",
+  "target": "Responsive props via data attributes",
+  "domain": "COMPONENT_ARCHITECTURE",
+  "observed_behavior": "getResponsiveAttributes.ts maps responsive values to breakpoint-suffixed data attributes such as data-gap-narrow for CSS-driven adaptation.",
+  "context": "Exact immutable primer/react PageLayout and directly referenced responsive utilities, source inspection only",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/internal/utils/getResponsiveAttributes.ts",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Source inspection cannot prove server hydration/browser layout results."
+  ],
+  "observed_at": "2026-10-08T06:47:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Tests and stories inspected but not run; repository not modified"
+}

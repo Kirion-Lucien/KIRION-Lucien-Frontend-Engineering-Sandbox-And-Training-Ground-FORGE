@@ -1,0 +1,71 @@
+{
+  "id": "W04-P01",
+  "name": "Recoverable responsive reduction",
+  "domain": "RESPONSIVE_DESIGN",
+  "additional_domains": [
+    "INFORMATION_ARCHITECTURE",
+    "NAVIGATION",
+    "ACCESSIBILITY"
+  ],
+  "summary": "When narrow composition reduces concurrent panels, task-needed content and actions remain discoverable and accessible through relocated views or usable disclosure.",
+  "problem": "Hiding a region for space may remove the only route to task completion even when visual layout appears cleaner.",
+  "context": "Multi-region workflows where small viewports cannot comfortably display every region concurrently.",
+  "observed_solution": "Distinguish critical/supporting/optional content; move or stack nonessential panes, or offer explicit alternate views/disclosure for necessary functions instead of silently removing them.",
+  "rationale": "Primer describes fully functional responsive multi-view experiences (W04-O22); WAI supports header/navigation adaptation (O11); WCAG SC 1.4.10 requires no loss of information/functionality under scoped test conditions (O05), while pinned code shows hidden/position capabilities, not safe use (O29,O32).",
+  "tradeoffs": [
+    "Extra view transitions can make cross-pane comparisons slower.",
+    "Visibility versus discoverability depends on actual navigation labels and task context."
+  ],
+  "applicability": [
+    "Secondary panes or controls still needed in a workflow but unable to fit simultaneously."
+  ],
+  "non_applicability": [
+    "Content truly not applicable in the narrow workflow.",
+    "Intrinsically side-by-side workflows that legitimately require a different 2D interaction model."
+  ],
+  "accessibility_implications": [
+    "Check programmatic structure, keyboard access to disclosure, focus continuity and reflow; no conformance proven."
+  ],
+  "performance_implications": [
+    "No performance data; additional view switching and mounted panels require separate testing."
+  ],
+  "responsive_implications": [
+    "Layout reduction must not turn needed functionality into unrecoverable absence."
+  ],
+  "implementation_notes": [
+    "Not an endorsement of a specific disclosure component, routing or frontend framework.",
+    "Do not treat a bare responsive hidden prop as evidence of accessible recovery."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W03-S2",
+    "W03-S5",
+    "W03-S6"
+  ],
+  "observation_ids": [
+    "W04-O05",
+    "W04-O11",
+    "W04-O22",
+    "W04-O25",
+    "W04-O29",
+    "W04-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Decorative/irrelevant sidebar content can be hidden without an explicit disclosure if it is not required for any task.",
+      "context": "Nonessential information or redundant flourish.",
+      "source_id": "W03-S5",
+      "observation_id": "W04-O22"
+    }
+  ],
+  "related_patterns": [
+    "W03-P03"
+  ],
+  "related_anti_patterns": [
+    "W04-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 Recommendation 2024; Primer docs live unpinned; pinned PageLayout@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "CANDIDATE"
+}

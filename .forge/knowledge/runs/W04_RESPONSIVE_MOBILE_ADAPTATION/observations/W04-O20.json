@@ -1,0 +1,19 @@
+{
+  "id": "W04-O20",
+  "source_id": "W03-S4",
+  "target": "Overflow and tile wrapping",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "Carbon overview explains that fixed-size tiles may wrap to the next line, or sometimes be truncated in an overflow-scrolling region.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview#fixed-boxes",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Does not establish which overflow is justified for a particular task or WCAG compliance."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Carbon official indexed excerpts (updated 2026-09-25)",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Indexed official Carbon excerpts; direct retrieval unavailable"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W04-O04",
+  "source_id": "W02-S1",
+  "target": "Resize Text",
+  "domain": "TYPOGRAPHY",
+  "observed_behavior": "SC 1.4.4 requires non-caption, non-image text to resize up to 200 percent without loss of content or functionality without assistive technology.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#resize-text",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not mandate any single responsive typography scale or CSS unit."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "SC 1.4.4 Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

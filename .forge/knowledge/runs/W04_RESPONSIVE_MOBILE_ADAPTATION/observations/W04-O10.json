@@ -1,0 +1,19 @@
+{
+  "id": "W04-O10",
+  "source_id": "W03-S2",
+  "target": "Mobile beyond phones",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "WAI's mobile accessibility page explicitly encompasses phones, tablets, wearables, embedded/in-vehicle devices and a broad variety of inputs and conditions.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/WAI/standards-guidelines/mobile/#more-than-mobile",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Overview describes scope, not a responsive implementation requirement for any particular device."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "WAI Mobile Accessibility, unversioned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

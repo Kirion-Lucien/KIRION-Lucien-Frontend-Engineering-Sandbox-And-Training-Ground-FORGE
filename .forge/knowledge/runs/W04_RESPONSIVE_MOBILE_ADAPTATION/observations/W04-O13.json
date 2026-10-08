@@ -1,0 +1,19 @@
+{
+  "id": "W04-O13",
+  "source_id": "W03-S3",
+  "target": "Small-screen-first service layout",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "GOV.UK recommends designing for small screens first, initially using one column; wider reading pages commonly use a two-thirds or two-thirds-and-one-third layout.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#screen-size",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "GOV.UK service recommendation only; not WCAG or a universal one-column mandate."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "GOV.UK Layout current page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

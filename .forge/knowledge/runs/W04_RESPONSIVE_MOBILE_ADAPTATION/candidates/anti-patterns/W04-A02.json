@@ -1,0 +1,61 @@
+{
+  "id": "W04-A02",
+  "name": "Unjustified horizontal overflow for ordinary content",
+  "domain": "RESPONSIVE_DESIGN",
+  "additional_domains": [
+    "LAYOUT",
+    "ACCESSIBILITY"
+  ],
+  "summary": "Retaining full desktop width for content that does not intrinsically require a two-dimensional presentation causes avoidable horizontal and vertical navigation at constrained equivalent widths.",
+  "recurring_structure": "Narrow viewport with ordinary linear text/forms laid out in fixed wide multi-column geometry, requiring sideways and downward scrolling where lossless reflow is possible.",
+  "harm_mechanism": "Unnecessary two-dimensional scrolling burdens reading/task progress and can breach WCAG SC 1.4.10 where its precise test conditions and exception criteria are not met.",
+  "context": "Reading forms/instructions or other linear content that can reflow without losing meaningful 2D relationships.",
+  "applicability": [
+    "Two-dimensional scroll exists at an applicable reflow test viewport and the content does not require two dimensions for usage/meaning."
+  ],
+  "legitimate_contexts": [
+    "Tables/maps/canvases whose 2D relationships are essential.",
+    "A constrained subregion with justified internal horizontal navigation while surrounding prose reflows.",
+    "An implementation requiring two-dimensional layout for content meaning under the normative exception."
+  ],
+  "consequences": {
+    "usability": [
+      "Extra pan/scroll navigation may interrupt reading; no user experiment performed."
+    ],
+    "accessibility": [
+      "Potential WCAG SC 1.4.10 failure at tested equivalent widths absent applicable exception."
+    ],
+    "performance": [
+      "No scrolling/render performance measurement."
+    ],
+    "maintainability": [
+      "No maintainability deficit proven by overflow alone."
+    ]
+  },
+  "source_ids": [
+    "W02-S1",
+    "W03-S3",
+    "W03-S4",
+    "W03-S5"
+  ],
+  "observation_ids": [
+    "W04-O05",
+    "W04-O13",
+    "W04-O15",
+    "W04-O20",
+    "W04-O21",
+    "W04-O22"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Carbon explicitly documents dense full-width workflows and scrollable fixed tile regions as legitimate layout choices; essential 2D meaning requires independent determination.",
+      "context": "Dense professional comparison or intrinsically 2D data task.",
+      "source_id": "W03-S4",
+      "observation_id": "W04-O21"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "UNKNOWN",
+  "version_context": "WCAG 2.2 2024; GOV.UK/Carbon/Primer docs unpinned and Carbon indexed only",
+  "status": "CANDIDATE"
+}

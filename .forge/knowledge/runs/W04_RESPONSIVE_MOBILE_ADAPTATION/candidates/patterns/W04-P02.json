@@ -1,0 +1,69 @@
+{
+  "id": "W04-P02",
+  "name": "Meaningful source and focus order through responsive relocation",
+  "domain": "SEMANTIC_HTML",
+  "additional_domains": [
+    "FOCUS_MANAGEMENT",
+    "RESPONSIVE_DESIGN"
+  ],
+  "summary": "When visual regions move across viewport conditions, programmatic reading and keyboard focus sequences remain meaningful and operable where sequence matters.",
+  "problem": "A CSS rearrangement may visually reprioritize panels while preserving a focus route that no longer makes sense for the task.",
+  "context": "Responsive changes to visual order of controls, navigation, content or pane regions.",
+  "observed_solution": "Review source reading sequence, visual order and sequential keyboard path as distinct concerns; revise structure or interaction design if meaning/operability is disrupted.",
+  "rationale": "WCAG 1.3.1 relationships (O01), 1.3.2 conditional meaningful sequence (O02) and 2.4.3 focus order (O07) are normative within their scope; Primer pinned PageLayout region-order/position code shows possible layout-level reordering (O29/O30/O32).",
+  "tradeoffs": [
+    "Visual and source order need not be identical for independent regions.",
+    "Making separate DOM copies can introduce focus/semantics risks, untested here."
+  ],
+  "applicability": [
+    "Meaning-bearing content order or sequentially keyboard-navigated interactions changed in a narrow viewport."
+  ],
+  "non_applicability": [
+    "Purely decorative reordering with no reading or focus meaning effect.",
+    "Nonsequential spatial exploration where WCAG conditions do not apply in the same way."
+  ],
+  "accessibility_implications": [
+    "Actual target must be checked against SC 1.3.1, 1.3.2 and 2.4.3; no automatic violation from CSS order alone."
+  ],
+  "performance_implications": [
+    "No performance result established."
+  ],
+  "responsive_implications": [
+    "Test order transitions at relevant layout changes, not named device models."
+  ],
+  "implementation_notes": [
+    "Use standard- and context-based validation; do not prescribe React or a DOM-reordering algorithm.",
+    "Pinned code is a mechanics example only."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W03-S5",
+    "W03-S6"
+  ],
+  "observation_ids": [
+    "W04-O01",
+    "W04-O02",
+    "W04-O07",
+    "W04-O24",
+    "W04-O29",
+    "W04-O30",
+    "W04-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Repositioning unrelated decorative panels may not affect reading meaning or focus operability.",
+      "context": "Independent noninteractive supporting regions.",
+      "source_id": "W02-S1",
+      "observation_id": "W04-O02"
+    }
+  ],
+  "related_patterns": [
+    "W03-P01",
+    "W03-P03"
+  ],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 2024; pinned Primer code 7f5303d803986887187d86dcebaeda22a4dc6823; docs unpinned",
+  "status": "CANDIDATE"
+}

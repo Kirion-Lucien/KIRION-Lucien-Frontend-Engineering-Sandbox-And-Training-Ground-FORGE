@@ -1,0 +1,19 @@
+{
+  "id": "W04-O09",
+  "source_id": "W03-S2",
+  "target": "No separate mobile accessibility standard",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "WAI Mobile Accessibility overview states that existing W3C accessibility standards including WCAG address mobile, rather than a separate set of W3C mobile accessibility guidelines.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/WAI/standards-guidelines/mobile/#summary",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The linked WCAG2Mobile guidance is described as an in-progress draft, not a new Recommendation."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "WAI Mobile Accessibility, unversioned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

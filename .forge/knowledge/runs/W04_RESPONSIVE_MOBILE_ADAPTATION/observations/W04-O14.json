@@ -1,0 +1,19 @@
+{
+  "id": "W04-O14",
+  "source_id": "W03-S3",
+  "target": "Screen size rather than named device",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "GOV.UK specifically advises designing for different screen sizes rather than assuming a specific device model.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#screen-size",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not prove device-independent breakpoints automatically work for all content."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "GOV.UK Layout current page",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

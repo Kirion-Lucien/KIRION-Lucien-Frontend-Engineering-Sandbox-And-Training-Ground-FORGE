@@ -112,7 +112,7 @@ No frontend application Code Writer lane exists yet.
 
 ## W04 — Responsive layout & mobile adaptation intelligence
 
-**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
 
 **Source:**
 
@@ -162,6 +162,18 @@ Develop Lucien's evidence-backed responsive-layout and mobile-adaptation intelli
 - no candidate promotion;
 - no prior knowledge mutation;
 - no W05.
+
+**Worker candidate artifacts:**
+
+- six logical source families; all qualified IDs reused; registry unchanged;
+- 29 evidence-linked working vocabulary terms;
+- 32 source-linked OBSERVED records;
+- normative and system-specific responsive comparison;
+- MOBILE_ADAPTATION_ANALYSIS and FAILURE_MODE_ANALYSIS (10 hypotheses);
+- 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES;
+- K6 Maintainer review packet;
+- prior W02/W03 records unchanged; no candidate promoted;
+- no application stack, runtime, device, browser or AT testing.
 
 **Completion gate:**
 

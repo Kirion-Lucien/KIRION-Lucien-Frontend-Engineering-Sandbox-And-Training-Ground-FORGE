@@ -10,7 +10,7 @@
 
 ## Status
 
-`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
+`CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED`
 
 W00 through W03 remain accepted and active as governing prior authority.
 
@@ -93,6 +93,12 @@ W04 may not silently change these dispositions.
 ## Promotion authority
 
 `MAINTAINER ONLY`
+
+## W04 submitted worker candidate
+
+K0–K6 artifacts under `.forge/knowledge/runs/W04_RESPONSIVE_MOBILE_ADAPTATION/`: 6 reused source-family identities, 29 working vocabulary terms, 32 OBSERVED records, cross-source and mobile/failure analyses, 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES, and K6 review packet.
+
+W04 candidate is **NOT ACCEPTED**. Registry and prior W02/W03 knowledge records remain unchanged. K7 promotion belongs to Maintainer only; W05 and frontend implementation remain BLOCKED.
 
 ## Next gate
 

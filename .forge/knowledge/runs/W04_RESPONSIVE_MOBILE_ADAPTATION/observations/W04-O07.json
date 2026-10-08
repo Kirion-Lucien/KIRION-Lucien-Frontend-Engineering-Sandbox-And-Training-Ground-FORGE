@@ -1,0 +1,19 @@
+{
+  "id": "W04-O07",
+  "source_id": "W02-S1",
+  "target": "Focus Order",
+  "domain": "FOCUS_MANAGEMENT",
+  "observed_behavior": "SC 2.4.3 requires an order preserving meaning and operability when sequential keyboard focus navigation affects those outcomes.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#focus-order",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a blanket ban on CSS visual reordering; determine whether the sequence affects meaning/operation."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "SC 2.4.3 Level A",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}

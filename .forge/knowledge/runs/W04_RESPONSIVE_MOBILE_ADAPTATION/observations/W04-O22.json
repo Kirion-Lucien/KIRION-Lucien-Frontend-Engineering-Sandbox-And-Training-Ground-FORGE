@@ -1,0 +1,19 @@
+{
+  "id": "W04-O22",
+  "source_id": "W03-S5",
+  "target": "Primer function preservation",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "Primer Layout foundation says pages should adapt to smaller screens without loss of functionality and multi-column designs may become multiple views.",
+  "context": "W04 responsive acquisition; design-system guidance bounded to provider conventions",
+  "evidence_location": "https://primer.style/product/getting-started/foundations/layout/#design-fully-functional-responsive-experiences",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "System-specific guidance; no automatic proof that splitting views preserves discoverability."
+  ],
+  "observed_at": "2026-10-08T06:46:00Z",
+  "source_version_context": "Primer live Layout docs, unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Official published reference, not runtime evidence"
+}

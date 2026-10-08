@@ -1,0 +1,19 @@
+{
+  "id": "W04-O05",
+  "source_id": "W02-S1",
+  "target": "Reflow",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "SC 1.4.10 requires presentation without loss of information/functionality and unnecessary two-dimensional scrolling at 320 CSS px width for vertical-scrolling content or 256 CSS px height for horizontal-scrolling content, except intrinsically two-dimensional parts.",
+  "context": "W04 six-family controlled responsive-acquisition run; source-bounded observation, not design recommendation",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#reflow",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "320 CSS px is a test equivalent, not a universal design breakpoint; 2D content exceptions matter."
+  ],
+  "observed_at": "2026-10-08T06:45:00Z",
+  "source_version_context": "SC 1.4.10 Level AA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED; no browser, device or accessibility conformance test conducted"
+}
