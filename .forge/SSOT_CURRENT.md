@@ -112,21 +112,23 @@ No frontend application Code Writer lane exists.
 
 **Stage B3 WAI ARIA APG K3:** `ACCEPTED / RELEASED` — exact worker checkpoint `e1ee045c6ff16a89771272abefd4223ad2a2d4b6`, issue #20 Maintainer review comment 6065798465. Six explanatory `OBSERVED` records `W07-O13..O18`, including tooltip WIP/no consensus.
 
-**Stage B4 USWDS Modal K3:** `AUTHORIZED — ONE SOURCE-BOUNDED BATCH ONLY`, 0–6 observations `W07-O19..O24` using qualified source `W07-S4`. Exact governance worker start SHA to be published on tracking issue #21 after commit; accepted B3 must be an ancestor.
+**Stage B4 USWDS Modal K3:** `ACCEPTED / RELEASED` — worker `cf6d6ccc1a197efd3f24250821f3a0b7e55b00df`, issue #21 Maintainer acceptance comment `6066480383`. Six `OBSERVED` records O19..O24 from `W07-S4`; documentation only, no application tests.
 
-**Stage B5 onward:** `BLOCKED — MAINTAINER B4 CHECKPOINT REVIEW/RELEASE REQUIRED`.
+**Stage B5 Primer PRODUCT K3:** `AUTHORIZED — ONE SOURCE-BOUNDED BATCH ONLY`, 0–6 observations `W07-O25..O30` from `W07-S5`; exact governance worker start SHA to be issued in GitHub #22 after commit. B4 acceptance is binding.
+
+**Stage B6 onward:** `BLOCKED — INDEPENDENT B5 CHECKPOINT REVIEW/RELEASE REQUIRED`.
 
 **Stage C K4–K6:** `BLOCKED — COMPLETED STAGE B RELEASE REQUIRED`.
 
 **K7:** `MAINTAINER ONLY`.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
 
 **Binding workload protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-B4 worker MUST verify current exact B4 governance head published in issue #21, released B3 checkpoint as ancestor, and live canonical main. This batch uses only USWDS Modal `W07-S4` DESIGN_SYSTEM / OFFICIAL_REFERENCE, not normative WCAG or WHATWG. USWDS-published test statuses do not prove tests executed here or another application's conformance. No B5, synthesis, pattern promotion, or app implementation authority.
+B5 worker MUST verify exact B5 governance head in issue #22, accepted B4 checkpoint as ancestor, and unchanged main. This batch uses only Primer product documentation `W07-S5` (DESIGN_SYSTEM / OFFICIAL_REFERENCE), not pinned Primer React source `W07-S6`. Live docs are unpinned; no browser/runtime tests are claimed. No B6, synthesis, promotion, or app implementation authority.
 
 ## Prior accepted knowledge
 
