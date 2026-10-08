@@ -6,91 +6,92 @@
 
 ## Program
 
-`W01 — FRONTEND KNOWLEDGE ACQUISITION MODEL`
+`W02 — CONTROLLED PILOT ACQUISITION`
 
 ## Status
 
-`ACCEPTED / KNOWLEDGE CONTROL PLANE ACTIVE`
+`AUTHORIZED — ACTION CONTROLS PILOT EXECUTION`
 
 W00 Forge governance remains accepted and active.
 
-W01 Maintainer acceptance is recorded in GitHub issue #3 and `.forge/ACCEPTANCE.md`.
+W01 knowledge-control authority remains accepted and active.
 
-## Canonical source before W01
+## Canonical accepted source before W02
 
-`main@e944dcbd490651498faead104315edd4c649b4ae`
+`main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
 
-## Accepted W01 candidate
+## Current W02 branch
 
-`forge/w01-frontend-knowledge-acquisition-model@b8bf1c5221f3a2fbb43231000450d7d8d8fe7a44`
+`forge/w02-controlled-pilot-action-controls`
 
 ## Current classification
 
-`BOOTSTRAP / FRONTEND ENGINEERING INTELLIGENCE FORGE`
+`FRONTEND ENGINEERING INTELLIGENCE FORGE / CONTROLLED ACQUISITION PILOT`
 
-The repository still contains no accepted frontend application stack.
+## W02 research question
 
-## Accepted Lucien role
+How should action controls communicate purpose, hierarchy, destructive risk, focus/keyboard accessibility, and interactive state without confusing users?
 
-Lucien is a **Frontend Engineering Intelligence Forge**.
+## Authorized pilot corpus
 
-Its accepted knowledge lifecycle is:
+Exactly five source families:
 
-`SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
+1. W3C WCAG 2.2
+2. GOV.UK Design System Button guidance
+3. Primer Product Button documentation
+4. primer/react exact implementation snapshot
+5. Landbook landing-page gallery as inspiration-only evidence
 
-Accepted knowledge-control authority now includes:
+## Pinned Git implementation source
 
-- source taxonomy;
-- claim-sensitive evidence weighting;
-- provenance/licensing handling;
-- observation records;
-- stack-neutral knowledge domains;
-- pattern and anti-pattern candidate lifecycles;
-- design-reference boundaries;
-- K0-K7 acquisition protocol;
-- contradiction/counterexample handling;
-- Maintainer-gated promotion;
-- worker consultation contract.
+`primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`
 
-## Current knowledge state
+The worker may inspect this exact source snapshot but may not mutate it.
 
-The source registry remains intentionally empty.
+## Active handoff
 
-No specific frontend pattern, anti-pattern, framework, design system, or implementation stack is accepted yet.
+`.forge/handoffs/active/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
 
-## Current work gate
+## W02 authority
 
-`W02 — CONTROLLED PILOT ACQUISITION`
+The worker may:
 
-State:
+- qualify only the bounded source corpus;
+- add qualified source records to the W01 registry;
+- extract bounded observations;
+- compare cross-source evidence;
+- create at most two pattern candidates;
+- create at most one anti-pattern candidate;
+- produce a Maintainer review packet.
 
-`INPUT REQUIRED / REVIEW`
+The worker may NOT:
 
-W02 may propose a small, deliberately selected source corpus to exercise the accepted W01 acquisition pipeline.
-
-W02 is not yet authorized to execute.
+- add a sixth independent source;
+- bulk crawl;
+- build a vector database;
+- select a frontend stack;
+- create application code;
+- mutate external repositories;
+- promote any candidate to ACCEPTED;
+- treat visual inspiration as engineering proof.
 
 ## Application implementation authority
 
 `BLOCKED`
 
-No frontend Code Writer application lane exists.
+## Promotion authority
 
-A future application implementation lane still requires:
+`MAINTAINER ONLY`
 
-1. explicit human objective;
-2. relevant Lucien evidence/proposal;
-3. Maintainer acceptance of controlling decisions;
-4. exact source branch/SHA handoff.
-
-## Active handoff
-
-NONE.
-
-The completed W01 handoff is historical evidence and is not executable authority.
+K7 promotion is prohibited in the worker turn.
 
 ## Next gate
 
-Human / Maintainer defines the bounded W02 pilot-acquisition objective and source-selection strategy.
+W02 worker returns an exact candidate with one disposition recommendation:
 
-No W02 acquisition run begins until an exact handoff is issued.
+`READY_FOR_MAINTAINER_REVIEW`
+`REWORK_REQUIRED`
+`BLOCKED`
+`SOURCE_DRIFT`
+
+No W03 is authorized before W02 Maintainer disposition.
