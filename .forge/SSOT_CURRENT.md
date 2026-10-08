@@ -111,3 +111,16 @@ W07 is not yet defined or authorized.
 NONE.
 
 The completed W06 handoff is historical evidence and is not executable authority.
+
+
+## Knowledge acquisition execution policy
+
+`FORGE-0006 — KNOWLEDGE WORKLOAD ISOLATION`
+
+Beginning with W07, substantive acquisition defaults to separate, bounded qualification, extraction, and synthesis stages with Git-backed checkpoints and Maintainer stage release.
+
+Binding protocol: `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+
+Worker stages remain K0–K6 only; K7 acceptance/promotion remains Maintainer-only. The protocol does not change already accepted knowledge, choose a frontend stack, or authorize W07.
+
+The current W07 gate remains `INPUT REQUIRED / REVIEW`; no active handoff exists. Frontend implementation remains `BLOCKED`.
