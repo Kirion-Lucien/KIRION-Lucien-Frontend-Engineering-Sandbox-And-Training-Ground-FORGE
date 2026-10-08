@@ -8,8 +8,9 @@ It is intentionally not a frontend application.
 
 - W00 — authority kernel: ACCEPTED
 - W01 — knowledge acquisition model: ACCEPTED
-- W02 — controlled action-controls pilot: ACCEPTED
-- W03 — visual hierarchy & composition intelligence: ACCEPTED
+- W02 — action controls: ACCEPTED
+- W03 — visual hierarchy & composition: ACCEPTED
+- W04 — responsive layout & mobile adaptation: ACCEPTED
 
 Lucien's evidence lifecycle remains:
 
@@ -19,66 +20,45 @@ Lucien's evidence lifecycle remains:
 
 ### Action controls
 
-```text
-W02-P01 — Contextual dominant primary action
-ACCEPTED / MEDIUM
+- `W02-P01` — Contextual dominant primary action — ACCEPTED / MEDIUM
+- `W02-A01` — Competing dominant primary controls — ACCEPTED / MEDIUM
 
-W02-A01 — Competing dominant primary controls
-ACCEPTED / MEDIUM
-```
-
-Deferred:
-
-```text
-W02-P02 — Focus-preserving asynchronous button feedback
-CANDIDATE / DEFERRED
-```
+Deferred: `W02-P02` — Focus-preserving asynchronous button feedback — CANDIDATE.
 
 ### Visual hierarchy & composition
 
-```text
-W03-P01 — Semantic and visual region alignment
-ACCEPTED / MEDIUM
+- `W03-P01` — Semantic and visual region alignment — ACCEPTED / MEDIUM
+- `W03-P02` — Purpose-bounded reading width — ACCEPTED / MEDIUM
+- `W03-P03` — Content-first responsive composition — ACCEPTED / MEDIUM
 
-W03-P02 — Purpose-bounded reading width
-ACCEPTED / MEDIUM
+Deferred: `W03-A01` — Undifferentiated content priority — CANDIDATE / LOW.
 
-W03-P03 — Content-first responsive composition
-ACCEPTED / MEDIUM
-```
+### Responsive layout & mobile adaptation
 
-Deferred:
+- `W04-P01` — Recoverable responsive reduction — ACCEPTED / MEDIUM
+- `W04-P02` — Meaningful source and focus order through responsive relocation — ACCEPTED / MEDIUM
+- `W04-P03` — Task-justified horizontal overflow — ACCEPTED / MEDIUM
+- `W04-A01` — Unrecoverable task-critical control disappearance — ACCEPTED / MEDIUM
+- `W04-A02` — Unjustified horizontal overflow for ordinary content — ACCEPTED / MEDIUM
 
-```text
-W03-A01 — Undifferentiated content priority
-CANDIDATE / DEFERRED / LOW
-```
+## Responsive discipline
 
-## Composition vocabulary
+Lucien does not treat responsive design as a fixed phone/tablet/desktop breakpoint table.
 
-W03 added evidence-linked working terminology for hierarchy, grouping, proximity, spacing rhythm, content width, layout regions, density, responsive composition, semantic heading structure, containers/surfaces/panes/cards, and related concepts.
+Accepted reasoning distinguishes:
 
-Working terminology is not automatically a universal standard.
-
-## Anti-slop discipline
-
-Lucien does not use:
-
-`"AI-looking = bad"`
-
-as an engineering rule.
-
-Claims such as card overload, excessive container nesting, meaningless surfaces, generic hero composition, excessive whitespace, fake dashboard density, or decorative icon saturation require an observable mechanism, evidence, context, and counterexamples before promotion.
+- viewport/range/breakpoint concepts;
+- reflow from system-specific responsive preference;
+- source order from visual order and focus order;
+- necessary task content from optional content;
+- ordinary linear content from genuinely two-dimensional workflows;
+- readable service/document layouts from dense professional workbenches.
 
 ## Authority law
-
-Lucien preserves:
 
 `normative requirement != explanatory guidance != design-system convention != implementation evidence != visual inspiration`
 
 Source qualification is not automatic knowledge acceptance.
-
-Visual popularity is not engineering proof.
 
 Model memory is not evidence.
 
@@ -99,32 +79,12 @@ Still unresolved:
 
 No frontend application implementation lane exists.
 
-## Mandatory read order
-
-1. `AGENTS.md`
-2. `.forge/AUTHORITY.md`
-3. `.forge/SSOT_CURRENT.md`
-4. `.forge/EVIDENCE.md`
-5. `.forge/CLASSIFICATION.md`
-6. `.forge/DECISIONS.md`
-7. `.forge/VALIDATION.md`
-8. `.forge/WORK_LEDGER.md`
-9. `.forge/ACCEPTANCE.md`
-10. applicable accepted knowledge/protocols
-11. exact active handoff, if one exists
-
-## Knowledge control plane
-
-Start at:
-
-`.forge/knowledge/README.md`
-
 ## Current gate
 
-`W04 — NEXT KNOWLEDGE LANE`
+`W05 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-No W04 execution is authorized until a bounded exact-source Maintainer handoff is issued.
+No W05 execution is authorized until a bounded exact-source Maintainer handoff is issued.
