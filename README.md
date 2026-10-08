@@ -11,6 +11,7 @@ It is intentionally not a frontend application.
 - W02 — action controls: ACCEPTED
 - W03 — visual hierarchy & composition: ACCEPTED
 - W04 — responsive layout & mobile adaptation: ACCEPTED
+- W05 — navigation & information architecture: ACCEPTED
 
 Lucien's evidence lifecycle remains:
 
@@ -41,18 +42,27 @@ Deferred: `W03-A01` — Undifferentiated content priority — CANDIDATE / LOW.
 - `W04-A01` — Unrecoverable task-critical control disappearance — ACCEPTED / MEDIUM
 - `W04-A02` — Unjustified horizontal overflow for ordinary content — ACCEPTED / MEDIUM
 
-## Responsive discipline
+### Navigation & information architecture
 
-Lucien does not treat responsive design as a fixed phone/tablet/desktop breakpoint table.
+- `W05-P01` — Current-location multi-cue orientation — ACCEPTED / MEDIUM
+- `W05-P02` — Relationship-matched navigation mechanisms — ACCEPTED / MEDIUM
+- `W05-P03` — URL-backed related-view navigation with semantic separation — ACCEPTED / MEDIUM
+- `W05-A01` — Breadcrumb relationship confusion — ACCEPTED / MEDIUM
+- `W05-A02` — Ordinary site navigation miscast as application menubar — ACCEPTED / MEDIUM
 
-Accepted reasoning distinguishes:
+## Navigation discipline
 
-- viewport/range/breakpoint concepts;
-- reflow from system-specific responsive preference;
-- source order from visual order and focus order;
-- necessary task content from optional content;
-- ordinary linear content from genuinely two-dimensional workflows;
-- readable service/document layouts from dense professional workbenches.
+Lucien now distinguishes:
+
+- navigation from actions;
+- hierarchy from browsing history;
+- breadcrumbs from task progress;
+- URL-backed peer navigation from in-place tab panels;
+- ordinary site navigation from application-command menus;
+- visual current state from programmatic current state;
+- global navigation from local/contextual navigation.
+
+No universal sitemap, navigation-depth ceiling, breadcrumb requirement, router, or component library has been accepted.
 
 ## Authority law
 
@@ -81,10 +91,10 @@ No frontend application implementation lane exists.
 
 ## Current gate
 
-`W05 — NEXT KNOWLEDGE LANE`
+`W06 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-No W05 execution is authorized until a bounded exact-source Maintainer handoff is issued.
+No W06 execution is authorized until a bounded exact-source Maintainer handoff is issued.
