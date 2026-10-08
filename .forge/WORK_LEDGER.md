@@ -220,3 +220,56 @@ Independent Maintainer review of exact W06 candidate.
 **State:** BLOCKED
 
 W07 is undefined and may not begin before W06 disposition.
+
+
+## W06 — Forms, validation & error-recovery intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
+
+**Reviewed worker candidate:** `forge/w06-forms-validation-error-recovery-intelligence@6b3fcde1bc12ecd6904dc4bbb1f2f91ff29ed54d`
+
+**Acceptance:** GitHub issue #13
+
+**Historical handoff:** `.forge/handoffs/historical/W06_FORMS_VALIDATION_ERROR_RECOVERY_INTELLIGENCE.md`
+
+**Accepted run result:**
+
+- six logical source families;
+- one reused WCAG identity plus five new qualified W06 source records;
+- 42 bounded OBSERVED records;
+- forms/validation/error-recovery vocabulary;
+- form-model and recovery analysis;
+- no form/schema library selection;
+- no backend validation architecture;
+- no fabricated browser/AT/server/usability evidence;
+- all 17 prior W02–W05 knowledge records preserved before K7;
+- all pre-existing registry records preserved before append.
+
+**K7 promotion result:**
+
+```text
+W06-P01 — Persistent field identity with semantic instruction relationships
+ACCEPTED / MEDIUM
+
+W06-P02 — Actionable, source-linked error communication
+ACCEPTED / MEDIUM
+
+W06-P03 — Recoverable validation failure with preserved answers
+ACCEPTED / MEDIUM
+
+W06-A01 — Placeholder-only field identification
+ACCEPTED / MEDIUM
+
+W06-A02 — Detected field error signaled only by color
+ACCEPTED / HIGH
+```
+
+## W07 — Next knowledge lane
+
+**State:** INPUT REQUIRED / REVIEW
+
+W07 is undefined.
+
+No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
