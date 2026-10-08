@@ -40,37 +40,66 @@
 
 **Historical handoff:** `.forge/handoffs/historical/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
 
+**K7:**
+
+```text
+W02-P01 — ACCEPTED / MEDIUM
+W02-A01 — ACCEPTED / MEDIUM
+W02-P02 — CANDIDATE / DEFERRED
+```
+
+## W03 — Visual hierarchy & composition intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@20a2bb44461a1066b44aa242c6bad18fac673025`
+
+**Reviewed worker candidate:**
+
+`forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
+
+**Acceptance:** GitHub issue #7
+
+**Historical handoff:**
+
+`.forge/handoffs/historical/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
+
 **Accepted run result:**
 
-- 5 qualified source records;
-- 20 bounded OBSERVED records;
-- normative/reference/implementation/inspiration evidence classes preserved;
-- exact Primer implementation source remained pinned;
+- seven logical source families;
+- five new source records plus two reused W02 source identities;
+- 30 bounded OBSERVED records;
+- 27 evidence-linked working vocabulary definitions;
+- hierarchy/grouping/density/responsive-composition comparison;
+- evidence-backed anti-slop hypothesis analysis;
 - no external repository mutation;
-- no application stack selection;
+- no frontend stack selection;
 - no application implementation;
-- no fabricated runtime or conformance evidence.
+- no fabricated runtime/accessibility/usability evidence.
 
 **K7 promotion result:**
 
 ```text
-W02-P01 — Contextual dominant primary action
+W03-P01 — Semantic and visual region alignment
 ACCEPTED / MEDIUM CONFIDENCE
 
-W02-A01 — Competing dominant primary controls
+W03-P02 — Purpose-bounded reading width
 ACCEPTED / MEDIUM CONFIDENCE
 
-W02-P02 — Focus-preserving asynchronous button feedback
-CANDIDATE / DEFERRED
+W03-P03 — Content-first responsive composition
+ACCEPTED / MEDIUM CONFIDENCE
+
+W03-A01 — Undifferentiated content priority
+CANDIDATE / DEFERRED / LOW CONFIDENCE
 ```
 
-P02 remains unpromoted pending browser/focus/live-region/assistive-technology validation.
+A01 remains unpromoted because its claimed scannability harm is inferential rather than independently measured.
 
-## W03 — Next knowledge lane
+## W04 — Next knowledge lane
 
 **State:** INPUT REQUIRED / REVIEW
 
-W03 is undefined.
+W04 is undefined.
 
 No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
 
@@ -79,80 +108,3 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
-
-
-## W03 — Visual hierarchy & composition intelligence
-
-**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
-
-**Source:**
-
-`main@20a2bb44461a1066b44aa242c6bad18fac673025`
-
-**Branch:**
-
-`forge/w03-visual-hierarchy-composition-intelligence`
-
-**Active handoff:**
-
-`.forge/handoffs/active/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
-
-**Human objective:**
-
-Develop Lucien's evidence-backed vocabulary for visual hierarchy, information grouping, content width, spacing rhythm, composition density, region structure, semantic/visual hierarchy alignment, responsive composition, and observable anti-patterns behind vague "AI slop" criticism.
-
-**Source families:**
-
-1. W3C WCAG 2.2
-2. W3C WAI design/page-structure guidance
-3. GOV.UK Layout + Type Scale
-4. IBM Carbon 2x Grid
-5. Primer Layout / Typography / PageLayout docs
-6. pinned Primer React PageLayout implementation
-7. Landbook inspiration-only gallery
-
-**Expected outputs:**
-
-- qualified source records;
-- `VOCABULARY.md`;
-- 24–36 bounded observations, hard maximum 42;
-- hierarchy/grouping/density/responsive cross-source comparison;
-- `ANTI_SLOP_ANALYSIS.md`;
-- 0–3 pattern candidates;
-- 0–2 anti-pattern candidates;
-- Maintainer review packet.
-
-**Explicit blocks:**
-
-- no application source;
-- no framework or stack selection;
-- no mass crawl;
-- no eighth source family;
-- no external repository mutation;
-- no vector database;
-- no candidate promotion;
-- no "AI-looking = bad" authority;
-- no silent W02-P02 promotion.
-
-**Worker candidate evidence:**
-
-- 7 logical source families; reused W02-S1 and W02-S5, appended W03-S2 to W03-S6;
-- 27 working vocabulary terms with observation references;
-- 30 source-linked OBSERVED records;
-- hierarchy/grouping/density/responsive comparison;
-- 10 anti-slop hypotheses challenged;
-- 3 pattern CANDIDATES; 1 anti-pattern CANDIDATE;
-- K6 Maintainer review packet;
-- Carbon full page and Landbook examples unavailable, limitations preserved;
-- W02-P01 and W02-A01 remain ACCEPTED, W02-P02 CANDIDATE/DEFERRED;
-- zero W03 promotions.
-
-**Completion gate:**
-
-Independent Maintainer review of exact W03 candidate.
-
-## W04 — Next knowledge lane
-
-**State:** BLOCKED
-
-W04 is undefined and may not begin before W03 disposition.
