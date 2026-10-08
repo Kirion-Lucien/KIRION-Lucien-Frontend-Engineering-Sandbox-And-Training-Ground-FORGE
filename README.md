@@ -4,44 +4,77 @@ This repository is a **governed Frontend Engineering Intelligence Forge and trai
 
 It is intentionally not a frontend application.
 
-## Forge governance
+## Accepted Forge evolution
 
-- W00 Forge authority kernel: accepted through GitHub issue **#1**
-- W01 knowledge acquisition model: accepted through GitHub issue **#3**
-- W02 controlled action-controls pilot: accepted through GitHub issue **#5**
+- W00 — authority kernel: ACCEPTED
+- W01 — knowledge acquisition model: ACCEPTED
+- W02 — controlled action-controls pilot: ACCEPTED
+- W03 — visual hierarchy & composition intelligence: ACCEPTED
 
-Lucien's evidence lifecycle is:
+Lucien's evidence lifecycle remains:
 
 `SOURCE → ACQUISITION RECORD → OBSERVATION → CLASSIFICATION → COMPARISON → CANDIDATE → MAINTAINER REVIEW → ACCEPTED / REJECTED / DEPRECATED`
 
-## Current knowledge state
+## Accepted bounded knowledge
 
-The source registry contains the five qualified W02 pilot sources.
-
-W02 produced Lucien's first promoted bounded frontend knowledge:
+### Action controls
 
 ```text
 W02-P01 — Contextual dominant primary action
-ACCEPTED / MEDIUM CONFIDENCE
+ACCEPTED / MEDIUM
 
 W02-A01 — Competing dominant primary controls
-ACCEPTED / MEDIUM CONFIDENCE
+ACCEPTED / MEDIUM
 ```
 
-One additional result remains deliberately unpromoted:
+Deferred:
 
 ```text
 W02-P02 — Focus-preserving asynchronous button feedback
 CANDIDATE / DEFERRED
 ```
 
-because browser, focus, live-region, and assistive-technology behavior has not been executed.
+### Visual hierarchy & composition
+
+```text
+W03-P01 — Semantic and visual region alignment
+ACCEPTED / MEDIUM
+
+W03-P02 — Purpose-bounded reading width
+ACCEPTED / MEDIUM
+
+W03-P03 — Content-first responsive composition
+ACCEPTED / MEDIUM
+```
+
+Deferred:
+
+```text
+W03-A01 — Undifferentiated content priority
+CANDIDATE / DEFERRED / LOW
+```
+
+## Composition vocabulary
+
+W03 added evidence-linked working terminology for hierarchy, grouping, proximity, spacing rhythm, content width, layout regions, density, responsive composition, semantic heading structure, containers/surfaces/panes/cards, and related concepts.
+
+Working terminology is not automatically a universal standard.
+
+## Anti-slop discipline
+
+Lucien does not use:
+
+`"AI-looking = bad"`
+
+as an engineering rule.
+
+Claims such as card overload, excessive container nesting, meaningless surfaces, generic hero composition, excessive whitespace, fake dashboard density, or decorative icon saturation require an observable mechanism, evidence, context, and counterexamples before promotion.
 
 ## Authority law
 
 Lucien preserves:
 
-`normative requirement != design-system recommendation != implementation evidence != visual inspiration`
+`normative requirement != explanatory guidance != design-system convention != implementation evidence != visual inspiration`
 
 Source qualification is not automatic knowledge acceptance.
 
@@ -76,8 +109,9 @@ No frontend application implementation lane exists.
 6. `.forge/DECISIONS.md`
 7. `.forge/VALIDATION.md`
 8. `.forge/WORK_LEDGER.md`
-9. applicable accepted knowledge/protocols
-10. exact active handoff, if one exists
+9. `.forge/ACCEPTANCE.md`
+10. applicable accepted knowledge/protocols
+11. exact active handoff, if one exists
 
 ## Knowledge control plane
 
@@ -87,10 +121,10 @@ Start at:
 
 ## Current gate
 
-`W03 — NEXT KNOWLEDGE LANE`
+`W04 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-No W03 execution is authorized until a bounded exact-source Maintainer handoff is issued.
+No W04 execution is authorized until a bounded exact-source Maintainer handoff is issued.
