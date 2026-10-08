@@ -1,0 +1,21 @@
+{
+  "id": "W07-O03",
+  "source_id": "W02-S1",
+  "target": "2.4.3 Focus Order (Level A)",
+  "observed_behavior": "WCAG 2.2 SC 2.4.3 applies where a web page can be navigated sequentially and those navigation sequences affect meaning or operation; focusable components must then receive focus in an order preserving meaning and operability.",
+  "context": "WCAG 2.2 W3C Recommendation, 12 December 2024; exact criterion 2.4.3 Focus Order; focused W07 B1 K3 normative extraction. Level A; requirement and associated W3C notes/conditions only.",
+  "evidence_location": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-order",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Conditionally applies to sequential keyboard navigation affecting meaning or operation; not a mandate that every visual order matches every DOM order.",
+    "Does not establish a universal initial focus destination for dialogs, exact order of nested overlays, or focus-return algorithm.",
+    "No keyboard sequence, accessibility-tree, or application interaction was observed."
+  ],
+  "observed_at": "2026-10-08T15:58:21Z",
+  "source_version_context": "WCAG 2.2 W3C Recommendation, 12 December 2024; immutable dated Recommendation URL https://www.w3.org/TR/2024/REC-WCAG22-20241212/; direct section #focus-order; retrieval 2026-10-08",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Normative-text attribution only; not an application finding, accepted Forge pattern, browser test or assistive-technology result."
+}

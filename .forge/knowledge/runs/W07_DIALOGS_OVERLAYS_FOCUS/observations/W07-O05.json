@@ -1,0 +1,22 @@
+{
+  "id": "W07-O05",
+  "source_id": "W02-S1",
+  "target": "2.4.11 Focus Not Obscured (Minimum) (Level AA)",
+  "observed_behavior": "WCAG 2.2 SC 2.4.11 requires that a user interface component receiving keyboard focus is not entirely hidden by author-created content. Note 1 limits testing of user-movable content in configurable interfaces to its initial positions. Note 2 says user-opened content may obscure the focused component without it being considered visually hidden when the user can reveal it without moving keyboard focus forward.",
+  "context": "WCAG 2.2 W3C Recommendation, 12 December 2024; exact criterion 2.4.11 Focus Not Obscured (Minimum); focused W07 B1 K3 normative extraction. Level AA; requirement and associated W3C notes/conditions only.",
+  "evidence_location": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-not-obscured-minimum",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Minimum (AA) prohibits entire author-created obscuration, not every degree of overlap; 2.4.12 Enhanced (AAA) separately addresses any partial obscuration.",
+    "User-configured movable content is evaluated at its initial position for this criterion.",
+    "User-opened content has the specific reveal-without-advancing-focus note; do not misrepresent it as a blanket exception for all overlays.",
+    "No sticky header, modal layer, focused component, or actual viewport was tested."
+  ],
+  "observed_at": "2026-10-08T15:58:21Z",
+  "source_version_context": "WCAG 2.2 W3C Recommendation, 12 December 2024; immutable dated Recommendation URL https://www.w3.org/TR/2024/REC-WCAG22-20241212/; direct section #focus-not-obscured-minimum; retrieval 2026-10-08",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Normative-text attribution only; not an application finding, accepted Forge pattern, browser test or assistive-technology result."
+}

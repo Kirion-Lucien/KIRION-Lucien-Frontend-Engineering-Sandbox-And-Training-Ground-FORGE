@@ -1,0 +1,23 @@
+{
+  "id": "W07-O06",
+  "source_id": "W02-S1",
+  "target": "1.4.13 Content on Hover or Focus (Level AA)",
+  "observed_behavior": "WCAG 2.2 SC 1.4.13 applies when pointer hover or keyboard focus causes additional content to appear and then disappear when the trigger is removed. Such content must be dismissible without moving hover or focus, except if it communicates an input error or does not obscure or replace other content; when hover triggers the content, the pointer must be able to move over the added content without its disappearance; and the content must persist until hover/focus ends, the user dismisses it, or its information becomes invalid. An exception applies where the user agent controls the visual presentation and the author does not modify it.",
+  "context": "WCAG 2.2 W3C Recommendation, 12 December 2024; exact criterion 1.4.13 Content on Hover or Focus; focused W07 B1 K3 normative extraction. Level AA; requirement and associated W3C notes/conditions only.",
+  "evidence_location": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#content-on-hover-or-focus",
+  "domain": "OVERLAYS",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Dismissibility has explicit input-error and no-obscure/no-replace alternatives; dismissing specifically via Escape is not mandated by this criterion.",
+    "Hoverability is conditional on pointer hover being capable of triggering the added content.",
+    "The criterion excludes content whose visual presentation is controlled by the user agent and left unmodified by the author; W3C notes give native title tooltips as an example.",
+    "Only additional content beyond the triggering component is covered; a component merely revealed on keyboard focus is not automatically covered.",
+    "Applies to the described trigger behavior; not a blanket dismissal requirement for all dialogs or overlays, and not browser or screen-reader proof."
+  ],
+  "observed_at": "2026-10-08T15:58:21Z",
+  "source_version_context": "WCAG 2.2 W3C Recommendation, 12 December 2024; immutable dated Recommendation URL https://www.w3.org/TR/2024/REC-WCAG22-20241212/; direct section #content-on-hover-or-focus; retrieval 2026-10-08",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Normative-text attribution only; not an application finding, accepted Forge pattern, browser test or assistive-technology result."
+}

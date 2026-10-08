@@ -1,0 +1,21 @@
+{
+  "id": "W07-O02",
+  "source_id": "W02-S1",
+  "target": "2.1.2 No Keyboard Trap (Level A)",
+  "observed_behavior": "WCAG 2.2 SC 2.1.2 requires that when keyboard focus can enter a page component, users can move focus away using only a keyboard interface. If exit needs a method beyond unmodified arrow or Tab keys or other standard exit methods, the user must be advised how to exit. The accompanying non-interference note says failure may obstruct use of the whole page, including content not relied upon for conformance.",
+  "context": "WCAG 2.2 W3C Recommendation, 12 December 2024; exact criterion 2.1.2 No Keyboard Trap; focused W07 B1 K3 normative extraction. Level A; requirement and associated W3C notes/conditions only.",
+  "evidence_location": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#no-keyboard-trap",
+  "domain": "KEYBOARD_ACCESS",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "This criterion requires an available keyboard-only exit and, when applicable, exit-method instruction; it does not prohibit deliberate focus containment within a genuinely modal interaction when a keyboard exit remains available.",
+    "The criterion does not mandate a particular exit key, trap library, or an always-Tab-to-background implementation.",
+    "Non-interference note must be interpreted within WCAG conformance context; no deployed page was tested."
+  ],
+  "observed_at": "2026-10-08T15:58:21Z",
+  "source_version_context": "WCAG 2.2 W3C Recommendation, 12 December 2024; immutable dated Recommendation URL https://www.w3.org/TR/2024/REC-WCAG22-20241212/; direct section #no-keyboard-trap; retrieval 2026-10-08",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Normative-text attribution only; not an application finding, accepted Forge pattern, browser test or assistive-technology result."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "W07-O04",
+  "source_id": "W02-S1",
+  "target": "2.4.7 Focus Visible (Level AA)",
+  "observed_behavior": "WCAG 2.2 SC 2.4.7 requires a keyboard-operable user interface to provide a mode of operation in which its keyboard focus indicator is visible.",
+  "context": "WCAG 2.2 W3C Recommendation, 12 December 2024; exact criterion 2.4.7 Focus Visible; focused W07 B1 K3 normative extraction. Level AA; requirement and associated W3C notes/conditions only.",
+  "evidence_location": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/#focus-visible",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Requires a mode with visible keyboard focus; the SC does not impose the numerical indicator size/contrast conditions found in separate WCAG 2.4.13 Focus Appearance (Level AAA).",
+    "Does not require one particular outline style, color, or design-system component.",
+    "Focus-indicator visibility was read from normative text, not measured or tested in a browser."
+  ],
+  "observed_at": "2026-10-08T15:58:21Z",
+  "source_version_context": "WCAG 2.2 W3C Recommendation, 12 December 2024; immutable dated Recommendation URL https://www.w3.org/TR/2024/REC-WCAG22-20241212/; direct section #focus-visible; retrieval 2026-10-08",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Normative-text attribution only; not an application finding, accepted Forge pattern, browser test or assistive-technology result."
+}
