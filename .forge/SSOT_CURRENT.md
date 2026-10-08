@@ -104,7 +104,7 @@ No frontend application Code Writer lane exists.
 
 **Working branch:** `forge/w07-dialogs-overlays-focus-intelligence`
 
-**Stage A (K0–K2):** `AUTHORIZED — SOURCE DISCOVERY & QUALIFICATION ONLY`
+**Stage A (K0–K2):** `CANDIDATE READY_FOR_REVIEW — NO MAINTAINER STAGE RELEASE`
 
 **Stage B (K3 observation batches):** `BLOCKED — MAINTAINER STAGE A CHECKPOINT RELEASE REQUIRED`
 
@@ -119,6 +119,8 @@ No frontend application Code Writer lane exists.
 The Stage A worker may qualify only the six pre-approved source families and write the explicitly bounded Stage A artifacts/checkpoint. The full W07 run, its observation batches, candidate synthesis, and further stage releases are not authorized by this gate.
 
 A worker must verify the exact governance head from the W07 issue and live Git before mutation. Completion does not self-release Stage B.
+
+**Stage A submitted checkpoint:** `.forge/knowledge/runs/W07_DIALOGS_OVERLAYS_FOCUS/checkpoints/CHECKPOINT_LEDGER.md`. K0–K2 only: six qualified source families; WCAG identity reused (`W02-S1`); five scoped IDs appended (`W07-S2`–`W07-S6`); APG `/patterns/dialog/` 404 and tooltip WIP caveats recorded. Stage A worker checkpoint is READY_FOR_REVIEW, **not RELEASED**. W07 B/C and K7 remain blocked until Maintainer disposition tied to the exact final candidate SHA reported outside the commit.
 
 ## Prior accepted knowledge
 

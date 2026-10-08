@@ -189,7 +189,7 @@ ACCEPTED / HIGH
 
 ## W07 — Dialogs, overlays & focus-management intelligence
 
-**State:** STAGE A (K0–K2) AUTHORIZED — controlled qualification only
+**State:** STAGE A CANDIDATE READY_FOR_REVIEW — Maintainer release required
 
 **Canonical source:** `main@61987e3de3ff85426e293dd15e596200ad272103`
 
@@ -213,6 +213,17 @@ ACCEPTED / HIGH
 **Blocked until separate Maintainer release:** K3 observation batches, K4 comparison, K5 candidates, K6 final acquisition review, K7 acceptance/promotion.
 
 **Expected Stage A exit:** `READY_FOR_STAGE_REVIEW`, `REWORK_REQUIRED`, `BLOCKED` or `SOURCE_DRIFT`; exact final SHA and changed-file scope returned. No automatic Stage B.
+
+**Stage A K0–K2 submitted artifacts:**
+
+- `.forge/knowledge/runs/W07_DIALOGS_OVERLAYS_FOCUS/` with 6 K0–K2/source/rights/unresolved Markdown files and `checkpoints/CHECKPOINT_LEDGER.md`;
+- six logical families, `W02-S1` reused and five scoped `W07-S2`–`W07-S6` qualified entries appended;
+- APG standalone `/patterns/dialog/` HTTP 404 and tooltip WIP/non-consensus status preserved;
+- exact Primer React pinned five-file source identities and MIT LICENSE verified; no tests executed;
+- zero W07 observations, zero comparisons, zero candidates, no K6/K7;
+- checkpoint disposition **READY_FOR_REVIEW**, not worker-released;
+- next stage B and all application implementation remain **BLOCKED** pending independent Maintainer release.
+
 
 ## Application implementation authority
 
