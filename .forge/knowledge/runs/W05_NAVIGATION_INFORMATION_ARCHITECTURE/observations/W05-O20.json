@@ -1,0 +1,19 @@
+{
+  "id": "W05-O20",
+  "source_id": "W05-S3",
+  "target": "Back link as previous step",
+  "domain": "NAVIGATION",
+  "observed_behavior": "GOV.UK Back link is used to return the user to the previous page in a journey; in a multi-page service it is usually above the page heading.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/back-link/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "A back link in a service flow is not by definition the hierarchy parent or the browser history stack."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

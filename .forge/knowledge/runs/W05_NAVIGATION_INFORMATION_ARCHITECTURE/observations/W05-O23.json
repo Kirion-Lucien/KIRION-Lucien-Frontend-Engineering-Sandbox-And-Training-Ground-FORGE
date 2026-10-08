@@ -1,0 +1,19 @@
+{
+  "id": "W05-O23",
+  "source_id": "W05-S3",
+  "target": "Service navigation mobile collapse capability",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "GOV.UK service navigation macro offers collapseNavigationOnMobile and a menu button/label tied to the navigation region and current state.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/service-navigation/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Macro feature description not runtime keyboard/conformance evidence; essential routes must remain recoverable."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

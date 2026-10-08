@@ -1,0 +1,19 @@
+{
+  "id": "W05-O12",
+  "source_id": "W05-S2",
+  "target": "Current page identification",
+  "domain": "NAVIGATION",
+  "observed_behavior": "The WAI Menu Structure tutorial describes aria-current=page on the current navigation link and retention of consistent menu order, wording and destinations as responsive menus adapt.",
+  "context": "First-party W3C WAI explanatory navigation/page-structure tutorial, non-normative",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/menus/structure/#using-wai-aria",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Explanation not a separate WCAG criterion; current value must reflect actual location."
+  ],
+  "observed_at": "2026-10-08T07:56:00Z",
+  "source_version_context": "Live WAI tutorial; exact site build not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No keyboard/browser/screen-reader execution"
+}

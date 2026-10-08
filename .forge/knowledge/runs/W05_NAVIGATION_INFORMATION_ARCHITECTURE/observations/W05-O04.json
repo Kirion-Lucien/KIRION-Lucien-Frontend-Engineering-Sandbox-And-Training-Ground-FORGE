@@ -1,0 +1,19 @@
+{
+  "id": "W05-O04",
+  "source_id": "W02-S1",
+  "target": "Link Purpose (In Context)",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 2.4.4 Level A requires link purpose determinable from link text alone or link text together with programmatically determined link context, with stated ambiguity exception.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not require every link text independently identify destination without context; 2.4.9 is a separate AAA SC."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

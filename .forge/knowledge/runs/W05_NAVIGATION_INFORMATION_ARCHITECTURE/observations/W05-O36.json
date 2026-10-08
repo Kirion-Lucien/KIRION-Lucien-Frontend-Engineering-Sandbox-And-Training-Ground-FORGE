@@ -1,0 +1,19 @@
+{
+  "id": "W05-O36",
+  "source_id": "W05-S6",
+  "target": "NavList current link and nested expansion",
+  "domain": "NAVIGATION",
+  "observed_behavior": "Pinned NavList.tsx forwards aria-current on link items, uses it for visual active state, and automatically opens the subnav containing a current item; parent expansion uses aria-expanded/aria-controls.",
+  "context": "Exact primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 NavList/UnderlineNav/Breadcrumbs code inspection",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/NavList/NavList.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Component mechanism not evidence of an accessible user path in production."
+  ],
+  "observed_at": "2026-10-08T08:00:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No tests, browser, keyboard navigation, AT or user study executed"
+}

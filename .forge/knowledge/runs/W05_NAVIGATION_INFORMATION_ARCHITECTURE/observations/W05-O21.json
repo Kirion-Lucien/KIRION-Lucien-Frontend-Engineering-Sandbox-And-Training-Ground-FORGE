@@ -1,0 +1,19 @@
+{
+  "id": "W05-O21",
+  "source_id": "W05-S3",
+  "target": "Tabs reveal related in-page information",
+  "domain": "INTERACTION",
+  "observed_behavior": "GOV.UK Tabs provide fast switching among clearly labeled sections of related content and discourage using that component for page navigation or linear reading/comparison flows.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/tabs/#when-to-use-this-component",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "This GOV.UK tabs model is not Primer's URL-backed UnderlineNav."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

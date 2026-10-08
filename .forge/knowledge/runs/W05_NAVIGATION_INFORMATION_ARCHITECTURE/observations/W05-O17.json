@@ -1,0 +1,19 @@
+{
+  "id": "W05-O17",
+  "source_id": "W05-S3",
+  "target": "Repeat-use multi-task navigation versus linear journey",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "GOV.UK says navigation links usually suit services used repeatedly with several tasks and no fixed end-to-end order; for linear transactions it instead discusses task lists.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/patterns/navigate-a-service/#when-to-use-this-pattern",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Service-specific recommendation; no direct experiment in W05."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

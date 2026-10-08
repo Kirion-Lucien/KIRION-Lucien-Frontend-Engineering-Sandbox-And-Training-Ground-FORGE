@@ -1,0 +1,19 @@
+{
+  "id": "W05-O33",
+  "source_id": "W05-S5",
+  "target": "UnderlineNav URL-backed related views",
+  "domain": "NAVIGATION",
+  "observed_behavior": "Primer UnderlineNav guidelines specify distinct related content views with dedicated URLs and non-sequential navigation; advises using NavList if menu grows.",
+  "context": "Primer product navigation docs, live and unpinned",
+  "evidence_location": "https://primer.style/product/components/underline-nav/guidelines/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Different from GOV.UK in-place content tab panels and linear progress steppers."
+  ],
+  "observed_at": "2026-10-08T07:59:00Z",
+  "source_version_context": "Primer product docs current page snapshot; no exact release SHA",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Documentation not identical by assumption to pinned primer/react"
+}

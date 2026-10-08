@@ -71,44 +71,67 @@ W03-A01 — CANDIDATE / DEFERRED / LOW
 
 **Historical handoff:** `.forge/handoffs/historical/W04_RESPONSIVE_MOBILE_ADAPTATION_INTELLIGENCE.md`
 
+**K7:**
+
+```text
+W04-P01 — ACCEPTED / MEDIUM
+W04-P02 — ACCEPTED / MEDIUM
+W04-P03 — ACCEPTED / MEDIUM
+W04-A01 — ACCEPTED / MEDIUM
+W04-A02 — ACCEPTED / MEDIUM
+```
+
+## W05 — Navigation & information architecture intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@5746b9412aa10333e7bc86ea54897f8be6b63267`
+
+**Reviewed worker candidate:** `forge/w05-navigation-information-architecture-intelligence@cebe0abd78e8806deef8af7f3f94ed0a17c44416`
+
+**Acceptance:** GitHub issue #11
+
+**Historical handoff:** `.forge/handoffs/historical/W05_NAVIGATION_INFORMATION_ARCHITECTURE_INTELLIGENCE.md`
+
 **Accepted run result:**
 
-- six logical source families reused;
-- source registry unchanged;
-- 29 evidence-linked working vocabulary terms;
-- 32 bounded OBSERVED records;
-- responsive/reflow/content-priority/order/breakpoint/density/orientation analysis;
-- no frontend stack selection;
+- six logical source families;
+- one reused WCAG identity plus five new qualified W05 source records;
+- 40 evidence-linked working vocabulary terms;
+- 40 bounded OBSERVED records;
+- navigation/action, global/local/contextual, orientation, hierarchy, breadcrumbs, tabs, menu semantics, labeling, responsive-navigation and multiple-ways analysis;
+- no router/framework selection;
 - no application implementation;
-- no fabricated runtime/device/accessibility evidence;
-- prior W02/W03 knowledge preserved byte-for-byte before K7.
+- no fabricated browser/keyboard/AT/usability evidence;
+- all 12 prior W02–W04 knowledge records preserved byte-for-byte before K7;
+- all pre-existing registry source records preserved unchanged.
 
 **K7 promotion result:**
 
 ```text
-W04-P01 — Recoverable responsive reduction
+W05-P01 — Current-location multi-cue orientation
 ACCEPTED / MEDIUM CONFIDENCE
 
-W04-P02 — Meaningful source and focus order through responsive relocation
+W05-P02 — Relationship-matched navigation mechanisms
 ACCEPTED / MEDIUM CONFIDENCE
 
-W04-P03 — Task-justified horizontal overflow
+W05-P03 — URL-backed related-view navigation with semantic separation
 ACCEPTED / MEDIUM CONFIDENCE
 
-W04-A01 — Unrecoverable task-critical control disappearance
+W05-A01 — Breadcrumb relationship confusion
 ACCEPTED / MEDIUM CONFIDENCE
 
-W04-A02 — Unjustified horizontal overflow for ordinary content
+W05-A02 — Ordinary site navigation miscast as application menubar
 ACCEPTED / MEDIUM CONFIDENCE
 ```
 
 Deferred prior candidates remain unpromoted.
 
-## W05 — Next knowledge lane
+## W06 — Next knowledge lane
 
 **State:** INPUT REQUIRED / REVIEW
 
-W05 is undefined.
+W06 is undefined.
 
 No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
 

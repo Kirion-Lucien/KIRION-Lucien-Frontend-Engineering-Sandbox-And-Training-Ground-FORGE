@@ -1,0 +1,19 @@
+{
+  "id": "W05-O40",
+  "source_id": "W05-S6",
+  "target": "Navigation test intent at immutable source",
+  "domain": "TESTING",
+  "observed_behavior": "Pinned NavList.test.tsx and UnderlineNav.test.tsx contain cases for aria-current, link rendering, current-link uniqueness and keyboard tab flow.",
+  "context": "Exact primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 NavList/UnderlineNav/Breadcrumbs code inspection",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/UnderlineNav/UnderlineNav.test.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Tests inspected only, NOT EXECUTED; no PASS assertion or runtime observation."
+  ],
+  "observed_at": "2026-10-08T08:00:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No tests, browser, keyboard navigation, AT or user study executed"
+}

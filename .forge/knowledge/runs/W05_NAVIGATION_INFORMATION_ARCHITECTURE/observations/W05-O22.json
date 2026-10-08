@@ -1,0 +1,19 @@
+{
+  "id": "W05-O22",
+  "source_id": "W05-S3",
+  "target": "Skip link bypasses repeated navigation",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "GOV.UK Skip link component lets keyboard users move focus to main page content instead of navigating all header and navigation links.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/skip-link/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Skip link is one specific implementation of WCAG 2.4.1 bypass mechanism, not the sole way to satisfy it."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

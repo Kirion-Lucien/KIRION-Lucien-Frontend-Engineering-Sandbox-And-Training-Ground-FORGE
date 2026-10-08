@@ -1,0 +1,19 @@
+{
+  "id": "W05-O16",
+  "source_id": "W05-S3",
+  "target": "Site-wide versus service navigation",
+  "domain": "NAVIGATION",
+  "observed_behavior": "GOV.UK Navigate a Service differentiates the GOV.UK header's site-wide identity/utilities from Service navigation for the named service and links between its areas.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/patterns/navigate-a-service/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Government service-specific site/service distinction; not universal web taxonomy."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

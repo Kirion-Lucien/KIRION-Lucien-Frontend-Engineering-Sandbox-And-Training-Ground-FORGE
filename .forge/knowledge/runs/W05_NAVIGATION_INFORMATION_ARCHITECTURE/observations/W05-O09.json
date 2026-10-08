@@ -1,0 +1,19 @@
+{
+  "id": "W05-O09",
+  "source_id": "W02-S1",
+  "target": "Consistent Identification",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 3.2.4 Level AA requires components with the same functionality within a set of web pages to be identified consistently.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#consistent-identification",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a mandate to label distinct tasks with identical text."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

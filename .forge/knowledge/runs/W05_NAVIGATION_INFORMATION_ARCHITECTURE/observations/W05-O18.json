@@ -1,0 +1,19 @@
+{
+  "id": "W05-O18",
+  "source_id": "W05-S3",
+  "target": "Current versus active section states",
+  "domain": "NAVIGATION",
+  "observed_behavior": "GOV.UK Service navigation macro distinguishes current page versus active page-group in the hierarchy, and example uses aria-current with a visually active item.",
+  "context": "GOV.UK public-service design system pages, contextual component and pattern guidance",
+  "evidence_location": "https://design-system.service.gov.uk/components/service-navigation/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Macro API and example do not guarantee any actual site's correct active state."
+  ],
+  "observed_at": "2026-10-08T07:57:00Z",
+  "source_version_context": "GOV.UK Design System live documentation; unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No usability, keyboard or runtime result observed"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W05-O29",
+  "source_id": "W05-S4",
+  "target": "Breadcrumb current page and responsive form",
+  "domain": "RESPONSIVE_DESIGN",
+  "observed_behavior": "USWDS breadcrumb example includes a current-page item with aria-current=page and describes responsive truncation or direct-parent alternatives.",
+  "context": "USWDS official navigation documentation; first-party design reference",
+  "evidence_location": "https://designsystem.digital.gov/components/breadcrumb/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "GOV.UK breadcrumb examples use a different termination convention; examples not runtime proof."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS v3.13.0 advertised; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No W05 runtime or user research"
+}

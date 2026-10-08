@@ -1,0 +1,19 @@
+{
+  "id": "W05-O27",
+  "source_id": "W05-S4",
+  "target": "Sidebar current state and testing",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "observed_behavior": "USWDS side navigation recommends identifying the current page and usability-testing the balance between hierarchy depth and breadth.",
+  "context": "USWDS official navigation documentation; first-party design reference",
+  "evidence_location": "https://designsystem.digital.gov/components/side-navigation/#guidance",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "No local usability or tree test was executed."
+  ],
+  "observed_at": "2026-10-08T07:58:00Z",
+  "source_version_context": "USWDS v3.13.0 advertised; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No W05 runtime or user research"
+}

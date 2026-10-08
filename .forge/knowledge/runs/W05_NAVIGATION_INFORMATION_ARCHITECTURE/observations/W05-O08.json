@@ -1,0 +1,19 @@
+{
+  "id": "W05-O08",
+  "source_id": "W02-S1",
+  "target": "Consistent Navigation",
+  "domain": "NAVIGATION",
+  "observed_behavior": "SC 3.2.3 Level AA requires navigation mechanisms repeated on multiple pages within a set to occur in the same relative order each time, except when the user initiates a change.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Same relative order is conditional on repeated navigation; not identical appearance at all screen sizes."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

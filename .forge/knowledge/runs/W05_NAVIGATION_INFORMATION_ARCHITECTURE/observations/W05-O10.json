@@ -1,0 +1,19 @@
+{
+  "id": "W05-O10",
+  "source_id": "W02-S1",
+  "target": "Name Role Value",
+  "domain": "ACCESSIBILITY",
+  "observed_behavior": "SC 4.1.2 Level A requires programmatic name/role, state/property/value and change notifications for user interface components in its stated scope.",
+  "context": "Normative WCAG 2.2 Recommendation, 12 Dec 2024; criterion level/exception preserved",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#name-role-value",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not mean every ordinary link requires application menubar/menuitem roles."
+  ],
+  "observed_at": "2026-10-08T07:55:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SC text authority only; no site accessibility testing"
+}

@@ -6,76 +6,94 @@
 
 ## Program
 
-`W04 — RESPONSIVE LAYOUT & MOBILE ADAPTATION INTELLIGENCE`
+`W05 — NAVIGATION & INFORMATION ARCHITECTURE INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / RESPONSIVE KNOWLEDGE ACTIVE`
+`ACCEPTED / NAVIGATION & IA KNOWLEDGE ACTIVE`
 
-W00 through W03 remain accepted and active as governing prior authority.
+W00 through W04 remain accepted and active as governing prior authority.
 
-W04 Maintainer acceptance is recorded in GitHub issue #9 and `.forge/ACCEPTANCE.md`.
+W05 Maintainer acceptance is recorded in GitHub issue #11 and `.forge/ACCEPTANCE.md`.
 
-## Canonical source before W04
+## Canonical source before W05
 
-`main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
+`main@5746b9412aa10333e7bc86ea54897f8be6b63267`
 
-## Exact reviewed W04 worker candidate
+## Exact reviewed W05 worker candidate
 
-`forge/w04-responsive-mobile-adaptation-intelligence@9aef7979d2c247f555e6b89d481270a4de19d4a1`
+`forge/w05-navigation-information-architecture-intelligence@cebe0abd78e8806deef8af7f3f94ed0a17c44416`
 
-## Accepted W04 corpus
+## Accepted W05 corpus
 
 Six logical source families:
 
 1. W3C WCAG 2.2
-2. W3C WAI Mobile Accessibility / responsive guidance
-3. GOV.UK Layout / Type Scale
-4. IBM Carbon 2x Grid / responsive guidance
-5. GitHub Primer responsive foundations / PageLayout guidance
-6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` responsive/PageLayout implementation
+2. W3C WAI menus / page-structure navigation guidance
+3. GOV.UK navigation / service-navigation family
+4. U.S. Web Design System navigation family
+5. GitHub Primer navigation guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` navigation implementation
 
-The source registry was reused without mutation.
+WCAG reused the existing `W02-S1` source identity.
 
-## Accepted W04 vocabulary
+Five W05-specific qualified source identities were appended:
 
-W04 establishes evidence-linked working terminology for responsive/adaptive/fluid layout, viewport/range/breakpoint distinctions, reflow, stacking, wrapping, collapse, disclosure, overflow, horizontal scrolling, intrinsically two-dimensional content, source/visual/focus order, content priority, responsive density, target size, orientation, pane relocation, and progressive reduction.
+```text
+W05-S2
+W05-S3
+W05-S4
+W05-S5
+W05-S6
+```
 
-These are analytical terms, not universal breakpoint or device-class laws.
+Registry qualification remains distinct from claim acceptance.
+
+## Accepted W05 vocabulary
+
+W05 establishes evidence-linked working terminology for information architecture, navigation scope, hierarchy/ancestry, current location, breadcrumbs, side/header/tabbed navigation, URL-backed views, tab panels, menus/menubars, wayfinding, multiple ways, routes, linear processes, hierarchical relationships, and task flow.
+
+Working terminology is analytical guidance, not a universal sitemap or route architecture.
 
 ## Accepted bounded patterns
 
-### W04-P01 — Recoverable responsive reduction
+### W05-P01 — Current-location multi-cue orientation
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Task-required content/actions remain reachable when constrained layouts reduce concurrent regions.
+Where repeated or nested navigation makes current location meaningful, coherent location cues should be available as appropriate.
 
-### W04-P02 — Meaningful source and focus order through responsive relocation
+This does not mandate breadcrumbs or every possible cue, and WCAG 2.4.8 Location remains AAA.
 
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Meaning-bearing source/reading and keyboard-focus sequences must remain meaningful and operable where applicable when visual layout changes.
-
-### W04-P03 — Task-justified horizontal overflow
+### W05-P02 — Relationship-matched navigation mechanisms
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Horizontal navigation may be appropriate for genuinely two-dimensional task content; ordinary linear content should reflow where possible.
+Navigation mechanisms should reflect the actual relationship being represented: global scope, local section, hierarchy/ancestry, related peer destination, or sequential task flow.
+
+No universal sitemap, component set, or hierarchy depth is accepted.
+
+### W05-P03 — URL-backed related-view navigation with semantic separation
+
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Independently addressable non-sequential peer views may use link/navigation semantics with current-state indication, while in-place tab panels and sequential workflow stages remain distinct interaction models.
+
+No universal URL requirement, router, or component library is selected.
 
 ## Accepted bounded anti-patterns
 
-### W04-A01 — Unrecoverable task-critical control disappearance
+### W05-A01 — Breadcrumb relationship confusion
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Removing the only required action/navigation path for a task without equivalent access is an accepted responsive anti-pattern.
+Hierarchical breadcrumbs should not represent visit history or sequential transaction stages as though they were ancestors.
 
-### W04-A02 — Unjustified horizontal overflow for ordinary content
+### W05-A02 — Ordinary site navigation miscast as application menubar
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Preserving desktop-width geometry for ordinary reflowable content, causing unnecessary two-dimensional navigation under applicable conditions, is an accepted anti-pattern.
+Ordinary destination links should not receive desktop-application menu roles solely because they visually resemble a dropdown/menu without the corresponding interaction and keyboard model.
 
 ## Prior deferred knowledge preserved
 
@@ -84,16 +102,17 @@ W02-P02 — CANDIDATE / DEFERRED
 W03-A01 — CANDIDATE / DEFERRED
 ```
 
-## Responsive law
+## Navigation / IA law
 
 No universal:
 
-- phone/tablet/desktop breakpoint table;
-- one-column mobile mandate;
-- ban on hiding/collapse/reordering;
-- ban on horizontal scrolling;
-- ban on high-density professional interfaces;
-- claim of WCAG conformance from source inspection.
+- sitemap;
+- hierarchy-depth ceiling;
+- breadcrumb requirement;
+- URL-backed-tab requirement;
+- application-menu-role default;
+- router/framework;
+- product taxonomy without user/task evidence.
 
 ## Application implementation authority
 
@@ -103,22 +122,22 @@ No frontend application Code Writer lane exists.
 
 ## Current work gate
 
-`W05 — NEXT KNOWLEDGE LANE`
+`W06 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-W05 is not yet defined or authorized.
+W06 is not yet defined or authorized.
 
 ## Active handoff
 
 NONE.
 
-The completed W04 handoff is historical evidence and is not executable authority.
+The completed W05 handoff is historical evidence and is not executable authority.
 
 ## Next gate
 
 Human / Maintainer selects the next bounded knowledge objective.
 
-No W05 acquisition or frontend implementation begins until an exact handoff is issued.
+No W06 acquisition or frontend implementation begins until an exact handoff is issued.

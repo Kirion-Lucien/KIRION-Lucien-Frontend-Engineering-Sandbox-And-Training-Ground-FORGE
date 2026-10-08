@@ -1,0 +1,19 @@
+{
+  "id": "W05-O39",
+  "source_id": "W05-S6",
+  "target": "Breadcrumb ordered list and overflow",
+  "domain": "COMPONENT_ARCHITECTURE",
+  "observed_behavior": "Pinned Breadcrumbs.tsx uses an ordered list and supports wrap, menu and menu-with-root overflow strategies, with labelled overflow control.",
+  "context": "Exact primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 NavList/UnderlineNav/Breadcrumbs code inspection",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Breadcrumbs/Breadcrumbs.tsx",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Source mechanics do not prove all breadcrumb ancestry semantics or accessibility compliance."
+  ],
+  "observed_at": "2026-10-08T08:00:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No tests, browser, keyboard navigation, AT or user study executed"
+}

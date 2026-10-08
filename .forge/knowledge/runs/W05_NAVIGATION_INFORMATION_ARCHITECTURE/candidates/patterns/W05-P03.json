@@ -1,0 +1,77 @@
+{
+  "id": "W05-P03",
+  "name": "URL-backed related-view navigation with semantic separation",
+  "domain": "NAVIGATION",
+  "additional_domains": [
+    "SEMANTIC_HTML",
+    "INFORMATION_ARCHITECTURE"
+  ],
+  "summary": "For independent, related non-sequential destinations, links in a current-state navigation pattern may be more appropriate than in-place tab panels or stepper controls.",
+  "problem": "The appearance of tabs obscures whether the user is navigating to distinct pages, revealing in-page panels, or progressing required steps.",
+  "context": "Product section with related peer pages/views, each meaningful independently and addressable by its own URL.",
+  "observed_solution": "Use linked related-view navigation with a current-page marker for URL-backed peers; reserve in-place tabs for content sections and step indicators for sequential task processes.",
+  "rationale": "Primer UnderlineNav guidelines document URL-backed, non-sequential related views (O33) and pinned code renders current links/overflow (O37/O38); GOV.UK Tabs operates on related page sections and cautions against page navigation/linear processes (O21); GOV task-flow guidance O17.",
+  "tradeoffs": [
+    "Page destinations may involve navigation transitions compared with in-place panels.",
+    "Many peer views need other nav structures rather than a crowded tab row.",
+    "User tasks requiring side-by-side comparison may not suit either tab model."
+  ],
+  "applicability": [
+    "Separately addressable, sibling-like related destinations with no forced completion sequence."
+  ],
+  "non_applicability": [
+    "Single-page in-place disclosures.",
+    "Sequential onboarding/transaction wizard.",
+    "Content requiring simultaneous comparison."
+  ],
+  "accessibility_implications": [
+    "Preserve descriptive link purpose and current-page state; never infer keyboard behavior from appearance; no AT validation."
+  ],
+  "performance_implications": [
+    "No page load or rendering measurement; GOV explicitly warns of tabs page weight in some contexts."
+  ],
+  "responsive_implications": [
+    "Overflowed peer destinations must remain available; pinned UnderlineNav implements a menu fallback but runtime untested."
+  ],
+  "implementation_notes": [
+    "Do not impose ARIA tab panel roles on ordinary URL nav links.",
+    "No React/router selection is implied by observing Primer source.",
+    "A link-based related view need not use UnderlineNav specifically."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W05-S3",
+    "W05-S5",
+    "W05-S6"
+  ],
+  "observation_ids": [
+    "W05-O04",
+    "W05-O17",
+    "W05-O21",
+    "W05-O33",
+    "W05-O34",
+    "W05-O37",
+    "W05-O38"
+  ],
+  "counterexamples": [
+    {
+      "summary": "GOV.UK Tabs supports switching self-contained content regions within a single page where separately navigable URLs are not required.",
+      "context": "Brief related in-page sections for regular service users.",
+      "source_id": "W05-S3",
+      "observation_id": "W05-O21"
+    }
+  ],
+  "related_patterns": [
+    "W05-P02",
+    "W04-P01"
+  ],
+  "related_anti_patterns": [
+    "W05-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "Live GOV.UK and Primer docs unpinned; pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T16:41:00+08:00"
+}
