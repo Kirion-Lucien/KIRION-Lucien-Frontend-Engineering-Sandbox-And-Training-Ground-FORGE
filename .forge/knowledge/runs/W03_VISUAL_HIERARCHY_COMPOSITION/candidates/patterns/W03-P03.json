@@ -1,0 +1,72 @@
+{
+  "id": "W03-P03",
+  "name": "Content-first responsive composition",
+  "domain": "RESPONSIVE_DESIGN",
+  "additional_domains": [
+    "LAYOUT",
+    "INFORMATION_ARCHITECTURE"
+  ],
+  "summary": "Choose columns, region prominence and stacking/reduction by user task and available width instead of preserving desktop geometry unchanged.",
+  "problem": "Fixed multi-column page geometry may obscure essential content or introduce unnecessary horizontal scrolling on constrained viewports.",
+  "context": "Multi-region interfaces with main content, secondary panes/navigation and a narrow-screen mode.",
+  "observed_solution": "Begin from content priorities; use an intentional responsive grid/region strategy (reflow, grouping, pane placement, optional collapse) while preserving essential access and meaningful order.",
+  "rationale": "WAI discusses viewport adaptation (O10); GOV.UK starts small-screen layouts in one column (O11); Carbon differentiates layout models by task (O18,O20); Primer advises simplifying multi-column screens (O22); pinned PageLayout implements width and pane-region variants (O26–O28).",
+  "tradeoffs": [
+    "High-density and side-by-side comparison tasks may need controlled horizontal navigation.",
+    "Collapsing critical controls without alternative access can destroy functionality; semantics and reading order still require testing."
+  ],
+  "applicability": [
+    "Applications whose sidebar, navigation or secondary pane can move or collapse on smaller viewports without losing task access."
+  ],
+  "non_applicability": [
+    "Data views where 2D layout is essential or simultaneous comparison is a primary task."
+  ],
+  "accessibility_implications": [
+    "Reflow and info relationship criteria govern contextually; source code inspection is not runtime conformance."
+  ],
+  "performance_implications": [
+    "No render or loading performance result established."
+  ],
+  "responsive_implications": [
+    "Evaluate placement, content order, discoverability and navigation after each significant composition change."
+  ],
+  "implementation_notes": [
+    "No React adoption implied by Primer's reference snapshot.",
+    "No universal 8px grid, breakpoint or one-column law."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W03-S2",
+    "W03-S3",
+    "W03-S4",
+    "W03-S5",
+    "W03-S6"
+  ],
+  "observation_ids": [
+    "W03-O03",
+    "W03-O10",
+    "W03-O11",
+    "W03-O18",
+    "W03-O20",
+    "W03-O22",
+    "W03-O26",
+    "W03-O27",
+    "W03-O28"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Full-width high-density content and intrinsically two-dimensional data may need a different responsive strategy.",
+      "context": "Professional data workbench; WCAG 1.4.10 exception for genuinely 2D content.",
+      "source_id": "W02-S1",
+      "observation_id": "W03-O03"
+    }
+  ],
+  "related_patterns": [],
+  "related_anti_patterns": [],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 (2024), unpinned design docs, pinned PageLayout@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T14:27:00+08:00"
+}

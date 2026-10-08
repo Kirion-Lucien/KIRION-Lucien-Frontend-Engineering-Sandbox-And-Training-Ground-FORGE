@@ -1,0 +1,62 @@
+{
+  "id": "W03-A01",
+  "name": "Undifferentiated content priority",
+  "domain": "VISUAL_HIERARCHY",
+  "additional_domains": [
+    "INFORMATION_ARCHITECTURE",
+    "TYPOGRAPHY"
+  ],
+  "summary": "A composition that assigns effectively equal prominence to genuinely unequal content roles risks making it harder to locate the primary topic or next step.",
+  "recurring_structure": "Main content, headings, supporting metadata, local navigation and minor details receive little differentiating typography, grouping, proximity or layout prominence despite distinct task priority.",
+  "harm_mechanism": "Without adequate structural cues, finding key topics or following topic/subtopic relationships may require extra effort; WAI and design-system guidance describe navigational benefits of structured headings/regions and content hierarchy.",
+  "context": "Pages with distinct main tasks and supporting content; visual and semantic relationships actually differ.",
+  "applicability": [
+    "Observed unmarked hierarchy in content with genuinely unequal user-task priorities."
+  ],
+  "legitimate_contexts": [
+    "Intentionally balanced items of genuinely equal priority.",
+    "Dense tabular or catalog presentation where uniformity improves comparison.",
+    "Minimalist layout whose heading/landmark semantics still distinguish information."
+  ],
+  "consequences": {
+    "usability": [
+      "Potential loss of scannability; inferential, not measured in W03."
+    ],
+    "accessibility": [
+      "May mask programmatic relationships if semantic headings/landmarks also absent; appearance alone cannot prove WCAG failure."
+    ],
+    "performance": [
+      "No performance harm evidenced."
+    ],
+    "maintainability": [
+      "No verified maintenance harm from equal visual weight alone."
+    ]
+  },
+  "source_ids": [
+    "W03-S2",
+    "W03-S4",
+    "W03-S5",
+    "W02-S1"
+  ],
+  "observation_ids": [
+    "W03-O01",
+    "W03-O05",
+    "W03-O06",
+    "W03-O07",
+    "W03-O19",
+    "W03-O21",
+    "W03-O23"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A catalog grid may intentionally make similarly important entries visually equal.",
+      "context": "Scanning comparable alternatives instead of following a single primary task.",
+      "source_id": "W03-S4",
+      "observation_id": "W03-O20"
+    }
+  ],
+  "confidence": "LOW",
+  "recency_status": "UNKNOWN",
+  "version_context": "WAI and official system reference docs unpinned; WCAG 2.2 (2024)",
+  "status": "CANDIDATE"
+}

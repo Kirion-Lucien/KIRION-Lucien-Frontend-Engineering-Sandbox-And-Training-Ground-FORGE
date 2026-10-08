@@ -40,37 +40,66 @@
 
 **Historical handoff:** `.forge/handoffs/historical/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
 
+**K7:**
+
+```text
+W02-P01 — ACCEPTED / MEDIUM
+W02-A01 — ACCEPTED / MEDIUM
+W02-P02 — CANDIDATE / DEFERRED
+```
+
+## W03 — Visual hierarchy & composition intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@20a2bb44461a1066b44aa242c6bad18fac673025`
+
+**Reviewed worker candidate:**
+
+`forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
+
+**Acceptance:** GitHub issue #7
+
+**Historical handoff:**
+
+`.forge/handoffs/historical/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
+
 **Accepted run result:**
 
-- 5 qualified source records;
-- 20 bounded OBSERVED records;
-- normative/reference/implementation/inspiration evidence classes preserved;
-- exact Primer implementation source remained pinned;
+- seven logical source families;
+- five new source records plus two reused W02 source identities;
+- 30 bounded OBSERVED records;
+- 27 evidence-linked working vocabulary definitions;
+- hierarchy/grouping/density/responsive-composition comparison;
+- evidence-backed anti-slop hypothesis analysis;
 - no external repository mutation;
-- no application stack selection;
+- no frontend stack selection;
 - no application implementation;
-- no fabricated runtime or conformance evidence.
+- no fabricated runtime/accessibility/usability evidence.
 
 **K7 promotion result:**
 
 ```text
-W02-P01 — Contextual dominant primary action
+W03-P01 — Semantic and visual region alignment
 ACCEPTED / MEDIUM CONFIDENCE
 
-W02-A01 — Competing dominant primary controls
+W03-P02 — Purpose-bounded reading width
 ACCEPTED / MEDIUM CONFIDENCE
 
-W02-P02 — Focus-preserving asynchronous button feedback
-CANDIDATE / DEFERRED
+W03-P03 — Content-first responsive composition
+ACCEPTED / MEDIUM CONFIDENCE
+
+W03-A01 — Undifferentiated content priority
+CANDIDATE / DEFERRED / LOW CONFIDENCE
 ```
 
-P02 remains unpromoted pending browser/focus/live-region/assistive-technology validation.
+A01 remains unpromoted because its claimed scannability harm is inferential rather than independently measured.
 
-## W03 — Next knowledge lane
+## W04 — Next knowledge lane
 
 **State:** INPUT REQUIRED / REVIEW
 
-W03 is undefined.
+W04 is undefined.
 
 No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
 

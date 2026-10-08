@@ -1,0 +1,19 @@
+{
+  "id": "W03-O20",
+  "source_id": "W03-S4",
+  "target": "IBM editorial versus dense layout models",
+  "observed_behavior": "Carbon Guidelines distinguish centered editorial, bounded product/docs, and full-width high-density interface models based on content and workflow needs.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/guidelines#style-models",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "High information density is not automatically a defect; model selection requires actual user tasks."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "LAYOUT",
+  "source_version_context": "Carbon indexed official guidelines, Sep 25 2026",
+  "contradicted_by": [],
+  "notes": "Official search-indexed source excerpt; direct web.open unavailable"
+}

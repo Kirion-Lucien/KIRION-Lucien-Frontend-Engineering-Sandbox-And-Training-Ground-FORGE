@@ -1,0 +1,19 @@
+{
+  "id": "W03-O07",
+  "source_id": "W03-S2",
+  "target": "Heading rank hierarchy",
+  "observed_behavior": "WAI recommends heading-rank nesting and avoiding skipped ranks where possible, while noting fixed sidebar sections may use stable ranks across pages.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/page-structure/headings/#heading-ranks",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Guidance allows contexts/exceptions; not a universal claim that any skip is nonconformant."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "source_version_context": "WAI Headings tutorial (unversioned)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

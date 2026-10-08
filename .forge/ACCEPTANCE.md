@@ -219,3 +219,77 @@ Primer documentation and pinned source support the strategy, but browser focus r
 ### Governing result
 
 > **W02 proves that Lucien can keep normative requirements, design-system guidance, implementation evidence, and inspiration in separate authority classes. P01 and A01 are accepted bounded knowledge; P02 remains explicitly unpromoted.**
+
+
+---
+
+## W03 — Visual hierarchy & composition intelligence
+
+**Maintainer disposition:** `ACCEPT`
+
+**Recorded:** 2026-10-08
+
+**Acceptance issue:** GitHub #7
+
+**Exact reviewed source:** `main@20a2bb44461a1066b44aa242c6bad18fac673025`
+
+**Exact reviewed worker candidate:** `forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
+
+### Accepted run findings
+
+- candidate ancestry: PASS
+- worker delta from governance head: 1 commit
+- changed-file scope: PASS
+- seven-source-family limit: PASS
+- source-class separation: PASS
+- registry reuse/append behavior: PASS
+- observations: 30, all OBSERVED
+- evidence-linked vocabulary: ACCEPTED AS WORKING TERMINOLOGY
+- source/observation/candidate linkage: PASS
+- pinned Primer PageLayout source identity: PASS
+- prior W02 knowledge integrity: PASS
+- application implementation: NONE
+- frontend stack selection: NONE
+- worker K7 self-promotion: NONE
+
+### K7 promotion disposition
+
+**W03-P01 — Semantic and visual region alignment:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Accepted only where meaningful visible content roles align with meaningful headings/regions and programmatic relationships where applicable. Not every visible box/card becomes a landmark.
+
+**W03-P02 — Purpose-bounded reading width:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Accepted as contextual guidance for reading-focused content while preserving full-width/wider composition for data-heavy and comparison-oriented tasks. No universal 75-character, 80-character, 1020px, or similar numeric law is accepted.
+
+**W03-P03 — Content-first responsive composition:** `ACCEPT / MEDIUM CONFIDENCE`
+
+Accepted as contextual guidance to adapt regions/columns/panes according to task/content priority and available space rather than preserving desktop geometry unchanged. Legitimate two-dimensional and high-density tasks remain counter-contexts.
+
+**W03-A01 — Undifferentiated content priority:** `DEFER / REMAINS CANDIDATE / LOW CONFIDENCE`
+
+Reason: the candidate is coherent and source-linked, but its claimed scannability harm remains inferential and was not independently measured in W03.
+
+### Validation evidence
+
+- source inspection: SOURCE INSPECTED
+- branch ancestry: PASS
+- scope integrity: PASS
+- source-family limit: PASS
+- registry integrity: PASS
+- source/candidate linkage: PASS
+- prior W02 byte-integrity: PASS
+- exact Primer implementation source: PASS
+- external source spot-check: PASS
+- application build: NOT RUN / NOT APPLICABLE
+- application typecheck: NOT RUN / NOT APPLICABLE
+- application tests: NOT RUN / NOT APPLICABLE
+- frontend runtime: NOT RUN / NOT APPLICABLE
+- browser responsiveness: NOT RUN
+- accessibility conformance: NOT RUN
+- usability/scannability experiments: NOT RUN
+- dedicated external JSON-Schema meta-validator: NOT RUN
+
+### Governing result
+
+> **W03 gives Lucien an evidence-backed composition vocabulary and three accepted bounded composition patterns while keeping the first low-confidence anti-slop hypothesis unpromoted. Visual dislike is still not authority.**

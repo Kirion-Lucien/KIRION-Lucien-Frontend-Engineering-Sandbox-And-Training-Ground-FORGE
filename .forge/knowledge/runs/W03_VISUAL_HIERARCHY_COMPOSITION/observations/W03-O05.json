@@ -1,0 +1,19 @@
+{
+  "id": "W03-O05",
+  "source_id": "W02-S1",
+  "target": "Headings and Labels",
+  "observed_behavior": "WCAG SC 2.4.6 requires headings and labels to describe topic or purpose.",
+  "context": "W03 visual hierarchy/composition controlled acquisition; exact cited source scope only",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Does not mandate a given font scale, exact heading nesting pattern, or count of sections."
+  ],
+  "observed_at": "2026-10-08T06:11:50.973Z",
+  "status": "OBSERVED",
+  "domain": "CONTENT_DESIGN",
+  "source_version_context": "WCAG 2.2 SC 2.4.6 (AA)",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED only; no recommendation, runtime test or conformance determination"
+}

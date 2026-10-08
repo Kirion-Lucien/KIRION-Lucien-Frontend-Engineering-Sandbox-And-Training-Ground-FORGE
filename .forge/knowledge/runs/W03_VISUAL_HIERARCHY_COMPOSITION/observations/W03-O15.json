@@ -1,0 +1,19 @@
+{
+  "id": "W03-O15",
+  "source_id": "W03-S3",
+  "target": "Responsive typography scale",
+  "observed_behavior": "GOV.UK Type Scale gives different font sizes at small vs large screens for large headings while keeping normal body at 19px in its listed examples.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://design-system.service.gov.uk/styles/type-scale/",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Exact numbers are GOV.UK choices rather than a mandatory accessible type scale."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "TYPOGRAPHY",
+  "source_version_context": "GOV.UK type-scale page; unversioned",
+  "contradicted_by": [],
+  "notes": "Official design-system document read; no runtime research"
+}

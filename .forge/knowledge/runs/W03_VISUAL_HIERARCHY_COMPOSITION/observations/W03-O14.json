@@ -1,0 +1,19 @@
+{
+  "id": "W03-O14",
+  "source_id": "W03-S3",
+  "target": "Grid and region composition",
+  "observed_behavior": "GOV.UK layout examples use grid rows/columns and width containers to present two-thirds main content alongside optional one-third companion content.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#common-layouts",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Code examples establish a system layout mechanism, not proof of better comprehension for every content type."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "source_version_context": "GOV.UK layout page; unversioned",
+  "contradicted_by": [],
+  "notes": "Official design-system document read; no runtime research"
+}

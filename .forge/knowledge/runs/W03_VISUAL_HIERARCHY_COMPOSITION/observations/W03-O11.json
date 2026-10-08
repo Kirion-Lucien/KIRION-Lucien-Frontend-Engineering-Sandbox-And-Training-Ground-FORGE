@@ -1,0 +1,19 @@
+{
+  "id": "W03-O11",
+  "source_id": "W03-S3",
+  "target": "Small-screen-first GOV.UK layout",
+  "observed_behavior": "GOV.UK Layout guidance begins with a single-column small-screen design and advises designing for screen sizes rather than named devices.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#screen-size",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "A GOV.UK system recommendation, not WCAG or a universal one-column requirement."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "RESPONSIVE_DESIGN",
+  "source_version_context": "GOV.UK layout page; unversioned",
+  "contradicted_by": [],
+  "notes": "Official design-system document read; no runtime research"
+}

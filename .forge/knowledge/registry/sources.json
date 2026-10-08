@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-08T05:33:26.476Z",
+  "generated_at": "2026-10-08T06:11:27.195Z",
   "sources": [
     {
       "repository": null,
@@ -134,6 +134,136 @@
       "content_storage_policy": "METADATA_ONLY",
       "status": "ACTIVE",
       "recency_status": "UNKNOWN"
+    },
+    {
+      "repository": null,
+      "path": null,
+      "version": null,
+      "commit_sha": null,
+      "published_at": null,
+      "license": null,
+      "superseded_by": null,
+      "notes": "Same logical WAI family includes https://www.w3.org/WAI/tips/designing/ and https://www.w3.org/WAI/tutorials/page-structure/regions/; explanations are not normative SC wording. W3C copyright/document-use rules apply.",
+      "tags": [
+        "W03",
+        "composition"
+      ],
+      "retrieved_at": "2026-10-08T06:11:27.195Z",
+      "status": "ACTIVE",
+      "content_storage_policy": "SUMMARIES_AND_OBSERVATIONS",
+      "id": "W03-S2",
+      "title": "W3C WAI Designing for Web Accessibility and Page Structure (Headings, Regions)",
+      "provider": "W3C WAI",
+      "source_type": "ACCESSIBILITY_REFERENCE",
+      "authority_weight": "OFFICIAL_REFERENCE",
+      "authority_reason": "Official explanatory WAI tutorials and tips on structure, headings, grouping and regions; not WCAG success criteria.",
+      "canonical_url": "https://www.w3.org/WAI/tutorials/page-structure/headings/",
+      "license_status": "PUBLIC_REFERENCE_ONLY",
+      "recency_status": "UNKNOWN"
+    },
+    {
+      "repository": null,
+      "path": null,
+      "version": null,
+      "commit_sha": null,
+      "published_at": null,
+      "license": "Open Government Licence v3.0 except otherwise stated",
+      "superseded_by": null,
+      "notes": "Includes https://design-system.service.gov.uk/styles/type-scale/; responsive font and page-width recommendations version not frozen, no independent usability experiments.",
+      "tags": [
+        "W03",
+        "composition"
+      ],
+      "retrieved_at": "2026-10-08T06:11:27.195Z",
+      "status": "ACTIVE",
+      "content_storage_policy": "SUMMARIES_AND_OBSERVATIONS",
+      "id": "W03-S3",
+      "title": "GOV.UK Design System Layout and Type Scale",
+      "provider": "GOV.UK Design System",
+      "source_type": "DESIGN_SYSTEM",
+      "authority_weight": "OFFICIAL_REFERENCE",
+      "authority_reason": "First-party GOV.UK layout/typographic system conventions for public-service experiences; contextual, not normative.",
+      "canonical_url": "https://design-system.service.gov.uk/styles/layout/",
+      "license_status": "KNOWN_PERMISSIVE",
+      "recency_status": "UNKNOWN"
+    },
+    {
+      "repository": null,
+      "path": null,
+      "version": null,
+      "commit_sha": null,
+      "published_at": null,
+      "license": null,
+      "superseded_by": null,
+      "notes": "Includes /guidelines; indexed official-page evidence showed last-updated 2026-09-25. Direct web.open returned internal error: observations limited to search-indexed official-page text, no claim of exhaustive live inspection. License unknown => reference only.",
+      "tags": [
+        "W03",
+        "composition"
+      ],
+      "retrieved_at": "2026-10-08T06:11:27.195Z",
+      "status": "ACTIVE",
+      "content_storage_policy": "SUMMARIES_AND_OBSERVATIONS",
+      "id": "W03-S4",
+      "title": "IBM Carbon Design System 2x Grid (Overview and Guidelines)",
+      "provider": "IBM Carbon Design System",
+      "source_type": "DESIGN_SYSTEM",
+      "authority_weight": "OFFICIAL_REFERENCE",
+      "authority_reason": "Official IBM 2x Grid foundations and guidance describing alignment, composition, density and style-model tradeoffs for IBM ecosystems.",
+      "canonical_url": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview",
+      "license_status": "UNKNOWN",
+      "recency_status": "UNKNOWN"
+    },
+    {
+      "repository": null,
+      "path": null,
+      "version": null,
+      "commit_sha": null,
+      "published_at": null,
+      "license": null,
+      "superseded_by": null,
+      "notes": "Also inspected /getting-started/foundations/typography/, /components/page-layout/, /components/page-layout/accessibility/. Exact documentation build not pinned. Reference only.",
+      "tags": [
+        "W03",
+        "composition"
+      ],
+      "retrieved_at": "2026-10-08T06:11:27.195Z",
+      "status": "ACTIVE",
+      "content_storage_policy": "SUMMARIES_AND_OBSERVATIONS",
+      "id": "W03-S5",
+      "title": "GitHub Primer Layout, Typography and PageLayout Guidance",
+      "provider": "GitHub Primer",
+      "source_type": "DESIGN_SYSTEM",
+      "authority_weight": "OFFICIAL_REFERENCE",
+      "authority_reason": "Primer official design-system guidance for layout regions, responsive complexity, typography and PageLayout accessibility in GitHub products.",
+      "canonical_url": "https://primer.style/product/getting-started/foundations/layout/",
+      "license_status": "UNKNOWN",
+      "recency_status": "UNKNOWN"
+    },
+    {
+      "repository": "primer/react",
+      "path": "packages/react/src/PageLayout",
+      "version": "commit snapshot",
+      "commit_sha": "7f5303d803986887187d86dcebaeda22a4dc6823",
+      "published_at": null,
+      "license": "MIT",
+      "superseded_by": null,
+      "notes": "Read PageLayout.tsx, PageLayout.module.css, PageLayout.test.tsx, usePaneWidth.ts, DragHandle.tsx, PageLayout.responsive.stories.tsx at this SHA; exact LICENSE reviewed. No tests executed, no external repo writes.",
+      "tags": [
+        "W03",
+        "composition"
+      ],
+      "retrieved_at": "2026-10-08T06:11:27.195Z",
+      "status": "ACTIVE",
+      "content_storage_policy": "SUMMARIES_AND_OBSERVATIONS",
+      "id": "W03-S6",
+      "title": "primer/react PageLayout implementation at exact pinned source",
+      "provider": "GitHub / primer/react",
+      "source_type": "COMPONENT_LIBRARY",
+      "authority_weight": "PRIMARY_IMPLEMENTATION",
+      "authority_reason": "Direct read-only source and test inspection of PageLayout at fixed Git commit; evidence limited to code/test intent, not runtime results.",
+      "canonical_url": "https://github.com/primer/react/tree/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/PageLayout",
+      "license_status": "KNOWN_PERMISSIVE",
+      "recency_status": "VERSION_BOUND"
     }
   ]
 }

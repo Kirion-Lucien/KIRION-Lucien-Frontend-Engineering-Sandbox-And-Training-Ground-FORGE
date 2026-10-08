@@ -1,0 +1,19 @@
+{
+  "id": "W03-O13",
+  "source_id": "W03-S3",
+  "target": "Page width exception",
+  "observed_behavior": "GOV.UK states a default maximum page width of 1020px and explicitly allows wider content when needed.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://design-system.service.gov.uk/styles/layout/#screen-size",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "1020px is not a normative or global maximum."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "LAYOUT",
+  "source_version_context": "GOV.UK layout page; unversioned",
+  "contradicted_by": [],
+  "notes": "Official design-system document read; no runtime research"
+}

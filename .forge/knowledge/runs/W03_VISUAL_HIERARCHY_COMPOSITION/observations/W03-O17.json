@@ -1,0 +1,19 @@
+{
+  "id": "W03-O17",
+  "source_id": "W03-S4",
+  "target": "IBM key-line alignment",
+  "observed_behavior": "Carbon overview describes vertical and horizontal key lines as repeated alignment anchors that make overall layout relationships easier to follow.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview#key-lines",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "First-party explanatory claim, not a measured usability outcome in this run."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "VISUAL_HIERARCHY",
+  "source_version_context": "Carbon indexed official overview, Sep 25 2026",
+  "contradicted_by": [],
+  "notes": "Official search-indexed source excerpt; direct web.open unavailable"
+}

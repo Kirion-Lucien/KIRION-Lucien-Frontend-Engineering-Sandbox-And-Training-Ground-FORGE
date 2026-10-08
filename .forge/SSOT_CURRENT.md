@@ -6,83 +6,97 @@
 
 ## Program
 
-`W02 — CONTROLLED PILOT ACQUISITION`
+`W03 — VISUAL HIERARCHY & COMPOSITION INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / FIRST KNOWLEDGE PROMOTION COMPLETE`
+`ACCEPTED / COMPOSITION KNOWLEDGE ACTIVE`
 
 W00 Forge governance remains accepted and active.
 
 W01 knowledge-control authority remains accepted and active.
 
-W02 Maintainer acceptance is recorded in GitHub issue #5 and `.forge/ACCEPTANCE.md`.
+W02 controlled pilot and its selective K7 promotions remain accepted.
 
-## Canonical source before W02
+W03 Maintainer acceptance is recorded in GitHub issue #7 and `.forge/ACCEPTANCE.md`.
 
-`main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
+## Canonical source before W03
 
-## Exact reviewed W02 worker candidate
+`main@20a2bb44461a1066b44aa242c6bad18fac673025`
 
-`forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
+## Exact reviewed W03 worker candidate
 
-## Current classification
+`forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
 
-`FRONTEND ENGINEERING INTELLIGENCE FORGE / EVIDENCE ACQUISITION ACTIVE`
+## Accepted W03 corpus
 
-## Accepted W02 corpus
+Seven logical source families:
 
-Qualified source records:
+1. W3C WCAG 2.2
+2. W3C WAI design/page-structure guidance
+3. GOV.UK Layout + Type Scale
+4. IBM Carbon 2x Grid
+5. GitHub Primer Layout / Typography / PageLayout guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` PageLayout implementation
+7. Landbook landing-page gallery as inspiration-only evidence
 
-```text
-W02-S1 — W3C WCAG 2.2
-W02-S2 — GOV.UK Design System Button
-W02-S3 — Primer Product Button
-W02-S4 — primer/react@7f5303d803986887187d86dcebaeda22a4dc6823
-W02-S5 — Landbook landing-page gallery
-```
+Registry qualification remains distinct from claim acceptance.
 
-Registry inclusion remains source qualification, not universal authority.
+## Accepted W03 vocabulary
 
-## Accepted bounded knowledge
+W03 establishes evidence-linked working terminology for visual hierarchy, information hierarchy, grouping, proximity, spacing rhythm, vertical rhythm, content width, line length, layout regions, content roles, surfaces/containers/cards/tiles/panes/sidebars, responsive composition, density, visual weight, scannability, semantic heading hierarchy, and whitespace.
 
-### W02-P01 — Contextual dominant primary action
+These are working analytical definitions, not universal numeric/style standards.
 
-`ACCEPTED / MEDIUM CONFIDENCE`
+## Accepted bounded patterns
 
-For one bounded decision group with one clearly preferred progression, a visually dominant primary action with subordinate alternatives is accepted guidance.
-
-This is not a universal page-level numeric rule.
-
-### W02-A01 — Competing dominant primary controls
+### W03-P01 — Semantic and visual region alignment
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Inside one connected decision group, multiple equally dominant main controls may reduce next-step clarity when one intended progression exists.
+Meaningful visible content roles should coherently align with meaningful headings/regions and programmatic relationships where applicable.
 
-Independent task groups and equally valid alternatives remain counter-contexts.
+Not every visible box or card is a landmark.
 
-## Deferred knowledge
+### W03-P02 — Purpose-bounded reading width
 
-### W02-P02 — Focus-preserving asynchronous button feedback
+`ACCEPTED / MEDIUM CONFIDENCE`
 
-`CANDIDATE / DEFERRED`
+Reading-focused content may use bounded line/content width, while data-heavy, comparison-oriented, and spatial workbenches may legitimately use wider/full-width composition.
 
-Primer documentation and pinned source support the implementation strategy, but browser/focus/live-region/assistive-technology behavior was not executed.
+No global 75-character, 80-character, 1020px, or similar numeric law is accepted.
 
-It is not reusable accepted Forge guidance yet.
+### W03-P03 — Content-first responsive composition
 
-## Evidence-class law preserved
+`ACCEPTED / MEDIUM CONFIDENCE`
+
+Responsive composition should adapt regions, columns, and pane placement according to task/content priority and available space rather than preserving desktop geometry unchanged.
+
+Legitimate two-dimensional and high-density interfaces remain counter-contexts.
+
+## Deferred W03 anti-pattern
+
+### W03-A01 — Undifferentiated content priority
+
+`CANDIDATE / DEFERRED / LOW CONFIDENCE`
+
+The hypothesis is coherent and source-linked, but the claimed scannability harm remains inferential and was not independently measured.
+
+It is not accepted anti-pattern law.
+
+## Prior W02 knowledge preserved
 
 ```text
-normative requirement
-!=
-design-system recommendation
-!=
-implementation evidence
-!=
-visual inspiration
+W02-P01 — ACCEPTED / MEDIUM
+W02-A01 — ACCEPTED / MEDIUM
+W02-P02 — CANDIDATE / DEFERRED
 ```
+
+## Anti-slop law
+
+`"AI-looking = bad"` is not an evidence model.
+
+No card-count, whitespace-volume, density, nested-container, hero-style, icon-volume, or dashboard-style threshold is accepted merely from aesthetic preference.
 
 ## Application implementation authority
 
@@ -92,22 +106,22 @@ No frontend application Code Writer lane exists.
 
 ## Current work gate
 
-`W03 — NEXT KNOWLEDGE LANE`
+`W04 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-W03 is not yet defined or authorized.
+W04 is not defined or authorized.
 
 ## Active handoff
 
 NONE.
 
-The completed W02 handoff is historical evidence and is not executable authority.
+The completed W03 handoff is historical evidence and is not executable authority.
 
 ## Next gate
 
 Human / Maintainer selects the next bounded knowledge objective.
 
-No W03 acquisition or frontend implementation begins until an exact handoff is issued.
+No W04 acquisition or frontend implementation begins until an exact handoff is issued.

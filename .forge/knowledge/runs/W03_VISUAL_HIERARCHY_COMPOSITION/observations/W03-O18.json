@@ -1,0 +1,19 @@
+{
+  "id": "W03-O18",
+  "source_id": "W03-S4",
+  "target": "IBM layout fit for purpose",
+  "observed_behavior": "Carbon Guidelines instruct designers to begin with content and user goal and contrast long-form reading needs with multistep task needs.",
+  "context": "W03 design-system-specific layout/typography guidance, not universal law",
+  "evidence_location": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/guidelines#fit-for-purpose",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "Direct open failed; only search-indexed official text examined."
+  ],
+  "observed_at": "2026-10-08T06:12:30.229Z",
+  "status": "OBSERVED",
+  "domain": "INFORMATION_ARCHITECTURE",
+  "source_version_context": "Carbon indexed official guidelines, Sep 25 2026",
+  "contradicted_by": [],
+  "notes": "Official search-indexed source excerpt; direct web.open unavailable"
+}

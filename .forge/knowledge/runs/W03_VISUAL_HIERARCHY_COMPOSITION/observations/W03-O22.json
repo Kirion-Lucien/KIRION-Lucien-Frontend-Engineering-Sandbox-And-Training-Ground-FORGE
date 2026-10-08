@@ -1,0 +1,19 @@
+{
+  "id": "W03-O22",
+  "source_id": "W03-S5",
+  "target": "Primer viewport range reduction",
+  "observed_behavior": "Primer Layout guidance distinguishes high-level viewport ranges from breakpoints and proposes simplifying multi-column experiences when columns cannot fit narrow screens.",
+  "context": "W03 controlled visual composition corpus, limited to inspected source evidence class",
+  "evidence_location": "https://primer.style/product/getting-started/foundations/layout/#responsive-foundations",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Do not infer any particular content may be removed without task analysis."
+  ],
+  "observed_at": "2026-10-08T06:13:15.410Z",
+  "status": "OBSERVED",
+  "domain": "RESPONSIVE_DESIGN",
+  "source_version_context": "Primer Layout docs, unpinned",
+  "contradicted_by": [],
+  "notes": "Source/document inspection only; never application runtime proof"
+}

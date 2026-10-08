@@ -1,0 +1,19 @@
+{
+  "id": "W03-O25",
+  "source_id": "W03-S5",
+  "target": "Primer PageLayout accessibility expectations",
+  "observed_behavior": "Primer PageLayout accessibility page advises logical region structure, semantic landmarks, limited distractions/dense text in sections, focus visibility and responsive reflow.",
+  "context": "W03 controlled visual composition corpus, limited to inspected source evidence class",
+  "evidence_location": "https://primer.style/product/components/page-layout/accessibility/#accessibility-and-usability-expectations",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Primer guidance refers to WCAG topics but cannot replace normative WCAG source or prove conformance."
+  ],
+  "observed_at": "2026-10-08T06:13:15.410Z",
+  "status": "OBSERVED",
+  "domain": "ACCESSIBILITY",
+  "source_version_context": "Primer PageLayout accessibility docs, unpinned",
+  "contradicted_by": [],
+  "notes": "Source/document inspection only; never application runtime proof"
+}

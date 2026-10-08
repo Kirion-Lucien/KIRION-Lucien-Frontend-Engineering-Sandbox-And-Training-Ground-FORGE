@@ -1,0 +1,19 @@
+{
+  "id": "W03-O21",
+  "source_id": "W03-S5",
+  "target": "Primer focused experience",
+  "observed_behavior": "Primer Layout guidance describes a content-focused, calm and uncluttered experience and states that layouts should minimize friction in users' expected reading order.",
+  "context": "W03 controlled visual composition corpus, limited to inspected source evidence class",
+  "evidence_location": "https://primer.style/product/getting-started/foundations/layout/#strive-for-a-focused-experience",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "System guidance is not an experimentally verified readability score."
+  ],
+  "observed_at": "2026-10-08T06:13:15.410Z",
+  "status": "OBSERVED",
+  "domain": "VISUAL_HIERARCHY",
+  "source_version_context": "Primer Layout docs, unpinned",
+  "contradicted_by": [],
+  "notes": "Source/document inspection only; never application runtime proof"
+}
