@@ -55,5 +55,7 @@
   "confidence": "MEDIUM",
   "recency_status": "UNKNOWN",
   "version_context": "WCAG 2.2 2024; WAI and USWDS current first-party documentation unpinned",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T22:30:00+08:00"
 }
