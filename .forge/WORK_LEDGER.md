@@ -127,101 +127,6 @@ ACCEPTED / MEDIUM CONFIDENCE
 
 Deferred prior candidates remain unpromoted.
 
-## W06 — Next knowledge lane
-
-**State:** INPUT REQUIRED / REVIEW
-
-W06 is undefined.
-
-No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
-
-## Application implementation lanes
-
-**State:** BLOCKED
-
-No frontend application Code Writer lane exists yet.
-
-
-## W06 — Forms, validation & error-recovery intelligence
-
-**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
-
-**Source:**
-
-`main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
-
-**Branch:**
-
-`forge/w06-forms-validation-error-recovery-intelligence`
-
-**Active handoff:**
-
-`.forge/handoffs/active/W06_FORMS_VALIDATION_ERROR_RECOVERY_INTELLIGENCE.md`
-
-**Human objective:**
-
-Develop Lucien's evidence-backed forms intelligence: labels, hints/instructions, semantic grouping, required/optional state, validation timing, inline/form-level errors, error summaries, focus/announcement behavior, preserved input, error prevention, redundant entry, disabled/readonly states, and recoverable form failure.
-
-**Source families:**
-
-1. W3C WCAG 2.2
-2. W3C WAI Forms tutorials
-3. GOV.UK forms/validation family
-4. USWDS forms family
-5. Primer forms guidance
-6. pinned Primer React forms implementation
-
-**Expected outputs:**
-
-- forms/validation vocabulary;
-- 30–42 bounded observations, hard max 50;
-- label/instruction/grouping analysis;
-- validation/error-recovery analysis;
-- `FORM_MODEL_ANALYSIS.md`;
-- `VALIDATION_ERROR_RECOVERY_ANALYSIS.md`;
-- `FAILURE_MODE_ANALYSIS.md`;
-- 0–3 pattern candidates;
-- 0–2 anti-pattern candidates;
-- Maintainer review packet.
-
-**Explicit blocks:**
-
-- no application source;
-- no form/schema library selection;
-- no backend validation architecture;
-- no universal validation timing;
-- no universal error-summary mandate;
-- no universal disabled-submit prohibition;
-- no seventh source family;
-- no external repo mutation;
-- no fabricated browser/AT/usability/server-validation evidence;
-- no candidate promotion;
-- no prior knowledge mutation;
-- no W07.
-
-**Worker K0–K6 candidate artifacts:**
-
-- Six logical source families, WCAG reused and five W06-specific qualified sources appended;
-- 46 evidence-linked working definitions;
-- 42 OBSERVED JSON records;
-- form-model, cross-source, error/recovery and 14-hypothesis failure analysis;
-- 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES;
-- USWDS validation component known problems and deprecation caveat preserved;
-- K6 Maintainer review packet;
-- prior W02–W05 accepted/deferred records unchanged;
-- no app/stack/validation library, no real browser/AT/user/server tests.
-
-**Completion gate:**
-
-Independent Maintainer review of exact W06 candidate.
-
-## W07 — Next knowledge lane
-
-**State:** BLOCKED
-
-W07 is undefined and may not begin before W06 disposition.
-
-
 ## W06 — Forms, validation & error-recovery intelligence
 
 **State:** ACCEPTED
@@ -273,3 +178,30 @@ ACCEPTED / HIGH
 W07 is undefined.
 
 No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
+
+
+## G01 — Knowledge workload isolation governance
+
+**State:** ACCEPTED POLICY / effective upon promotion to canonical `main`.
+
+**Human authorization:** 2026-10-08.
+
+**Source:** `main@68330d52b88c0e4a0d14efa48fe9db26d64f82c1`.
+
+**Decision:** FORGE-0006.
+
+**Governance:** `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+
+**Contract:** exact-source K0–K2 qualification, 5–8 observation target batches in K3, Git-backed stage/checkpoint ledger, Maintainer release A→B and B→C, independent K6/K7 review. Small runs can use one session only if allowed by a bounded handoff without skipping gates.
+
+**Out of scope:** W07 acquisition/implementation, new framework/stack, altered accepted source and pattern records, new dependencies, automated CI.
+
+## W07 — Dialogs / overlays / focus-management knowledge proposal
+
+**State:** INPUT REQUIRED / REVIEW.
+
+The topic is a proposal from previous planning, not an activated run. W07 requires its own accepted source scope, branch/SHA and stage handoffs under FORGE-0006.
+
+## Application implementation authority
+
+**State:** BLOCKED.
