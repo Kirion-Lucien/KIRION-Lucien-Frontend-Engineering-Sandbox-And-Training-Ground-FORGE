@@ -6,108 +6,106 @@
 
 ## Program
 
-`W02 — CONTROLLED PILOT ACQUISITION`
+`W03 — VISUAL HIERARCHY & COMPOSITION INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / FIRST KNOWLEDGE PROMOTION COMPLETE`
+`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
 
 W00 Forge governance remains accepted and active.
 
 W01 knowledge-control authority remains accepted and active.
 
-W02 Maintainer acceptance is recorded in GitHub issue #5 and `.forge/ACCEPTANCE.md`.
+W02 controlled pilot and its selective K7 promotions remain accepted.
 
-## Canonical source before W02
+## Canonical accepted source before W03
 
-`main@9b4d291b15322afd46ee83ccb9a6dc40e31d3b06`
+`main@20a2bb44461a1066b44aa242c6bad18fac673025`
 
-## Exact reviewed W02 worker candidate
+## Current W03 branch
 
-`forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
+`forge/w03-visual-hierarchy-composition-intelligence`
 
-## Current classification
+## Human objective
 
-`FRONTEND ENGINEERING INTELLIGENCE FORGE / EVIDENCE ACQUISITION ACTIVE`
+Teach Lucien the evidence-backed vocabulary and reasoning needed to distinguish structured, scannable frontend composition from weak hierarchy, clutter, purposeless containerization, generic template repetition, and other observable composition failures often loosely described as "AI slop."
 
-## Accepted W02 corpus
+## W03 research question
 
-Qualified source records:
+What evidence makes a frontend composition visually structured, scannable, and purposeful, and what observable composition failures create clutter, weak hierarchy, unnecessary containerization, or generic template-like presentation?
 
-```text
-W02-S1 — W3C WCAG 2.2
-W02-S2 — GOV.UK Design System Button
-W02-S3 — Primer Product Button
-W02-S4 — primer/react@7f5303d803986887187d86dcebaeda22a4dc6823
-W02-S5 — Landbook landing-page gallery
-```
+## Authorized source families
 
-Registry inclusion remains source qualification, not universal authority.
+Exactly seven:
 
-## Accepted bounded knowledge
+1. W3C WCAG 2.2
+2. W3C WAI design/page-structure guidance
+3. GOV.UK Design System Layout + Type Scale
+4. IBM Carbon 2x Grid
+5. GitHub Primer Layout / Typography / PageLayout guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` PageLayout implementation
+7. Landbook landing-page gallery as inspiration-only evidence
 
-### W02-P01 — Contextual dominant primary action
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-For one bounded decision group with one clearly preferred progression, a visually dominant primary action with subordinate alternatives is accepted guidance.
-
-This is not a universal page-level numeric rule.
-
-### W02-A01 — Competing dominant primary controls
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Inside one connected decision group, multiple equally dominant main controls may reduce next-step clarity when one intended progression exists.
-
-Independent task groups and equally valid alternatives remain counter-contexts.
-
-## Deferred knowledge
-
-### W02-P02 — Focus-preserving asynchronous button feedback
-
-`CANDIDATE / DEFERRED`
-
-Primer documentation and pinned source support the implementation strategy, but browser/focus/live-region/assistive-technology behavior was not executed.
-
-It is not reusable accepted Forge guidance yet.
-
-## Evidence-class law preserved
+## Accepted prior knowledge preserved
 
 ```text
-normative requirement
-!=
-design-system recommendation
-!=
-implementation evidence
-!=
-visual inspiration
+W02-P01 — Contextual dominant primary action
+ACCEPTED / MEDIUM
+
+W02-A01 — Competing dominant primary controls
+ACCEPTED / MEDIUM
+
+W02-P02 — Focus-preserving asynchronous button feedback
+CANDIDATE / DEFERRED
 ```
+
+W03 may not silently change these dispositions.
+
+## Active handoff
+
+`.forge/handoffs/active/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
+
+## W03 may
+
+- qualify the exact seven source families;
+- add bounded source records;
+- create 24–36 observations, hard maximum 42;
+- build an evidence-linked frontend composition vocabulary;
+- compare hierarchy, grouping, density, semantics, and responsive composition;
+- analyze evidence-backed anti-slop hypotheses;
+- create at most 3 pattern candidates;
+- create at most 2 anti-pattern candidates;
+- return a Maintainer review packet.
+
+## W03 may not
+
+- create application source;
+- select a frontend stack;
+- perform mass crawling;
+- add an eighth independent source;
+- build a vector database;
+- mutate external repositories;
+- treat visual inspiration as engineering proof;
+- declare "AI-looking" itself an anti-pattern;
+- self-promote candidates;
+- begin W04.
 
 ## Application implementation authority
 
 `BLOCKED`
 
-No frontend application Code Writer lane exists.
+## Promotion authority
 
-## Current work gate
-
-`W03 — NEXT KNOWLEDGE LANE`
-
-State:
-
-`INPUT REQUIRED / REVIEW`
-
-W03 is not yet defined or authorized.
-
-## Active handoff
-
-NONE.
-
-The completed W02 handoff is historical evidence and is not executable authority.
+`MAINTAINER ONLY`
 
 ## Next gate
 
-Human / Maintainer selects the next bounded knowledge objective.
+Worker returns an exact W03 candidate with:
 
-No W03 acquisition or frontend implementation begins until an exact handoff is issued.
+`READY_FOR_MAINTAINER_REVIEW`
+`REWORK_REQUIRED`
+`BLOCKED`
+or
+`SOURCE_DRIFT`
+
+No W04 or application implementation begins before Maintainer disposition.
