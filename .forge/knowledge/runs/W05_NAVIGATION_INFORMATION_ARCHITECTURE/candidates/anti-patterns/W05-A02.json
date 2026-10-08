@@ -56,5 +56,7 @@
   "confidence": "MEDIUM",
   "recency_status": "UNKNOWN",
   "version_context": "WAI official unpinned menu tutorial, Primer docs/live and pinned nav implementation; no runtime test",
-  "status": "CANDIDATE"
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T16:41:00+08:00"
 }
