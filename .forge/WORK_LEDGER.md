@@ -12,8 +12,6 @@
 
 **Acceptance:** GitHub issue #1
 
-**Result:** Forge authority kernel established.
-
 ## W01 — Frontend knowledge acquisition model
 
 **State:** ACCEPTED
@@ -24,10 +22,6 @@
 
 **Acceptance:** GitHub issue #3
 
-**Historical handoff:** `.forge/handoffs/historical/W01_FRONTEND_KNOWLEDGE_ACQUISITION_MODEL.md`
-
-**Result:** provenance-bearing source, observation, pattern, anti-pattern, acquisition, and promotion control plane established.
-
 ## W02 — Controlled pilot acquisition: action controls
 
 **State:** ACCEPTED
@@ -37,8 +31,6 @@
 **Reviewed worker candidate:** `forge/w02-controlled-pilot-action-controls@ac7b38da1e0e09bad195a5a216dc0dfa7efbfae3`
 
 **Acceptance:** GitHub issue #5
-
-**Historical handoff:** `.forge/handoffs/historical/W02_CONTROLLED_PILOT_ACTION_CONTROLS.md`
 
 **K7:**
 
@@ -54,52 +46,69 @@ W02-P02 — CANDIDATE / DEFERRED
 
 **Source:** `main@20a2bb44461a1066b44aa242c6bad18fac673025`
 
-**Reviewed worker candidate:**
-
-`forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
+**Reviewed worker candidate:** `forge/w03-visual-hierarchy-composition-intelligence@b268b5663e5d65c6b38f5557c021b449a9e2b03b`
 
 **Acceptance:** GitHub issue #7
 
-**Historical handoff:**
+**K7:**
 
-`.forge/handoffs/historical/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
+```text
+W03-P01 — ACCEPTED / MEDIUM
+W03-P02 — ACCEPTED / MEDIUM
+W03-P03 — ACCEPTED / MEDIUM
+W03-A01 — CANDIDATE / DEFERRED / LOW
+```
+
+## W04 — Responsive layout & mobile adaptation intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
+
+**Reviewed worker candidate:** `forge/w04-responsive-mobile-adaptation-intelligence@9aef7979d2c247f555e6b89d481270a4de19d4a1`
+
+**Acceptance:** GitHub issue #9
+
+**Historical handoff:** `.forge/handoffs/historical/W04_RESPONSIVE_MOBILE_ADAPTATION_INTELLIGENCE.md`
 
 **Accepted run result:**
 
-- seven logical source families;
-- five new source records plus two reused W02 source identities;
-- 30 bounded OBSERVED records;
-- 27 evidence-linked working vocabulary definitions;
-- hierarchy/grouping/density/responsive-composition comparison;
-- evidence-backed anti-slop hypothesis analysis;
-- no external repository mutation;
+- six logical source families reused;
+- source registry unchanged;
+- 29 evidence-linked working vocabulary terms;
+- 32 bounded OBSERVED records;
+- responsive/reflow/content-priority/order/breakpoint/density/orientation analysis;
 - no frontend stack selection;
 - no application implementation;
-- no fabricated runtime/accessibility/usability evidence.
+- no fabricated runtime/device/accessibility evidence;
+- prior W02/W03 knowledge preserved byte-for-byte before K7.
 
 **K7 promotion result:**
 
 ```text
-W03-P01 — Semantic and visual region alignment
+W04-P01 — Recoverable responsive reduction
 ACCEPTED / MEDIUM CONFIDENCE
 
-W03-P02 — Purpose-bounded reading width
+W04-P02 — Meaningful source and focus order through responsive relocation
 ACCEPTED / MEDIUM CONFIDENCE
 
-W03-P03 — Content-first responsive composition
+W04-P03 — Task-justified horizontal overflow
 ACCEPTED / MEDIUM CONFIDENCE
 
-W03-A01 — Undifferentiated content priority
-CANDIDATE / DEFERRED / LOW CONFIDENCE
+W04-A01 — Unrecoverable task-critical control disappearance
+ACCEPTED / MEDIUM CONFIDENCE
+
+W04-A02 — Unjustified horizontal overflow for ordinary content
+ACCEPTED / MEDIUM CONFIDENCE
 ```
 
-A01 remains unpromoted because its claimed scannability harm is inferential rather than independently measured.
+Deferred prior candidates remain unpromoted.
 
-## W04 — Next knowledge lane
+## W05 — Next knowledge lane
 
 **State:** INPUT REQUIRED / REVIEW
 
-W04 is undefined.
+W05 is undefined.
 
 No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.
 
@@ -108,79 +117,3 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
-
-
-## W04 — Responsive layout & mobile adaptation intelligence
-
-**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
-
-**Source:**
-
-`main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
-
-**Branch:**
-
-`forge/w04-responsive-mobile-adaptation-intelligence`
-
-**Active handoff:**
-
-`.forge/handoffs/active/W04_RESPONSIVE_MOBILE_ADAPTATION_INTELLIGENCE.md`
-
-**Human objective:**
-
-Develop Lucien's evidence-backed responsive-layout and mobile-adaptation intelligence: reflow, content priority, source/visual/focus order, safe hiding/collapse, breakpoint reasoning, density preservation, orientation, touch-target considerations, and adaptation of panes/regions without blindly preserving desktop geometry or destroying legitimate high-density workflows.
-
-**Source families:**
-
-1. W3C WCAG 2.2
-2. W3C WAI mobile/responsive guidance
-3. GOV.UK Layout / Type Scale
-4. IBM Carbon 2x Grid
-5. Primer responsive foundations / PageLayout documentation
-6. pinned Primer React responsive/PageLayout implementation
-
-**Expected outputs:**
-
-- responsive/mobile vocabulary;
-- 24–36 bounded observations, hard max 42;
-- normative-vs-reference-vs-implementation comparison;
-- `MOBILE_ADAPTATION_ANALYSIS.md`;
-- `FAILURE_MODE_ANALYSIS.md`;
-- 0–3 pattern candidates;
-- 0–2 anti-pattern candidates;
-- Maintainer review packet.
-
-**Explicit blocks:**
-
-- no application source;
-- no framework selection;
-- no universal breakpoint table;
-- no device-name breakpoint law;
-- no seventh source family;
-- no external repo mutation;
-- no runtime/browser/device claims;
-- no candidate promotion;
-- no prior knowledge mutation;
-- no W05.
-
-**Worker candidate artifacts:**
-
-- six logical source families; all qualified IDs reused; registry unchanged;
-- 29 evidence-linked working vocabulary terms;
-- 32 source-linked OBSERVED records;
-- normative and system-specific responsive comparison;
-- MOBILE_ADAPTATION_ANALYSIS and FAILURE_MODE_ANALYSIS (10 hypotheses);
-- 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES;
-- K6 Maintainer review packet;
-- prior W02/W03 records unchanged; no candidate promoted;
-- no application stack, runtime, device, browser or AT testing.
-
-**Completion gate:**
-
-Independent Maintainer review of exact W04 candidate.
-
-## W05 — Next knowledge lane
-
-**State:** BLOCKED
-
-W05 is undefined and may not begin before W04 disposition.
