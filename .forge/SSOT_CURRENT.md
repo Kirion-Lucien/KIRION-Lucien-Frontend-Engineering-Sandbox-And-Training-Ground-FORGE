@@ -6,119 +6,110 @@
 
 ## Program
 
-`W04 — RESPONSIVE LAYOUT & MOBILE ADAPTATION INTELLIGENCE`
+`W05 — NAVIGATION & INFORMATION ARCHITECTURE INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / RESPONSIVE KNOWLEDGE ACTIVE`
+`AUTHORIZED — CONTROLLED ACQUISITION EXECUTION`
 
-W00 through W03 remain accepted and active as governing prior authority.
+W00 through W04 remain accepted and active as governing prior authority.
 
-W04 Maintainer acceptance is recorded in GitHub issue #9 and `.forge/ACCEPTANCE.md`.
+## Canonical accepted source before W05
 
-## Canonical source before W04
+`main@5746b9412aa10333e7bc86ea54897f8be6b63267`
 
-`main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
+## Current W05 branch
 
-## Exact reviewed W04 worker candidate
+`forge/w05-navigation-information-architecture-intelligence`
 
-`forge/w04-responsive-mobile-adaptation-intelligence@9aef7979d2c247f555e6b89d481270a4de19d4a1`
+## Human objective
 
-## Accepted W04 corpus
+Teach Lucien how users understand location, hierarchy, available destinations, navigation scope, current state, and task context without confusing depth, redundant navigation, semantic misuse, or hidden routes.
 
-Six logical source families:
+## W05 research question
+
+How should frontend navigation and information architecture help users understand location, hierarchy, available destinations, and task context without creating confusing depth, redundant navigation, semantic misuse, or hidden paths?
+
+## Authorized source families
+
+Exactly six logical source families:
 
 1. W3C WCAG 2.2
-2. W3C WAI Mobile Accessibility / responsive guidance
-3. GOV.UK Layout / Type Scale
-4. IBM Carbon 2x Grid / responsive guidance
-5. GitHub Primer responsive foundations / PageLayout guidance
-6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` responsive/PageLayout implementation
+2. W3C WAI menus / page-structure guidance
+3. GOV.UK navigation / service-navigation family
+4. U.S. Web Design System navigation family
+5. GitHub Primer navigation guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` navigation implementation
 
-The source registry was reused without mutation.
-
-## Accepted W04 vocabulary
-
-W04 establishes evidence-linked working terminology for responsive/adaptive/fluid layout, viewport/range/breakpoint distinctions, reflow, stacking, wrapping, collapse, disclosure, overflow, horizontal scrolling, intrinsically two-dimensional content, source/visual/focus order, content priority, responsive density, target size, orientation, pane relocation, and progressive reduction.
-
-These are analytical terms, not universal breakpoint or device-class laws.
-
-## Accepted bounded patterns
-
-### W04-P01 — Recoverable responsive reduction
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Task-required content/actions remain reachable when constrained layouts reduce concurrent regions.
-
-### W04-P02 — Meaningful source and focus order through responsive relocation
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Meaning-bearing source/reading and keyboard-focus sequences must remain meaningful and operable where applicable when visual layout changes.
-
-### W04-P03 — Task-justified horizontal overflow
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Horizontal navigation may be appropriate for genuinely two-dimensional task content; ordinary linear content should reflow where possible.
-
-## Accepted bounded anti-patterns
-
-### W04-A01 — Unrecoverable task-critical control disappearance
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Removing the only required action/navigation path for a task without equivalent access is an accepted responsive anti-pattern.
-
-### W04-A02 — Unjustified horizontal overflow for ordinary content
-
-`ACCEPTED / MEDIUM CONFIDENCE`
-
-Preserving desktop-width geometry for ordinary reflowable content, causing unnecessary two-dimensional navigation under applicable conditions, is an accepted anti-pattern.
-
-## Prior deferred knowledge preserved
+## Accepted prior knowledge preserved
 
 ```text
+W02-P01 — ACCEPTED / MEDIUM
+W02-A01 — ACCEPTED / MEDIUM
 W02-P02 — CANDIDATE / DEFERRED
+
+W03-P01 — ACCEPTED / MEDIUM
+W03-P02 — ACCEPTED / MEDIUM
+W03-P03 — ACCEPTED / MEDIUM
 W03-A01 — CANDIDATE / DEFERRED
+
+W04-P01 — ACCEPTED / MEDIUM
+W04-P02 — ACCEPTED / MEDIUM
+W04-P03 — ACCEPTED / MEDIUM
+W04-A01 — ACCEPTED / MEDIUM
+W04-A02 — ACCEPTED / MEDIUM
 ```
 
-## Responsive law
+W05 may not silently change these dispositions.
 
-No universal:
+## Active handoff
 
-- phone/tablet/desktop breakpoint table;
-- one-column mobile mandate;
-- ban on hiding/collapse/reordering;
-- ban on horizontal scrolling;
-- ban on high-density professional interfaces;
-- claim of WCAG conformance from source inspection.
+`.forge/handoffs/active/W05_NAVIGATION_INFORMATION_ARCHITECTURE_INTELLIGENCE.md`
+
+## W05 may
+
+- qualify/reuse only the six authorized source families;
+- build navigation/IA vocabulary;
+- create 28–40 observations, hard maximum 48;
+- analyze global/local/contextual navigation;
+- analyze orientation/current-location mechanisms;
+- compare breadcrumbs, side navigation, tabs, menus, headers, skip navigation, and hierarchy;
+- analyze navigation/action semantics;
+- analyze responsive route preservation;
+- create at most 3 pattern candidates;
+- create at most 2 anti-pattern candidates;
+- return a Maintainer review packet.
+
+## W05 may not
+
+- create application source;
+- select router/framework;
+- create a universal sitemap;
+- define universal hierarchy depth;
+- add a seventh independent source;
+- mass crawl;
+- mutate external repositories;
+- fabricate runtime/accessibility/usability results;
+- promote W05 candidates;
+- alter accepted/deferred prior knowledge;
+- begin W06.
 
 ## Application implementation authority
 
 `BLOCKED`
 
-No frontend application Code Writer lane exists.
+## Promotion authority
 
-## Current work gate
-
-`W05 — NEXT KNOWLEDGE LANE`
-
-State:
-
-`INPUT REQUIRED / REVIEW`
-
-W05 is not yet defined or authorized.
-
-## Active handoff
-
-NONE.
-
-The completed W04 handoff is historical evidence and is not executable authority.
+`MAINTAINER ONLY`
 
 ## Next gate
 
-Human / Maintainer selects the next bounded knowledge objective.
+Worker returns an exact W05 candidate with:
 
-No W05 acquisition or frontend implementation begins until an exact handoff is issued.
+`READY_FOR_MAINTAINER_REVIEW`
+`REWORK_REQUIRED`
+`BLOCKED`
+or
+`SOURCE_DRIFT`
+
+No W06 or frontend implementation begins before Maintainer disposition.
