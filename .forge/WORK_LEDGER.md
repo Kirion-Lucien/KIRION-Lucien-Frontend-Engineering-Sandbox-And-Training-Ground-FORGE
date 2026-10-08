@@ -108,3 +108,67 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
+
+
+## W04 — Responsive layout & mobile adaptation intelligence
+
+**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+
+**Source:**
+
+`main@c9acd923b11d8695ab5ba41569599fc9165f5b97`
+
+**Branch:**
+
+`forge/w04-responsive-mobile-adaptation-intelligence`
+
+**Active handoff:**
+
+`.forge/handoffs/active/W04_RESPONSIVE_MOBILE_ADAPTATION_INTELLIGENCE.md`
+
+**Human objective:**
+
+Develop Lucien's evidence-backed responsive-layout and mobile-adaptation intelligence: reflow, content priority, source/visual/focus order, safe hiding/collapse, breakpoint reasoning, density preservation, orientation, touch-target considerations, and adaptation of panes/regions without blindly preserving desktop geometry or destroying legitimate high-density workflows.
+
+**Source families:**
+
+1. W3C WCAG 2.2
+2. W3C WAI mobile/responsive guidance
+3. GOV.UK Layout / Type Scale
+4. IBM Carbon 2x Grid
+5. Primer responsive foundations / PageLayout documentation
+6. pinned Primer React responsive/PageLayout implementation
+
+**Expected outputs:**
+
+- responsive/mobile vocabulary;
+- 24–36 bounded observations, hard max 42;
+- normative-vs-reference-vs-implementation comparison;
+- `MOBILE_ADAPTATION_ANALYSIS.md`;
+- `FAILURE_MODE_ANALYSIS.md`;
+- 0–3 pattern candidates;
+- 0–2 anti-pattern candidates;
+- Maintainer review packet.
+
+**Explicit blocks:**
+
+- no application source;
+- no framework selection;
+- no universal breakpoint table;
+- no device-name breakpoint law;
+- no seventh source family;
+- no external repo mutation;
+- no runtime/browser/device claims;
+- no candidate promotion;
+- no prior knowledge mutation;
+- no W05.
+
+**Completion gate:**
+
+Independent Maintainer review of exact W04 candidate.
+
+## W05 — Next knowledge lane
+
+**State:** BLOCKED
+
+W05 is undefined and may not begin before W04 disposition.
