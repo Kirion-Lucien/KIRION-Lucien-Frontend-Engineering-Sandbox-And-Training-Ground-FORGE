@@ -201,13 +201,15 @@ ACCEPTED / HIGH
 
 **Stage A qualifications:** six logical approved source families, `W02-S1` reuse and five scoped `W07-S2..S6` additions; APG non-modal standalone URL 404, APG tooltip WIP/no consensus, WHATWG mutable; product docs unpinned and rights uncertain.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
 
-**Stage B3 APG K3:** AUTHORIZED — 0–6 explanatory `DOCUMENTATION_STATEMENT` observations `W07-O13..O18` only; source `W07-S2`. Preserve explicit WIP/non-consensus tooltip flag, focus guidance context and absent standalone nonmodal APG page.
+**Stage B3 APG K3:** ACCEPTED / RELEASED at exact worker checkpoint `e1ee045c6ff16a89771272abefd4223ad2a2d4b6`, issue #20 Maintainer comment 6065798465. Six `DOCUMENTATION_STATEMENT` observations `W07-O13..O18` from `W07-S2`; tooltip WIP/no consensus retained; no promoted pattern.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`.
+**Stage B4 USWDS Modal K3:** AUTHORIZED, 0–6 `OBSERVED` records `W07-O19..O24` from qualified `W07-S4`; exact governance start SHA issued in tracking issue #21 after commit. USWDS documentation/test-status claims remain source-specific, not our test execution or general WCAG conformance.
 
-**Stage B4 onward:** BLOCKED pending independent B3 review/release.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
+
+**Stage B5 onward:** BLOCKED pending independent B4 review/release.
 
 **Stage C K4–K6:** BLOCKED pending Stage B closure/release. K7 Maintainer-only; no accepted W07 patterns.
 
