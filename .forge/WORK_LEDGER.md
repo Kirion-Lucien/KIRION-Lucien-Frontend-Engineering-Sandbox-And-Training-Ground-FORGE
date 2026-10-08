@@ -79,3 +79,67 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
+
+
+## W03 — Visual hierarchy & composition intelligence
+
+**State:** AUTHORIZED — EXECUTING ON BOUNDED FORGE BRANCH
+
+**Source:**
+
+`main@20a2bb44461a1066b44aa242c6bad18fac673025`
+
+**Branch:**
+
+`forge/w03-visual-hierarchy-composition-intelligence`
+
+**Active handoff:**
+
+`.forge/handoffs/active/W03_VISUAL_HIERARCHY_COMPOSITION_INTELLIGENCE.md`
+
+**Human objective:**
+
+Develop Lucien's evidence-backed vocabulary for visual hierarchy, information grouping, content width, spacing rhythm, composition density, region structure, semantic/visual hierarchy alignment, responsive composition, and observable anti-patterns behind vague "AI slop" criticism.
+
+**Source families:**
+
+1. W3C WCAG 2.2
+2. W3C WAI design/page-structure guidance
+3. GOV.UK Layout + Type Scale
+4. IBM Carbon 2x Grid
+5. Primer Layout / Typography / PageLayout docs
+6. pinned Primer React PageLayout implementation
+7. Landbook inspiration-only gallery
+
+**Expected outputs:**
+
+- qualified source records;
+- `VOCABULARY.md`;
+- 24–36 bounded observations, hard maximum 42;
+- hierarchy/grouping/density/responsive cross-source comparison;
+- `ANTI_SLOP_ANALYSIS.md`;
+- 0–3 pattern candidates;
+- 0–2 anti-pattern candidates;
+- Maintainer review packet.
+
+**Explicit blocks:**
+
+- no application source;
+- no framework or stack selection;
+- no mass crawl;
+- no eighth source family;
+- no external repository mutation;
+- no vector database;
+- no candidate promotion;
+- no "AI-looking = bad" authority;
+- no silent W02-P02 promotion.
+
+**Completion gate:**
+
+Independent Maintainer review of exact W03 candidate.
+
+## W04 — Next knowledge lane
+
+**State:** BLOCKED
+
+W04 is undefined and may not begin before W03 disposition.
