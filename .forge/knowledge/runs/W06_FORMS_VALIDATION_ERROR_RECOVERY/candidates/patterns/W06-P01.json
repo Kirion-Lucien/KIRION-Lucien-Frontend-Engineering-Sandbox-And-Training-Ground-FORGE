@@ -1,0 +1,87 @@
+{
+  "id": "W06-P01",
+  "name": "Persistent field identity with semantic instruction relationships",
+  "domain": "FORM_DESIGN",
+  "additional_domains": [
+    "SEMANTIC_HTML",
+    "ACCESSIBILITY",
+    "CONTENT_DESIGN"
+  ],
+  "summary": "A form field remains understandable through an appropriate persistent label, relevant guidance and programmatic associations, including group labels where meaningful.",
+  "problem": "A control can lose its purpose when transient placeholder text disappears or group context exists only visually.",
+  "context": "Text inputs, selections and related choice groups where users need to understand a question and constraints throughout entry.",
+  "observed_solution": "Use descriptive persistent identification, programmatic label/description connections, and legend/group semantics for related controls; present required/format hints as appropriate rather than using placeholder text as the sole identity.",
+  "rationale": "WCAG 3.3.2 labels/instructions and 1.3.1 info/relations (O01/O07), WAI explicit labels and fieldsets (O12/O13/O14), GOV text labels/fieldset (O18/O23), USWDS text input guidance (O25/O26), Primer documentation and pinned FormControl id/wiring mechanics (O31/O36/O37/O38). Direct evidence concerns obligations/guidance and source mechanics; gains in completion are inferred and not measured.",
+  "tradeoffs": [
+    "Visible labels and hints consume space, especially on narrow screens.",
+    "Too many examples/hints may overwhelm simple choices.",
+    "Programmatic naming alone may not resolve visible ambiguity."
+  ],
+  "applicability": [
+    "Fields whose purpose or constraints might otherwise be ambiguous during entry.",
+    "Related choices requiring a common question context."
+  ],
+  "non_applicability": [
+    "A purely decorative mark with no data-entry control.",
+    "A standalone control already clearly named through another legitimate accessible technique may not need the same visible layout."
+  ],
+  "accessibility_implications": [
+    "Check associated accessible names, descriptions, required state and choice-group naming; no screen-reader tests executed."
+  ],
+  "performance_implications": [
+    "No meaningful performance measurement; additional helper elements increase markup but effect unknown."
+  ],
+  "responsive_implications": [
+    "Do not separate labels/hints from their controls when stacking, per accepted W03/W04 guidance."
+  ],
+  "implementation_notes": [
+    "Not a universal component library, label position, asterisk/optional convention or fieldset-for-every-input rule.",
+    "Do not use placeholder as the only accessible identification.",
+    "Accessible name and visible label may differ in justified contexts."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W06-S2",
+    "W06-S3",
+    "W06-S4",
+    "W06-S5",
+    "W06-S6"
+  ],
+  "observation_ids": [
+    "W06-O01",
+    "W06-O04",
+    "W06-O07",
+    "W06-O12",
+    "W06-O13",
+    "W06-O14",
+    "W06-O18",
+    "W06-O23",
+    "W06-O25",
+    "W06-O26",
+    "W06-O31",
+    "W06-O36",
+    "W06-O37",
+    "W06-O38"
+  ],
+  "counterexamples": [
+    {
+      "summary": "A compact search control can be identified by a valid alternative accessible name where context is clear, though placeholder-only purpose remains risky.",
+      "context": "Recognizable, separately accessible search field with explicit ARIA label.",
+      "source_id": "W06-S2",
+      "observation_id": "W06-O12"
+    }
+  ],
+  "related_patterns": [
+    "W03-P01",
+    "W04-P02"
+  ],
+  "related_anti_patterns": [
+    "W06-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 Recommendation 2024; official live WAI/GOV/USWDS/Primer docs; pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "ACCEPTED",
+  "accepted_by": "KIRION Forge Maintainer under Kirch Technical Authority",
+  "accepted_at": "2026-10-08T22:30:00+08:00"
+}

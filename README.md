@@ -98,3 +98,18 @@ State:
 `INPUT REQUIRED / REVIEW`
 
 No W06 execution is authorized until a bounded exact-source Maintainer handoff is issued.
+
+
+## W06 — Forms, validation & error recovery
+
+Accepted bounded knowledge now includes:
+
+- `W06-P01` — Persistent field identity with semantic instruction relationships
+- `W06-P02` — Actionable, source-linked error communication
+- `W06-P03` — Recoverable validation failure with preserved answers
+- `W06-A01` — Placeholder-only field identification
+- `W06-A02` — Detected field error signaled only by color
+
+W06 does not establish a universal validation trigger, error-summary requirement, focus destination, disabled-submit rule, backend validation architecture, or form library.
+
+Current gate: `W07 — INPUT REQUIRED / REVIEW`.

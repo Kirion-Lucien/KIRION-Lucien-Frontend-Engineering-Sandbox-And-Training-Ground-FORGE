@@ -1,0 +1,19 @@
+{
+  "id": "W06-O27",
+  "source_id": "W06-S4",
+  "target": "Text input validation state",
+  "observed_behavior": "USWDS Text Input documents error/success classes and says to delay error states until users have interacted with a field.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://designsystem.digital.gov/components/text-input/",
+  "domain": "VALIDATION",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Not a universal validation-on-blur directive."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "USWDS docs v3.13.0 site banner; validation component deprecated after v3.12.0; docs SHA unpinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

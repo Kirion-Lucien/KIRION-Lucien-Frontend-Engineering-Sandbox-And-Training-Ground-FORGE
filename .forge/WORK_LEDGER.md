@@ -140,3 +140,136 @@ No acquisition or implementation authority exists until a new exact Maintainer h
 **State:** BLOCKED
 
 No frontend application Code Writer lane exists yet.
+
+
+## W06 — Forms, validation & error-recovery intelligence
+
+**State:** CANDIDATE COMPLETE — MAINTAINER REVIEW REQUIRED
+
+**Source:**
+
+`main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
+
+**Branch:**
+
+`forge/w06-forms-validation-error-recovery-intelligence`
+
+**Active handoff:**
+
+`.forge/handoffs/active/W06_FORMS_VALIDATION_ERROR_RECOVERY_INTELLIGENCE.md`
+
+**Human objective:**
+
+Develop Lucien's evidence-backed forms intelligence: labels, hints/instructions, semantic grouping, required/optional state, validation timing, inline/form-level errors, error summaries, focus/announcement behavior, preserved input, error prevention, redundant entry, disabled/readonly states, and recoverable form failure.
+
+**Source families:**
+
+1. W3C WCAG 2.2
+2. W3C WAI Forms tutorials
+3. GOV.UK forms/validation family
+4. USWDS forms family
+5. Primer forms guidance
+6. pinned Primer React forms implementation
+
+**Expected outputs:**
+
+- forms/validation vocabulary;
+- 30–42 bounded observations, hard max 50;
+- label/instruction/grouping analysis;
+- validation/error-recovery analysis;
+- `FORM_MODEL_ANALYSIS.md`;
+- `VALIDATION_ERROR_RECOVERY_ANALYSIS.md`;
+- `FAILURE_MODE_ANALYSIS.md`;
+- 0–3 pattern candidates;
+- 0–2 anti-pattern candidates;
+- Maintainer review packet.
+
+**Explicit blocks:**
+
+- no application source;
+- no form/schema library selection;
+- no backend validation architecture;
+- no universal validation timing;
+- no universal error-summary mandate;
+- no universal disabled-submit prohibition;
+- no seventh source family;
+- no external repo mutation;
+- no fabricated browser/AT/usability/server-validation evidence;
+- no candidate promotion;
+- no prior knowledge mutation;
+- no W07.
+
+**Worker K0–K6 candidate artifacts:**
+
+- Six logical source families, WCAG reused and five W06-specific qualified sources appended;
+- 46 evidence-linked working definitions;
+- 42 OBSERVED JSON records;
+- form-model, cross-source, error/recovery and 14-hypothesis failure analysis;
+- 3 pattern CANDIDATES, 2 anti-pattern CANDIDATES;
+- USWDS validation component known problems and deprecation caveat preserved;
+- K6 Maintainer review packet;
+- prior W02–W05 accepted/deferred records unchanged;
+- no app/stack/validation library, no real browser/AT/user/server tests.
+
+**Completion gate:**
+
+Independent Maintainer review of exact W06 candidate.
+
+## W07 — Next knowledge lane
+
+**State:** BLOCKED
+
+W07 is undefined and may not begin before W06 disposition.
+
+
+## W06 — Forms, validation & error-recovery intelligence
+
+**State:** ACCEPTED
+
+**Source:** `main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
+
+**Reviewed worker candidate:** `forge/w06-forms-validation-error-recovery-intelligence@6b3fcde1bc12ecd6904dc4bbb1f2f91ff29ed54d`
+
+**Acceptance:** GitHub issue #13
+
+**Historical handoff:** `.forge/handoffs/historical/W06_FORMS_VALIDATION_ERROR_RECOVERY_INTELLIGENCE.md`
+
+**Accepted run result:**
+
+- six logical source families;
+- one reused WCAG identity plus five new qualified W06 source records;
+- 42 bounded OBSERVED records;
+- forms/validation/error-recovery vocabulary;
+- form-model and recovery analysis;
+- no form/schema library selection;
+- no backend validation architecture;
+- no fabricated browser/AT/server/usability evidence;
+- all 17 prior W02–W05 knowledge records preserved before K7;
+- all pre-existing registry records preserved before append.
+
+**K7 promotion result:**
+
+```text
+W06-P01 — Persistent field identity with semantic instruction relationships
+ACCEPTED / MEDIUM
+
+W06-P02 — Actionable, source-linked error communication
+ACCEPTED / MEDIUM
+
+W06-P03 — Recoverable validation failure with preserved answers
+ACCEPTED / MEDIUM
+
+W06-A01 — Placeholder-only field identification
+ACCEPTED / MEDIUM
+
+W06-A02 — Detected field error signaled only by color
+ACCEPTED / HIGH
+```
+
+## W07 — Next knowledge lane
+
+**State:** INPUT REQUIRED / REVIEW
+
+W07 is undefined.
+
+No acquisition or implementation authority exists until a new exact Maintainer handoff is issued.

@@ -1,0 +1,19 @@
+{
+  "id": "W06-O41",
+  "source_id": "W06-S6",
+  "target": "Select Checkbox Radio native control semantics",
+  "observed_behavior": "Pinned Select uses native select and aria-invalid; Checkbox uses input/aria-invalid/checked; Radio uses type=radio, name and group context.",
+  "context": "Exact immutable primer/react forms source and test file inspection; no execution",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Radio/Radio.tsx",
+  "domain": "SEMANTIC_HTML",
+  "evidence_kind": "SOURCE_CODE",
+  "confidence": "HIGH",
+  "limitations": [
+    "Combined observation from three inspected sibling files; evidence URL points to Radio and notes Select/Checkbox paths below."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "primer/react@7f5303d803986887187d86dcebaeda22a4dc6823",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "SOURCE INSPECTED, tests NOT RUN; Select and Checkbox sibling source also read."
+}

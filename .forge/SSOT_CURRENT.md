@@ -6,94 +6,82 @@
 
 ## Program
 
-`W05 — NAVIGATION & INFORMATION ARCHITECTURE INTELLIGENCE`
+`W06 — FORMS, VALIDATION & ERROR-RECOVERY INTELLIGENCE`
 
 ## Status
 
-`ACCEPTED / NAVIGATION & IA KNOWLEDGE ACTIVE`
+`ACCEPTED / FORMS & ERROR-RECOVERY KNOWLEDGE ACTIVE`
 
-W00 through W04 remain accepted and active as governing prior authority.
+W00 through W05 remain accepted and active as governing prior authority.
 
-W05 Maintainer acceptance is recorded in GitHub issue #11 and `.forge/ACCEPTANCE.md`.
+W06 Maintainer acceptance is recorded in GitHub issue #13 and `.forge/ACCEPTANCE.md`.
 
-## Canonical source before W05
+## Canonical source before W06
 
-`main@5746b9412aa10333e7bc86ea54897f8be6b63267`
+`main@d58d7885c664553e12c6901a76d69a5da9cf85d4`
 
-## Exact reviewed W05 worker candidate
+## Exact reviewed W06 worker candidate
 
-`forge/w05-navigation-information-architecture-intelligence@cebe0abd78e8806deef8af7f3f94ed0a17c44416`
+`forge/w06-forms-validation-error-recovery-intelligence@6b3fcde1bc12ecd6904dc4bbb1f2f91ff29ed54d`
 
-## Accepted W05 corpus
+## Accepted W06 corpus
 
 Six logical source families:
 
 1. W3C WCAG 2.2
-2. W3C WAI menus / page-structure navigation guidance
-3. GOV.UK navigation / service-navigation family
-4. U.S. Web Design System navigation family
-5. GitHub Primer navigation guidance
-6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` navigation implementation
+2. W3C WAI Forms tutorials
+3. GOV.UK Forms / Validation family
+4. U.S. Web Design System Forms family
+5. GitHub Primer Forms guidance
+6. `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` forms implementation
 
-WCAG reused the existing `W02-S1` source identity.
-
-Five W05-specific qualified source identities were appended:
-
-```text
-W05-S2
-W05-S3
-W05-S4
-W05-S5
-W05-S6
-```
-
-Registry qualification remains distinct from claim acceptance.
-
-## Accepted W05 vocabulary
-
-W05 establishes evidence-linked working terminology for information architecture, navigation scope, hierarchy/ancestry, current location, breadcrumbs, side/header/tabbed navigation, URL-backed views, tab panels, menus/menubars, wayfinding, multiple ways, routes, linear processes, hierarchical relationships, and task flow.
-
-Working terminology is analytical guidance, not a universal sitemap or route architecture.
+WCAG reused `W02-S1`. W06 added `W06-S2` through `W06-S6`.
 
 ## Accepted bounded patterns
 
-### W05-P01 — Current-location multi-cue orientation
+### W06-P01 — Persistent field identity with semantic instruction relationships
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Where repeated or nested navigation makes current location meaningful, coherent location cues should be available as appropriate.
+Fields remain intelligibly identified with appropriate persistent identification and relevant programmatic relationships.
 
-This does not mandate breadcrumbs or every possible cue, and WCAG 2.4.8 Location remains AAA.
-
-### W05-P02 — Relationship-matched navigation mechanisms
+### W06-P02 — Actionable, source-linked error communication
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Navigation mechanisms should reflect the actual relationship being represented: global scope, local section, hierarchy/ancestry, related peer destination, or sequential task flow.
+Detected errors identify the affected item in text and provide known safe correction guidance with appropriate linkage where useful.
 
-No universal sitemap, component set, or hierarchy depth is accepted.
-
-### W05-P03 — URL-backed related-view navigation with semantic separation
+### W06-P03 — Recoverable validation failure with preserved answers
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Independently addressable non-sequential peer views may use link/navigation semantics with current-state indication, while in-place tab panels and sequential workflow stages remain distinct interaction models.
-
-No universal URL requirement, router, or component library is selected.
+Recoverable failures preserve safely retainable answers and provide a route to correct and continue, subject to security/privacy/task exceptions.
 
 ## Accepted bounded anti-patterns
 
-### W05-A01 — Breadcrumb relationship confusion
+### W06-A01 — Placeholder-only field identification
 
 `ACCEPTED / MEDIUM CONFIDENCE`
 
-Hierarchical breadcrumbs should not represent visit history or sequential transaction stages as though they were ancestors.
+Placeholder text must not be the sole field-identification mechanism without a reliable persistent/programmatic equivalent.
 
-### W05-A02 — Ordinary site navigation miscast as application menubar
+### W06-A02 — Detected field error signaled only by color
 
-`ACCEPTED / MEDIUM CONFIDENCE`
+`ACCEPTED / HIGH CONFIDENCE`
 
-Ordinary destination links should not receive desktop-application menu roles solely because they visually resemble a dropdown/menu without the corresponding interaction and keyboard model.
+Automatically detected input errors must not be represented only through color/styling without textual error identification within applicable WCAG 3.3.1 scope.
+
+## Form knowledge boundaries
+
+No universal:
+
+- validation timing;
+- error-summary requirement;
+- post-error focus destination;
+- disabled-submit prohibition;
+- backend validation architecture;
+- form/schema library;
+- data-retention policy.
 
 ## Prior deferred knowledge preserved
 
@@ -101,18 +89,6 @@ Ordinary destination links should not receive desktop-application menu roles sol
 W02-P02 — CANDIDATE / DEFERRED
 W03-A01 — CANDIDATE / DEFERRED
 ```
-
-## Navigation / IA law
-
-No universal:
-
-- sitemap;
-- hierarchy-depth ceiling;
-- breadcrumb requirement;
-- URL-backed-tab requirement;
-- application-menu-role default;
-- router/framework;
-- product taxonomy without user/task evidence.
 
 ## Application implementation authority
 
@@ -122,22 +98,16 @@ No frontend application Code Writer lane exists.
 
 ## Current work gate
 
-`W06 — NEXT KNOWLEDGE LANE`
+`W07 — NEXT KNOWLEDGE LANE`
 
 State:
 
 `INPUT REQUIRED / REVIEW`
 
-W06 is not yet defined or authorized.
+W07 is not yet defined or authorized.
 
 ## Active handoff
 
 NONE.
 
-The completed W05 handoff is historical evidence and is not executable authority.
-
-## Next gate
-
-Human / Maintainer selects the next bounded knowledge objective.
-
-No W06 acquisition or frontend implementation begins until an exact handoff is issued.
+The completed W06 handoff is historical evidence and is not executable authority.

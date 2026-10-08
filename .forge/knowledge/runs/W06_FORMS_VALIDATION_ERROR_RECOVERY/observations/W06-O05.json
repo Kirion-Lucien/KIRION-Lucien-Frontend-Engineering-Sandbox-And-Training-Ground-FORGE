@@ -1,0 +1,19 @@
+{
+  "id": "W06-O05",
+  "source_id": "W02-S1",
+  "target": "3.2.1 On Focus and 3.2.2 On Input (both A)",
+  "observed_behavior": "Focusing a component must not initiate a change of context; changing a UI setting must not automatically change context unless advised before use.",
+  "context": "WCAG 2.2 W3C Recommendation Dec 12 2024; exact criterion level and exceptions",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#on-input",
+  "domain": "INTERACTION",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The two separate A criteria have different conditions; neither bans all in-field validation feedback."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

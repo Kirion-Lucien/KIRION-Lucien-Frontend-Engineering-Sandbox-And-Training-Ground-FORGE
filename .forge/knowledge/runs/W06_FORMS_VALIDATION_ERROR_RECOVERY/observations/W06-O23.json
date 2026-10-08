@@ -1,0 +1,19 @@
+{
+  "id": "W06-O23",
+  "source_id": "W06-S3",
+  "target": "Question pages and relevant groups",
+  "observed_behavior": "GOV.UK Question Pages and Fieldset organize focused questions and group choice responses with a legend identifying the group.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/components/fieldset/",
+  "domain": "SEMANTIC_HTML",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "One-question-per-page is a service convention; not universal multi-page form architecture."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

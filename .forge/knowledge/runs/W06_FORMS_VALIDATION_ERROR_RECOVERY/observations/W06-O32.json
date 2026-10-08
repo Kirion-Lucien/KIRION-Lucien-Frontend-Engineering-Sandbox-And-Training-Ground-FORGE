@@ -1,0 +1,19 @@
+{
+  "id": "W06-O32",
+  "source_id": "W06-S5",
+  "target": "TextInput input and validation behavior",
+  "observed_behavior": "Primer TextInput docs show text control options, validation states and input-specific helper features.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://primer.style/product/components/text-input/",
+  "domain": "VALIDATION",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "First-party component conventions are not normative; no browser test."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

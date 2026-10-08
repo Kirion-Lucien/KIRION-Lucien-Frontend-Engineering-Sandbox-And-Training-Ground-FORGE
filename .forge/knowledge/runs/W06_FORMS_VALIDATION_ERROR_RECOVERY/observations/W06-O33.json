@@ -1,0 +1,19 @@
+{
+  "id": "W06-O33",
+  "source_id": "W06-S5",
+  "target": "Select option selection semantics",
+  "observed_behavior": "Primer Select docs describe labeled native select and option groups/disabled requirements for constrained options.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://primer.style/product/components/select/",
+  "domain": "FORM_DESIGN",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Documentation may differ from pinned implementation."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

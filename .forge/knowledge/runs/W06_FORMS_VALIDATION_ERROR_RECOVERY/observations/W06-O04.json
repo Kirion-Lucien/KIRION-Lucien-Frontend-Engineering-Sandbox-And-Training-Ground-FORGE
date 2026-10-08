@@ -1,0 +1,19 @@
+{
+  "id": "W06-O04",
+  "source_id": "W02-S1",
+  "target": "2.4.6 Headings and Labels (AA)",
+  "observed_behavior": "Headings and labels describe topic or purpose.",
+  "context": "WCAG 2.2 W3C Recommendation Dec 12 2024; exact criterion level and exceptions",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+  "domain": "CONTENT_DESIGN",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Criterion does not prescribe a fixed visible-label position or punctuation."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W06-O19",
+  "source_id": "W06-S3",
+  "target": "Actionable field-level errors",
+  "observed_behavior": "GOV.UK Error Message says error wording should explain failure and how to fix it; shows text alongside field with programmatic description link.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://design-system.service.gov.uk/components/error-message/",
+  "domain": "ERROR_HANDLING",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Some examples describe a group rather than every child field; not proof of runtime announcements."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "W06-O09",
+  "source_id": "W02-S1",
+  "target": "3.3.4 Error Prevention (Legal, Financial, Data) (AA)",
+  "observed_behavior": "For specified legal commitments, financial transactions, user-controllable stored-data changes/deletions, or user test responses, at least one of reversible, checked-with-correction, or confirmed-with-review methods applies.",
+  "context": "WCAG 2.2 W3C Recommendation Dec 12 2024; exact criterion level and exceptions",
+  "evidence_location": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+  "domain": "VALIDATION",
+  "evidence_kind": "NORMATIVE_TEXT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Scoped to listed consequential operations; it does not demand confirmation on every form submission."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "WCAG 2.2 Recommendation 2024-12-12",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}

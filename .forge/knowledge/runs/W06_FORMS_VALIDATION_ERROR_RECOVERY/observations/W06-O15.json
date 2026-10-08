@@ -1,0 +1,19 @@
+{
+  "id": "W06-O15",
+  "source_id": "W06-S2",
+  "target": "Native required/format checks",
+  "observed_behavior": "WAI validation examples show required attributes, native HTML input constraints, forgiving formats and script validation with accessible messages.",
+  "context": "Official source-family documentation; system contextual and live build unpinned",
+  "evidence_location": "https://www.w3.org/WAI/tutorials/forms/validation/",
+  "domain": "VALIDATION",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "Native browser presentation differs by user agent; custom script validation is not authoritative server validation."
+  ],
+  "observed_at": "2026-10-08T13:43:00Z",
+  "source_version_context": "Live official docs, exact release not pinned",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "No direct app/browser/AT/usability test claims."
+}
