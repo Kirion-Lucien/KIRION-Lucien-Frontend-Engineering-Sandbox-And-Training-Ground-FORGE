@@ -114,21 +114,23 @@ No frontend application Code Writer lane exists.
 
 **Stage B4 USWDS Modal K3:** `ACCEPTED / RELEASED` — worker `cf6d6ccc1a197efd3f24250821f3a0b7e55b00df`, issue #21 Maintainer acceptance comment `6066480383`. Six `OBSERVED` records O19..O24 from `W07-S4`; documentation only, no application tests.
 
-**Stage B5 Primer PRODUCT K3:** `AUTHORIZED — ONE SOURCE-BOUNDED BATCH ONLY`, 0–6 observations `W07-O25..O30` from `W07-S5`; exact governance worker start SHA to be issued in GitHub #22 after commit. B4 acceptance is binding.
+**Stage B5 Primer PRODUCT K3:** `ACCEPTED / RELEASED` — worker `36a0d143f31c04a38111c806464e83ecce21f901`, issue #22 Maintainer comment `6074967674`. Six `OBSERVED` records O25..O30 from `W07-S5`, live unpinned documentation only.
 
-**Stage B6 onward:** `BLOCKED — INDEPENDENT B5 CHECKPOINT REVIEW/RELEASE REQUIRED`.
+**Stage B6 PINNED Primer React K3:** `AUTHORIZED — ONE SOURCE-BOUNDED BATCH ONLY`, 0–6 observations O31..O36 from `W07-S6`, only five exact pinned files at `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`. Exact B6 governance input will be issued in issue #23. No code/tests executed.
+
+**Stage C K4–K6:** remains `BLOCKED — INDEPENDENT B6 REVIEW AND EXPLICIT STAGE B CLOSURE REQUIRED`.
 
 **Stage C K4–K6:** `BLOCKED — COMPLETED STAGE B RELEASE REQUIRED`.
 
 **K7:** `MAINTAINER ONLY`.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
 
 **Binding workload protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-B5 worker MUST verify exact B5 governance head in issue #22, accepted B4 checkpoint as ancestor, and unchanged main. This batch uses only Primer product documentation `W07-S5` (DESIGN_SYSTEM / OFFICIAL_REFERENCE), not pinned Primer React source `W07-S6`. Live docs are unpinned; no browser/runtime tests are claimed. No B6, synthesis, promotion, or app implementation authority.
+B6 worker MUST verify exact B6 governance head in issue #23, accepted B5 checkpoint as ancestor, and unchanged main. Source only pinned Primer React `W07-S6` (COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION), five immutable source/test files; authored test assertions are not executed results. No Stage C, promotion, or app implementation authority.
 
 ## Prior accepted knowledge
 
