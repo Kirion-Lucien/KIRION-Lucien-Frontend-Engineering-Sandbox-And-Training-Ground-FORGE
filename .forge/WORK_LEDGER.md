@@ -201,21 +201,23 @@ ACCEPTED / HIGH
 
 **Stage A qualifications:** six logical approved source families, `W02-S1` reuse and five scoped `W07-S2..S6` additions; APG non-modal standalone URL 404, APG tooltip WIP/no consensus, WHATWG mutable; product docs unpinned and rights uncertain.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
 
 **Stage B3 APG K3:** ACCEPTED / RELEASED at exact worker checkpoint `e1ee045c6ff16a89771272abefd4223ad2a2d4b6`, issue #20 Maintainer comment 6065798465. Six `DOCUMENTATION_STATEMENT` observations `W07-O13..O18` from `W07-S2`; tooltip WIP/no consensus retained; no promoted pattern.
 
 **Stage B4 USWDS Modal K3:** ACCEPTED / RELEASED at worker checkpoint `cf6d6ccc1a197efd3f24250821f3a0b7e55b00df`, issue #21 independent Maintainer acceptance comment `6066480383`. Six `W07-O19..O24` observations from `W07-S4`; USWDS publication/test-status claims are not Kirion-executed tests.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`.
 
 **Stage B5 Primer Product K3:** ACCEPTED / RELEASED at worker checkpoint `36a0d143f31c04a38111c806464e83ecce21f901`, issue #22 independent Maintainer acceptance comment `6074967674`; six `W07-O25..O30` observations from `W07-S5`, live docs unpinned and reference-only.
 
-**Stage B6 Primer React PINNED K3:** AUTHORIZED one source-bounded batch from `W07-S6` `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`, five exact files, candidate IDs `W07-O31..O36`; exact governance head to be posted to issue #23. Source inspection/test intent, not executed tests.
+**Stage B6 Primer React PINNED K3:** ACCEPTED / RELEASED at exact SHA `be19e287e14e31483392fb467ede90ba6f0a04b8`, issue #23 independent Maintainer review comment `6076211658`; six O31..O36 from W07-S6, source and authored test intent only.
 
-**Stage C onward:** BLOCKED pending independent B6 acceptance and formal Stage B close.
+**STAGE B K3 CLOSURE:** CLOSED / ACCEPTED at `be19e287e14e31483392fb467ede90ba6f0a04b8`; six independently accepted batches B1–B6, 36 total O01–O36. No W07 patterns or anti-patterns promoted.
 
-**Stage C K4–K6:** BLOCKED pending Stage B closure/release. K7 Maintainer-only; no accepted W07 patterns.
+**Stage C1 K4:** AUTHORIZED one bounded cross-source comparison pass against 36 accepted records. Exact governance SHA and tracking issue #24 issued after commit. Outputs comparison/contradiction analysis only; no new K3 or candidates.
+
+**Stage C2 K5–K6:** BLOCKED pending independent C1 checkpoint review/release. K7 Maintainer-only; no accepted W07 patterns.
 
 **Prior W02–W06 knowledge, registry, B1/B2:** immutable. **Frontend application:** BLOCKED.
 
