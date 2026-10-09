@@ -116,21 +116,25 @@ No frontend application Code Writer lane exists.
 
 **Stage B5 Primer PRODUCT K3:** `ACCEPTED / RELEASED` — worker `36a0d143f31c04a38111c806464e83ecce21f901`, issue #22 Maintainer comment `6074967674`. Six `OBSERVED` records O25..O30 from `W07-S5`, live unpinned documentation only.
 
-**Stage B6 PINNED Primer React K3:** `AUTHORIZED — ONE SOURCE-BOUNDED BATCH ONLY`, 0–6 observations O31..O36 from `W07-S6`, only five exact pinned files at `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`. Exact B6 governance input will be issued in issue #23. No code/tests executed.
+**Stage B6 PINNED Primer React K3:** `ACCEPTED / RELEASED`, exact worker SHA `be19e287e14e31483392fb467ede90ba6f0a04b8`, issue #23 comment `6076211658`; 6 source-inspection observations O31–O36, authored test intent not executed tests.
 
-**Stage C K4–K6:** remains `BLOCKED — INDEPENDENT B6 REVIEW AND EXPLICIT STAGE B CLOSURE REQUIRED`.
+**STAGE B K3 (B1–B6):** `CLOSED / ACCEPTED` at B6 worker `be19e287e14e31483392fb467ede90ba6f0a04b8`, 36 records O01–O36 from six logical qualified source families; issue #23 Maintainer close.
 
-**Stage C K4–K6:** `BLOCKED — COMPLETED STAGE B RELEASE REQUIRED`.
+**Stage C1 K4 CROSS-SOURCE COMPARISON:** `AUTHORIZED`, exact governance input to be issued via issue #24; existing branch, original 36 accepted source observations only, 0 candidate writes.
+
+**Stage C2 K5–K6:** `BLOCKED — INDEPENDENT C1 REVIEW/RELEASE REQUIRED`.
+
+**Stage C checkpoint:** C1 comparison only; cannot self-release C2 or K7.
 
 **K7:** `MAINTAINER ONLY`.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
 
 **Binding workload protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-B6 worker MUST verify exact B6 governance head in issue #23, accepted B5 checkpoint as ancestor, and unchanged main. Source only pinned Primer React `W07-S6` (COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION), five immutable source/test files; authored test assertions are not executed results. No Stage C, promotion, or app implementation authority.
+Stage B is independently closed. C1 K4 worker MUST verify exact C1 governance head in issue #24 and Stage B closure issue #23; 36 accepted O01–O36 read-only. Comparison only, preserve source authority/context, APG tooltip WIP, source versions and non-executed tests. No C2/K5–K6, promotion, or app implementation authority.
 
 ## Prior accepted knowledge
 
