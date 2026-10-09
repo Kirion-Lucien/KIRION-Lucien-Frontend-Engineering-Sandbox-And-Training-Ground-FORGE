@@ -1,0 +1,23 @@
+{
+  "id": "W07-O35",
+  "source_id": "W07-S6",
+  "target": "Pinned Primer React Tooltip v1 deprecated component, tooltip ARIA markup and context relationship",
+  "observed_behavior": "The pinned Tooltip.tsx begins with a Tooltip v1 designation and marks both TooltipProps and the Tooltip component with @deprecated. The forwardRef component defaults to a span, uses useId(id) for an element ID, and renders its chosen Component with role='tooltip', aria-label={text}, id={tooltipId} and generated class names for direction, alignment, noDelay and multiline. TooltipContext.Provider exposes the tooltipId through a memoized value, with an in-source comment describing icon-button wrapping detection. Eight compass directions and left/right alignments are assigned as component static arrays. This is specifically the older deprecated component present at the immutable pin.",
+  "context": "W07 B6 / K3 pinned SOURCE INSPECTED; packages/react/src/Tooltip/Tooltip.tsx lines 8–61, exact source blob 0869b05538331c43900743d22d1560bf5d061d29. Static source-code branch/delegated API, not executed implementation behavior.",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Tooltip/Tooltip.tsx#L8-L61",
+  "evidence_kind": "SOURCE_CODE",
+  "domain": "ACCESSIBILITY",
+  "confidence": "HIGH",
+  "limitations": [
+    "@deprecated is a version-specific source marking for Tooltip v1 in this pin; it is NOT proof that all Primer tooltips or newer Primer Product UI tooltip APIs are deprecated.",
+    "This file alone does not wire a triggering element's aria-describedby, hover/focus events, dismissal, keyboard interaction or screen reader announcement; TooltipContext consumers are outside the permitted read set.",
+    "The accessible-name semantics of aria-label={text} and role='tooltip' are JSX evidence, not AT runtime evidence or conformance proof.",
+    "The component's CSS classes and delays are not behavioral measurements: stylesheets, browser rendering and linked hooks were not examined.",
+    "The exact immutable source may not match unpinned product documentation and must not be treated as current universal policy."
+  ],
+  "observed_at": "2026-10-09T06:52:19Z",
+  "source_version_context": "Pinned immutable GitHub primer/react commit 7f5303d803986887187d86dcebaeda22a4dc6823; exact five authorized React/TypeScript files, source blob identities verified at 2026-10-09 14:52 Asia/Manila. W07-S6 COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION, VERSION_BOUND, MIT LICENSE per accepted Stage A, METADATA_ONLY. Source inspection only; imported hooks and runtime not examined.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Immutable source file: packages/react/src/Tooltip/Tooltip.tsx; file blob SHA: 0869b05538331c43900743d22d1560bf5d061d29; exact pin: 7f5303d803986887187d86dcebaeda22a4dc6823. Additional nearby symbols and ranges recorded in observed_behavior. No code corpus copied."
+}

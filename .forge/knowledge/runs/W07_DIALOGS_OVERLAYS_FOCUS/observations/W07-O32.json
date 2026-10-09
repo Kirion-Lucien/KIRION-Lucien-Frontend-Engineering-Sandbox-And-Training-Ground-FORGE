@@ -1,0 +1,23 @@
+{
+  "id": "W07-O32",
+  "source_id": "W07-S6",
+  "target": "Pinned Primer React Dialog focus-hook delegation, guarded backdrop close, Escape and body scroll state",
+  "observed_behavior": "The pinned _Dialog invokes imported useFocusTrap with containerRef=dialogRef, an initialFocusRef falling back to an auto-focused footer-button ref, restoreFocusOnCleanUp conditional on returnFocusRef.current, and returnFocusRef. It invokes imported useOnEscapePress with a callback that calls onClose('escape') and prevents the default event; DefaultHeader separately treats a close-button click as onClose('close-button') and intercepts Escape on the close button to call onClose('escape') while stopping propagation. A backdrop click calls onClose('escape') only when the click target equals the backdrop and the recorded mousedown also originated on the backdrop. A useEffect increments a shared dialogScrollDisabledCount, sets body scroll-state styling/attribute, and removes those attributes on cleanup when the count reaches zero. These are directly visible wiring and conditions.",
+  "context": "W07 B6 / K3 pinned SOURCE INSPECTED; packages/react/src/Dialog/Dialog.tsx lines 306–354, exact source blob ef7b8d888d43b695ca4b8ba75b19945ba3c6ca13. Static source-code branch/delegated API, not executed implementation behavior.",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Dialog/Dialog.tsx#L306-L354",
+  "evidence_kind": "SOURCE_CODE",
+  "domain": "FOCUS_MANAGEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "useFocusTrap and useOnEscapePress are imported from files outside the authorized read set; their implementation, edge cases, actual focus trapping and restoration are NOT established.",
+    "onClose is a callback, not proof that Dialog unmounts itself or that the caller closes it; the callback type has only 'escape' and 'close-button' labels even when the backdrop uses 'escape'.",
+    "Backdrop closure requires both target and mousedown-origin conditions; it is not an unconditional click-anywhere behavior.",
+    "Only visible useEffect code and shared counter operations support the scroll-state description; no browser scroll behavior, CSS effect, or nested modal runtime was tested.",
+    "No runtime keyboard, pointer, focus, accessibility or screen-reader tests were executed."
+  ],
+  "observed_at": "2026-10-09T06:52:19Z",
+  "source_version_context": "Pinned immutable GitHub primer/react commit 7f5303d803986887187d86dcebaeda22a4dc6823; exact five authorized React/TypeScript files, source blob identities verified at 2026-10-09 14:52 Asia/Manila. W07-S6 COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION, VERSION_BOUND, MIT LICENSE per accepted Stage A, METADATA_ONLY. Source inspection only; imported hooks and runtime not examined.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Immutable source file: packages/react/src/Dialog/Dialog.tsx; file blob SHA: ef7b8d888d43b695ca4b8ba75b19945ba3c6ca13; exact pin: 7f5303d803986887187d86dcebaeda22a4dc6823. Additional nearby symbols and ranges recorded in observed_behavior. No code corpus copied."
+}

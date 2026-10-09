@@ -1,0 +1,23 @@
+{
+  "id": "W07-O33",
+  "source_id": "W07-S6",
+  "target": "Pinned Dialog.test.tsx authored role, focus and close assertions classified as test intent, not executed results",
+  "observed_behavior": "The pinned Dialog.test.tsx authors test cases asserting default dialog role and supplied alertdialog role, focus on an autoFocus footer button after waitFor, an onClose('close-button') call exactly once after clicking the Close control, onClose('escape') on a backdrop click, no close callback when mousedown began inside the dialog before backdrop click, and onClose('escape') for Escape. A separate test case opens one of two dialog instances, presses Escape, and expects the first onClose to have been called while the second remains uncalled. Additional authored cases cover body scroll-marker ref counting and feature-flagged focus refs. The evidence is the existence and arguments of source-authored tests, NOT that any test passed.",
+  "context": "W07 B6 / K3 pinned SOURCE INSPECTED; packages/react/src/Dialog/Dialog.test.tsx lines 11–225, exact source blob 21f1fc2447c21db55b2a28b0fea5644ea5174189. Authored CODE_TEST_INTENT represented by schema-allowed OTHER, NOT executed TEST_RESULT.",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Dialog/Dialog.test.tsx#L11-L225",
+  "evidence_kind": "OTHER",
+  "domain": "TESTING",
+  "confidence": "HIGH",
+  "limitations": [
+    "Classification: CODE_TEST_INTENT is not an allowed evidence_kind enum in the accepted schema. This record uses allowed OTHER with explicit authored-test-intent context; TEST_RESULT would be false because the suite was NOT RUN.",
+    "Assertions and test scenarios do not establish behavior in this worker's environment, browser cross-compatibility, keyboard usability, screen reader outcomes or WCAG conformance.",
+    "The test file's render and userEvent infrastructure imports were not traversed; assertion success depends on uninspected dependencies and runtime environment.",
+    "The source text includes other tests, but this bounded record does not claim to exhaustively validate or catalogue the suite.",
+    "Test source is version-bound to the same immutable commit as the corresponding Dialog implementation."
+  ],
+  "observed_at": "2026-10-09T06:52:19Z",
+  "source_version_context": "Pinned immutable GitHub primer/react commit 7f5303d803986887187d86dcebaeda22a4dc6823; exact five authorized React/TypeScript files, source blob identities verified at 2026-10-09 14:52 Asia/Manila. W07-S6 COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION, VERSION_BOUND, MIT LICENSE per accepted Stage A, METADATA_ONLY. Source inspection only; imported hooks and runtime not examined.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Immutable source file: packages/react/src/Dialog/Dialog.test.tsx; file blob SHA: 21f1fc2447c21db55b2a28b0fea5644ea5174189; exact pin: 7f5303d803986887187d86dcebaeda22a4dc6823. Additional nearby symbols and ranges recorded in observed_behavior. No code corpus copied."
+}

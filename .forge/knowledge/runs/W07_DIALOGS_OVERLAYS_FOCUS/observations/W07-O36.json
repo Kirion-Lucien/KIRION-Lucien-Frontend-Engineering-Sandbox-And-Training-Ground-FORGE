@@ -1,0 +1,23 @@
+{
+  "id": "W07-O36",
+  "source_id": "W07-S6",
+  "target": "Pinned Primer React Popover open-state data attributes, outside-click and Escape hook wiring limitations",
+  "observed_behavior": "The pinned Popover root forwards an open prop into PopoverContext (open ?? false) and sets data-open only when open is truthy, data-relative when relative is truthy, and data-caret with default 'top'. Popover.Content obtains the context open state, uses a stable empty ignore-click-ref array by default, and passes a supplied onClickOutside or a no-op fallback into imported useOnOutsideClick together with divRef. It invokes useOnEscapePress with a callback that calls onEscape(event) and event.preventDefault() only when open is truthy and onEscape exists. The component renders content markup with data-width and data-height defaults. These are controlled-state and hook-callback statements, not observed dismissal.",
+  "context": "W07 B6 / K3 pinned SOURCE INSPECTED; packages/react/src/Popover/Popover.tsx lines 25–121, exact source blob 2acaec9c0f77f089c5d32b3ecbff85adab546e29. Static source-code branch/delegated API, not executed implementation behavior.",
+  "evidence_location": "https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Popover/Popover.tsx#L25-L121",
+  "evidence_kind": "SOURCE_CODE",
+  "domain": "STATE_MANAGEMENT",
+  "confidence": "HIGH",
+  "limitations": [
+    "The useOnOutsideClick hook invocation itself is not visibly gated on open; no unconditional claim that outside clicks only act while open is justified without reading the hook or consumer.",
+    "Even if the callbacks fire, this file does not automatically set open=false; the caller's state update or unmount logic is outside this file.",
+    "useOnOutsideClick/useOnEscapePress implementations are outside authorized read scope; actual event registration order, Escape bubbling and outside-click detection are unknown.",
+    "The root does not itself set a universal ARIA dialog role or focus trap in the inspected code; do not invent modal semantics or behavior from visual/popover naming.",
+    "No runtime test, device, browser or accessibility-tree verification was run."
+  ],
+  "observed_at": "2026-10-09T06:52:19Z",
+  "source_version_context": "Pinned immutable GitHub primer/react commit 7f5303d803986887187d86dcebaeda22a4dc6823; exact five authorized React/TypeScript files, source blob identities verified at 2026-10-09 14:52 Asia/Manila. W07-S6 COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION, VERSION_BOUND, MIT LICENSE per accepted Stage A, METADATA_ONLY. Source inspection only; imported hooks and runtime not examined.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Immutable source file: packages/react/src/Popover/Popover.tsx; file blob SHA: 2acaec9c0f77f089c5d32b3ecbff85adab546e29; exact pin: 7f5303d803986887187d86dcebaeda22a4dc6823. Additional nearby symbols and ranges recorded in observed_behavior. No code corpus copied."
+}

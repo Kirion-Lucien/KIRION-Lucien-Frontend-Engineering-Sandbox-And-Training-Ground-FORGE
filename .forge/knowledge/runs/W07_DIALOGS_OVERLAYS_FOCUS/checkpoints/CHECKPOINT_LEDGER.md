@@ -291,3 +291,48 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - Popover automatic closure, focus trap, Escape and accessible-role behavior are not independently established by this product page; Overlay remains explicitly private.
 - Tooltip alternatives are linked but not independently consulted because outside the source boundary.
 - **Next safe task: independent Maintainer B5 checkpoint review at the exact final SHA.** B6 pinned React inspection, Stage C/K4–K6, K7, frontend app/package/framework, external repo mutation, PR and main merge remain BLOCKED.
+
+
+---
+
+# W07 STAGE B6 — PINNED PRIMER REACT K3 OBSERVATION CHECKPOINT (APPENDED)
+
+## Identity / exact authority
+- Worker: KIRION FORGE: LUCIEN / Code Research Observation Worker; W07 Stage B6 `K3 ONLY`.
+- **Disposition `READY_FOR_REVIEW`, not `RELEASED`**. Independent Maintainer B6 acceptance **NONE**. Stage B not self-closed.
+- Canonical accepted `main@61987e3de3ff85426e293dd15e596200ad272103`, reverified unchanged before writing.
+- Existing worker branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+- Exact authorized B6 governance mutating input: `d3270cef4b4e64585b986fe272b75a2b0abecbfb`; prior accepted B5 candidate `36a0d143f31c04a38111c806464e83ecce21f901`, issue #22 Maintainer acceptance comment `6074967674`, CLOSED/completed.
+- B6 governance release: issue #22 comment `6074991314`; tracking issue #23 OPEN. Governing active handoff `.forge/handoffs/active/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`.
+- FORGE-0006 and W01 K0–K7 stage separation controlling; no additional stage authorized.
+- **Resulting output SHA:** independently resolve live Git after write and report, rather than create invalid in-commit self-reference.
+
+## Source identity/provenance and outputs
+- Only source `W07-S6`: `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823`, `COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION`, `KNOWN_PERMISSIVE / MIT`, `VERSION_BOUND`, `METADATA_ONLY`.
+- Exactly five authorized files read-only (exact immutable SHA and Git blob identities):
+  - `packages/react/src/Dialog/Dialog.tsx` blob `ef7b8d888d43b695ca4b8ba75b19945ba3c6ca13`
+  - `packages/react/src/Dialog/Dialog.test.tsx` blob `21f1fc2447c21db55b2a28b0fea5644ea5174189`
+  - `packages/react/src/Overlay/Overlay.tsx` blob `31ee7ebcf5d87cdee65f6b23795e47a5ef6bce91`
+  - `packages/react/src/Tooltip/Tooltip.tsx` blob `0869b05538331c43900743d22d1560bf5d061d29`
+  - `packages/react/src/Popover/Popover.tsx` blob `2acaec9c0f77f089c5d32b3ecbff85adab546e29`
+- Retrieval `2026-10-09T06:52:19Z` UTC. Six created `observations/W07-O31..O36.json`, all `source_id=W07-S6` and `OBSERVED`. O31/O32/O34/O35/O36 `SOURCE_CODE`. O33 `OTHER` as `CODE_TEST_INTENT`, not `TEST_RESULT`; authored test assertions only, no suite executed.
+- Two append-only modifications: `OBSERVATION_INDEX.md` and this `checkpoints/CHECKPOINT_LEDGER.md`; previous B1–B5 and A–B5 historical prefixes preserved. Exactly eight authorized paths anticipated and independently rechecked after commit.
+- Earlier O01..O30 observation blobs, 22 W02–W06 prior knowledge blobs, Stage A, source registry, governing docs/hand-offs/SSOT/work ledger, schemas, app code and external `primer/react` untouched.
+
+## Validation status, with honest gate
+| Check | Status | Evidence |
+|---|---|---|
+| Exact main / worker branch / ancestry | **PASS** | Git compare before write: main identical, branch exactly B6 governance start; B5 accepted is ancestor five ahead/zero behind |
+| Independent authority and source ID | **PASS** | Issue #22 CLOSED/completed independent acceptance; #23 OPEN and exact SHA handoff; `W07-S6` registry identity matches pin |
+| Five exact source blobs read-only | **SOURCE INSPECTED** | Direct GitHub file content at immutable SHA, line/symbol references and five blob SHAs recorded; no further implementation file opened |
+| Precommit schema structural subset | **PASS** | Six objects parsed by construction and checked required/allowed fields, types, enum, arrays and timestamp format |
+| Final committed JSON, IDs and source linkage | **UNKNOWN** | Must fetch from final SHA after commit before claiming PASS |
+| Final exact scope, previous blob integrity, append prefixes | **UNKNOWN** | Must compare committed tree and exact previous file content after commit |
+| Dedicated full Draft 2020-12 JSON Schema engine | **NOT RUN** | Only custom structural subset, not a full external validator |
+| Primer upstream tests / runtime / browser / keyboard / focus / AT / responsive / build/typecheck / usability | **NOT RUN** | Test file inspected as authorship evidence, assertions do NOT establish PASS |
+
+## Outstanding limits / next safe task
+- Imported hooks are not in the authorized file list; actual focus trap/outside click/Escape outcomes unverified.
+- Tooltip v1 `@deprecated` status is strictly pinned-version, not contemporary product guidance.
+- Dialog description target can be absent in the default header when subtitle falsey; semantic implications require later separate analysis/validation, not a worker repair.
+- **Next safe action:** independent Maintainer exact B6 checkpoint acceptance/rework AND explicit Stage B closure decision before any K4–K6 authorization. K7 Maintainer only. No B7, frontend app/framework/packages/PR, external edits or main merge.

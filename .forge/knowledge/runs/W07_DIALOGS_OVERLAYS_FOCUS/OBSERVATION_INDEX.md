@@ -148,3 +148,31 @@ All prior `W07-O01`–`W07-O12` index contents above preserved as historical sou
 - Popover provides open/relative/caret and content props including outside-click callback. The page does **not** substantiate automatic dismissal, Escape, focus containment, or a universally named/modal popover.
 - **Overlay is explicitly internal/private, intended as a composition base**, not standalone; examples wire onEscape/onClickOutside/initial/return focus refs. No pinned source or browser behavior inspected.
 - All third-party text is paraphrased and attributed by URL, not copied; source registry remains untouched. B6, K4–K6, K7, app implementation and main merge remain BLOCKED until separately authorized.
+
+
+---
+
+# W07 STAGE B6 PINNED PRIMER REACT K3 OBSERVATIONS (APPENDED)
+
+**B6 worker status:** `READY_FOR_REVIEW`, **not released**. Prior index B1–B5 exact text above intentionally preserved as historical prefix (including old stage-specific block statements which were superseded by explicit newer Maintainer release). Exactly six bounded `OBSERVED` records, source `W07-S6` ONLY, no generalizable pattern promotion.
+
+**Pinned source:** `primer/react@7f5303d803986887187d86dcebaeda22a4dc6823` (`COMPONENT_LIBRARY / PRIMARY_IMPLEMENTATION`), Stage A verified MIT, `VERSION_BOUND`, `METADATA_ONLY`. Retrieved/inspected 2026-10-09T06:52:19Z UTC. Source evidence describes this immutable code revision and authored assertions, NOT live Primer Product policy, executed tests, runtime, browsers, accessibility-tree behavior or standards conformance.
+
+| ID | Target | Evidence kind | Exact pinned source blob and line range |
+|---|---|---|---|
+| `W07-O31` | Pinned Primer React Dialog root semantic role, accessible ID relationships and conditional subtitle | `SOURCE_CODE` | [packages/react/src/Dialog/Dialog.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Dialog/Dialog.tsx#L275-L443); blob `ef7b8d888d43b695ca4b8ba75b19945ba3c6ca13` |
+| `W07-O32` | Pinned Primer React Dialog focus-hook delegation, guarded backdrop close, Escape and body scroll state | `SOURCE_CODE` | [packages/react/src/Dialog/Dialog.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Dialog/Dialog.tsx#L306-L354); blob `ef7b8d888d43b695ca4b8ba75b19945ba3c6ca13` |
+| `W07-O33` | Pinned Dialog.test.tsx authored role, focus and close assertions classified as test intent, not executed results | `OTHER` (CODE_TEST_INTENT only) | [packages/react/src/Dialog/Dialog.test.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Dialog/Dialog.test.tsx#L11-L225); blob `21f1fc2447c21db55b2a28b0fea5644ea5174189` |
+| `W07-O34` | Pinned Primer React Overlay hook delegation, focus refs, role default, portal gate and visibility-related branches | `SOURCE_CODE` | [packages/react/src/Overlay/Overlay.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Overlay/Overlay.tsx#L120-L245); blob `31ee7ebcf5d87cdee65f6b23795e47a5ef6bce91` |
+| `W07-O35` | Pinned Primer React Tooltip v1 deprecated component, tooltip ARIA markup and context relationship | `SOURCE_CODE` | [packages/react/src/Tooltip/Tooltip.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Tooltip/Tooltip.tsx#L8-L61); blob `0869b05538331c43900743d22d1560bf5d061d29` |
+| `W07-O36` | Pinned Primer React Popover open-state data attributes, outside-click and Escape hook wiring limitations | `SOURCE_CODE` | [packages/react/src/Popover/Popover.tsx](https://github.com/primer/react/blob/7f5303d803986887187d86dcebaeda22a4dc6823/packages/react/src/Popover/Popover.tsx#L25-L121); blob `2acaec9c0f77f089c5d32b3ecbff85adab546e29` |
+
+## Source-conditional boundaries
+
+- O31: root `aria-labelledby`, `aria-describedby`, `aria-modal` and default role exist in JSX; default subtitle is conditional although root description reference is unconditional. Custom header slots may alter the relationship. No screen-reader outcome observed.
+- O32: focus trap and Escape are delegated to imported hooks; backdrop closure is guarded by pointer target/mousedown origin; `onClose` is a callback with `'close-button' | 'escape'` labels and does not prove external unmount.
+- O33: `CODE_TEST_INTENT` is **not** an allowed schema enum; schema-allowed `OTHER` denotes **authored test assertions**. No test was run, no `TEST_RESULT` claimed.
+- O34: `useOverlay` hook behavior is delegated; Portal bypass requires both a private prop and a feature flag; source default role is `none`.
+- O35: `Tooltip.tsx` is marked `Tooltip v1` and `@deprecated` at this exact immutable revision; this is **not** blanket deprecation of current Primer tooltips.
+- O36: `Popover.Content` passes an outside-click callback to an imported hook without an apparent open gate at invocation; Escape callback checks `open`. Neither callback automatically changes owner-controlled `open` state.
+- No read beyond exactly five authorized files; no traversal into imported hooks; no K4 cross-source comparison, candidates/K5, K6, K7, application implementation or main merge. B6 release and Stage B closure remain independent Maintainer decisions.
