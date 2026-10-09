@@ -368,3 +368,19 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - **C2 prewrite PASS:** exact live branch/main status; issue #24 CLOSED/completed, #25 OPEN; sole active C2 handoff, schema and precedent inspected, candidate ID uniqueness, source registry linkage and JSON structural subset validation. **Postwrite scope, exact Git diff, previous 36 K3/22 prior knowledge/protected governance blob identity and ledger prefix: UNKNOWN until completed postcommit verification**; do not preclaim them here.
 - **NOT RUN:** independent complete Draft 2020-12 schema engine, browser, keyboard, focus, screen reader/AT, mobile/zoom, tests, build/typecheck, CI, user study or measured performance. No new external docs/repository code retrieval or application implementation.
 - No output SHA self-reference inside checkpoint; report exact final SHA after safe commit. Independent C2 Maintainer review REQUIRED; C2 cannot self-start K7 and no main merge.
+
+
+---
+
+# W07 K7-A01 — FOCUSED PROVENANCE REWORK WORKER CHECKPOINT (APPENDED)
+
+**WORKER DISPOSITION: READY_FOR_STAGE_REVIEW / NOT K7 ACCEPTED.** Lucien's bounded correction only; independent Maintainer re-review is mandatory before any change to knowledge authority.
+
+- **Governance:** Issue #27 OPEN and authorized; K7 decision Issue #26 CLOSED/completed, Nox independent comment `6085714859`: P01/P02/A02 individually ACCEPT as *decisions only*, A01 REWORK. Only live branch `forge/w07-dialogs-overlays-focus-intelligence`, exact authorized parent `81e151087ebed4ba9c0a696ba5f635b2e3223f25`; canonical `main@61987e3de3ff85426e293dd15e596200ad272103` unchanged at prewrite. Sole active handoff `.forge/handoffs/active/W07_STAGE_K7_A01_PROVENANCE_REWORK.md`.
+- **Precisely corrected record:** `candidates/anti-patterns/W07-A01.json`: inserted one `W07-O11` into root `observation_ids` after `W07-O08` and before `W07-O12`. No other field, value, other ID/order, source metadata, counterexample, confidence, recency, or status changed.
+- **Evidence reconciliation:** Existing accepted `observations/W07-O11.json` has `status=OBSERVED` and `source_id=W07-S3` (qualified WHATWG HTML); A01's existing counterexample cites precisely `W07-O11/W07-S3`; the unchanged K6 review packet already includes O11. No new source acquired or observational claim invented.
+- **Knowledge gate:** `W07-A01.status=CANDIDATE`; `W07-P01`, `W07-P02`, `W07-A02` also retain `CANDIDATE`. Their K7 ACCEPT decisions are not promotions. No `accepted_by`/`accepted_at` metadata, candidate acceptance, product code, PR, new branch, or `main` merge authorized.
+- **Precommit checks actually RUN:** authenticated actor Kirion-Lucien; exact branch and frozen main SHA match; Issue #27 release; registered O11 identity and source linkage; one-only index insertion and exact preservation of other parsed JSON values; JSON parse and schema required/allowed/types/enums/unique-array/conditional-status structural subset. The existing historical checkpoint is preserved as an exact text prefix by append-only composition.
+- **Postcommit Git compare, final blob integrity and live branch readback:** NOT YET VERIFIED at ledger authoring; independently verify from resulting commit before declaring PASS. Commit SHA must be reported outside this ledger; do not self-reference.
+- **NOT RUN:** independent complete Draft 2020-12 validator, browser, keyboard, screen-reader/AT, focus, zoom/mobile, CI, performance, upstream tests, application build/typecheck or user study. This is record-index maintenance, not application verification.
+- **STOP:** Return exact final commit and two-path delta to Maintainer for independent issue #27 review. A01 promotion and three other record status promotions require separate explicit exact-SHA authority.
