@@ -336,3 +336,18 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - Tooltip v1 `@deprecated` status is strictly pinned-version, not contemporary product guidance.
 - Dialog description target can be absent in the default header when subtitle falsey; semantic implications require later separate analysis/validation, not a worker repair.
 - **Next safe action:** independent Maintainer exact B6 checkpoint acceptance/rework AND explicit Stage B closure decision before any K4–K6 authorization. K7 Maintainer only. No B7, frontend app/framework/packages/PR, external edits or main merge.
+
+
+---
+
+# W07 C1 — K4 COMPARISON WORKER CHECKPOINT (APPENDED)
+
+**Disposition READY_FOR_REVIEW; NOT RELEASED.** No independent C1 acceptance and no C2 release. Worker LUCIEN, run W07_DIALOGS_OVERLAYS_FOCUS, K4 ONLY.
+
+- Canonical main `61987e3de3ff85426e293dd15e596200ad272103` unchanged prewrite. Only branch `forge/w07-dialogs-overlays-focus-intelligence` exact C1 input `5a93297bea6cfa2267e1f775ff95781a6f989986`; issue #24 OPEN. Stage B closure accepted issue #23 comment `6076211658`, B6 worker `be19e287e14e31483392fb467ede90ba6f0a04b8`. C1 release issue #23 comment `6076244369`; governing FORGE-0006 and active C1 handoff.
+- Source set only 36 accepted O01–O36 at immutable C1 input, each source ID qualified: WCAG W02-S1 (O01–O06); WHATWG W07-S3 (O07–O12); APG W07-S2 (O13–O18); USWDS W07-S4 (O19–O24); Primer Product W07-S5 (O25–O30); pinned React W07-S6 (O31–O36). All were read as accepted JSON at preflight; no new source retrieval in C1.
+- New `CROSS_SOURCE_COMPARISON.md`: 36-row link/source/authority matrix, thematic A–G K4 comparisons. New `CONTRADICTIONS_AND_CONTEXT.md`: 20 categorized analytical tensions; DIRECT_CONFLICT = zero *confirmed*, not globally excluded. Append-only `UNRESOLVED.md` and this `checkpoints/CHECKPOINT_LEDGER.md`, preserving earlier exact prefixes. **Exactly four owned changed paths intended.** No new observations, index edits, source registry, schemas, SSOT, handoffs, prior knowledge, candidates, reviews or app code.
+- Source independence/version limits: W3C WCAG normative vs W3C APG informative; WHATWG normative native algorithms mutable/unpinned; APG tooltip WIP and nonmodal page 404; USWDS reported publisher 13 PASS/1 CONDITIONAL of 14 WCAG 2.1 AA checks, last-tested v3.8.2 vs separate banner v3.13.0; Primer Product unpinned UNKNOWN rights, pinned React 7f5303d803986887187d86dcebaeda22a4dc6823 MIT, docs/code same publisher not independent. Pinned O33 OTHER/CODE_TEST_INTENT not executed TEST_RESULT.
+- **Prewrite PASS:** live exact branch/main, closed Stage B issue #23 and open C1 issue #24, complete 36-record tree/IDs, single active handoff, accepted source map/registry, K4-only write restriction. **Postcommit Git-scope, protected blob, exact historical prefixes:** UNKNOWN until independently read back; do not preclaim.
+- **NOT RUN:** fresh external source inspection, browser, keyboard, focus, screen-reader/AT, app build/typecheck, mobile/zoom, upstream tests, usability, full independent Draft 2020-12 JSON Schema engine. This was a record comparison, not executable tests.
+- **Commit SHA law:** no self-referential SHA in this ledger; report exact final worker SHA after update. C2 K5/K6, K7 Maintainer-only, frontend implementation, PR and main remain blocked pending independent C1 review and future exact-SHA release.
