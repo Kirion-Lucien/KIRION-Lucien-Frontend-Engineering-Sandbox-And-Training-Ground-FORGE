@@ -1,0 +1,75 @@
+{
+  "id": "W07-A01",
+  "name": "Visual modality claim without matching interaction and keyboard exit",
+  "domain": "ACCESSIBILITY",
+  "additional_domains": [
+    "MODALS",
+    "KEYBOARD_ACCESS",
+    "FOCUS_MANAGEMENT"
+  ],
+  "summary": "A surface is represented as modal (especially aria-modal=true) while the background remains interactable or the focused user lacks a task-valid keyboard exit.",
+  "recurring_structure": "A styled backdrop or floating container is treated as modal solely by visual treatment or role/aria-modal marking, without verifying background interaction isolation and a keyboard-only exit or choice path.",
+  "harm_mechanism": "Users may be told by assistive-technology modality cues that outside content is unavailable when it is functionally reachable, or become unable to leave a focus-containing task by keyboard; conversely a visual backdrop cannot create native document-blocking inertness.",
+  "context": "UI that intentionally claims an active modal dialog while controlling surrounding page interaction and user escape/choice.",
+  "applicability": [
+    "Any aria-modal marked dialog where outside interactions are still available or there is no viable keyboard-only departure/choice path.",
+    "Any visually modal overlay whose expected native modal/inert guarantees are inferred only from CSS, role or callback wiring."
+  ],
+  "legitimate_contexts": [
+    "A legitimately nonmodal popover or disclosure does not need modal background inertness and should not be judged against modal-specific focus-trap mechanics.",
+    "A correctly realized native HTML showModal() dialog may obtain native inertness via the documented algorithm, though browser/app behavior remains untested here.",
+    "A required-acknowledgment gate may suppress conventional Escape when an explicit accessible choice path is present; no blanket prohibition of force action follows."
+  ],
+  "consequences": {
+    "usability": [
+      "A user might act on background controls despite a visually exclusive task or encounter an interaction dead end; this is a mechanism hypothesis, not measured user harm."
+    ],
+    "accessibility": [
+      "WCAG 2.1.2's conditional keyboard-only exit criterion may be implicated when no keyboard way out exists; APG warns incorrect aria-modal can hide outside content for some assistive technology users. No target-page failure was tested.",
+      "The HTML inertness algorithm is native showModal-specific; ARIA alone is not a platform interaction lock."
+    ],
+    "performance": [
+      "No validated runtime/performance penalty. Consequences unknown."
+    ],
+    "maintainability": [
+      "An architecture that conflates native showModal, APG aria-modal, CSS backdrop and pinned library callbacks can conceal missing state/exit handling during maintenance; no maintainability trial."
+    ]
+  },
+  "source_ids": [
+    "W02-S1",
+    "W07-S3",
+    "W07-S2",
+    "W07-S4",
+    "W07-S6"
+  ],
+  "observation_ids": [
+    "W07-O02",
+    "W07-O07",
+    "W07-O08",
+    "W07-O12",
+    "W07-O13",
+    "W07-O14",
+    "W07-O20",
+    "W07-O31",
+    "W07-O32",
+    "W07-O34"
+  ],
+  "counterexamples": [
+    {
+      "summary": "An intentionally nonmodal HTML popover may expose background interaction and use manual dismissal; that is not a broken modal unless it falsely claims modality.",
+      "context": "Native popover=manual or other correctly designated nonmodal surface.",
+      "source_id": "W07-S3",
+      "observation_id": "W07-O11"
+    },
+    {
+      "summary": "A forced-action acknowledgment may vary Escape/close controls if the user has an explicit task-valid choice and accessible keyboard path.",
+      "context": "USWDS described forced-action acknowledgment, subject to real task-specific WCAG evaluation.",
+      "source_id": "W07-S4",
+      "observation_id": "W07-O20"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 2024-12-12 norm conditions O02; WAI APG modality guidance unpinned O13/O14; WHATWG native algorithms living O07/O08/O12; pinned Primer code O31/O32/O34 source only.",
+  "status": "CANDIDATE"
+}

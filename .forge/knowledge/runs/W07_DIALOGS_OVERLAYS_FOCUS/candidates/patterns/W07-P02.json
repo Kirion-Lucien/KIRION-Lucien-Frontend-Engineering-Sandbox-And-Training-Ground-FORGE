@@ -1,0 +1,105 @@
+{
+  "id": "W07-P02",
+  "name": "Context-linked modal entry, exit and focus continuation",
+  "domain": "FOCUS_MANAGEMENT",
+  "additional_domains": [
+    "KEYBOARD_ACCESS",
+    "MODALS",
+    "ACCESSIBILITY"
+  ],
+  "summary": "For a genuinely modal task, purposeful naming, keyboard entry/exit, context-sensitive first focus and logical post-close focus are treated as related lifecycle decisions rather than automatic library guarantees.",
+  "problem": "A dialog can visually isolate a task while keyboard focus cannot reach its content, leave it, follow meaningful order or resume the interrupted workflow intelligibly.",
+  "context": "A deliberately modal confirmation/short task with a known invoking element, task consequences and a defined close/continue pathway, including cases where the invoker disappears.",
+  "observed_solution": "APG documents titled modal with focus moved inside, Tab wrap, Escape and conditional initial/return focus; WHATWG documents conditional native dialog focus and inertness algorithms; WCAG requires keyboard functionality/exit, meaningful applicable focus order and visible focus; USWDS and Primer describe name, close and focus-ref conventions whose application-level effectiveness must be tested.",
+  "rationale": "WCAG O01–O04 (here O01,O02,O03,O04) establish criterion-specific obligations, not APG Escape or an arbitrary focus hook. APG O13–O16 describe illustrative modal interaction and legitimate exceptions; WHATWG O08/O09 apply only to native modalities; USWDS O21/O22 and Primer Product O26 provide product conventions; pinned Primer O31/O32 reveal JSX/callback/ref wiring only. C1 C01/C02/C04/C05/C06/C07/C08/C13/C20 retain authority splits, forced action, conditional descriptions and uninspected imported hooks. No app runtime or AT behavior is established.",
+  "tradeoffs": [
+    "Containment can preserve context during a true modal interaction yet becomes harmful if users lack an available keyboard-only exit or a task-compliant action path.",
+    "First focus may need static structured content, the least destructive action or a likely next step; selecting a universal first button can displace meaningful content or amplify risk.",
+    "Returning focus to the opener is common guidance, but opener deletion or workflow advancement may require a different logical destination.",
+    "Implementing predictable focus and dismissal requires task-state reasoning and later tests; a library's documented refs/callbacks alone are insufficient."
+  ],
+  "applicability": [
+    "Genuinely modal tasks whose surroundings are intentionally unavailable until a user-controlled exit or completion path.",
+    "Dialogs with lengthy semantic content, irreversible actions, invokers that may unmount, or meaningful subsequent workflow targets requiring context-sensitive focus.",
+    "Modal implementations that claim aria-modal and thus require verification that the outside is actually unavailable."
+  ],
+  "non_applicability": [
+    "Nonmodal disclosure, tooltips, native popover modes or generic floating layers are not required to implement modal Tab wrapping or background inertness.",
+    "Required acknowledgment variants may legitimately differ from APG default Escape/close control; they still require explicit review of the applicable keyboard exit obligations and user choices.",
+    "No universal initial-focus target, close key, automatic returnFocusRef success, or specific native/React dialog API is adopted."
+  ],
+  "accessibility_implications": [
+    "For the rendered app, separately test keyboard-only exit under WCAG 2.1.2, focus order under 2.4.3 where applicable, focus visibility under 2.4.7, and focus-not-entirely-obscured under 2.4.11; no criterion automatically mandates APG's exact component API.",
+    "APG's aria-modal label is not a behavioral guarantee; verify genuine outside interaction isolation before claiming it. In complex text, aria-describedby may be omitted where APG advises preserving structure.",
+    "Pinned O31 leaves a possible aria-describedby target gap when default subtitle is omitted, but source-level suspicion is NOT a demonstrated browser/AT failure."
+  ],
+  "performance_implications": [
+    "No measured performance cost for focus management, scroll locking, Portals, stacking or handler subscriptions; results UNKNOWN."
+  ],
+  "responsive_implications": [
+    "On narrow/zoomed layouts, check initial-focus scrolling, visible focus, action reachability and obscuration in the concrete app; no responsive or mobile validation ran."
+  ],
+  "implementation_notes": [
+    "C1 C01/C02 distinguishes keyboard-exit WCAG obligations from APG modal pattern Escape and USWDS bounded forced-action exceptions; do not silently choose a universal close policy.",
+    "WHATWG O08/O09 apply to native dialog algorithms only; source code O31/O32 is pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823, with hook implementation outside authorized source read.",
+    "Primer Product docs unpinned/rights UNKNOWN; pinned implementation is the same publisher, not corroborating independent votes.",
+    "USWDS publisher WCAG 2.1 AA component-check summaries and Primer authored test assertions O33 do not establish Kirion runtime pass.",
+    "Review opener-missing and meaningful task continuation cases (APG O16); prevent auto-promoting an unconditional return-focus claim."
+  ],
+  "source_ids": [
+    "W02-S1",
+    "W07-S3",
+    "W07-S2",
+    "W07-S4",
+    "W07-S5",
+    "W07-S6"
+  ],
+  "observation_ids": [
+    "W07-O01",
+    "W07-O02",
+    "W07-O03",
+    "W07-O04",
+    "W07-O08",
+    "W07-O09",
+    "W07-O13",
+    "W07-O14",
+    "W07-O15",
+    "W07-O16",
+    "W07-O20",
+    "W07-O21",
+    "W07-O22",
+    "W07-O26",
+    "W07-O31",
+    "W07-O32"
+  ],
+  "counterexamples": [
+    {
+      "summary": "APG recommends a static first-focus target for complex/scrolling content instead of invariably selecting the first interactive control.",
+      "context": "Dialog containing multiple paragraphs or semantic structures where focusing a lower button would scroll the beginning away.",
+      "source_id": "W07-S2",
+      "observation_id": "W07-O15"
+    },
+    {
+      "summary": "Post-close focus may go to a newly relevant workflow item when the invoking control no longer exists.",
+      "context": "Add-row workflow where dialog completion creates a new row or removes opener.",
+      "source_id": "W07-S2",
+      "observation_id": "W07-O16"
+    },
+    {
+      "summary": "USWDS forced-action gate intentionally differs from an ordinary dismissible dialog.",
+      "context": "A task-authorized required acknowledgment with explicit choice pathways; keyboard exit still needs separate conformance review.",
+      "source_id": "W07-S4",
+      "observation_id": "W07-O20"
+    }
+  ],
+  "related_patterns": [
+    "W07-P01"
+  ],
+  "related_anti_patterns": [
+    "W07-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 Recommendation 2024-12-12; WHATWG HTML living unpinned 2026-10-08; APG/USWDS/Primer Product unpinned; pinned Primer React 7f5303d803986887187d86dcebaeda22a4dc6823. No deployed modal verified.",
+  "status": "CANDIDATE"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "W07-P01",
+  "name": "Task-proportional choice of interruption surface",
+  "domain": "MODALS",
+  "additional_domains": [
+    "INTERACTION",
+    "CONTENT_DESIGN",
+    "RESPONSIVE_DESIGN"
+  ],
+  "summary": "A dialog is considered for a bounded interrupting task; inline feedback, disclosure or a full page remains an explicit alternative when no deliberate interruption is justified.",
+  "problem": "An interface may turn routine field feedback or an extended multistep process into a floating interruption, separating content and actions from context.",
+  "context": "Task-design decision before selecting a container for confirmations, acknowledgments, short selections, supplementary messages or long structured workflows.",
+  "observed_solution": "USWDS and Primer Product both discuss dialogs for transient focused tasks and recommend alternatives when longer complexity, field errors or oversized content would be better served inline or on a page; APG disclosure and native HTML nonmodal presentation are distinct interaction models, not interchangeable dialogs.",
+  "rationale": "W07-O19 and O23 supply USWDS interruption/countercontext/mobile-scroll guidance; O25 supplies Primer Product transient task/size/full-page warning; O18 describes disclosure's button-controlled reveal; O07 and O11 delimit native dialog/popover as different mechanisms. C1 A/E and disputes C03, C12, C16 show compatible contextual design advice, NOT a measured completion-rate benefit, a normative component chooser, or proof of native implementation equivalence. W07-S4 and S5 are unpinned product docs from different design systems, not measured trials.",
+  "tradeoffs": [
+    "An explicit confirmation dialog may reduce accidental commitment in consequential workflows but interrupts continuity; neither risk reduction nor completion-rate impact was measured.",
+    "A dedicated page can preserve long semantics and multiple steps yet adds navigation context and may be excessive for a short transient choice.",
+    "An inline/disclosure alternative preserves page context but might lack a warranted interruption for an actual required acknowledgment."
+  ],
+  "applicability": [
+    "Short, user-triggered confirmations or selections with a bounded decision and intelligible continuation path.",
+    "Early design choice where lengthy structured content, page-level status, or field-local feedback competes with a proposed dialog."
+  ],
+  "non_applicability": [
+    "A product or legal requirement for an explicit acknowledgment is not disproven by a generic last-resort warning; actual choice/exit mechanics require task authority.",
+    "A native platform dialog, nonmodal popover and APG disclosure do not share the same lifecycle; this candidate does not prescribe switching one for another without a semantics review.",
+    "No universal pixel width, mobile breakpoint, interruption threshold or framework API is inferred."
+  ],
+  "accessibility_implications": [
+    "If a modal is chosen, assess truthful modality, accessible purpose, keyboard exit and focus using applicable WCAG criteria and APG guidance; O01–O05/O13–O16 and C1 B remain context-dependent.",
+    "The choice of container alone does not prove keyboard, AT, screen-reader or zoom conformance; no such tests ran."
+  ],
+  "performance_implications": [
+    "No comparative render, hydration, memory, animation or responsiveness measurement exists; performance tradeoff UNKNOWN."
+  ],
+  "responsive_implications": [
+    "O23/O25 warn that long content and offscreen actions may warrant a dedicated page or more suitable surface; no tested responsive layout or width bound."
+  ],
+  "implementation_notes": [
+    "K5 candidate, not a library/component recommendation; design-system named sizes and class/API conventions are not generic requirements.",
+    "C1 C03/C12 classify native HTML dialogs/popovers and design-system overlays as not mechanically comparable.",
+    "Source rights for USWDS/Primer Product docs remain UNKNOWN; descriptions are source-linked original paraphrases, not copied implementation material.",
+    "Original WHATWG source is living/unpinned; do not assert native algorithm behavior for an untested target browser."
+  ],
+  "source_ids": [
+    "W07-S3",
+    "W07-S2",
+    "W07-S4",
+    "W07-S5"
+  ],
+  "observation_ids": [
+    "W07-O07",
+    "W07-O11",
+    "W07-O18",
+    "W07-O19",
+    "W07-O20",
+    "W07-O23",
+    "W07-O25"
+  ],
+  "counterexamples": [
+    {
+      "summary": "USWDS required acknowledgment can intentionally retain the interruption until an explicit choice is made.",
+      "context": "Time-sensitive or required task gate with a clear path to accept or reject, subject to accessibility and task review.",
+      "source_id": "W07-S4",
+      "observation_id": "W07-O20"
+    },
+    {
+      "summary": "Large dialog content can be presented in a dialog variant, but Primer asks whether a dedicated page is more appropriate.",
+      "context": "A transient form or selection with justified constrained size rather than an extensive multistep flow.",
+      "source_id": "W07-S5",
+      "observation_id": "W07-O25"
+    }
+  ],
+  "related_patterns": [
+    "W07-P02"
+  ],
+  "related_anti_patterns": [
+    "W07-A01"
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "USWDS Modal and Primer Product Dialog live/unpinned 2026-10-08/09; WAI APG explanatory unpinned; WHATWG living HTML 2026-10-08; WCAG criteria relevant only in their actual scopes.",
+  "status": "CANDIDATE"
+}

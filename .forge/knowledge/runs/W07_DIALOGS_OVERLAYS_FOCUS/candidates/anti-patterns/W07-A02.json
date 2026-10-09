@@ -1,0 +1,70 @@
+{
+  "id": "W07-A02",
+  "name": "Critical task information hidden exclusively in an undiscoverable tooltip",
+  "domain": "OVERLAYS",
+  "additional_domains": [
+    "CONTENT_DESIGN",
+    "ACCESSIBILITY",
+    "INTERACTION"
+  ],
+  "summary": "Information required to understand or safely complete a task appears only inside a transient hover/focus tooltip with no reliably discoverable alternative.",
+  "recurring_structure": "A consequential instruction, required explanation or essential control identity is omitted from visible task context and exposed solely in help that appears only on hover or focus, with unclear discoverability or incomplete availability for users.",
+  "harm_mechanism": "A person may miss required context because it is hidden initially or unreachable through their mode of interaction; when WCAG 1.4.13's predicates are met, additional hover/focus content can also create dismissibility, hoverability or persistence problems.",
+  "context": "Critical task text attached to an interactive control through author-created tooltip-like additional content where users must understand the information to proceed.",
+  "applicability": [
+    "Task-critical meaning or instructions unavailable outside transient hidden help, especially when disclosure is not discoverable or content lacks alternate access.",
+    "Hover/focus additional content to which WCAG 1.4.13 applies and whose conditional dismissible/hoverable/persistent behavior has not been verified."
+  ],
+  "legitimate_contexts": [
+    "Supplementary, nonessential hints may use a correctly labeled and described tooltip alongside independently understandable controls.",
+    "A user-agent-controlled unmodified native tooltip may fall under the stated WCAG 1.4.13 exception; this cannot be treated as every author-made overlay's exception.",
+    "A button-controlled disclosure could make supplementary details intentionally discoverable, but its APG semantics are different and not mandatory for every note."
+  ],
+  "consequences": {
+    "usability": [
+      "Initially hidden content may not be discovered before action; no user study or measured error-rate improvement was run."
+    ],
+    "accessibility": [
+      "When content is author-controlled and meets the WCAG 1.4.13 trigger/persistence conditions, missing dismissibility/hoverability/persistence may implicate its precise AA criterion; not all tooltips automatically fall within that scope.",
+      "The APG tooltip page is work in progress and has no task-force consensus. No AT announcement, mouse, touch or keyboard test was executed."
+    ],
+    "performance": [
+      "No measured layout, render or delay performance penalty; tooltip timing values in product docs are not benchmark results."
+    ],
+    "maintainability": [
+      "Critical instructions split into hidden help may require additional cross-input coverage verification; this is a review risk inference, not measured maintenance cost."
+    ]
+  },
+  "source_ids": [
+    "W02-S1",
+    "W07-S2",
+    "W07-S5",
+    "W07-S6"
+  ],
+  "observation_ids": [
+    "W07-O06",
+    "W07-O17",
+    "W07-O18",
+    "W07-O27",
+    "W07-O28",
+    "W07-O35"
+  ],
+  "counterexamples": [
+    {
+      "summary": "Primer Product documents tooltip for supplementary information but explicitly warns to avoid relying on hidden tooltips for important content.",
+      "context": "A short optional keyboard hint attached to an already clear, accessible control.",
+      "source_id": "W07-S5",
+      "observation_id": "W07-O27"
+    },
+    {
+      "summary": "APG disclosure intentionally reveals controlled content on Enter/Space with state-matched aria-expanded, rather than relying on pointer-hover visibility.",
+      "context": "Supplementary section that benefits from discoverable user-triggered show/hide.",
+      "source_id": "W07-S2",
+      "observation_id": "W07-O18"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "recency_status": "VERSION_BOUND",
+  "version_context": "WCAG 2.2 SC 1.4.13 Recommendation 2024-12-12; APG tooltip WIP/no consensus, current doc unpinned; Primer Product Tooltip unpinned and reuse UNKNOWN; pinned primer/react Tooltip v1 @deprecated at 7f5303d803986887187d86dcebaeda22a4dc6823, not current Product policy.",
+  "status": "CANDIDATE"
+}
