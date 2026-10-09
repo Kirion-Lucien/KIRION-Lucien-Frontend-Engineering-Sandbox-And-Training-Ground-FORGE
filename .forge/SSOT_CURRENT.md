@@ -122,19 +122,19 @@ No frontend application Code Writer lane exists.
 
 **Stage C1 K4 CROSS-SOURCE COMPARISON:** `ACCEPTED / RELEASED` at exact worker checkpoint `977a6ebfd1b7e6a54ad04f142f1a18b287887cad`, issue #24 independent Maintainer acceptance comment `6076535555`, CLOSED/completed; 36/36 observation coverage and 20 contextual comparison entries, 0 confirmed direct conflicts within reviewed corpus.
 
-**Stage C2 K5–K6:** `AUTHORIZED — ONE BOUNDED CANDIDATE SYNTHESIS + REVIEW PACKET CHECKPOINT`; exact C2 governance SHA issued in issue #25 after commit. Maximum 0–3 patterns and 0–2 anti-patterns, status CANDIDATE only, not quotas.
+**Stage C2 K5–K6:** `ACCEPTED / CHECKPOINT COMPLETE` at exact worker SHA `2c0840716c20f15696cf77d8195f5f1f89629897`, issue #25 Maintainer independent acceptance comment `6085566585`, CLOSED/completed; 2 pattern and 2 anti-pattern records remain CANDIDATE. Historical evidence/K6 packet accepted as review inputs, not adopted doctrine.
 
-**Stage C checkpoint:** C1 independently accepted; C2 candidate/review packet worker only. C2 cannot self-release K7, accept a pattern, or promote knowledge.
+**Stage C checkpoint:** C1 and C2 independently accepted as K4–K6 work. K7 requires independent, separate decision-by-decision adjudication; no W07 candidate has been accepted or promoted.
 
-**K7:** `MAINTAINER ONLY`.
+**K7:** `MAINTAINER-ONLY DECISION REVIEW AUTHORIZED / READ-ONLY`, governed exact SHA in issue #26. Promotion/rework commits require separate explicit exact-SHA release.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_C2_CANDIDATE_SYNTHESIS_AND_REVIEW_PACKET.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_K7_MAINTAINER_ADJUDICATION.md`.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`, `.forge/handoffs/historical/W07_STAGE_C2_CANDIDATE_SYNTHESIS_AND_REVIEW_PACKET.md`.
 
 **Binding workload protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-Stage B is independently closed; C1 K4 independently accepted. C2 K5–K6 worker MUST verify the exact new C2 governance head in issue #25, issue #24 CLOSED, and unchanged main. Source, 36 observations, C1 comparisons are read-only; candidate-only records and K6 review packet permitted under active handoff. No K7 acceptance/promotion, application code or main integration.
+Stage B closed; C1 and C2 independently accepted. K7 Maintainer read-only adjudication checks exact governance branch HEAD in issue #26, all 4 CANDIDATE records, source provenance and C1 contradictions. W07-A01 O11 counterexample/index relationship requires explicit disposition before promotion. No status mutation, main integration or app implementation under this handoff.
 
 ## Prior accepted knowledge
 
