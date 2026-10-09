@@ -120,3 +120,31 @@ All prior `W07-O01`–`W07-O12` index contents above preserved as historical sou
 - Default/large modal sizes, scrolling, responsive/nested-interaction and external-link roadblock warnings have context, not measured universal layout thresholds.
 - USWDS itself reports `14` WCAG **2.1** AA component checks: `13 Passed / 0 Passed with exceptions / 1 Conditional / 0 Failed` (v3.8.2 items shown); this is publisher testimony, not Forge-run tests, WCAG 2.2 evidence, or future Kirion app compliance.
 - **No K4 cross-source comparison, K5 patterns/anti-patterns, K6 review packet, K7 promotion, Stage B5, frontend implementation or main merge.** Independent Maintainer review/release is mandatory before any continuation.
+
+
+---
+
+# W07 STAGE B5 PRIMER PRODUCT UI K3 OBSERVATIONS (APPENDED)
+
+**Disposition: READY_FOR_REVIEW; not released.** Exactly six raw K3 product documentation observations `W07-O25`–`W07-O30`, all `source_id=W07-S5`, `evidence_kind=DOCUMENTATION_STATEMENT`, `status=OBSERVED`. Accepted B4 release is recorded in issue #21, not inferred from this index. Previous B1–B4 index content remains an exact byte-for-byte prefix.
+
+**Qualified source:** GitHub Primer Product UI Dialog / Tooltip / Popover / Overlay, `DESIGN_SYSTEM / OFFICIAL_REFERENCE`, `UNKNOWN` reuse rights, `METADATA_ONLY`. Retrieved 2026-10-09T04:41:28Z (October 9 2026 12:41:28 Asia/Manila). Four live, unpinned pages; visible React/Rails 'ready' indicators are not a product-doc release pin or proof of `W07-S6` implementation behavior. No date/build/commit of the actual pages was verified.
+
+| ID | Documented scope | Domain | Primary official page and section |
+|---|---|---|---|
+| `W07-O25` | Primer Product Dialog transient content, task use and contextual presentation/size variants | `MODALS` | [Primer dialog](https://primer.style/product/components/dialog/) — Dialog overview; React examples — side sheet, responsive bottom sheet, size variants |
+| `W07-O26` | Primer Dialog title/subtitle, action buttons, close gestures and focus-ref conventions | `FOCUS_MANAGEMENT` | [Primer dialog](https://primer.style/product/components/dialog/) — Dialog React examples (default, subtitle, footer); Props — Dialog and DialogButtonProps |
+| `W07-O27` | Primer Tooltip supplementary hover/focus help and hidden-content caution | `OVERLAYS` | [Primer tooltip](https://primer.style/product/components/tooltip/) — Tooltip overview; Usage Warning; React default example |
+| `W07-O28` | Primer Tooltip label versus description, directional placement and delay settings | `ACCESSIBILITY` | [Primer tooltip](https://primer.style/product/components/tooltip/) — Tooltip React examples — label/positioned; Props — Tooltip |
+| `W07-O29` | Primer Popover content, open state, relative layout, caret and outside-click option scope | `OVERLAYS` | [Primer popover](https://primer.style/product/components/popover/) — Popover overview; React default example; Props — Popover and Popover.Content |
+| `W07-O30` | Primer Overlay as private composition foundation and documented example-only focus/dismiss handlers | `COMPONENT_ARCHITECTURE` | [Primer overlay](https://primer.style/product/components/overlay/) — Overlay overview; React examples — Dialog Overlay/Dropdown Overlay; Props — Overlay |
+
+## Reference-class boundaries and countercontexts
+
+- Dialog's transient confirmation/selection use does not mandate dialogs for every task; the size guidance explicitly suggests considering a full page before extra-large dialogs.
+- Dialog's title/subtitle, `onClose` gestures, `initialFocusRef`/`returnFocusRef`, and footer autoFocus settings describe Primer product API and examples; no runtime or universal focus restoration guarantee.
+- Tooltip appears on hover/focus in the product description; prominent **last-resort** warning cites its initial hiddenness. Other linked guidance was not read.
+- Tooltip `type=label` differs from `type=description` (default). Direction and delay options are product settings, not witnessed viewport or assistive-tech behavior.
+- Popover provides open/relative/caret and content props including outside-click callback. The page does **not** substantiate automatic dismissal, Escape, focus containment, or a universally named/modal popover.
+- **Overlay is explicitly internal/private, intended as a composition base**, not standalone; examples wire onEscape/onClickOutside/initial/return focus refs. No pinned source or browser behavior inspected.
+- All third-party text is paraphrased and attributed by URL, not copied; source registry remains untouched. B6, K4–K6, K7, app implementation and main merge remain BLOCKED until separately authorized.

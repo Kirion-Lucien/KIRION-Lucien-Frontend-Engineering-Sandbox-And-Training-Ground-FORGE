@@ -1,0 +1,22 @@
+{
+  "id": "W07-O25",
+  "source_id": "W07-S5",
+  "target": "Primer Product Dialog transient content, task use and contextual presentation/size variants",
+  "observed_behavior": "Primer's product Dialog page describes a floating surface for transient content such as confirmation actions and selection choices. Its documented examples include default, optional subtitle, footer buttons, right-side sheet, and responsive narrow-viewport bottom-sheet positioning. The guidance gives small for very little content, medium for typical tasks like forms/selection, and larger variants for more horizontal space; before an extra-large dialog it asks whether a full page would be more suitable. It says the body scrolls if the maximum dialog height is reached.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Dialog overview; React examples — side sheet, responsive bottom sheet, size variants. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/dialog/",
+  "domain": "MODALS",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "These are product-specific Primer surface/size conventions, not a rule that every transient interaction requires a Dialog.",
+    "Extra-large Dialog is explicitly qualified by the alternative of navigating to a dedicated page; this context must not be omitted.",
+    "Examples use Primer React component API and are not live viewport, animation, responsive, keyboard or accessibility measurements.",
+    "Neither product docs nor visible 'ready' labels establish parity with the pinned W07-S6 React implementation or with a particular deployed application."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}

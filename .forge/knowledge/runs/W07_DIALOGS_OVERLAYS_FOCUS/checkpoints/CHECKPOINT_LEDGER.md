@@ -248,3 +248,46 @@ These statuses distinguish **completed input checks** from **future post-commit 
 - Publisher component test statuses are from v3.8.2, site's banner v3.13.0; no pinned site commit or independently replayed test matrix.
 - No compiled browser, keyboard, screen-reader, mobile or usability evidence was generated.
 - **Next safe step:** independent Maintainer checkpoint inspection, then explicit release/rework decision for exact committed B4 SHA; do not start B5, Stage C or K7.
+
+
+---
+
+# W07 STAGE B5 — PRIMER PRODUCT K3 OBSERVATION CHECKPOINT (APPENDED)
+
+## Identity / controlling authority
+- Run: `W07_DIALOGS_OVERLAYS_FOCUS`; Stage B, batch B5, **K3 ONLY**. Worker: KIRION FORGE — LUCIEN / Frontend Knowledge Observation Worker.
+- **Worker disposition: `READY_FOR_REVIEW`, never worker `RELEASED`.** Independent Maintainer B5 acceptance: NONE.
+- Accepted canonical main: `main@61987e3de3ff85426e293dd15e596200ad272103`.
+- Only working branch: `forge/w07-dialogs-overlays-focus-intelligence`.
+- Exact B5 governance starting SHA: `5f6285e089bde624ce12808d15d2ba89748945fe`; validated against branch and issue #22.
+- Accepted upstream A: `0e4340649fb71aef1ef00e46caa8433342bf697a`, issue #17; B1: `53084dd7c8f812732fc556873c3d7753c3aa1c3b`, issue #18; B2: `791910cb0f623de36edfb301afbe6e7586ced214`, issue #19; B3: `e1ee045c6ff16a89771272abefd4223ad2a2d4b6`, issue #20; B4: `cf6d6ccc1a197efd3f24250821f3a0b7e55b00df`, issue #21 acceptance comment `6066480383`.
+- B5 release authority: issue #21 comment `6066524986`, tracking issue #22 OPEN and handoff `.forge/handoffs/active/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`.
+- Governing decision/protocol: `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
+- **Exact resulting worker SHA must be reported only after commit; no self-referential SHA is embedded here.**
+
+## Bounded source and owned outputs
+- Qualified `W07-S5` ONLY: GitHub Primer PRODUCT Dialog, Tooltip, Popover, Overlay, `DESIGN_SYSTEM / OFFICIAL_REFERENCE`, license `UNKNOWN`, storage policy `METADATA_ONLY` (short original paraphrases, URLs and metadata only).
+- Official live source URLs: https://primer.style/product/components/dialog/ ; https://primer.style/product/components/tooltip/ ; https://primer.style/product/components/popover/ ; https://primer.style/product/components/overlay/ .
+- Source retrieval `2026-10-09T04:41:28Z` (2026-10-09 12:41:28 Asia/Manila). Version context: four unpinned Product UI pages, exact page build/version unknown, no evidence of parity with pinned Primer React `W07-S6`.
+- Six `OBSERVED` / `DOCUMENTATION_STATEMENT` JSON records created in `observations/W07-O25.json` through `observations/W07-O30.json`. No evidence targets omitted; all six grounded in direct official product page sections.
+- Updated only `OBSERVATION_INDEX.md` and this `checkpoints/CHECKPOINT_LEDGER.md`, by append with all earlier historical content preserved as exact prefix. **Expected/authorized 8-file delta**; verify after commit.
+- Other W07 observations O01–O24, all Stage A qualifications, registry, previous W02–W06 knowledge, SSOT, work ledger, governing docs and handoffs unchanged. No candidates or accepted W07 patterns.
+
+## Evidence/status checkpoint
+| Gate/check | Evidence status | Evidence and limits |
+|---|---|---|
+| Canonical main/exact branch input/accepted B4 ancestry | **PASS** | Live Git compare and issue #21 acceptance / #22 exact input checked before write; B4 → B5 input 5 ahead / 0 behind |
+| Qualified source metadata | **PASS** | Registry `W07-S5`, qualified `DESIGN_SYSTEM / OFFICIAL_REFERENCE`, rights `UNKNOWN`, `METADATA_ONLY` |
+| Source reading (four first-party pages) | **SOURCE INSPECTED** | Direct official Primer Product Dialog, Tooltip, Popover, Overlay pages only; 2026-10-09 retrieval with unpinned versions |
+| Six record custom structural subset before staging | **PASS** | Required fields, type/enum, lengths, arrays and date-time checked in memory against accepted schema |
+| Final JSON parse, source linkage and duplicate checks | **UNKNOWN** | Must fetch committed exact SHA and verify after ref update; not preclaimed |
+| Final exact changed-file scope / prior blob integrity | **UNKNOWN** | Must compare final Git tree against exact B5 input tree after commit |
+| Prior index/checkpoint prefix integrity | **UNKNOWN** | Must read both committed files and compare with exact B5 input contents after commit |
+| Independent full Draft 2020-12 JSON Schema engine | **NOT RUN** | Only custom schema checks, not a dedicated schema engine |
+| Browser, keyboard, screen-reader, focus tests; mobile, zoom, usability; app build, typecheck/tests | **NOT RUN** | Product documentation source inspection is not runtime or code verification |
+
+## Unresolved/stop
+- Primer Product UI pages are live/unpinned, license status for documentation remains UNKNOWN, and product snippets do not establish equivalence with pinned `primer/react` implementation or a real application.
+- Popover automatic closure, focus trap, Escape and accessible-role behavior are not independently established by this product page; Overlay remains explicitly private.
+- Tooltip alternatives are linked but not independently consulted because outside the source boundary.
+- **Next safe task: independent Maintainer B5 checkpoint review at the exact final SHA.** B6 pinned React inspection, Stage C/K4–K6, K7, frontend app/package/framework, external repo mutation, PR and main merge remain BLOCKED.

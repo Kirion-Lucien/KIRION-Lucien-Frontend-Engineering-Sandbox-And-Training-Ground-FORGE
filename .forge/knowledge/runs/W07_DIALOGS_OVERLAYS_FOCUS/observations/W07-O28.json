@@ -1,0 +1,22 @@
+{
+  "id": "W07-O28",
+  "source_id": "W07-S5",
+  "target": "Primer Tooltip label versus description, directional placement and delay settings",
+  "observed_behavior": "Primer's Tooltip product props distinguish type='label' (text identifies the trigger) from the default type='description' (text supplies supplementary context). The documented direction options are compass-like placements around the trigger, with default south alignment; product prose says placement can adjust to available viewport space, and an example sets east position. The props also offer optional keybindingHint and show-delay settings: short 50 ms (default), medium 400 ms, and long 1200 ms. These are component API statements and display intentions, not measured guarantees of fit or accessible output.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Tooltip React examples — label/positioned; Props — Tooltip. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/tooltip/",
+  "domain": "ACCESSIBILITY",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The label versus description distinction is a Primer component option, not proof of a particular screen-reader announcement or accessible-name computation in a browser.",
+    "Viewport-aware placement is publisher-described behavior, not an independently tested guarantee at all zoom levels or orientations.",
+    "Delay numbers are documented option values, not timed measurements performed in this work.",
+    "Custom direction and keybinding hints are optional and task-specific; no universal label, delay or placement should be synthesized in K3."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}

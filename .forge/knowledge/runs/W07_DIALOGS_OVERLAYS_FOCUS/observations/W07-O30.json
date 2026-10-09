@@ -1,0 +1,23 @@
+{
+  "id": "W07-O30",
+  "source_id": "W07-S5",
+  "target": "Primer Overlay as private composition foundation and documented example-only focus/dismiss handlers",
+  "observed_behavior": "Primer explicitly labels Overlay an internal private API for composing floating-surface components and says it is not intended for standalone use; it directs those needing a standalone surface toward AnchoredOverlay or Dialog. The page describes Overlay as a base shared by overlay-type components with elevation indicated by shadow. Its React examples wire visibility state and pass initialFocusRef, returnFocusRef, ignoreClickRefs, onEscape and onClickOutside handlers. The props mark returnFocusRef, onEscape, and onClickOutside as required, describe an initial-focus fallback to the first focusable body element when no ref is given, and document configurable dimensions, positioning and responsive variants. These are source-documented conventions and example wiring, not executed behavior.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Overlay overview; React examples — Dialog Overlay/Dropdown Overlay; Props — Overlay. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/overlay/",
+  "domain": "COMPONENT_ARCHITECTURE",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The explicit private-API limitation blocks converting Overlay into a universal standalone component recommendation.",
+    "The Dialog Overlay and Dropdown Overlay examples contain local state handling and a portal-root workaround for examples; they are not proof of production architecture or performance.",
+    "Required callbacks describe API shape and intended handling, not that close occurs automatically or correctly across event/cancellation contexts.",
+    "The documented initial-focus fallback is product-specific and has no browser, keyboard, screen-reader or accessibility test evidence in this lane.",
+    "This is W07-S5 product documentation, not the separately qualified pinned W07-S6 Primer React implementation source."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}

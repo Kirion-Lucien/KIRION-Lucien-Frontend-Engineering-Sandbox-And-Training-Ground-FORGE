@@ -1,0 +1,23 @@
+{
+  "id": "W07-O29",
+  "source_id": "W07-S5",
+  "target": "Primer Popover content, open state, relative layout, caret and outside-click option scope",
+  "observed_behavior": "Primer's product Popover page says the component brings attention to specific interface elements and shows an example with Popover, relative, open and nested Popover.Content. Its props describe open as the visibility control (false by default), relative as an option for relative positioning (false by default), caret as positioning the pointer around different sides, and content size/overflow variants. Popover.Content lists onClickOutside as a callback when a click is detected beyond its content, plus ignoreClickRefs for exclusions. The page does not independently define an automatic close on outside clicks, modal focus trap, Escape action, or an accessible role for every popover.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Popover overview; React default example; Props — Popover and Popover.Content. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/popover/",
+  "domain": "OVERLAYS",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The page is comparatively sparse: only one shown example and prop tables; broader purpose and interaction policy remain unestablished.",
+    "Presence of an onClickOutside callback is not proof that it automatically mutates open or dismisses without application logic.",
+    "relative refers to CSS positioning in the Primer component contract, not necessarily a documented anchor-element attachment algorithm.",
+    "No keyboard focus order, Escape behavior, accessible name, screen-reader role, or popover placement under real browser constraints was tested or specified here.",
+    "Popover component evidence cannot be substituted for WHATWG native popover algorithm evidence without a separately authorized comparison."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}

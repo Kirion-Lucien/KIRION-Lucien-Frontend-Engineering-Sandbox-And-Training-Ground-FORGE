@@ -1,0 +1,23 @@
+{
+  "id": "W07-O26",
+  "source_id": "W07-S5",
+  "target": "Primer Dialog title/subtitle, action buttons, close gestures and focus-ref conventions",
+  "observed_behavior": "Primer's Dialog props document a required-purpose title in examples; its title is also exposed as the dialog's aria-label, and an optional subtitle serves as aria-describedby. The example defines onClose and returnFocusRef pointing at its trigger; the props describe onClose receiving either a close-button or Escape gesture, and initialFocusRef as a ref to the element to focus on opening. Footer buttons may be configured by buttonType and content, with autoFocus applying when only one button requests it. The close-button prop and example identify a top-right X close control; these are documented API and example conventions, not verified runtime results.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Dialog React examples (default, subtitle, footer); Props — Dialog and DialogButtonProps. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/dialog/",
+  "domain": "FOCUS_MANAGEMENT",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The title-to-aria-label and subtitle-to-aria-describedby claims are Primer's documented component contract, not universal recommendations for all dialog implementations.",
+    "returnFocusRef is shown in examples; the page does not demonstrate that return always succeeds after an invoker disappears or across all conditions.",
+    "The onClose gesture list documents close-button and Escape for this component; it does not document every possible dismissal path or imply automatic overlay-click close.",
+    "One-button autoFocus condition is explicit, not permission to assume which action should receive first focus in every task.",
+    "React experimental import appears in examples while page labels React ready; no pinned React source or actual browser focus behavior was inspected."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}

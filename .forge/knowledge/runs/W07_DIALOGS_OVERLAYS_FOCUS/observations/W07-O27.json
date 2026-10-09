@@ -1,0 +1,22 @@
+{
+  "id": "W07-O27",
+  "source_id": "W07-S5",
+  "target": "Primer Tooltip supplementary hover/focus help and hidden-content caution",
+  "observed_behavior": "Primer's Tooltip product page describes additional context attached to interactive controls that appears on mouse hover or keyboard focus. Its prominent usage warning advises treating tooltips as a last resort for communicating important information because the content is hidden initially and users may have little or no indication it exists. The page refers readers to alternatives; this B5 observation records only the warning and the existence of that reference rather than importing the linked alternative page.",
+  "context": "W07 Stage B5 K3; authorized Primer product page section: Tooltip overview; Usage Warning; React default example. Explanatory product API/design documentation within Primer only.",
+  "evidence_location": "https://primer.style/product/components/tooltip/",
+  "domain": "OVERLAYS",
+  "evidence_kind": "DOCUMENTATION_STATEMENT",
+  "confidence": "MEDIUM",
+  "limitations": [
+    "The last-resort warning is Primer first-party design guidance, not universally binding WCAG or HTML law.",
+    "Linked tooltip-alternative guidance is outside B5's four permitted pages and has not been inspected or used as evidence.",
+    "A tooltip hidden by default should not be represented as the sole reliably discoverable mechanism for critical tasks without separate evidence.",
+    "The documentation statement that hover or focus displays a tooltip is not a witnessed browser, keyboard or assistive-technology test."
+  ],
+  "observed_at": "2026-10-09T04:41:28Z",
+  "source_version_context": "Live GitHub Primer Product UI documentation, retrieved 2026-10-09 12:41:28 Asia/Manila (2026-10-09T04:41:28Z). Pages show React/Rails 'ready' labels but no immutable page version, release number, doc commit, or match to pinned primer/react@7f5303d803986887187d86dcebaeda22a4dc6823 was established. W07-S5 DESIGN_SYSTEM / OFFICIAL_REFERENCE, license UNKNOWN, METADATA_ONLY.",
+  "status": "OBSERVED",
+  "contradicted_by": [],
+  "notes": "Original bounded paraphrase, official first-party Primer Product UI URL and section. No B6 pinned-source inspection, browser tests, K4 comparison or Forge-accepted pattern."
+}
