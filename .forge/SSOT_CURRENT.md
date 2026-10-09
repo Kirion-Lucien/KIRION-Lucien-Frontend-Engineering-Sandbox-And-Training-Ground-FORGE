@@ -124,17 +124,17 @@ No frontend application Code Writer lane exists.
 
 **Stage C2 K5–K6:** `ACCEPTED / CHECKPOINT COMPLETE` at exact worker SHA `2c0840716c20f15696cf77d8195f5f1f89629897`, issue #25 Maintainer independent acceptance comment `6085566585`, CLOSED/completed; 2 pattern and 2 anti-pattern records remain CANDIDATE. Historical evidence/K6 packet accepted as review inputs, not adopted doctrine.
 
-**Stage C checkpoint:** C1 and C2 independently accepted as K4–K6 work. K7 requires independent, separate decision-by-decision adjudication; no W07 candidate has been accepted or promoted.
+**Stage C checkpoint:** C1 and C2 independently accepted as K4–K6 work. K7 independent issue #26 comment `6085714859` resolved three individual ACCEPT decisions (P01/P02/A02) and one REWORK (A01). All JSON statuses remain CANDIDATE; no record promotion performed.
 
-**K7:** `MAINTAINER-ONLY DECISION REVIEW AUTHORIZED / READ-ONLY`, governed exact SHA in issue #26. Promotion/rework commits require separate explicit exact-SHA release.
+**K7:** `ADJUDICATION COMPLETE / REWORK_REQUIRED (A01 ONLY)` — Nox review in issue #26 comment `6085714859`; issue #26 CLOSED/completed as review pass, not knowledge acceptance. Bounded A01 O11 provenance repair authorized under issue #27; three separately promotable decisions remain unpromoted. Promotion requires a future exact-SHA Maintainer gate.
 
-**Active handoff:** `.forge/handoffs/active/W07_STAGE_K7_MAINTAINER_ADJUDICATION.md`.
+**Active handoff:** `.forge/handoffs/active/W07_STAGE_K7_A01_PROVENANCE_REWORK.md`.
 
-**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`, `.forge/handoffs/historical/W07_STAGE_C2_CANDIDATE_SYNTHESIS_AND_REVIEW_PACKET.md`.
+**Historical handoffs:** `.forge/handoffs/historical/W07_STAGE_A_SOURCE_QUALIFICATION.md`, `.forge/handoffs/historical/W07_STAGE_B1_WCAG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B2_WHATWG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B3_WAI_APG_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B4_USWDS_MODAL_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B5_PRIMER_PRODUCT_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_B6_PRIMER_REACT_IMPLEMENTATION_OBSERVATIONS.md`, `.forge/handoffs/historical/W07_STAGE_C1_CROSS_SOURCE_COMPARISON.md`, `.forge/handoffs/historical/W07_STAGE_C2_CANDIDATE_SYNTHESIS_AND_REVIEW_PACKET.md`, `.forge/handoffs/historical/W07_STAGE_K7_MAINTAINER_ADJUDICATION.md`.
 
 **Binding workload protocol:** `FORGE-0006`, `.forge/protocols/KNOWLEDGE_WORKLOAD_ISOLATION.md`.
 
-Stage B closed; C1 and C2 independently accepted. K7 Maintainer read-only adjudication checks exact governance branch HEAD in issue #26, all 4 CANDIDATE records, source provenance and C1 contradictions. W07-A01 O11 counterexample/index relationship requires explicit disposition before promotion. No status mutation, main integration or app implementation under this handoff.
+Stage B, C1 and C2 accepted; Nox K7 read-only decisions recorded and issue #26 closed. A01 O11 provenance-only fix-forward now authorized under issue #27, exact start SHA bound in issue; worker must keep A01 status CANDIDATE, all other candidates and evidence frozen. Independent re-review and separate K7 promotion gate required; no main integration or application work.
 
 ## Prior accepted knowledge
 
